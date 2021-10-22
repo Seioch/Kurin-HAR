@@ -1,0 +1,12 @@
+Fixed addons (now appropriately linked to head)
+gave kurin factions preset memes and precepts (battle foxes are feminist supremacist raiders and republic are individualist) 
+removed apparel restriction
+compatibility with moyo apparel
+kurin factions now appropriately show on the select screen
+Kurin now properly spawn with their custom names (this took me far too long i fucking swear)
+Mod showcase scenario has basic kurin apparel research unlocked (was annoying not being able to dress your colonists)
+Gave kurin a 50% chance of being Bisexual (solves the lack of romance in kurin exclusive colonies)
+Merged Hot pants
+made sure kurin spawn with the correct hairstyle (can't use tattoos either, but that can be reverted)
+Fixed the hair color chances (not sure when, how or why, but a single color of brown hair had 100 weight and everything else had less than 10 effectively making them not spawn)
+

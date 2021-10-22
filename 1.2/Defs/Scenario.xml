@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ScenarioDef>
+	<defName>Kurin_Scenario</defName>
+	<label>Kurin, Mod Showcase</label>
+	<description> Kurin is a race born from the genetic engineering of the glitterworld Aolara. Originally a race designed to be the perfect housewife, they created their own republic after gaining sentience.\n\n
+ In this republic, the Kurins were able to thrive for hundreds of years under the protection of artificial intelligence and their cunning business deals. However, when the Kurin earned a lot of money from their high-quality goods and unique culture, human forces envied it and tried to take the republic through the war. The Kurin, reduced to a fraction of their original population, fled Aolara on stolen starships.\n\n
+ During the Kurin exodus, they were attacked by pirates. Those who weren't lost continued to make interstellar travels to the rim, pushing their ships beyond their original designs. The large convoy of ships soon splintered, and each ship landed on its own rimworld.\n\n
+ On this world, the remains of a small yacht piloted by a small group of kurin have crash landed on a new Rimworld. Though other Kurin have established their foothold here, its up to you to stake your own claim in this hostile universe. \n\n
+This scenario serves as a blanket showcase of all things this mod has to offer. You will start with 4 Kurins, and be allied with the peaceful Kurin Republic. You will still be a target for pirates, hostile outlanders, and the warlike BattleFoxes. You will also start with a collection of strong weapons, giving you a fighting edge in the early game. However, because the Kurins are inherently valuable, difficulty will ramp up quickly. \n\n
+ </description>
+	<scenario>
+		<summary>Pioneers depart with the hope of establishing a new society.</summary>
+		<playerFaction>
+			<def>PlayerFaction</def>
+			<factionDef>Kurin_PlayerFaction</factionDef>
+		</playerFaction>
+		<parts>
+		
+			<!-- Config pages -->
+			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+				<def>ConfigPage_ConfigureStartingPawns</def>
+				<pawnCount>4</pawnCount>
+				<pawnChoiceCount>8</pawnChoiceCount>
+			</li>
+
+			<!-- Player starting stuff spawn method-->
+			<li Class="ScenPart_PlayerPawnsArriveMethod">
+				<def>PlayerPawnsArriveMethod</def>
+				<method>Standing</method>
+				<visible>false</visible>
+			</li>
+			
+			<!-- Player starting things -->
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Silver</thingDef>
+				<count>300</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MealSurvivalPack</thingDef>
+				<count>40</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MedicineIndustrial</thingDef>
+				<count>30</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>ComponentIndustrial</thingDef>
+				<count>25</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Steel</thingDef>
+				<count>800</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>WoodLog</thingDef>
+				<count>600</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Kurin_Gun_Carbine</thingDef>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Kurin_MeleeWeapon_Ceremonial_Sword</thingDef>
+				<stuff>Steel</stuff>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Kurin_Gun_Assault_Rifle</thingDef>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Kurin_Gun_Sniper_Rifle</thingDef>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Kurin_Overhead_Goggles</thingDef>
+				<count>2</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Kurin_Middle_Body_Armor</thingDef>
+				<stuff>Steel</stuff>
+			</li>
+			<li Class="ScenPart_StartingAnimal">
+				<def>StartingAnimal</def>
+				<count>1</count>
+				<animalKind>Fox_Red</animalKind>
+				<bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+			</li>
+
+			<!-- Game start dialog -->
+			<li Class="ScenPart_GameStartDialog">
+				<def>GameStartDialog</def>
+				<text>"Okay, I've put everything down here. Good luck."</text>
+				<textKey>GameStartDialog</textKey>
+				<closeSound>GameStartSting</closeSound>
+			</li>
+
+		</parts>
+	</scenario>
+</ScenarioDef>
+
+<ScenarioDef>
+	<defName>Kurin_ScenarioHard</defName>
+	<label>Kurin, Designermate Escapee</label>
+    <description> 
+You woke up in a cryptosleep casket within the bowels of a luxury yacht. The onboard AI has informed you that it illegally granted you full sentience over your mind, freeing you from the mind shackles normally placed upon a designermate. Instead of finding out where you are heading, you grabbed the first weapon you saw and fought your way to an escape pod. With no memories of who you are or what you will do, your escape pod crashlands onto the surface of an alien world. \n
+Survive as an escapee of the original Kurin designermate program. Start with only basic necessities, a gun, and a packaged wedding coat. Because you are a highly-valued designermate, your starting wealth starts higher than normal. Extra difficult. 
+    </description>
+	<scenario>
+		<summary>A designermate escapee runs from her destiny.</summary>
+		<playerFaction>
+			<def>PlayerFaction</def>
+			<factionDef>Kurin_PlayerFaction</factionDef>
+		</playerFaction>
+		<parts>
+		
+			<!-- Config pages -->
+			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+				<def>ConfigPage_ConfigureStartingPawns</def>
+				<pawnCount>1</pawnCount>
+				<pawnChoiceCount>8</pawnChoiceCount>
+			</li>
+
+			<!-- Player starting stuff spawn method-->
+			<li Class="ScenPart_PlayerPawnsArriveMethod">
+				<def>PlayerPawnsArriveMethod</def>
+				<method>DropPods</method>
+				<visible>false</visible>
+			</li>
+			<!-- Player pawns modifiers -->
+			<li Class="ScenPart_ForcedHediff">
+			<def>ForcedHediff</def>
+			<visible>false</visible>
+			<context>PlayerStarter</context>
+			<chance>1.0</chance>
+			<hediff>CryptosleepSickness</hediff>
+			<hideOffMap>true</hideOffMap>
+			<severityRange>1~1</severityRange>
+			</li>
+
+			<!-- Starting research -->
+			<li Class="ScenPart_StartingResearch">
+			<def>StartingResearch</def>
+			<project>Kurin_ApparelT1</project>
+			</li>
+			<li Class="ScenPart_StartingResearch">
+			<def>StartingResearch</def>
+			<project>Kurin_ApparelT2</project>
+			</li>
+			<!-- Player starting things -->
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Gold</thingDef>
+				<count>300</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MealSurvivalPack</thingDef>
+				<count>20</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MedicineUltratech</thingDef>
+				<count>25</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>ComponentIndustrial</thingDef>
+				<count>10</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Steel</thingDef>
+				<count>150</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Kurin_Middle_Body_Armor</thingDef>
+				<stuff>Steel</stuff>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Kurin_Gun_Assault_Rifle</thingDef>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Kurin_OnSkin_Traditional_Coat</thingDef>
+				<stuff>Leather_Thrumbo</stuff>
+			</li>
+			<!-- Game start dialog -->
+			<li Class="ScenPart_GameStartDialog">
+				<def>GameStartDialog</def>
+				<text>"I don't know who I am. But I have to survive."</text>
+				<textKey>GameStartDialog</textKey>
+				<closeSound>GameStartSting</closeSound>
+			</li>
+
+		</parts>
+	</scenario>
+</ScenarioDef>
+
+</Defs>

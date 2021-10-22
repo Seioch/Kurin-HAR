@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<HediffDef ParentName="AddedBodyPartBase">
+	<defName>Kurin_FakeTail</defName>
+	<label>fake kurin tail</label>
+	<labelNoun>a fake kurin tail</labelNoun>
+	<description>A fake kurin tail to restore one's three tailed beauty. Because it can't move, balanced walking and running is impaired.</description>
+	<spawnThingOnRemoved>Kurin_FakeTail</spawnThingOnRemoved>
+	<stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.02</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+	<addedPartProps>
+		<solid>true</solid>
+		<partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
+</HediffDef>
+
+<HediffDef ParentName="AddedBodyPartBase">
+	<defName>Kurin_BionicTail</defName>
+	<label>bionic kurin tail</label>
+	<labelNoun>a bionic kurin tail</labelNoun>
+	<description>A bionic kurin tail.</description>
+	<spawnThingOnRemoved>Kurin_BionicTail</spawnThingOnRemoved>
+	<stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.02</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+	<addedPartProps>
+		<solid>true</solid>
+		<partEfficiency>1</partEfficiency>
+	</addedPartProps>
+</HediffDef>
+
+<HediffDef ParentName="AddedBodyPartBase">
+	<defName>Kurin_BionicEar</defName>
+	<label>bionic kurin ear</label>
+	<labelNoun>a bionic kurin ear</labelNoun>
+	<description>A bionic kurin ear</description>
+	<spawnThingOnRemoved>Kurin_BionicEar</spawnThingOnRemoved>
+	<addedPartProps>
+		<solid>true</solid>
+		<partEfficiency>1.0</partEfficiency>
+	</addedPartProps>
+</HediffDef>
+
+<!-- Tail Blade -->
+
+<HediffDef ParentName="AddedBodyPartBase">
+    <defName>KurinTailBlade</defName>
+    <label>kurin tail blade</label>
+    <labelNoun>a kurin tail blade</labelNoun>
+    <description>An installed Kurin Tail Blade.</description>
+    <descriptionHyperlinks><ThingDef>KurinTailBlade</ThingDef></descriptionHyperlinks>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<armorPenetration>0.25</armorPenetration>
+				<power>9</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<armorPenetration>0.25</armorPenetration>
+				<power>10</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>KurinTailBlade</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <solid>true</solid>
+      <partEfficiency>1.00</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+
+</Defs>

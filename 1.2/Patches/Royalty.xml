@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
+
+      <value>
+        <li>Kurin_PlayerFaction</li>
+        <li>Kurin_Faction</li>
+      </value>
+    </match>
+  </Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<success>Normal</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+<!--=============== Kurin Nanoedge Polearm ====================-->
+  
+  <ThingDef ParentName="MeleeWeaponUltratech">
+    <defName>Kurin_nanoedge</defName>
+    <label>kurin nanoedge polearm</label>
+    <description>A glitterworld weapon bestowed to elite Kurin guards before the siege of the Kurin Republic. Its edge is sharpened by onboard mechanites, and rivals monoswords for their sharpness. A true artifact of the old Kurin Republic.</description>
+    <graphicData>
+      <texPath>Kurin/Weapon/Nanoedge_Polearm/Texture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <meleeHitSound>MeleeHit_MonoSword</meleeHitSound>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>4500</MarketValue>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.1</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>0.8</cooldownTime>
+        <armorPenetration>0.9</armorPenetration>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>1.2</cooldownTime>
+        <armorPenetration>0.8</armorPenetration>
+      </li>
+    </tools>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>
+
