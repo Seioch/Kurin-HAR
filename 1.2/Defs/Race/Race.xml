@@ -904,6 +904,7 @@
 <!--=============================================================================================================================-->
 		<raceRestriction>
             <apparelList>
+				<li>Apparel_TribalA</li>
 				<li>Kurin_OnSkin_Shirt</li>
 				<li>Kurin_OnSkin_T_Shirt</li>
 				<li>Kurin_OnSkin_Hot_Pants</li>
