@@ -966,7 +966,7 @@
 <!--=============================================================================================================================-->
     <statBases>
 	<!--기본-->
-      <MarketValue>3500</MarketValue>
+      <MarketValue>1750</MarketValue>
       <Flammability>0.3</Flammability>
       <MoveSpeed>5</MoveSpeed>
 	  <MentalBreakThreshold>0.4</MentalBreakThreshold>
