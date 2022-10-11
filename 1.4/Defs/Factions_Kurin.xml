@@ -29,7 +29,7 @@
 	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-	<geneticVariance>1</geneticVariance>
+	<!-- <geneticVariance>1</geneticVariance> -->
 	<startingResearchTags>
 		<li>ClassicStart</li>
 	</startingResearchTags>
@@ -98,20 +98,8 @@
 			</categories>
 			<commonality>1</commonality>
 		</li>
-		<!-- <li>
-			<categories>
-				<li>Outlander</li>
-			</categories>
-			<commonality>0.95</commonality>
-		</li>
-		<li>
-			<categories>
-				<li>Offworld</li>
-			</categories>
-			<commonality>0.05</commonality>
-		</li> -->
 	</backstoryFilters>
-	<geneticVariance>0</geneticVariance>
+	<!-- <geneticVariance>0</geneticVariance> -->
 	<!-- <styleTags>
 		<li>Kurin</li>
 	</styleTags> -->
@@ -299,7 +287,7 @@
 			<commonality>1</commonality>
 		</li>
 	</backstoryFilters>
-	<geneticVariance>0</geneticVariance>
+	<!-- <geneticVariance>0</geneticVariance> -->
 	<!-- <styleTags>
 		<li>Kurin</li>
 	</styleTags> -->

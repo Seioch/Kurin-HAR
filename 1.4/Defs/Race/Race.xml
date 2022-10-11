@@ -1166,10 +1166,10 @@
           <def>HumanlikeBaby</def>
           <minAge>0</minAge>
         </li>
-        <li>
+        <!-- <li>
           <def>HumanlikeToddler</def>
           <minAge>1.2</minAge>
-        </li>
+        </li> -->
         <li>
           <def>HumanlikeChild</def>
           <minAge>4</minAge>

@@ -9,14 +9,22 @@
     <li>1.4</li>
   </supportedVersions>
   <modDependencies>
+  <!--
     <li>
       <packageId>erdelf.HumanoidAlienRaces</packageId>
       <displayName>Humanoid Alien Race Framework</displayName>
       <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
     </li>
+  -->
+	<li>
+      <packageId>erdelf.HumanoidAlienRaces.dev</packageId>
+      <displayName>Humanoid Alien Race Framework - Dev</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2640710953</steamWorkshopUrl>
+	</li>
   </modDependencies>
   <loadAfter>
-    <li>erdelf.HumanoidAlienRaces</li>
+	<!-- <li>erdelf.HumanoidAlienRaces</li>-->
+    <li>erdelf.HumanoidAlienRaces.dev</li>
   </loadAfter>
   <incompatibleWith>
     <li>Dalrae.GaramRaceAddon</li>

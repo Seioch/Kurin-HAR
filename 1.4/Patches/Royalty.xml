@@ -39,6 +39,7 @@
     <meleeHitSound>MeleeHit_MonoSword</meleeHitSound>
     <equippedAngleOffset>-20</equippedAngleOffset>
     <relicChance>3</relicChance>
+    <smeltable>false</smeltable>
     <weaponClasses>
       <li>MeleePiercer</li>
     </weaponClasses>
