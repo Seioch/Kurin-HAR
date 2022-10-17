@@ -29,13 +29,13 @@
             </forcedRaceTraitEntries>
 			<disallowedTraits>
 			    <li>
-                    <defName>Beauty</defName>
-                    <degree>-1</degree>
-                </li>
+              <defName>Beauty</defName>
+              <degree>-1</degree>
+          </li>
 			    <li>
-                    <defName>Beauty</defName>
-                    <degree>-2</degree>
-                </li>
+              <defName>Beauty</defName>
+              <degree>-2</degree>
+          </li>
 			</disallowedTraits>
 			<factionRelations>
           <li>
@@ -61,19 +61,18 @@
 	
 
 		<alienPartGenerator>
-        <alienbodytypes>
+        <bodytypes>
           <li>Female</li>
           <!-- Disabled until new Kurin bodytype sprites are made -->
           <!-- <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
           <li MayRequire="Ludeon.RimWorld.Biotech">Child</li> -->
-        </alienbodytypes>
-        <aliencrowntypes>
-          <li>Average_Normal</li>
-          <li>Average_Pointy</li>
-          <li>Average_Wild</li>
-        </aliencrowntypes>
+        </bodytypes>
+        <headTypes>
+          <li>Female_AverageNormal</li>
+          <li>Female_AveragePointy</li>
+        </headTypes>
 			<headOffset>(0 ,-0.07)</headOffset>
-            <useGenderedHeads>false</useGenderedHeads>
+      <useGenderedHeads>false</useGenderedHeads>
 			<useGenderedBodies>false</useGenderedBodies>
 			<atlasScale>4</atlasScale>
       <bodyAddons>
@@ -93,27 +92,30 @@
                 <bodyTypes>
                     <Female>(-0.3729904,0.2315113)</Female>
                 </bodyTypes>
-                <crownTypes>
-                    <Normal_Average>(0,0)</Normal_Average>
-                </crownTypes>
+                <headTypes>
+                    <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                    <Female_AveragePointy>(0,0)</Female_AveragePointy>
+                </headTypes>
             </south>
             <north>
                 <layerOffset>-0.19</layerOffset>
                 <bodyTypes>
                     <Female>(0,0.5401928)</Female>
                 </bodyTypes>
-                <crownTypes>
-                    <Normal_Average>(0,0)</Normal_Average>
-                </crownTypes>
+                <headTypes>
+                    <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                    <Female_AveragePointy>(0,0)</Female_AveragePointy>
+                </headTypes>
             </north>
             <east>
                 <layerOffset>-0.19</layerOffset>
                 <bodyTypes>
                     <Female>(-0.4972991,0.2958201)</Female>
                 </bodyTypes>
-                <crownTypes>
-                    <Normal_Average>(0,0)</Normal_Average>
-                </crownTypes>
+                <headTypes>
+                    <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                    <Female_AveragePointy>(0,0)</Female_AveragePointy>
+                </headTypes>
             </east>
         </offsets>
 				<drawnInBed>false</drawnInBed>
@@ -133,27 +135,30 @@
                 <bodyTypes>
                     <Female>(-0.3729904,0.2315113)</Female>
                 </bodyTypes>
-                <crownTypes>
-                    <Normal_Average>(0,0)</Normal_Average>
-                </crownTypes>
+                <headTypes>
+                    <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                    <Female_AveragePointy>(0,0)</Female_AveragePointy>
+                </headTypes>
             </south>
             <north>
                 <layerOffset>-0.25</layerOffset>
                 <bodyTypes>
                     <Female>(0,0.5401928)</Female>
                 </bodyTypes>
-                <crownTypes>
-                    <Normal_Average>(0,0)</Normal_Average>
-                </crownTypes>
+                <headTypes>
+                    <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                    <Female_AveragePointy>(0,0)</Female_AveragePointy>
+                </headTypes>
             </north>
             <east>
                 <layerOffset>-0.25</layerOffset>
                 <bodyTypes>
                     <Female>(-0.4972991,0.2958201)</Female>
                 </bodyTypes>
-                <crownTypes>
-                    <Normal_Average>(0,0)</Normal_Average>
-                </crownTypes>
+                <headTypes>
+                    <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                    <Female_AveragePointy>(0,0)</Female_AveragePointy>
+                </headTypes>
             </east>
         </offsets>
 				<drawnInBed>false</drawnInBed>
@@ -173,27 +178,30 @@
                 <bodyTypes>
                     <Female>(-0.3729904,0.2315113)</Female>
                 </bodyTypes>
-                <crownTypes>
-                    <Normal_Average>(0,0)</Normal_Average>
-                </crownTypes>
+                <headTypes>
+                    <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                    <Female_AveragePointy>(0,0)</Female_AveragePointy>
+                </headTypes>
             </south>
             <north>
                 <layerOffset>-0.2</layerOffset>
                 <bodyTypes>
                     <Female>(0,0.5401928)</Female>
                 </bodyTypes>
-                <crownTypes>
-                    <Normal_Average>(0,0)</Normal_Average>
-                </crownTypes>
+                <headTypes>
+                    <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                    <Female_AveragePointy>(0,0)</Female_AveragePointy>
+                </headTypes>
             </north>
             <east>
                 <layerOffset>-0.2</layerOffset>
                 <bodyTypes>
                     <Female>(-0.4972991,0.2958201)</Female>
                 </bodyTypes>
-                <crownTypes>
-                    <Normal_Average>(0,0)</Normal_Average>
-                </crownTypes>
+                <headTypes>
+                    <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                    <Female_AveragePointy>(0,0)</Female_AveragePointy>
+                </headTypes>
             </east>
         </offsets>
 				<drawnInBed>false</drawnInBed>
@@ -215,36 +223,40 @@
               <bodyTypes>
                   <Female>(0.009646305,-0.4951769)</Female>
               </bodyTypes>
-              <crownTypes>
-                  <Normal_Average>(0,0)</Normal_Average>
-              </crownTypes>
+              <headTypes>
+                  <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                  <Female_AveragePointy>(0,0)</Female_AveragePointy>
+              </headTypes>
             </west>
             <south>
               <layerOffset>-0.2758</layerOffset>
               <bodyTypes>
                   <Female>(0.003215437,-0.4694535)</Female>
               </bodyTypes>
-              <crownTypes>
-                  <Normal_Average>(0,0)</Normal_Average>
-              </crownTypes>
+              <headTypes>
+                  <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                  <Female_AveragePointy>(0,0)</Female_AveragePointy>
+              </headTypes>
             </south>
             <north>
               <layerOffset>-0.2758</layerOffset>
               <bodyTypes>
                   <Female>(0,0.7877813)</Female>
               </bodyTypes>
-              <crownTypes>
-                  <Normal_Average>(0,0)</Normal_Average>
-              </crownTypes>
+              <headTypes>
+                  <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                  <Female_AveragePointy>(0,0)</Female_AveragePointy>
+              </headTypes>
             </north>
             <east>
               <layerOffset>-0.2758</layerOffset>
               <bodyTypes>
                   <Female>(0.009646305,-0.4951769)</Female>
               </bodyTypes>
-              <crownTypes>
-                  <Normal_Average>(0,0)</Normal_Average>
-              </crownTypes>
+              <headTypes>
+                  <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                  <Female_AveragePointy>(0,0)</Female_AveragePointy>
+              </headTypes>
             </east>
           </offsets>
 				</li>
@@ -262,33 +274,37 @@
             <bodyTypes>
                 <Female>(0,-0.5)</Female>
             </bodyTypes>
-            <crownTypes>
-                <Normal_Average>(0,0)</Normal_Average>
-            </crownTypes>
+            <headTypes>
+                <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                <Female_AveragePointy>(0,0)</Female_AveragePointy>
+            </headTypes>
           </west>
           <south>
             <bodyTypes>
                 <Female>(0,-0.49)</Female>
             </bodyTypes>
-            <crownTypes>
-                <Normal_Average>(0,0)</Normal_Average>
-            </crownTypes>
+            <headTypes>
+                <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                <Female_AveragePointy>(0,0)</Female_AveragePointy>
+            </headTypes>
           </south>
           <north>
             <bodyTypes>
                 <Female>(0,-0.3)</Female>
             </bodyTypes>
-            <crownTypes>
-                <Normal_Average>(0,0)</Normal_Average>
-            </crownTypes>
+            <headTypes>
+                <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                <Female_AveragePointy>(0,0)</Female_AveragePointy>
+            </headTypes>
           </north>
           <east>
             <bodyTypes>
                 <Female>(0,-0.5)</Female>
             </bodyTypes>
-            <crownTypes>
-                <Normal_Average>(0,0)</Normal_Average>
-            </crownTypes>
+            <headTypes>
+                <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                <Female_AveragePointy>(0,0)</Female_AveragePointy>
+            </headTypes>
           </east>
         </offsets>
         </li>
@@ -307,33 +323,37 @@
               <bodyTypes>
                   <Female>(0.13,-0.5)</Female>
               </bodyTypes>
-              <crownTypes>
-                  <Normal_Average>(0,0)</Normal_Average>
-              </crownTypes>
+              <headTypes>
+                  <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                  <Female_AveragePointy>(0,0)</Female_AveragePointy>
+              </headTypes>
             </west>
             <south>
               <bodyTypes>
                   <Female>(-0.4212219,0.289389)</Female>
               </bodyTypes>
-              <crownTypes>
-                  <Normal_Average>(0,0)</Normal_Average>
-              </crownTypes>
+              <headTypes>
+                  <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                  <Female_AveragePointy>(0,0)</Female_AveragePointy>
+              </headTypes>
             </south>
             <north>
                 <bodyTypes>
                     <Female>(0,0.5819935)</Female>
                 </bodyTypes>
-                <crownTypes>
-                    <Normal_Average>(0,0)</Normal_Average>
-                </crownTypes>
+                <headTypes>
+                    <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                    <Female_AveragePointy>(0,0)</Female_AveragePointy>
+                </headTypes>
             </north>
             <east>
               <bodyTypes>
                   <Female>(0.13,-0.5)</Female>
               </bodyTypes>
-              <crownTypes>
-                  <Normal_Average>(0,0)</Normal_Average>
-              </crownTypes>
+              <headTypes>
+                  <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                  <Female_AveragePointy>(0,0)</Female_AveragePointy>
+              </headTypes>
             </east>
           </offsets>
         </li>
@@ -351,33 +371,37 @@
                 <bodyTypes>
                     <Female>(0,-0.5)</Female>
                 </bodyTypes>
-                <crownTypes>
-                    <Normal_Average>(0,0)</Normal_Average>
-                </crownTypes>
+                <headTypes>
+                    <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                    <Female_AveragePointy>(0,0)</Female_AveragePointy>
+                </headTypes>
               </west>
               <south>
                 <bodyTypes>
                     <Female>(0,-0.49)</Female>
                 </bodyTypes>
-                <crownTypes>
-                    <Normal_Average>(0,0)</Normal_Average>
-                </crownTypes>
+                <headTypes>
+                    <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                    <Female_AveragePointy>(0,0)</Female_AveragePointy>
+                </headTypes>
               </south>
               <north>
                 <bodyTypes>
                     <Female>(0,-0.3)</Female>
                 </bodyTypes>
-                <crownTypes>
-                    <Normal_Average>(0,0)</Normal_Average>
-                </crownTypes>
+                <headTypes>
+                    <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                    <Female_AveragePointy>(0,0)</Female_AveragePointy>
+                </headTypes>
               </north>
               <east>
                 <bodyTypes>
                     <Female>(0,-0.5)</Female>
                 </bodyTypes>
-                <crownTypes>
-                    <Normal_Average>(0,0)</Normal_Average>
-                </crownTypes>
+                <headTypes>
+                    <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                    <Female_AveragePointy>(0,0)</Female_AveragePointy>
+                </headTypes>
               </east>
           </offsets>
         </li>
@@ -396,33 +420,37 @@
                   <bodyTypes>
                       <Female>(0.13,-0.5)</Female>
                   </bodyTypes>
-                  <crownTypes>
-                      <Normal_Average>(0,0)</Normal_Average>
-                  </crownTypes>
+                  <headTypes>
+                    <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                    <Female_AveragePointy>(0,0)</Female_AveragePointy>
+                </headTypes>
               </west>
               <south>
                   <bodyTypes>
                       <Female>(-0.4212219,0.289389)</Female>
                   </bodyTypes>
-                  <crownTypes>
-                      <Normal_Average>(0,0)</Normal_Average>
-                  </crownTypes>
+                  <headTypes>
+                    <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                    <Female_AveragePointy>(0,0)</Female_AveragePointy>
+                </headTypes>
               </south>
               <north>
                   <bodyTypes>
                       <Female>(0,0.5819935)</Female>
                   </bodyTypes>
-                  <crownTypes>
-                      <Normal_Average>(0,0)</Normal_Average>
-                  </crownTypes>
+                  <headTypes>
+                    <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                    <Female_AveragePointy>(0,0)</Female_AveragePointy>
+                </headTypes>
               </north>
               <east>
                   <bodyTypes>
                       <Female>(0.13,-0.5)</Female>
                   </bodyTypes>
-                  <crownTypes>
-                      <Normal_Average>(0,0)</Normal_Average>
-                  </crownTypes>
+                  <headTypes>
+                    <Female_AverageNormal>(0,0)</Female_AverageNormal>
+                    <Female_AveragePointy>(0,0)</Female_AveragePointy>
+                </headTypes>
               </east>
           </offsets>
           </li>
@@ -922,9 +950,12 @@
 					<key>HairDef</key>
 					<value>
 						<hasStyle>true</hasStyle>
+            <!-- <styleTags>
+              <li>Kurin</li>
+            </styleTags> -->
 						<styleTagsOverride>
-                            <li>Kurin</li>
-                        </styleTagsOverride>
+                <li>Kurin</li>
+            </styleTagsOverride>
 					</value>
 				</li>
 				<li>
