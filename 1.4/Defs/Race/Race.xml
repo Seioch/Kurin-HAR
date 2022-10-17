@@ -61,19 +61,20 @@
 	
 
 		<alienPartGenerator>
-        <bodytypes>
+        <bodyTypes>
           <li>Female</li>
           <!-- Disabled until new Kurin bodytype sprites are made -->
           <!-- <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
           <li MayRequire="Ludeon.RimWorld.Biotech">Child</li> -->
-        </bodytypes>
+        </bodyTypes>
         <headTypes>
           <li>Female_AverageNormal</li>
           <li>Female_AveragePointy</li>
         </headTypes>
 			<headOffset>(0 ,-0.07)</headOffset>
-      <useGenderedHeads>false</useGenderedHeads>
-			<useGenderedBodies>false</useGenderedBodies>
+      <!-- May be deprecated in HAR 1.4 -->
+      <!-- <useGenderedHeads>false</useGenderedHeads>
+			<useGenderedBodies>false</useGenderedBodies> -->
 			<atlasScale>4</atlasScale>
       <bodyAddons>
 			<!--꼬리A-->
@@ -939,12 +940,10 @@
         </generalSettings>
 
 <!--=============================================================================================================================-->
-        <graphicPaths>
-            <li>
-                <head>Kurin/Head/A/</head>
-                <body>Kurin/Body/B/</body>
-            </li>
-        </graphicPaths>
+      <graphicPaths>
+        <head>Kurin/Head/A/</head>
+        <body>Kurin/Body/B/</body>
+      </graphicPaths>
 			<styleSettings>
 				<li>
 					<key>HairDef</key>
