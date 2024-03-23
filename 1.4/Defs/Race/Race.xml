@@ -1178,6 +1178,10 @@
           <li>Apparel_SmokepopBelt</li>
         </whiteApparelList>
         <onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
+        <blackEndoCategories>
+          <li>HairColor</li>
+          <li>BodyType</li>
+        </blackEndoCategories>
         <buildingList>
           <li>DRNTF_NooseTrap</li>
         </buildingList>
@@ -1293,7 +1297,7 @@
       <baseBodySize>0.9</baseBodySize>
       <baseHealthScale>0.9</baseHealthScale>
       <foodType>OmnivoreHuman</foodType>
-      <gestationPeriodDays>45</gestationPeriodDays>
+      <gestationPeriodDays>27</gestationPeriodDays>
       <meatMarketValue>0.8</meatMarketValue>
       <manhunterOnDamageChance>0.60</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.04</manhunterOnTameFailChance>

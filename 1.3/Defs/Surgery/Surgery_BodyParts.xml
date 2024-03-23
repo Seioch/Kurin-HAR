@@ -52,7 +52,7 @@
     <defName>KurinTailBlade</defName>
     <label>kurin tail blade</label>
     <description>A soft fluffy Kurin tail, but if the wearer wishes so, it opens at the end to reveal a razor-sharp dagger. Unsuspecting tail-grabbers have often found an early demise from a surprise tail blade.</description>
-    <descriptionHyperlinks><RecipeDef>InstallPowerClaw</RecipeDef></descriptionHyperlinks>
+    <descriptionHyperlinks><RecipeDef>InstallTailBlade</RecipeDef></descriptionHyperlinks>
     <thingSetMakerTags>
       <li>RewardStandardMidFreq</li>
     </thingSetMakerTags>

@@ -180,7 +180,12 @@
 		<tags>
 			<li>Kurin_OverheadT3</li>
 			<li>Royal</li>
+			<li>RoyalTier1</li>
         	<li>RoyalTier2</li>
+			<li>RoyalTier3</li>
+			<li>RoyalTier4</li>
+			<li>RoyalTier5</li>
+			<li>RoyalTier6</li>
 		</tags>
 	</apparel>
 </ThingDef>
@@ -378,6 +383,117 @@
 	<equippedStatOffsets>
 		<SocialImpact>0.5</SocialImpact>
 	</equippedStatOffsets>
+</ThingDef>
+
+<!--================================================== Tier 4 ==================================================-->
+
+<ThingDef Name="Kurin_OverheadBaseTear4" ParentName="Kurin_OverheadBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT4</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kurin_OverheadT4</li>
+			<li>Royal</li>
+			<li>RoyalTier1</li>
+        	<li>RoyalTier2</li>
+			<li>RoyalTier3</li>
+			<li>RoyalTier4</li>
+			<li>RoyalTier5</li>
+			<li>RoyalTier6</li>
+			<li>RoyalTier7</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OverheadBaseTear4">
+	<defName>Kurin_Redfox_Helmet</defName>
+	<label>Kurin Redfox Helmet</label>
+	<description>Highly protective military armor for Kurin Redfox soldiers. Capable of absorbing incredible punishment while enhancing melee abilities.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Overhead/Marine_Melee/Texture</texPath>
+	</graphicData>
+	<tradeTags>
+      <li>HiTechArmor</li>
+    </tradeTags>
+	<costList>
+		<DevilstrandCloth>80</DevilstrandCloth>
+		<Plasteel>50</Plasteel>
+		<ComponentSpacer>1</ComponentSpacer>
+	</costList>
+	<statBases>
+		<MaxHitPoints>300</MaxHitPoints>
+		<WorkToMake>24000</WorkToMake>
+		<Mass>1.5</Mass>
+		<Flammability>0.4</Flammability>
+		<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.54</ArmorRating_Heat>
+		<Insulation_Cold>4</Insulation_Cold>
+		<Insulation_Heat>2</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<MeleeHitChance>2.0</MeleeHitChance>
+		<MeleeDodgeChance>3.0</MeleeDodgeChance>
+		<MoveSpeed>0.1</MoveSpeed>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Overhead/Marine_Melee/Texture</wornGraphicPath>
+		<tags>
+			<li>Kurin_GitterworldGear</li>
+ 			<li>RoyalCombatGear</li>
+			<li>Royal</li>
+			<li>RoyalTier4</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OverheadBaseTear4">
+	<defName>Kurin_Shadowfox_Helmet</defName>
+	<label>Kurin Shadowfox Helmet</label>
+	<description>Highly protective military armor for Kurin Shadowfox soldiers. This helmet sacrifices some protection for a suite of rangefinders and target acquisition devices.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Overhead/Marine_Ranged/Texture</texPath>
+	</graphicData>
+	<tradeTags>
+      <li>HiTechArmor</li>
+    </tradeTags>
+	<costList>
+		<DevilstrandCloth>80</DevilstrandCloth>
+		<Plasteel>50</Plasteel>
+		<ComponentSpacer>1</ComponentSpacer>
+	</costList>
+	<statBases>
+		<MaxHitPoints>300</MaxHitPoints>
+		<WorkToMake>24000</WorkToMake>
+		<Mass>1.0</Mass>
+		<Flammability>0.4</Flammability>
+		<ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.46</ArmorRating_Heat>
+		<Insulation_Cold>4</Insulation_Cold>
+		<Insulation_Heat>2</Insulation_Heat>
+		<EquipDelay>2</EquipDelay>
+	</statBases>
+	<equippedStatOffsets>
+		<AimingDelayFactor>-0.2</AimingDelayFactor>
+		<MoveSpeed>0.1</MoveSpeed>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Overhead/Marine_Ranged/Texture</wornGraphicPath>
+		<tags>
+			<li>Kurin_GitterworldGear</li>
+ 			<li>RoyalCombatGear</li>
+			<li>Royal</li>
+			<li>RoyalTier4</li>
+		</tags>
+	</apparel>
 </ThingDef>
 
 </Defs>

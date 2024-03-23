@@ -28,21 +28,24 @@
       <li>
         <compClass>CompColorable</compClass>
       </li>
-      <li>
+      <!-- <li>
         <compClass>CompQuality</compClass>
-      </li>
+      </li> -->
     </comps>
   </ThingDef>
 
 <ThingDef Name="Kurin_ApparelBase" ParentName="ApparelBase_Kurin" Abstract="True">
 	<graphicData>
 		<graphicClass>Graphic_Single</graphicClass>
-		<shaderType>CutoutComplex</shaderType>
 	</graphicData>
 	<apparel>
 		<useWornGraphicMask>true</useWornGraphicMask>
 	</apparel>
 	<tradeability>Sellable</tradeability>
+	<!-- Maybe this will let traders sell Kurin clothes? -->
+	<tradeTags>
+      <li>Apparel</li>
+    </tradeTags>
 	<techLevel>Industrial</techLevel>
 	<statBases>
 		<Flammability>0.4</Flammability>

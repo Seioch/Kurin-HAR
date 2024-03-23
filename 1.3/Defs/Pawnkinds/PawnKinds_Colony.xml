@@ -18,8 +18,8 @@
     </apparelTags>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelMoney>
-      <min>500</min>
-      <max>800</max>
+      <min>800</min>
+      <max>1200</max>
     </apparelMoney>
     <apparelRequired>
       <li>Kurin_Underwear</li>
@@ -46,8 +46,8 @@
     </apparelTags>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelMoney>
-      <min>1000</min>
-      <max>1200</max>
+      <min>1200</min>
+      <max>1400</max>
     </apparelMoney>
     <apparelRequired>
       <li>Kurin_Underwear</li>

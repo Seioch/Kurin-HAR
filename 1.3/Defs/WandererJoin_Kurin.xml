@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
- <IncidentDef>
+  <IncidentDef>
     <defName>WandererJoin_Kurin</defName>
     <label>wanderer kurin join</label>
     <category>Misc</category>
@@ -14,5 +14,5 @@
     <pawnKind>Kurin_Colonist</pawnKind>
     <populationEffect>IncreaseEasy</populationEffect>
   </IncidentDef>
-  
-  </Defs>
+
+</Defs>

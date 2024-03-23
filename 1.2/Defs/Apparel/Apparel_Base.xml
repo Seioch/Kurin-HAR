@@ -28,9 +28,9 @@
       <li>
         <compClass>CompColorable</compClass>
       </li>
-      <li>
+      <!-- <li>
         <compClass>CompQuality</compClass>
-      </li>
+      </li> -->
     </comps>
   </ThingDef>
 

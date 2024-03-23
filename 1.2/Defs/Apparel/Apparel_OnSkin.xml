@@ -477,6 +477,19 @@
 	<recipeMaker>
 		<researchPrerequisite>Kurin_ApparelT3</researchPrerequisite>
 	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kurin_OverheadT4</li>
+			<li>Royal</li>
+			<li>RoyalTier1</li>
+        	<li>RoyalTier2</li>
+			<li>RoyalTier3</li>
+			<li>RoyalTier4</li>
+			<li>RoyalTier5</li>
+			<li>RoyalTier6</li>
+			<li>RoyalTier7</li>
+		</tags>
+	</apparel>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_OnSkinBaseTear3">
@@ -1051,4 +1064,165 @@
 		<NegotiationAbility>0.3</NegotiationAbility>
 	</equippedStatOffsets>
 </ThingDef>
+
+<!--================================================== Tier 4 ==================================================-->
+
+<ThingDef Name="Kurin_OnSkinBaseTear4" ParentName="Kurin_OnSkinBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT4</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kurin_OverheadT4</li>
+			<li>Royal</li>
+			<li>RoyalTier1</li>
+        	<li>RoyalTier2</li>
+			<li>RoyalTier3</li>
+			<li>RoyalTier4</li>
+			<li>RoyalTier5</li>
+			<li>RoyalTier6</li>
+			<li>RoyalTier7</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OnSkinBaseTear4">
+	<defName>Kurin_Redfox_Armor</defName>
+	<label>kurin redfox armor</label>
+	<description>Replica power armor from the old Kurin republic. The Redfox army would wear this armor for close quarters combat, relying on its superior durability against projectiles.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Redfox_armor/Texture</texPath>
+	</graphicData>
+	<tradeTags>
+      <li>HiTechArmor</li>
+    </tradeTags>
+    <costList>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Plasteel>100</Plasteel>
+      <Uranium>20</Uranium>
+	  <DevilstrandCloth>75</DevilstrandCloth>
+    </costList>
+	<statBases>
+		<MaxHitPoints>300</MaxHitPoints>
+		<WorkToMake>64000</WorkToMake>
+		<ArmorRating_Sharp>1.16</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.54</ArmorRating_Heat>
+		<EquipDelay>14</EquipDelay>
+	</statBases>
+	<equippedStatOffsets>
+		<MeleeHitChance>3.0</MeleeHitChance>
+		<MeleeDodgeChance>12.0</MeleeDodgeChance>
+		<MoveSpeed>0.4</MoveSpeed>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+			<li>Arms</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Feet</li>
+			<li>Hands</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Military_Uniform/Texture</wornGraphicPath>
+		<tags>
+			<li>Kurin_Glitterworld</li>
+ 			<li>RoyalCombatGear</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OnSkinBaseTear4">
+	<defName>Kurin_Shadowfox_Armor</defName>
+	<label>kurin shadowfox armor</label>
+	<description>Replica power armor from the old Kurin republic. The Shadowfox special forces wore this advanced armor to enhance assassination capabilities. Hidden servos augment shooting stability and movement speed.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Shadowfox_armor/Texture</texPath>
+	</graphicData>
+	<tradeTags>
+      <li>HiTechArmor</li>
+    </tradeTags>
+    <costList>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Plasteel>100</Plasteel>
+      <Uranium>20</Uranium>
+	  <DevilstrandCloth>75</DevilstrandCloth>
+    </costList>
+	<statBases>
+		<MaxHitPoints>300</MaxHitPoints>
+		<WorkToMake>64000</WorkToMake>
+		<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.54</ArmorRating_Heat>
+		<EquipDelay>14</EquipDelay>
+	</statBases>
+	<equippedStatOffsets>
+		<ShootingAccuracyPawn>3.0</ShootingAccuracyPawn>
+		<MoveSpeed>0.4</MoveSpeed>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+			<li>Arms</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Feet</li>
+			<li>Hands</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Military_Uniform/Texture</wornGraphicPath>
+		<tags>
+			<li>Kurin_Glitterworld</li>
+ 			<li>RoyalCombatGear</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OnSkinBaseTear4">
+	<defName>Kurin_Waterfox_Armor</defName>
+	<label>kurin waterfox armor</label>
+	<description>Replica power armor from the old Kurin republic. The Shadowfox special forces wore this advanced armor to enhance assassination capabilities. Hidden servos augment shooting stability and movement speed.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Shadowfox_armor/Texture</texPath>
+	</graphicData>
+	<tradeTags>
+      <li>HiTechArmor</li>
+    </tradeTags>
+    <costList>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Plasteel>100</Plasteel>
+      <Uranium>20</Uranium>
+	  <DevilstrandCloth>75</DevilstrandCloth>
+    </costList>
+	<statBases>
+		<MaxHitPoints>300</MaxHitPoints>
+		<WorkToMake>64000</WorkToMake>
+		<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.54</ArmorRating_Heat>
+		<EquipDelay>14</EquipDelay>
+	</statBases>
+	<equippedStatOffsets>
+		<ShootingAccuracyPawn>3.0</ShootingAccuracyPawn>
+		<MoveSpeed>0.4</MoveSpeed>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+			<li>Arms</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Feet</li>
+			<li>Hands</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Military_Uniform/Texture</wornGraphicPath>
+		<tags>
+			<li>Kurin_Glitterworld</li>
+ 			<li>RoyalCombatGear</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
 </Defs>

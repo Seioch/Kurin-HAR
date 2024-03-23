@@ -52,7 +52,7 @@
 
 <FactionDef ParentName="HumanFactionBase">
 	<defName>Kurin_Faction</defName>
-	<label>Republic Of Kurin</label>
+	<label>Kurin Republic</label>
 	<description>These are the forces of the Kurins who crashed decades ago.\nThere have been many incidents, but now they have enough power to protect their own people.</description>
 	<colorSpectrum>
 		<li>(1.0, 0.72, 0.27)</li>

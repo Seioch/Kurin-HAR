@@ -9,9 +9,11 @@
 	<apparel>
 		<bodyPartGroups>
 			<li>Torso</li>
+			<li>Neck</li>
+    	    <li>Shoulders</li>
 		</bodyPartGroups>
 		<layers>
-			<li>Kurin_Apparel_Middle</li>
+			<li>Middle</li>
 		</layers>
 	</apparel>
 	<thingCategories>

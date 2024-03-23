@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!-- Hwatcha (3.15,1.45) -->
+  <!-- Hwacha (3.15,1.45) -->
   <ThingDef ParentName="BuildingBase">
     <defName>Kurin_FireTurret</defName>
-    <label>Kurin Hwatcha</label>
+    <label>Kurin Hwacha</label>
     <description>An ancient defensive weapon that launches a flurry of flaming arrows</description>
     <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
-      <texPath>Kurin/Building/Hwatcha/Hwatcha_base</texPath>
+      <texPath>Kurin/Building/Hwatcha/HwachaTurret_Base</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.5,1.5)</drawSize>
       <damageData>
@@ -18,8 +19,8 @@
         <offset>(0,0,-0.05)</offset>
       </shadowData>
     </graphicData>
-    <techLevel>Industrial</techLevel>
-    <uiIconPath>Kurin/Building/Hwatcha/Hwatcha_MenuIcon</uiIconPath>
+    <techLevel>Medieval</techLevel>
+    <uiIconPath>Kurin/Building/Hwatcha/Hwacha_MenuIcon</uiIconPath>
     <uiIconScale>0.90</uiIconScale>
     <size>(2,2)</size>
     <altitudeLayer>Building</altitudeLayer>
@@ -42,7 +43,6 @@
         <manWorkType>Violent</manWorkType>
       </li>
       <li Class="CompProperties_Forbiddable"/>
-      <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
       <li Class="CompProperties_Refuelable">
         <fuelLabel>Shots until out of ammo</fuelLabel>
@@ -52,15 +52,15 @@
             <li>WoodLog</li>
           </thingDefs>
         </fuelFilter>
-        <fuelCapacity>50</fuelCapacity>
+        <fuelCapacity>20</fuelCapacity>
         <initialFuelPercent>1</initialFuelPercent>
-        <autoRefuelPercent>0.6</autoRefuelPercent>
+        <autoRefuelPercent>0.1</autoRefuelPercent>
         <showFuelGizmo>true</showFuelGizmo>
-        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <minimumFueledThreshold>20</minimumFueledThreshold>
         <fuelMultiplier>1</fuelMultiplier>
         <factorByDifficulty>False</factorByDifficulty>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-        <outOfFuelMessage>Cannot shoot: Out of ammo</outOfFuelMessage>
+        <outOfFuelMessage>Cannot shoot: Out of arrows</outOfFuelMessage>
         <fuelIconPath>UI/Overlays/FuelAmmo</fuelIconPath>
       </li>
     </comps>
@@ -94,60 +94,57 @@
     <label>hwatcha gun</label>
     <description>A box containing dozens of launchable fire arrows</description>
     <graphicData>
-      <texPath>Kurin/Building/Hwatcha/HMGComplexGun</texPath>
+      <texPath>Kurin/Building/Hwatcha/HwachaTurret_Top</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
     </graphicData>
-    <soundInteract>Interact_Rifle</soundInteract>
-    <!-- <menuHidden>true</menuHidden> -->
-    <destroyOnDrop>true</destroyOnDrop>
-    <tradeability>None</tradeability>
-    <useHitPoints>false</useHitPoints>
     <statBases>
-      <AccuracyTouch>0.65</AccuracyTouch>
-      <AccuracyShort>0.45</AccuracyShort>
-      <AccuracyMedium>0.35</AccuracyMedium>
-      <AccuracyLong>0.25</AccuracyLong>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.35</AccuracyShort>
+      <AccuracyMedium>0.15</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
       <RangedWeapon_Cooldown>6.6</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
       <Mass>5</Mass>
       <Flammability>0</Flammability>
     </statBases>
-    <weaponTags Inherit="false">
-      <li>TurretGun</li>
-    </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>kurin_hwatcha_arrow</defaultProjectile>
+        <forcedMissRadius>1.9</forcedMissRadius>
         <minRange>6</minRange>
         <warmupTime>0.7</warmupTime>
         <range>38.9</range>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-        <burstShotCount>10</burstShotCount>
+        <burstShotCount>20</burstShotCount>
         <soundCast>Kurin_Shot_Hwatcha</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <consumeFuelPerShot>5</consumeFuelPerShot>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
       </li>
     </verbs>
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
     <defName>kurin_hwatcha_arrow</defName>
-    <label>Hwatcha Flaming Arrow</label>
+    <label>Hwacha Flaming Arrow</label>
     <graphicData>
-      <texPath>Kurin/Building/Hwatcha/Arrow_Big</texPath>
+      <texPath>Kurin/Building/Hwatcha/HwachaTurret_Projectile</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <color>(254,189,58)</color>
     </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <speed>50</speed>
       <damageDef>Flame</damageDef>
       <!-- Use default damage from explosion def -->
-      <explosionRadius>0.7</explosionRadius>
+      <explosionRadius>1.1</explosionRadius>
       <damageAmountBase>8</damageAmountBase>
       <preExplosionSpawnThingDef>Filth_Ash</preExplosionSpawnThingDef>
-      <preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+      <preExplosionSpawnChance>0.3</preExplosionSpawnChance>
       <ai_IsIncendiary>true</ai_IsIncendiary>
       <arcHeightFactor>0.2</arcHeightFactor>
       <shadowSize>0.6</shadowSize>

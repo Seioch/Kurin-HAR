@@ -48,7 +48,6 @@
 		<li>Leathery</li>
 	</stuffCategories>
 	<apparel>
-		<useWornGraphicMask>false</useWornGraphicMask>
 		<bodyPartGroups>
 			<li>Torso</li>
 			<li>Shoulders</li>
@@ -110,9 +109,9 @@
 	</graphicData>
 	<apparel>
 		<layers>
-			<li>Kurin_Underwear</li>
+			<li>OnSkin</li>
 		</layers>
-		<useWornGraphicMask>false</useWornGraphicMask>
+		<useWornGraphicMask>true</useWornGraphicMask>
 		<bodyPartGroups>
 			<li>Torso</li>
 			<li>Neck</li>
@@ -353,6 +352,22 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Open_Shoulder_Knit/Texture</wornGraphicPath>
 	</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.4,0.3,0.15)</only>
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(0.6,0.45,0.18)</only>
+				</li>
+				<li>
+					<weight>20</weight>
+					<only>(0.8,0.6,0.23)</only>
+				</li>
+			</options>
+		</colorGenerator>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_OnSkinBaseTear2">
@@ -390,6 +405,22 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Hoodie/Texture</wornGraphicPath>
 	</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.4,0.3,0.15)</only>
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(0.6,0.45,0.18)</only>
+				</li>
+				<li>
+					<weight>20</weight>
+					<only>(0.8,0.6,0.23)</only>
+				</li>
+			</options>
+		</colorGenerator>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_OnSkinBaseTear2">
@@ -431,6 +462,22 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Casual_Wear/Texture</wornGraphicPath>
 	</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.4,0.3,0.15)</only>
+				</li>
+				<li>
+					<weight>15</weight>
+					<only>(0.6,0.45,0.18)</only>
+				</li>
+				<li>
+					<weight>20</weight>
+					<only>(0.8,0.6,0.23)</only>
+				</li>
+			</options>
+		</colorGenerator>
 </ThingDef>
 
 <!--================================================== Tear 3 ==================================================-->
@@ -444,7 +491,7 @@
 <ThingDef ParentName="Kurin_OnSkinBaseTear3">
 	<defName>Kurin_OnSkin_Armored_Gothic_Dress</defName>
 	<label>kurin armored gothic dress</label>
-	<description>Although it looks like a normal dress, this outfit is actually more like stylish power armor. Folds of plasteel weave meshed between devilstrand padding makes any Kurin wearing this a goddess of brawling. It's heavy weight makes the wearer more vulnerable to hits, however.</description>
+	<description>Although it looks like a normal dress, this outfit is actually more like stylish medieval armor. Folds of plasteel weave meshed between devilstrand padding makes this dress exceptionally tough. It's heavy weight makes the wearer more vulnerable to hits.</description>
 	<graphicData>
 		<texPath>Kurin/Apparel/OnSkin/Armored_Gothic_Dress/Texture</texPath>
 	</graphicData>
@@ -468,11 +515,11 @@
 		</tags>
 	</apparel>
 	<costList>
-		<DevilstrandCloth>100</DevilstrandCloth>
-		<Plasteel>75</Plasteel>
+		<DevilstrandCloth>25</DevilstrandCloth>
+		<Plasteel>15</Plasteel>
 		<ComponentIndustrial>5</ComponentIndustrial>
 	</costList>
-	<costStuffCount>75</costStuffCount>
+	<costStuffCount>50</costStuffCount>
 	<stuffCategories>
 		<li>Fabric</li>
 		<li>Leathery</li>
@@ -484,15 +531,15 @@
 	<statBases>
 		<MaxHitPoints>300</MaxHitPoints>
 		<WorkToMake>16000</WorkToMake>
-		<StuffEffectMultiplierArmor>0.50</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+		<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
 		<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
 		<StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
-		<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-		<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
 		<ArmorRating_Heat>0.20</ArmorRating_Heat>
 	</statBases>
 	<equippedStatOffsets>
-		<MeleeHitChance>2.0</MeleeHitChance>
+		<MeleeHitChance>1.0</MeleeHitChance>
 		<MeleeDodgeChance>-2.0</MeleeDodgeChance>
 		<MoveSpeed>-0.2</MoveSpeed>
 	</equippedStatOffsets>
@@ -545,7 +592,7 @@
 <ThingDef ParentName="Kurin_OnSkinBaseTear3">
 	<defName>Kurin_OnSkin_Bikini_Armor</defName>
 	<label>kurin bikini armor</label>
-	<description>Even though a lot went into it, it appears weak and exposed. However, the plasteel mesh is as strong as power armor and significantly increases the wearer's melee strength.</description>
+	<description>Even though a lot went into it, it appears weak and exposed. However, the plasteel mesh provides great durability and increases the wearer's melee strength.</description>
 	<graphicData>
 		<texPath>Kurin/Apparel/OnSkin/Bikini_Armor/Texture</texPath>
 	</graphicData>
@@ -576,20 +623,20 @@
   </options>
 </colorGenerator>
 	<costList>
-		<DevilstrandCloth>100</DevilstrandCloth>
-		<Plasteel>75</Plasteel>
+		<DevilstrandCloth>25</DevilstrandCloth>
+		<Plasteel>15</Plasteel>
 	</costList>
-	<costStuffCount>100</costStuffCount>
+	<costStuffCount>50</costStuffCount>
 	<stuffCategories>
 		<li>Metallic</li>
 	</stuffCategories>
 	<statBases>
 		<MaxHitPoints>300</MaxHitPoints>
-		<WorkToMake>32000</WorkToMake>
-		<StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
-		<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
-		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
-		<Insulation_Cold>20</Insulation_Cold>
+		<WorkToMake>16000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+		<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+		<Insulation_Cold>10</Insulation_Cold>
 		<Insulation_Heat>10</Insulation_Heat>
 	</statBases>
 	<apparel>
@@ -599,9 +646,6 @@
 			<!--Royal-->
 			<li>Kurin_Melee</li>
 		</tags>
-		<layers>
-			<li>Shell</li>
-		</layers>
 		<bodyPartGroups>
 			<li>Torso</li>
 			<li>Legs</li>
@@ -615,8 +659,8 @@
 	</apparel>
 	<equippedStatOffsets>
 		<MeleeHitChance>2.0</MeleeHitChance>
-		<MeleeDodgeChance>8.0</MeleeDodgeChance>
-		<MoveSpeed>0.3</MoveSpeed>
+		<MeleeDodgeChance>4.0</MeleeDodgeChance>
+		<MoveSpeed>0.2</MoveSpeed>
 	</equippedStatOffsets>
 </ThingDef>
 
@@ -631,23 +675,23 @@
 		<texPath>Kurin/Apparel/OnSkin/Military_Uniform/Texture</texPath>
 	</graphicData>
 	<costList>
-		<DevilstrandCloth>25</DevilstrandCloth>
-		<Plasteel>50</Plasteel>
+		<DevilstrandCloth>15</DevilstrandCloth>
+		<Plasteel>15</Plasteel>
 	</costList>
-	<costStuffCount>75</costStuffCount>
+	<costStuffCount>50</costStuffCount>
 	<stuffCategories>
 		<li>Fabric</li>
 		<li>Leathery</li>
 	</stuffCategories>
 	<statBases>
 		<MaxHitPoints>300</MaxHitPoints>
-		<WorkToMake>32000</WorkToMake>
+		<WorkToMake>16000</WorkToMake>
 		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
 		<StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
 		<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
-		<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
-		<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
-		<ArmorRating_Heat>0.20</ArmorRating_Heat>
+		<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.10</ArmorRating_Heat>
 	</statBases>
 	<equippedStatOffsets>
 		<ShootingAccuracyPawn>2.0</ShootingAccuracyPawn>
@@ -1013,4 +1057,73 @@
 		<NegotiationAbility>0.3</NegotiationAbility>
 	</equippedStatOffsets>
 </ThingDef>
+<!--================================================== Tier 4 Armor ==================================================-->
+<!-- Waterfox armor was supposed to be an underwear, so this tier is now orphaned for now -->
+<!-- 
+<ThingDef Name="Kurin_OnSkinT4" ParentName="Kurin_OnSkinBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT4</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kurin_Glitterworld</li>
+			<li>Royal</li>
+			<li>RoyalTier1</li>
+        	<li>RoyalTier2</li>
+			<li>RoyalTier3</li>
+			<li>RoyalTier4</li>
+			<li>RoyalTier5</li>
+			<li>RoyalTier6</li>
+			<li>RoyalTier7</li>
+		</tags>
+	</apparel>
+</ThingDef> -->
+
+<!-- <ThingDef ParentName="Kurin_OnSkinT4">
+	<defName>Kurin_Waterfox_Armor</defName>
+	<label>kurin waterfox skinsuit</label>
+	<description>Replica combat skinsuit from the old Kurin republic. The Waterfox logistical corp dedicated themselves to supplying the Kurin military. This skinsuit provided basic protection while improving work efficiency.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Waterfox_armor/Texture</texPath>
+	</graphicData>
+	<tradeTags>
+      <li>HiTechArmor</li>
+    </tradeTags>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Plasteel>50</Plasteel>
+      <Uranium>10</Uranium>
+	  <DevilstrandCloth>75</DevilstrandCloth>
+    </costList>
+	<statBases>
+		<MaxHitPoints>200</MaxHitPoints>
+		<WorkToMake>40000</WorkToMake>
+		<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.19</ArmorRating_Blunt>
+		<ArmorRating_Heat>4.0</ArmorRating_Heat>
+		<Insulation_Cold>48</Insulation_Cold>
+    	<Insulation_Heat>48</Insulation_Heat>
+		<EquipDelay>2</EquipDelay>
+	</statBases>
+	<equippedStatOffsets>
+		<WorkSpeedGlobal>0.3</WorkSpeedGlobal>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+			<li>Arms</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Feet</li>
+			<li>Hands</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Waterfox_armor/Texture</wornGraphicPath>
+		<tags>
+			<li>Kurin_Glitterworld</li>
+ 			<li>RoyalCombatGear</li>
+		</tags>
+	</apparel>
+</ThingDef> -->
+
 </Defs>

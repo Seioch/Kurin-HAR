@@ -25,7 +25,7 @@
 			<commonality>1</commonality>
 		</li>
 	</backstoryFilters>
-	<factionIconPath>Kurin/Faction/Texture_Player</factionIconPath>
+	<factionIconPath>Kurin/Faction/TextureNew</factionIconPath>
 	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
@@ -69,7 +69,7 @@
 	<canSiege>false</canSiege>
 	<canStageAttacks>true</canStageAttacks>
 	<leaderTitle>President</leaderTitle>
-	<factionIconPath>Kurin/Faction/Texture_Republic</factionIconPath>
+	<factionIconPath>Kurin/Faction/TextureNew</factionIconPath>
 	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 	<techLevel>Industrial</techLevel>
@@ -267,7 +267,7 @@
 	<canSiege>True</canSiege>
 	<canStageAttacks>true</canStageAttacks>
 	<leaderTitle>Warlord</leaderTitle>
-	<factionIconPath>Kurin/Faction/Texture_BattleFox</factionIconPath>
+	<factionIconPath>Kurin/Faction/TextureNew</factionIconPath>
 	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 	<techLevel>Industrial</techLevel>

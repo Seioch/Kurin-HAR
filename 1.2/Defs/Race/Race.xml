@@ -57,18 +57,18 @@
 	
 
 		<alienPartGenerator>
-            <alienbodytypes>
-                <li>Female</li>
-            </alienbodytypes>
-            <aliencrowntypes>
-                <li>Average_Normal</li>
-				<li>Average_Pointy</li>
-				<li>Average_Wild</li>
-            </aliencrowntypes>
+      <alienbodytypes>
+          <li>Female</li>
+      </alienbodytypes>
+      <aliencrowntypes>
+          <li>Average_Normal</li>
+          <li>Average_Pointy</li>
+          <li>Average_Wild</li>
+      </aliencrowntypes>
 			<headOffset>(0 ,-0.07)</headOffset>
-            <useGenderedHeads>false</useGenderedHeads>
+      <useGenderedHeads>false</useGenderedHeads>
 			<useGenderedBodies>false</useGenderedBodies>
-            <bodyAddons>
+      <bodyAddons>
 			<!--꼬리A-->
 			<li>
                 <path>Kurin/Tail/Single tails/Texture1</path>
@@ -877,31 +877,33 @@
 		
 		
 		</alienPartGenerator>
-        </generalSettings>
+    </generalSettings>
 
 		<thoughtSettings>
 			<cannotReceiveThoughts>
-				<li>Naked</li>
-				<li>SharedBed</li>
+				<!-- <li>Naked</li>
+				<li>SharedBed</li> -->
+        <li>EnvironmentDark</li>
       </cannotReceiveThoughts>
     </thoughtSettings>
 
 <!--=============================================================================================================================-->
-        <graphicPaths>
-            <li>
-                <head>Kurin/Head/A/</head>
-                <body>Kurin/Body/B/</body>
-            </li>
-        </graphicPaths>
+    <graphicPaths>
+        <li>
+            <head>Kurin/Head/A/</head>
+            <body>Kurin/Body/B/</body>
+        </li>
+    </graphicPaths>
 <!--=============================================================================================================================-->
-        <hairSettings>
-            <hasHair>true</hasHair>
-			<getsGreyAt>85</getsGreyAt>
-            <hairTags>
-                <li>Kurin</li>
-            </hairTags>
-        </hairSettings>
+    <hairSettings>
+        <hasHair>true</hasHair>
+        <getsGreyAt>85</getsGreyAt>
+        <hairTags>
+            <li>Kurin</li>
+        </hairTags>
+    </hairSettings>
 <!--=============================================================================================================================-->
+
 		<raceRestriction>
             <apparelList>
         <li>Apparel_TribalA</li>

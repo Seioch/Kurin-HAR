@@ -6,9 +6,9 @@
 	<alienslavekinds>
 		<li>
 			<kindDefs>
-				<li>Kurin_Colonist</li>
+				<li>Kurin_Citizen</li>
 			</kindDefs>
-			<chance>0.0</chance>
+			<chance>20.0</chance>
 		</li>
 	</alienslavekinds>
 	
@@ -17,7 +17,7 @@
 			<kindDefs>
 				<li>Kurin_Colonist</li>
 			</kindDefs>
-			<chance>0.0</chance>
+			<chance>25.0</chance>
 		</li>
 	</alienrefugeekinds>
 			
@@ -28,11 +28,11 @@
                     <kindDefs>
                         <li>Kurin_Colonist</li>
                     </kindDefs>
-                    <chance>0.0</chance>
+                    <chance>15.0</chance>
                 </li>
             </pawnKindEntries>
             <factionDefs>
-                <li>Kurin_PlayerFaction</li> 
+                <li>PlayerColony</li> 
             </factionDefs>
         </li>
     </startingColonists>
@@ -44,10 +44,11 @@
                     <kindDefs>
                         <li>Kurin_Colonist</li>
                     </kindDefs>
-                    <chance>0.0</chance>
+                    <chance>15.0</chance>
                 </li>
             </pawnKindEntries>
             <factionDefs>
+                <li>PlayerColony</li> 
                 <li>Kurin_PlayerFaction</li> 
             </factionDefs>
         </li>

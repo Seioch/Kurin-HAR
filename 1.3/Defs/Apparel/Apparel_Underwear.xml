@@ -173,5 +173,51 @@
 	</apparel>
 </ThingDef>
 
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Waterfox_Armor</defName>
+	<label>kurin waterfox skinsuit</label>
+	<description>Replica skinsuit from the old Kurin republic. The Waterfox logistical corp dedicated themselves to supplying the Kurin military. This skinsuit provided basic protection while improving work efficiency.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Waterfox_armor/Texture</texPath>
+	</graphicData>
+	<tradeTags>
+      <li>HiTechArmor</li>
+    </tradeTags>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Plasteel>50</Plasteel>
+      <Uranium>10</Uranium>
+	  <DevilstrandCloth>75</DevilstrandCloth>
+    </costList>
+	<statBases>
+		<MaxHitPoints>200</MaxHitPoints>
+		<WorkToMake>40000</WorkToMake>
+		<ArmorRating_Sharp>0.21</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+		<ArmorRating_Heat>4.0</ArmorRating_Heat>
+		<Insulation_Cold>48</Insulation_Cold>
+    	<Insulation_Heat>48</Insulation_Heat>
+		<EquipDelay>2</EquipDelay>
+	</statBases>
+	<equippedStatOffsets>
+		<WorkSpeedGlobal>0.3</WorkSpeedGlobal>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+			<li>Arms</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Feet</li>
+			<li>Hands</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Waterfox_armor/Texture</wornGraphicPath>
+		<tags>
+			<li>Kurin_Glitterworld</li>
+ 			<li>RoyalCombatGear</li>
+		</tags>
+	</apparel>
+</ThingDef>
 
 </Defs>

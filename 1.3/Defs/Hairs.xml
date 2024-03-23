@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Defs>  
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
 	<HairDef>
 		<defName>DRNTF_Hair_01</defName>
 		<label>Kurin_Hair_01</label>
@@ -9,7 +9,7 @@
 			<li>Kurin</li>
 		</styleTags>
 	</HairDef>
-	
+
 	<HairDef>
 		<defName>DRNTF_Hair_02</defName>
 		<label>Kurin_Hair_02</label>
@@ -19,7 +19,7 @@
 			<li>Kurin</li>
 		</styleTags>
 	</HairDef>
-	
+
 	<HairDef>
 		<defName>DRNTF_Hair_03</defName>
 		<label>Kurin_Hair_03</label>
@@ -29,7 +29,7 @@
 			<li>Kurin</li>
 		</styleTags>
 	</HairDef>
-	
+
 	<HairDef>
 		<defName>DRNTF_Hair_04</defName>
 		<label>Kurin_Hair_04</label>
@@ -39,7 +39,7 @@
 			<li>Kurin</li>
 		</styleTags>
 	</HairDef>
-	
+
 	<HairDef>
 		<defName>DRNTF_Hair_05</defName>
 		<label>Kurin_Hair_05</label>
@@ -49,7 +49,7 @@
 			<li>Kurin</li>
 		</styleTags>
 	</HairDef>
-	
+
 	<HairDef>
 		<defName>DRNTF_Hair_06</defName>
 		<label>Kurin_Hair_06</label>
@@ -59,7 +59,7 @@
 			<li>Kurin</li>
 		</styleTags>
 	</HairDef>
-	
+
 	<HairDef>
 		<defName>DRNTF_Hair_07</defName>
 		<label>Kurin_Hair_07</label>
@@ -69,7 +69,7 @@
 			<li>Kurin</li>
 		</styleTags>
 	</HairDef>
-	
+
 	<HairDef>
 		<defName>DRNTF_Hair_08</defName>
 		<label>Kurin_Hair_08</label>
@@ -99,12 +99,72 @@
 			<li>Kurin</li>
 		</styleTags>
 	</HairDef>
-	
+
 	<HairDef>
 		<defName>DRNTF_Hair_11</defName>
 		<label>Kurin_Hair_11</label>
 		<hairGender>Any</hairGender>
 		<texPath>Kurin/Hairs/11/DRNTF_Hair_11</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Arxian_Hair_A</defName>
+		<label>Kurin_Hair_12</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/12A/A</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Arxian_Hair_B</defName>
+		<label>Kurin_Hair_13</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/13A/B</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Arxian_Hair_C</defName>
+		<label>Kurin_Hair_14</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/14A/C</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Arxian_Hair_D</defName>
+		<label>Kurin_Hair_15</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/15A/D</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Arxian_Hair_E</defName>
+		<label>Kurin_Hair_16</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/16A/E</texPath>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Arxian_Hair_F</defName>
+		<label>Kurin_Hair_17</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/17A/F</texPath>
 		<styleTags>
 			<li>Kurin</li>
 		</styleTags>
