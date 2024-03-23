@@ -136,20 +136,34 @@
       <HediffDef>KurinTailBlade</HediffDef>
     </descriptionHyperlinks>
     <jobString>Installing tail blade.</jobString>
+	<skillRequirements>
+		<Medicine>5</Medicine>
+	</skillRequirements>
     <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>KurinTailBlade</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
+		<li>
+			<filter>
+				<categories>
+					<li>Medicine</li>
+				</categories>
+			</filter>
+			<count>2</count>
+		</li>
+        <li>
+			<filter>
+			<thingDefs>
+				<li>KurinTailBlade</li>
+			</thingDefs>
+			</filter>
+			<count>1</count>
+        </li>
     </ingredients>
     <fixedIngredientFilter>
-      <thingDefs>
-        <li>KurinTailBlade</li>
-      </thingDefs>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>KurinTailBlade</li>
+		</thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Kurin_Tail</li>
