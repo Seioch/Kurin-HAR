@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!--=============== Kurin Ceremonial Polearm ====================-->
+
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+	<defName>Kurin_MeleeWeapon_Ceremonial_Polearm</defName>
+	<label>kurin ceremonial polearm</label>
+	<description>A large staff with sharp blades at each end. Designed for fast slashes and stabs, this is a fearsome weapon of Kurin guards. However, this weapons is now simply a replica: the original, deadlier design was lost in the fall of the Kurin Republic.</description>
+	<graphicData>
+		<texPath>Kurin/Weapon/Ceremonial_Polearm/Texture</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+  <uiIconScale>1.0</uiIconScale>
+  <equippedAngleOffset>-20</equippedAngleOffset>
+	<techLevel>Industrial</techLevel>
+	<weaponTags>
+		<li>Kurin_Ceremonial_Polearm</li>
+	</weaponTags>
+	<costStuffCount>225</costStuffCount>
+	<statBases>
+		<WorkToMake>24000</WorkToMake>
+		<Mass>3</Mass>
+	</statBases>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
+	<tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.3</cooldownTime>
+        <armorPenetration>0.4</armorPenetration>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.3</cooldownTime>
+        <armorPenetration>0.4</armorPenetration>
+      </li>
+	</tools>
+	<recipeMaker>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>14</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+</ThingDef>
+
+</Defs>

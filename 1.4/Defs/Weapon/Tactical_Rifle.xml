@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="BaseMakeableGun">
+	<defName>Kurin_Gun_Assault_Rifle</defName>
+	<label>kurin assault rifle</label>
+	<description>A unique Kurin developed assault rifle. Faster projectiles and higher armor penetration at the cost of lower damage and smaller burst. Cheaper to manufacture than the traditional assault rifle.</description>
+	<graphicData>
+		<texPath>Kurin/Weapon/Assault_Rifle/Texture</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<soundInteract>Interact_Rifle</soundInteract>
+	<statBases>
+		<WorkToMake>48000</WorkToMake>
+		<Mass>3.0</Mass>
+		<AccuracyTouch>0.60</AccuracyTouch>
+		<AccuracyShort>0.70</AccuracyShort>
+		<AccuracyMedium>0.60</AccuracyMedium>
+		<AccuracyLong>0.50</AccuracyLong>
+		<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+	</statBases>
+	<weaponTags>
+		<li>Kurin_Rifle</li>
+	</weaponTags>
+	<costList>
+		<Steel>75</Steel>
+		<ComponentIndustrial>5</ComponentIndustrial>
+	</costList>
+	<recipeMaker>
+		<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+	<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Kurin_Bullet_Assault_Rifle</defaultProjectile>
+			<warmupTime>1.0</warmupTime>
+			<range>30.9</range>
+			<burstShotCount>2</burstShotCount>
+			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+			<soundCast>Kurin_Shot_Tactical_Rifle</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</li>
+	</verbs>
+	<tools>
+		<li>
+			<label>stock</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>barrel</label>
+			<capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+	</tools>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+	<defName>Kurin_Bullet_Assault_Rifle</defName>
+	<label>kurin assault rifle bullet</label>
+	<projectile>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>12</damageAmountBase>
+		<stoppingPower>1.0</stoppingPower>
+		<armorPenetrationBase>0.32</armorPenetrationBase>
+		<speed>100</speed>
+	</projectile>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+</ThingDef>
+
+<ThingDef ParentName="BaseMakeableGun">
+	<defName>Kurin_Gun_Carbine</defName>
+	<label>kurin carbine</label>
+	<description>A unique Kurin developed carbine. Short ranged, but faster projectiles and higher armor penetration. Cheaper to manufacture than the traditional assault rifle.</description>
+	<graphicData>
+		<texPath>Kurin/Weapon/Carbine/Texture</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<soundInteract>Interact_Rifle</soundInteract>
+	<statBases>
+		<WorkToMake>48000</WorkToMake>
+		<Mass>3.0</Mass>
+		<AccuracyTouch>0.80</AccuracyTouch>
+		<AccuracyShort>0.80</AccuracyShort>
+		<AccuracyMedium>0.50</AccuracyMedium>
+		<AccuracyLong>0.40</AccuracyLong>
+		<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+	</statBases>
+	<weaponTags>
+		<li>Kurin_Carbine</li>
+	</weaponTags>
+	<costList>
+		<Steel>75</Steel>
+		<ComponentIndustrial>5</ComponentIndustrial>
+	</costList>
+	<recipeMaker>
+		<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+	<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Kurin_Bullet_Assault_Rifle</defaultProjectile>
+			<warmupTime>1.0</warmupTime>
+			<range>20.9</range>
+			<burstShotCount>3</burstShotCount>
+			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+			<soundCast>Kurin_Shot_Tactical_Rifle</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</li>
+	</verbs>
+	<tools>
+		<li>
+			<label>stock</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>barrel</label>
+			<capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+	</tools>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+	<defName>Kurin_Bullet_Carbine</defName>
+	<label>kurin assault carbine</label>
+	<projectile>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>8</damageAmountBase>
+		<stoppingPower>1.0</stoppingPower>
+		<armorPenetrationBase>0.22</armorPenetrationBase>
+		<speed>100</speed>
+	</projectile>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+</ThingDef>
+
+<ThingDef ParentName="BaseMakeableGun">
+	<defName>Kurin_Gun_Sniper_Rifle</defName>
+	<label>kurin sniper rifle</label>
+	<description>A unique Kurin developed DMR. Faster shooting than the sniper rifle with lower damage and armor penetration.</description>
+	<graphicData>
+		<texPath>Kurin/Weapon/Sniper_Rifle/Texture</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<soundInteract>Interact_Rifle</soundInteract>
+	<statBases>
+		<WorkToMake>48000</WorkToMake>
+		<Mass>3.0</Mass>
+		<AccuracyTouch>0.60</AccuracyTouch>
+		<AccuracyShort>0.70</AccuracyShort>
+		<AccuracyMedium>0.80</AccuracyMedium>
+		<AccuracyLong>0.90</AccuracyLong>
+		<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+	</statBases>
+	<weaponTags>
+		<li>Kurin_Sniper_Rifle</li>
+	</weaponTags>
+	<costList>
+		<Steel>90</Steel>
+		<ComponentIndustrial>5</ComponentIndustrial>
+	</costList>
+	<recipeMaker>
+		<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+	<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Kurin_Bullet_Sniper_Rifle</defaultProjectile>
+			<warmupTime>1.4</warmupTime>
+			<range>41.9</range>
+			<soundCast>Kurin_Shot_Tactical_Rifle</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</li>
+	</verbs>
+	<tools>
+		<li>
+			<label>stock</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>barrel</label>
+			<capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+	</tools>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+	<defName>Kurin_Bullet_Sniper_Rifle</defName>
+	<label>kurin sniper rifle bullet</label>
+	<projectile>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>18</damageAmountBase>
+		<stoppingPower>1.1</stoppingPower>
+		<armorPenetrationBase>0.33</armorPenetrationBase>
+		<speed>140</speed>
+	</projectile>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+</ThingDef>
+
+<SoundDef>
+	<defName>Kurin_Shot_Tactical_Rifle</defName>  
+	<context>MapOnly</context>  
+	<maxSimultaneous>1</maxSimultaneous>  
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Kurin/TacticalRifle</clipPath>
+				</li>
+			</grains>      
+			<volumeRange>25~25</volumeRange>
+		</li>
+	</subSounds>
+</SoundDef>
+
+</Defs>
