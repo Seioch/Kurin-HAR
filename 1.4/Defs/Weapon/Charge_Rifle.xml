@@ -27,7 +27,9 @@
 		<ComponentSpacer>5</ComponentSpacer>
 	</costList>
 	<recipeMaker>
-		<researchPrerequisite>ChargedShot</researchPrerequisite>
+		<researchPrerequisites>
+			<li>Kurin_CombatT4</li>
+		</researchPrerequisites>
 		<skillRequirements>
 			<Crafting>8</Crafting>
 		</skillRequirements>

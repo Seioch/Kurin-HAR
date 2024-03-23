@@ -32,19 +32,6 @@
     <backstoryCategories>
       <li>Kurin_Citizen</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>100</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
 <!--자경단-->
   <PawnKindDef ParentName="Kurin_RepublicBase">
@@ -71,19 +58,6 @@
     <backstoryCategories>
       <li>Kurin_Citizen</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>100</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
 <!--상인-->
   <PawnKindDef ParentName="Kurin_RepublicBase">
@@ -104,19 +78,6 @@
     <backstoryCategories>
       <li>Kurin_Trader</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>500</min>
-            <max>600</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
 <!--엘리트-->
   <PawnKindDef ParentName="Kurin_RepublicBase">
@@ -145,19 +106,6 @@
     <backstoryCategories>
       <li>Kurin_Elite</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>100</min>
-            <max>300</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
 <!--군인(분대원)-->
   <PawnKindDef ParentName="Kurin_RepublicBase">
@@ -191,19 +139,6 @@
       <li>Kurin_Army</li>
       <li>Kurin_Soldier</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>100</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
 <!--군인(분대장)-->
   <PawnKindDef ParentName="Kurin_RepublicBase">
@@ -237,19 +172,6 @@
       <li>Kurin_Army</li>
       <li>Kurin_EliteSoldier</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>100</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
 <!--군인(저격수)-->
   <PawnKindDef ParentName="Kurin_RepublicBase">
@@ -281,19 +203,6 @@
     <backstoryCategories>
       <li>Kurin_Army</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>100</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
 
 <!--=============Special===============-->
@@ -324,19 +233,6 @@
     <backstoryCategories>
       <li>Kurin_Warmonger</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>80</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
   
    <PawnKindDef ParentName="Kurin_HostileBase">
@@ -366,20 +262,5 @@
     <backstoryCategories>
 	  <li>Kurin_Warmonger</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>80</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
-
-
 </Defs>

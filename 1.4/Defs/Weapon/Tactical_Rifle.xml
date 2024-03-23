@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+<!-- AR -->
 <ThingDef ParentName="BaseMakeableGun">
 	<defName>Kurin_Gun_Assault_Rifle</defName>
 	<label>kurin assault rifle</label>
@@ -27,7 +28,10 @@
 		<ComponentIndustrial>5</ComponentIndustrial>
 	</costList>
 	<recipeMaker>
-		<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+		<researchPrerequisites>
+			<li>Kurin_CombatT3</li>
+			<li>PrecisionRifling</li>
+		</researchPrerequisites>
 		<skillRequirements>
 			<Crafting>6</Crafting>
 		</skillRequirements>
@@ -83,6 +87,7 @@
 	</graphicData>
 </ThingDef>
 
+<!-- SMG -->
 <ThingDef ParentName="BaseMakeableGun">
 	<defName>Kurin_Gun_Carbine</defName>
 	<label>kurin carbine</label>
@@ -109,7 +114,10 @@
 		<ComponentIndustrial>5</ComponentIndustrial>
 	</costList>
 	<recipeMaker>
-		<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+		<researchPrerequisites>
+			<li>Kurin_CombatT3</li>
+			<li>GasOperation</li>
+		</researchPrerequisites>
 		<skillRequirements>
 			<Crafting>6</Crafting>
 		</skillRequirements>
@@ -165,6 +173,7 @@
 	</graphicData>
 </ThingDef>
 
+<!-- SR -->
 <ThingDef ParentName="BaseMakeableGun">
 	<defName>Kurin_Gun_Sniper_Rifle</defName>
 	<label>kurin sniper rifle</label>
@@ -191,7 +200,10 @@
 		<ComponentIndustrial>5</ComponentIndustrial>
 	</costList>
 	<recipeMaker>
-		<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+		<researchPrerequisites Inherit="false">
+			<li>Kurin_CombatT3</li>
+			<li>PrecisionRifling</li>
+		</researchPrerequisites>
 		<skillRequirements>
 			<Crafting>6</Crafting>
 		</skillRequirements>

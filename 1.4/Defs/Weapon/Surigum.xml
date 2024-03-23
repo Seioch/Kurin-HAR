@@ -27,14 +27,15 @@
 	<uiIconScale>1.0</uiIconScale>
     <equippedAngleOffset>-65</equippedAngleOffset>
 	<statBases>
-		<WorkToMake>8000</WorkToMake>
+		<WorkToMake>4000</WorkToMake>
 		<Mass>0.4</Mass>
 		<AccuracyTouch>0.7</AccuracyTouch>
-		<AccuracyShort>0.6</AccuracyShort>
-		<AccuracyMedium>0.4</AccuracyMedium>
+		<AccuracyShort>0.55</AccuracyShort>
+		<AccuracyMedium>0.35</AccuracyMedium>
 		<AccuracyLong>0.2</AccuracyLong>
-		<RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+		<RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
 	</statBases>
+	<relicChance>2</relicChance>
 	<weaponTags>
 		<li>Kurin_Surigum</li>
 	</weaponTags>
@@ -45,6 +46,9 @@
 		<skillRequirements>
 			<Crafting>6</Crafting>
 		</skillRequirements>
+		<researchPrerequisites>
+			<li>Kurin_CombatT2</li>
+		</researchPrerequisites>
 	</recipeMaker>
 	<verbs>
 		<li>
@@ -62,7 +66,7 @@
 				<li>Stab</li>
 				<li>Cut</li>
 			</capacities>
-			<power>10</power>
+			<power>8</power>
 			<cooldownTime>1.0</cooldownTime>
 		</li>
 	</tools>

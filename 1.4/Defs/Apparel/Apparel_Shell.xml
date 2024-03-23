@@ -10,6 +10,9 @@
 		<layers>
 			<li>Shell</li>
 		</layers>
+		<tags>
+			<li>Kurin_Colonist</li>
+		</tags>
 	</apparel>
 	<thingCategories>
 		<li>Kurin_Apparel_Shell</li>
@@ -25,10 +28,15 @@
 	<apparel>
 		<tags>
 			<li>Kurin_Colonist</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Grunt</li>
+			<li>Kurin_Ninja</li>
 		</tags>
 	</apparel>
 </ThingDef>
 
+<!-- Cardigan -->
 <ThingDef ParentName="Kurin_ShellBaseTear1">
 	<defName>Kurin_Shell_Cardigan</defName>
 	<label>kurin cardigan</label>
@@ -58,6 +66,7 @@
 	</apparel>
 </ThingDef>
 
+<!-- Duster -->
 <ThingDef ParentName="Kurin_ShellBaseTear1">
 	<defName>Kurin_Shell_Duster</defName>
 	<label>kurin duster</label>
@@ -89,7 +98,25 @@
 	</apparel>
 </ThingDef>
 
-<ThingDef ParentName="Kurin_ShellBaseTear1">
+<!--================================================== Tear 2 ==================================================-->
+
+<ThingDef Name="Kurin_ShellBaseTear2" ParentName="Kurin_ShellBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT2</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Grunt</li>
+			<li>Kurin_Ninja</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<!-- Winter padding -->
+<ThingDef ParentName="Kurin_ShellBaseTear2">
 	<defName>Kurin_Shell_Winter_Padding</defName>
 	<label>kurin winter padding</label>
 	<description>두꺼운 겨울 패딩입니다. 추위를 잘 타는 쿠린들에게는 겨울 필수품입니다.</description>
@@ -119,7 +146,35 @@
 	</apparel>
 </ThingDef>
 
-<!--================================================== Tear 2 ==================================================-->
+<!-- Traditional coat -->
+<ThingDef ParentName="Kurin_ShellBaseTear2">
+	<defName>Kurin_OnSkin_Traditional_Coat</defName>
+	<label>kurin traditional coat</label>
+	<description>단조로운 남색 코트 위에 흰색 무늬가 인상적인 쿠린들의 전통의상입니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Shell/Traditional_Coat/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Arms</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Shell/Traditional_Coat/Texture</wornGraphicPath>
+	</apparel>
+	<costStuffCount>75</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>200</MaxHitPoints>
+		<WorkToMake>8000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>2.00</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+</ThingDef>
 
 <!--================================================== Tear 3 ==================================================-->
 
@@ -138,49 +193,12 @@
 			<li>RoyalTier5</li>
 			<li>RoyalTier6</li>
 			<li>RoyalTier7</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Grunt</li>
+			<li>Kurin_Ninja</li>
 		</tags>
 	</apparel>
-</ThingDef>
-
-<ThingDef ParentName="Kurin_ShellBaseTear3">
-	<defName>Kurin_OnSkin_Traditional_Coat</defName>
-	<label>kurin traditional coat</label>
-	<description>단조로운 남색 코트 위에 흰색 무늬가 인상적인 쿠린들의 전통의상입니다.</description>
-	<graphicData>
-		<texPath>Kurin/Apparel/Shell/Traditional_Coat/Texture</texPath>
-	</graphicData>
-	<apparel>
-		<bodyPartGroups>
-			<li>Torso</li>
-			<li>Shoulders</li>
-			<li>Arms</li>
-			<li>Legs</li>
-		</bodyPartGroups>
-		<wornGraphicPath>Kurin/Apparel/Shell/Traditional_Coat/Texture</wornGraphicPath>
-		<tags>
-			<li>Royal</li>
-			<li>RoyalTier5</li>
-			<li>Kurin_Trader</li>
-		</tags>
-	</apparel>
-	<costList>
-		<DevilstrandCloth>25</DevilstrandCloth>
-	</costList>
-	<costStuffCount>100</costStuffCount>
-	<stuffCategories>
-		<li>Fabric</li>
-		<li>Leathery</li>
-	</stuffCategories>
-	<statBases>
-		<MaxHitPoints>250</MaxHitPoints>
-		<WorkToMake>12000</WorkToMake>
-		<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
-		<StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
-		<StuffEffectMultiplierInsulation_Heat>0.80</StuffEffectMultiplierInsulation_Heat>
-	</statBases>
-	<equippedStatOffsets>
-		<SocialImpact>0.2</SocialImpact>
-	</equippedStatOffsets>
 </ThingDef>
 
 <!--================================================== Endgame Armor ==================================================-->
@@ -216,14 +234,14 @@
 		<texPath>Kurin/Apparel/OnSkin/Redfox_armor/Texture</texPath>
 	</graphicData>
 	<tradeTags>
-      <li>HiTechArmor</li>
+		<li>HiTechArmor</li>
     </tradeTags>
-    <costList>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Plasteel>100</Plasteel>
-      <Uranium>40</Uranium>
-	  <DevilstrandCloth>75</DevilstrandCloth>
-    </costList>
+	<costList>
+		<ComponentSpacer>4</ComponentSpacer>
+		<Plasteel>100</Plasteel>
+		<Uranium>40</Uranium>
+		<Synthread>75</Synthread>
+	</costList>
 	<statBases>
 		<MaxHitPoints>300</MaxHitPoints>
 		<WorkToMake>64000</WorkToMake>

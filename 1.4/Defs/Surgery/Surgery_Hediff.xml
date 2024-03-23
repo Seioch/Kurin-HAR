@@ -96,5 +96,26 @@
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
+  
+  
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>Kurin_MechanitorEarHediff</defName>
+		<label>mechanitor kurin ear</label>
+		<labelNoun>a mechanitor kurin ear</labelNoun>
+		<description>A mechanitor kurin ear</description>
+		<spawnThingOnRemoved>Kurin_MechanitorEar</spawnThingOnRemoved>
+		<stages>
+		  <li MayRequire="Ludeon.RimWorld.Biotech">
+			<statOffsets>
+			  <MechBandwidth>3</MechBandwidth>
+			</statOffsets>
+		  </li>
+		</stages>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.8</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
 
 </Defs>

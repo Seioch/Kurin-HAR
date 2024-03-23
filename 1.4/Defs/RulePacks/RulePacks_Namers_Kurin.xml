@@ -249,7 +249,7 @@
 		<li>KFirstName->Yuri</li> -->
 		
 		<!--Nicknames-->
-        <!--<li>KNickname->[KNick]</li>
+        <li>KNickname->[KNick]</li> <!--
         <li>KNickname->Catlady</li>
 		<li>KNickname->CatHoarder</li>
 		<li>KNickname->Furballs</li>

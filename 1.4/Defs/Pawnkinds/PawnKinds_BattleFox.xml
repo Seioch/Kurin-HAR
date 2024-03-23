@@ -4,13 +4,14 @@
     <race>Kurin_Race</race>
     <defaultFactionType>Kurin_Faction_Hostile</defaultFactionType>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-    <invNutrition>3</invNutrition>
+    <invNutrition>2.4</invNutrition>
     <apparelRequired>
       <li>Kurin_Underwear</li>
     </apparelRequired>
 	<apparelIgnoreSeasons>false</apparelIgnoreSeasons>
-  <initialWillRange>3~5</initialWillRange>
-  <initialResistanceRange>6~10</initialResistanceRange>
+	<initialWillRange>3~5</initialWillRange>
+	<initialResistanceRange>6~10</initialResistanceRange>
+	<gearHealthRange>0.3~0.6</gearHealthRange>
   </PawnKindDef>
   
    <PawnKindDef ParentName="Kurin_HostileBase">
@@ -38,19 +39,6 @@
       <li>Kurin_Citizen</li>
       <li>Kurin_Army</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0.8</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>80</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>50</min>
-            <max>150</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
   
    <PawnKindDef ParentName="Kurin_HostileBase">
@@ -105,19 +93,6 @@
     <backstoryCategories>
       <li>Kurin_Citizen</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0.6</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>10</min>
-            <max>140</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
   
 <!--====== Tier 2 =====-->
@@ -147,19 +122,6 @@
       <li>Kurin_Citizen</li>
       <li>Kurin_Army</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>10</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
   
    <PawnKindDef ParentName="Kurin_HostileBase">
@@ -188,19 +150,6 @@
       <li>Kurin_Citizen</li>
       <li>Kurin_Army</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>80</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
    
    <PawnKindDef ParentName="Kurin_HostileBase">
@@ -231,19 +180,6 @@
       <li>Kurin_Citizen</li>
       <li>Kurin_Army</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>80</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
   
    <PawnKindDef ParentName="Kurin_HostileBase">
@@ -275,19 +211,6 @@
       <li>Apparel_ShieldBelt</li>
       <li>Kurin_OnSkin_Traditional_Fancy_Dress</li>
     </apparelRequired>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>80</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
 
    <PawnKindDef ParentName="Kurin_HostileBase">
@@ -301,8 +224,10 @@
       <max>1200</max>
     </apparelMoney>
     <apparelTags>
-      <li>Kurin_Grunt</li>
-      <li>Kurin_Military</li>
+		<li>Kurin_Grunt</li>
+		<li>Kurin_Military</li>
+		<li>BeltDefensePop</li>
+		<li>Kurin_Melee</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
     <weaponTags>
@@ -317,19 +242,6 @@
       <li>Kurin_Citizen</li>
       <li>Kurin_Army</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>80</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
   
    <PawnKindDef ParentName="Kurin_HostileBase">
@@ -358,19 +270,6 @@
       <li>Kurin_Citizen</li>
       <li>Kurin_Army</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>80</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
   <!--============Tier 3============-->
   
@@ -401,19 +300,6 @@
       <li>Kurin_EliteSoldier</li>
       <li>Kurin_Army</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>80</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
   
    <PawnKindDef ParentName="Kurin_HostileBase">
@@ -444,19 +330,6 @@
       <li>Kurin_EliteSoldier</li>
       <li>Kurin_Army</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>80</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
     
    <PawnKindDef ParentName="Kurin_HostileBase">
@@ -486,19 +359,6 @@
       <li>Kurin_EliteSoldier</li>
       <li>Kurin_Army</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>80</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
   
    <PawnKindDef ParentName="Kurin_HostileBase">
@@ -527,19 +387,6 @@
       <li>Kurin_EliteSoldier</li>
       <li>Kurin_Army</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>80</min>
-            <max>100</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
   <!--=============Special===============-->
   
@@ -568,19 +415,6 @@
     <backstoryCategories>
       <li>Kurin_Warmonger</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>80</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
   
    <PawnKindDef ParentName="Kurin_HostileBase">
@@ -609,18 +443,46 @@
     <backstoryCategories>
 	  <li>Kurin_Warmonger</li>
     </backstoryCategories>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>80</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
   </PawnKindDef>
 </Defs>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

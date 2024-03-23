@@ -46,7 +46,7 @@
 			</li>
 			<li>
 				<def>Kurin_Tail</def>
-				<customLabel>tailtop</customLabel>
+				<customLabel>Right tail</customLabel>
 				<coverage>0.02</coverage>
 				<height>Bottom</height>
 				<groups>
@@ -55,7 +55,7 @@
 			</li>
 			<li>
 				<def>Kurin_Tail</def>
-				<customLabel>tailbottom</customLabel>
+				<customLabel>Left tail</customLabel>
 				<coverage>0.02</coverage>
 				<height>Bottom</height>
 				<groups>
@@ -64,7 +64,7 @@
 			</li>
 			<li>
 				<def>Kurin_Tail</def>
-				<customLabel>tailmiddle</customLabel>
+				<customLabel>Middle tail</customLabel>
 				<coverage>0.02</coverage>
 				<height>Bottom</height>
 				<groups>
@@ -216,7 +216,6 @@
 								<groups>
 									<li>Teeth</li>
 									<li>FullHead</li>
-									<li>Mouth</li>
 								</groups>
 								<parts>
 									<li>
@@ -616,13 +615,11 @@
 <BodyPartDef>
 	<defName>Kurin_Tail</defName>
 	<label>tail</label>
-	<hitPoints>10</hitPoints>
+	<hitPoints>15</hitPoints>
 	<frostbiteVulnerability>0</frostbiteVulnerability>
 	<skinCovered>false</skinCovered>
-	<beautyRelated>true</beautyRelated>
-	<tags>
-		<li>MovingLimbSegment</li>
-	</tags>
+	<beautyRelated>false</beautyRelated>
+	<bleedRate>0.33</bleedRate>
 </BodyPartDef>
 
 <BodyPartDef>
@@ -632,6 +629,7 @@
 	<frostbiteVulnerability>5</frostbiteVulnerability>
 	<skinCovered>true</skinCovered>
 	<beautyRelated>true</beautyRelated>
+	<bleedRate>0.1</bleedRate>
 	<tags>
 		<li>HearingSource</li>
 	</tags>

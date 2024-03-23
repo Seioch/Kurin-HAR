@@ -25,7 +25,7 @@
 
 <ThingDef Name="Kurin_MiddleBaseTear2" ParentName="Kurin_MiddleBase" Abstract="True">
 	<recipeMaker>
-		<researchPrerequisite>Kurin_ApparelT2</researchPrerequisite>
+		<researchPrerequisite>Kurin_CombatT2</researchPrerequisite>
 	</recipeMaker>
 	<apparel>
 		<tags>
@@ -57,6 +57,10 @@
 			<li>Kurin_Trooper</li>
 			<li>Kurin_EliteTrooper</li>
 			<li>Kurin_EliteSniper_H</li>
+			<li>Kurin_Ninja</li>
+			<li>Kurin_Warmonger</li>
+			<li>Kurin_Melee</li>
+			<li>Kurin_Military</li>
 		</tags>
 		<wornGraphicPath>Kurin/Apparel/Middle/Body_Armor/Texture</wornGraphicPath>
 	</apparel>

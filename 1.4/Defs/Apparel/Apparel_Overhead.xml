@@ -26,10 +26,26 @@
 		<tags>
 			<li>Kurin_Colonist</li>
 			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Grunt</li>
 		</tags>
 	</apparel>
 </ThingDef>
 
+<ThingDef Name="Kurin_OverheadCombatTier1" ParentName="Kurin_OverheadBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_CombatT1</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kurin_Grunt</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Grunt</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<!-- Winter hat -->
 <ThingDef ParentName="Kurin_OverheadBaseTear1">
 	<defName>Kurin_Overhead_Winter_Hat</defName>
 	<label>kurin winter hat</label>
@@ -57,6 +73,7 @@
 	</apparel>
 </ThingDef>
 
+<!-- Summer hat -->
 <ThingDef ParentName="Kurin_OverheadBaseTear1">
 	<defName>Kurin_Overhead_Summer_Hat</defName>
 	<label>kurin summer hat</label>
@@ -98,6 +115,18 @@
 	</apparel>
 </ThingDef>
 
+<ThingDef Name="Kurin_OverheadCombatTier2" ParentName="Kurin_OverheadBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_CombatT2</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kurin_Grunt</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<!-- Casual hairpin -->
 <ThingDef ParentName="Kurin_OverheadBaseTear2">
 	<defName>Kurin_Overhead_Casual_Hair_Pin</defName>
 	<label>kurin casual hair pin</label>
@@ -131,7 +160,8 @@
 	</equippedStatOffsets>
 </ThingDef>
 
-<ThingDef ParentName="Kurin_OverheadBase">
+<!-- Googles -->
+<ThingDef ParentName="Kurin_OverheadCombatTier2">
 	<defName>Kurin_Overhead_Goggles</defName>
 	<label>kurin goggles</label>
 	<description>전투용 고글입니다. 최소한의 방어력을 제공해줍니다.</description>
@@ -183,8 +213,22 @@
         	<li>RoyalTier2</li>
 		</tags>
 	</apparel>
+	<costList>
+		<Synthread>15</Synthread>
+	</costList>
 </ThingDef>
 
+<ThingDef Name="Kurin_OverheadCombatTier3" ParentName="Kurin_OverheadBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_CombatT3</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+		<Synthread>20</Synthread>
+		<Plasteel>15</Plasteel>
+	</costList>
+</ThingDef>
+
+<!-- Gothic hairpin -->
 <ThingDef ParentName="Kurin_OverheadBaseTear3">
 	<defName>Kurin_Overhead_Gothic_Hair_Pin</defName>
 	<label>kurin gothic hair pin</label>
@@ -192,9 +236,6 @@
 	<graphicData>
 		<texPath>Kurin/Apparel/Overhead/Gothic_Hair_Pin/Texture</texPath>
 	</graphicData>
-	<costList>
-		<DevilstrandCloth>25</DevilstrandCloth>
-	</costList>
 	<costStuffCount>50</costStuffCount>
 	<stuffCategories>
 		<li>Fabric</li>
@@ -214,11 +255,12 @@
 		<wornGraphicPath>Kurin/Apparel/Overhead/Gothic_Hair_Pin/Texture</wornGraphicPath>
 	</apparel>
 	<equippedStatOffsets>
-		<FoodPoisonChance>-0.2</FoodPoisonChance>
+		<PsychicSensitivityOffset>0.15</PsychicSensitivityOffset>
 	</equippedStatOffsets>
 </ThingDef>
 
-<ThingDef ParentName="Kurin_OverheadBaseTear3">
+<!-- Bikini tiara -->
+<ThingDef ParentName="Kurin_OverheadCombatTier3">
 	<defName>Kurin_Overhead_Bikini_Armor_Headgear</defName>
 	<label>kurin bikini armor headgear</label>
 	<description>비키니 아머용 머리 방어구입니다. 보기보다 매우 튼튼합니다.</description>
@@ -236,9 +278,6 @@
 	<graphicData>
 		<texPath>Kurin/Apparel/Overhead/Bikini_Armor_Headgear/Texture</texPath>
 	</graphicData>
-	<costList>
-		<DevilstrandCloth>25</DevilstrandCloth>
-	</costList>
 	<costStuffCount>50</costStuffCount>
 	<stuffCategories>
 		<li>Metallic</li>
@@ -259,16 +298,14 @@
 	</equippedStatOffsets>
 </ThingDef>
 
-<ThingDef ParentName="Kurin_OverheadBaseTear3">
+<!-- Military helmet -->
+<ThingDef ParentName="Kurin_OverheadCombatTier3">
 	<defName>Kurin_Overhead_Military_Helmet</defName>
 	<label>kurin Military Helmet</label>
 	<description>플라스틸 방탄판이 장착된 전투용 방탄모입니다. 머리를 향해 날라오는 총알을 막을 수 있는 최후의 수단입니다.</description>
 	<graphicData>
 		<texPath>Kurin/Apparel/Overhead/Military_Helmet_A/Texture</texPath>
 	</graphicData>
-	<costList>
-		<DevilstrandCloth>25</DevilstrandCloth>
-	</costList>
 	<costStuffCount>50</costStuffCount>
 	<stuffCategories>
 		<li>Metallic</li>
@@ -300,6 +337,7 @@
 	</apparel>
 </ThingDef>
 
+<!-- Traditional hairpin -->
 <ThingDef ParentName="Kurin_OverheadBaseTear3">
 	<defName>Kurin_Overhead_Traditional_Hair_Pin</defName>
 	<label>kurin traditional hair pin</label>
@@ -307,9 +345,6 @@
 	<graphicData>
 		<texPath>Kurin/Apparel/Overhead/Traditional_Hair_Pin/Texture</texPath>
 	</graphicData>
-	  <costList>
-		<DevilstrandCloth>25</DevilstrandCloth>
-	</costList>
 	<costStuffCount>50</costStuffCount>
 	<stuffCategories>
 		<li>Fabric</li>
@@ -323,7 +358,7 @@
 		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
 	</statBases>
 	<equippedStatOffsets>
-		<TradePriceImprovement>0.5</TradePriceImprovement>
+		<TradePriceImprovement>0.15</TradePriceImprovement>
 	</equippedStatOffsets>
 	<apparel>
 		<bodyPartGroups>
@@ -339,6 +374,7 @@
 	</apparel>
 </ThingDef>
 
+<!-- Cute hairpin -->
 <ThingDef ParentName="Kurin_OverheadBaseTear3">
 	<defName>Kurin_Overhead_Cute_Hair_Pin</defName>
 	<label>kurin cute hair pin</label>
@@ -358,9 +394,6 @@
 	<graphicData>
 		<texPath>Kurin/Apparel/Overhead/Cute_Hair_Pin/Texture</texPath>
 	</graphicData>
-	<costList>
-		<DevilstrandCloth>25</DevilstrandCloth>
-	</costList>
 	<costStuffCount>50</costStuffCount>
 	<stuffCategories>
 		<li>Fabric</li>
@@ -374,7 +407,7 @@
 		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
 	</statBases>
 	<equippedStatOffsets>
-		<SocialImpact>0.5</SocialImpact>
+		<PawnBeauty>1</PawnBeauty>
 	</equippedStatOffsets>
 </ThingDef>
 
@@ -400,6 +433,7 @@
 	</apparel>
 </ThingDef>
 
+<!-- Redfox helmet -->
 <ThingDef ParentName="Kurin_OverheadBaseTear4">
 	<defName>Kurin_Redfox_Helmet</defName>
 	<label>Kurin Redfox Helmet</label>
@@ -411,7 +445,7 @@
       <li>HiTechArmor</li>
     </tradeTags>
 	<costList>
-		<DevilstrandCloth>80</DevilstrandCloth>
+		<Synthread>80</Synthread>
 		<Plasteel>50</Plasteel>
 		<ComponentSpacer>1</ComponentSpacer>
 	</costList>

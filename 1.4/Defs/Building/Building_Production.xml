@@ -1,28 +1,114 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+<DesignatorDropdownGroupDef>
+	<defName>KurinTailoringBenchDropdownDef</defName>
+</DesignatorDropdownGroupDef>
+
+<ThingDef ParentName="BenchBase">
+	<defName>Kurin_Tailoring_Bench</defName>
+	<label>Kurin tailor bench (1x3)</label>
+	<description>A workbench with a sewing machine for rapid tailoring of clothes. Can work without electricity at 50% of normal speed. This one offers bigger workspace (with no technical benefits).</description>
+	<thingClass>Building_WorkTable</thingClass>
+	<designatorDropdown>KurinTailoringBenchDropdownDef</designatorDropdown>
+	<graphicData>
+		<texPath>Kurin/Building/Kurin_Tailoring_Bench/Texture</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawSize>(3, 1.5)</drawSize>
+		<shaderType>CutoutComplex</shaderType>
+		<color>(133,97,67)</color>
+		<damageData>
+			<cornerTL>Damage/Corner</cornerTL>
+			<cornerTR>Damage/Corner</cornerTR>
+			<cornerBL>Damage/Corner</cornerBL>
+			<cornerBR>Damage/Corner</cornerBR>
+		</damageData>
+	</graphicData>
+	<castEdgeShadows>true</castEdgeShadows>
+	<staticSunShadowHeight>0.20</staticSunShadowHeight>
+	<!--<costStuffCount>75</costStuffCount>
+	<stuffCategories>
+		<li>Metallic</li>
+		<li>Woody</li>
+	</stuffCategories>-->
+	<costList>
+		<WoodLog>75</WoodLog>
+		<Steel>50</Steel>
+		<ComponentIndustrial>2</ComponentIndustrial>
+	</costList>
+	<altitudeLayer>Building</altitudeLayer>
+	<fillPercent>0.5</fillPercent>
+	<useHitPoints>True</useHitPoints>
+	<statBases>
+		<WorkToBuild>2500</WorkToBuild>
+		<MaxHitPoints>180</MaxHitPoints>
+		<Flammability>1.0</Flammability>
+	</statBases>
+	<size>(3,1)</size>
+	<designationCategory>Production</designationCategory>
+	<passability>PassThroughOnly</passability>
+	<pathCost>70</pathCost>
+	<hasInteractionCell>True</hasInteractionCell>
+	<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+	<surfaceType>Item</surfaceType>
+	<inspectorTabs>
+		<li>ITab_Bills</li>
+	</inspectorTabs>
+	<building>
+		<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		<unpoweredWorkTableWorkSpeedFactor>0.5</unpoweredWorkTableWorkSpeedFactor>
+		<paintable>true</paintable>
+	</building>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	<comps>
+		<li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>
+			<shortCircuitInRain>true</shortCircuitInRain>
+			<basePowerConsumption>120</basePowerConsumption>
+		</li>
+		<li Class="CompProperties_Flickable"/>
+		<li Class="CompProperties_AffectedByFacilities">
+			<linkableFacilities>
+				<li>ToolCabinet</li>
+				<li MayRequire="VanillaExpanded.VFEProduction">VFE_TailorCabinet</li>
+			</linkableFacilities>
+		</li>
+		<li Class="CompProperties_Breakdownable"/>
+	</comps>
+	<placeWorkers>
+		<li>PlaceWorker_ShowFacilitiesConnections</li>
+		<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+	</placeWorkers>
+	<researchPrerequisites>
+		<li>Kurin_ApparelT1</li>
+	</researchPrerequisites>
+</ThingDef>
+
 <ThingDef ParentName="BenchBase">
 	<defName>Kurin_Electric_Tailoring_Bench</defName>
-	<label>kurin electric tailor bench</label>
+	<label>Kurin tailor bench (1x2)</label>
 	<description>A workbench with a sewing machine for rapid tailoring of clothes. Can work without electricity at 50% of normal speed.</description>
 	<thingClass>Building_WorkTable</thingClass>
+	<designatorDropdown>KurinTailoringBenchDropdownDef</designatorDropdown>
 	<graphicData>
 		<texPath>Kurin/Building/Electric_Tailoring_Bench/Texture</texPath>
 		<graphicClass>Graphic_Multi</graphicClass>
 		<drawSize>(3, 1.5)</drawSize>
 		<shaderType>CutoutComplex</shaderType>
+		<color>(133,97,67)</color>
 	</graphicData>
 	<castEdgeShadows>true</castEdgeShadows>
 	<staticSunShadowHeight>0.20</staticSunShadowHeight>
-	<costStuffCount>75</costStuffCount>
-	<costList>
-		<Steel>50</Steel>
-		<ComponentIndustrial>2</ComponentIndustrial>
-	</costList>
+	<!--<costStuffCount>75</costStuffCount>
 	<stuffCategories>
 		<li>Metallic</li>
 		<li>Woody</li>
-	</stuffCategories>
+	</stuffCategories>-->
+	<costList>
+		<WoodLog>75</WoodLog>
+		<Steel>50</Steel>
+		<ComponentIndustrial>2</ComponentIndustrial>
+	</costList>
 	<altitudeLayer>Building</altitudeLayer>
 	<fillPercent>0.5</fillPercent>
 	<useHitPoints>True</useHitPoints>
@@ -65,8 +151,7 @@
 		<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 	</placeWorkers>
 	<researchPrerequisites>
-		<li>ComplexClothing</li>
-		<li>Electricity</li>
+		<li>Kurin_ApparelT1</li>
 	</researchPrerequisites>
 </ThingDef>
 

@@ -13,6 +13,17 @@
 		<WorkToMake>13000</WorkToMake>
 		<Mass>0.1</Mass>
 	</statBases>
+	<recipeMaker>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		<researchPrerequisites Inherit="False">
+			<li>Kurin_ApparelT2</li>
+		</researchPrerequisites>
+		<recipeUsers>
+			<li>Kurin_Electric_Tailoring_Bench</li>
+			<li>Kurin_Tailoring_Bench</li>
+		</recipeUsers>
+	</recipeMaker>
 </ThingDef>
 
 <ThingDef ParentName="BodyPartBionicBase">
@@ -68,6 +79,41 @@
       <li>Advanced</li>
       <li>AdvancedWeapon</li>
     </techHediffsTags>
+</ThingDef>
+
+<ThingDef ParentName="BodyPartBionicBase">
+	<defName>Kurin_MechanitorEar</defName>
+	<label>mechanitor kurin ear</label>
+	<description>Kurin ear modified for mechanitor to improve control over mechs. Using those ears slightly shifts hearing focus into controlling, so hearing is worse than with natural ears.</description>
+	<techLevel>Spacer</techLevel>
+	<costList>
+		<Plasteel>15</Plasteel>
+		<Synthread>25</Synthread>
+		<ComponentSpacer>3</ComponentSpacer>
+	</costList>
+	<statBases>
+		<WorkToMake>32000</WorkToMake>
+		<Mass>0.1</Mass>
+	</statBases>
+	<recipeMaker>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<researchPrerequisite></researchPrerequisite>
+		<researchPrerequisites>
+			<li>Kurin_Mechtech</li>
+			<li>HighMechtech</li>
+		</researchPrerequisites>
+		<recipeUsers>
+			<li>FabricationBench</li>
+		</recipeUsers>
+		<displayPriority>300</displayPriority>
+	</recipeMaker>
 </ThingDef>
 
 </Defs>

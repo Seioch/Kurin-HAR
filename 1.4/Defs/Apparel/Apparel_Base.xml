@@ -42,9 +42,9 @@
 		<useWornGraphicMask>true</useWornGraphicMask>
 	</apparel>
 	<tradeability>Sellable</tradeability>
-	<!-- Maybe this will let traders sell Kurin clothes? -->
 	<tradeTags>
-      <li>Apparel</li>
+        <li>Apparel</li>
+		<li>Clothing</li>
     </tradeTags>
 	<techLevel>Industrial</techLevel>
 	<statBases>
@@ -59,6 +59,7 @@
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<recipeUsers>
 			<li>Kurin_Electric_Tailoring_Bench</li>
+		    <li>Kurin_Tailoring_Bench</li>
 		</recipeUsers>
 		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 		<defaultIngredientFilter>

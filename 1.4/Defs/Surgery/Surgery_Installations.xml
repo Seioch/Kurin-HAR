@@ -171,4 +171,46 @@
     <addsHediff>KurinTailBlade</addsHediff>
 </RecipeDef>
 
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>Kurin_InstallMechanitorEar</defName>
+		<label>install mechanitor kurin ear</label>
+		<description>Install a mechanitor kurin ear.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing mechanitor kurin ear</jobString>
+		<workAmount>2500</workAmount>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Kurin_MechanitorEar</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Kurin_MechanitorEar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Kurin_Ear</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Kurin_MechanitorEarHediff</addsHediff>
+	</RecipeDef>
+
 </Defs>

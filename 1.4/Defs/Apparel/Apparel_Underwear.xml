@@ -40,6 +40,7 @@
 	</thingCategories>
 </ThingDef>
 
+<!-- White -->
 <ThingDef ParentName="Kurin_UnderwearBase">
 	<defName>Kurin_Underwear</defName>
 	<label>kurin white underwear</label>
@@ -55,6 +56,8 @@
 		<wornGraphicPath>Kurin/Apparel/Underwear/White_Underwear/Texture</wornGraphicPath>
 	</apparel>
 </ThingDef>
+
+<!-- Stuffed -->
 <ThingDef ParentName="Kurin_UnderwearBase">
 	<defName>Kurin_Underwear_Stuffed</defName>
 	<label>kurin underwear</label>
@@ -72,6 +75,7 @@
 	</apparel>
 </ThingDef>
 
+<!-- Prude -->
 <ThingDef ParentName="Kurin_UnderwearBase">
 	<defName>Kurin_Underwear_Prude</defName>
 	<label>kurin prude underwear</label>
@@ -89,6 +93,7 @@
 	</apparel>
 </ThingDef>
 
+<!-- Black -->
 <ThingDef ParentName="Kurin_UnderwearBase">
 	<defName>Kurin_Underwear_Black</defName>
 	<label>kurin black underwear</label>
@@ -105,7 +110,7 @@
 	</apparel>
 </ThingDef>
 
-
+<!-- Red -->
 <ThingDef ParentName="Kurin_UnderwearBase">
 	<defName>Kurin_Underwear_Red</defName>
 	<label>kurin red underwear</label>
@@ -122,7 +127,7 @@
 	</apparel>
 </ThingDef>
 
-
+<!-- Striped -->
 <ThingDef ParentName="Kurin_UnderwearBase">
 	<defName>Kurin_Underwear_Striped</defName>
 	<label>kurin white striped Bra</label>
@@ -139,6 +144,7 @@
 	</apparel>
 </ThingDef>
 
+<!-- Striped stuffed -->
 <ThingDef ParentName="Kurin_UnderwearBase">
 	<defName>Kurin_Underwear_Striped_Stuffed</defName>
 	<label>kurin striped underwear</label>
@@ -156,7 +162,7 @@
 	</apparel>
 </ThingDef>
 
-
+<!-- Slim -->
 <ThingDef ParentName="Kurin_UnderwearBase">
 	<defName>Kurin_Underwear_Slim</defName>
 	<label>kurin slim underwear</label>
@@ -173,6 +179,7 @@
 	</apparel>
 </ThingDef>
 
+<!-- Redfox -->
 <ThingDef ParentName="Kurin_UnderwearBase">
 	<defName>Kurin_Waterfox_Armor</defName>
 	<label>kurin waterfox skinsuit</label>
@@ -183,12 +190,12 @@
 	<tradeTags>
       <li>HiTechArmor</li>
     </tradeTags>
-    <costList>
-      <ComponentSpacer>1</ComponentSpacer>
-      <Plasteel>50</Plasteel>
-      <Uranium>10</Uranium>
-	  <DevilstrandCloth>75</DevilstrandCloth>
-    </costList>
+	<costList>
+		<ComponentSpacer>1</ComponentSpacer>
+		<Plasteel>50</Plasteel>
+		<Uranium>10</Uranium>
+		<Synthread>75</Synthread>
+	</costList>
 	<statBases>
 		<MaxHitPoints>200</MaxHitPoints>
 		<WorkToMake>40000</WorkToMake>
@@ -218,6 +225,11 @@
  			<li>RoyalCombatGear</li>
 		</tags>
 	</apparel>
+    <recipeMaker>
+		<researchPrerequisites>
+			<li>Kurin_ApparelT4</li>
+		</researchPrerequisites>
+    </recipeMaker>
 </ThingDef>
 
 </Defs>

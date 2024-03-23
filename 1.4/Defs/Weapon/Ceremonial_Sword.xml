@@ -22,6 +22,7 @@
 	<stuffCategories>
 		<li>Metallic</li>
 	</stuffCategories>
+	<relicChance>3</relicChance>
 	<tools>
 		<li>
 			<label>edge</label>
@@ -31,12 +32,23 @@
 			<power>40</power>
 			<cooldownTime>4.0</cooldownTime>
 		</li>
+		<li>
+			<label>flat side</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
 	</tools>
 	<recipeMaker>
 		<researchPrerequisite>LongBlades</researchPrerequisite>
 		<skillRequirements>
 			<Crafting>10</Crafting>
 		</skillRequirements>
+		<researchPrerequisites>
+			<li>Kurin_CombatT2</li>
+		</researchPrerequisites>
 	</recipeMaker>
 </ThingDef>
 
