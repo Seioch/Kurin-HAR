@@ -4,7 +4,7 @@
     <defName>DRNTF_NooseTrap</defName>
     <label>Noose Trap</label>
     <description>Kurin's special noose trap that can be quickly made with a small amount of ingredients. When the trap is activated, a noose binds the enemy's legs. It has no effect on large enemies and mechanoids.</description>
-    <thingClass>NineTailedFox.NooseTrap</thingClass>
+    <thingClass>Kurin.NooseTrap</thingClass>
     <graphicData>
       <texPath>Kurin/Building/Trap/NooseTrap</texPath>
       <graphicClass>Graphic_Single</graphicClass>

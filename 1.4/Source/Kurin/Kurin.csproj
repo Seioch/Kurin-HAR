@@ -7,7 +7,7 @@
     <ProjectGuid>{E32EB029-BB9A-4558-906F-9BA0558CBC94}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NineTailedFox</RootNamespace>
+    <RootNamespace>Kurin</RootNamespace>
     <AssemblyName>Kurin</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -63,6 +63,7 @@
     <Compile Include="Kurin_DefOf.cs" />
     <Compile Include="NooseTrap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThoughtWorker_LostTail.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

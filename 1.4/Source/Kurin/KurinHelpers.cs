@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Verse;
 
-namespace NineTailedFox
+namespace Kurin
 {
     internal static class KurinHelpers
     {

@@ -3,7 +3,7 @@ using AlienRace;
 using RimWorld;
 using Verse;
 
-namespace NineTailedFox
+namespace Kurin
 {
 	[DefOf]
 	public static class Kurin_DefOf

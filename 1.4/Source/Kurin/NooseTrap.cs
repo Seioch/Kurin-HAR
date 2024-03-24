@@ -3,7 +3,7 @@ using RimWorld;
 using Verse;
 using Verse.Sound;
 
-namespace NineTailedFox
+namespace Kurin
 {
 	public class NooseTrap : Building_Trap
 	{

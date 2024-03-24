@@ -1274,7 +1274,7 @@
     <!--=========================================== Custom Components ================================================-->
     <comps>
       <li>
-        <compClass>NineTailedFox.CompKurinPostSpawn</compClass>
+        <compClass>Kurin.CompKurinPostSpawn</compClass>
       </li>
     </comps>
   </AlienRace.ThingDef_AlienRace>
