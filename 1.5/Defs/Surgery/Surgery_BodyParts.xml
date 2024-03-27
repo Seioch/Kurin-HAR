@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="BodyPartProstheticMakeableBase">
+	<defName>Kurin_FakeTail</defName>
+	<label>fake kurin tail</label>
+	<description>A fake Kurin tail made with cloth and a bit of metal. Although it will look and feel like a real tail, having one of these will throw off the wearer's balance, slightly reducing speed.</description>
+	<techLevel>Industrial</techLevel>
+	<costList>
+		<Steel>25</Steel>
+		<Cloth>50</Cloth>
+	</costList>
+	<statBases>
+		<WorkToMake>13000</WorkToMake>
+		<Mass>0.1</Mass>
+	</statBases>
+	<recipeMaker>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		<researchPrerequisites Inherit="False">
+			<li>Kurin_ApparelT2</li>
+		</researchPrerequisites>
+		<recipeUsers>
+			<li>Kurin_Electric_Tailoring_Bench</li>
+			<li>Kurin_Tailoring_Bench</li>
+		</recipeUsers>
+	</recipeMaker>
+</ThingDef>
+
+<ThingDef ParentName="BodyPartBionicBase">
+	<defName>Kurin_BionicEar</defName>
+	<label>bionic kurin ear</label>
+	<description>Assemble a bionic kurin ear.</description>
+	<techLevel>Spacer</techLevel>
+	<costList>
+		<Plasteel>10</Plasteel>
+		<Cloth>25</Cloth>
+		<ComponentSpacer>3</ComponentSpacer>
+	</costList>
+	<statBases>
+		<WorkToMake>26000</WorkToMake>
+		<Mass>0.1</Mass>
+	</statBases>
+</ThingDef>
+
+<ThingDef ParentName="BodyPartBionicBase">
+	<defName>Kurin_BionicTail</defName>
+	<label>bionic kurin tail</label>
+	<description>A Kurin tail indistinguishable from that of a real one. Internal neuro-assisted motors assist with balance, making the wearer walk slightly faster.</description>
+	<techLevel>Spacer</techLevel>
+	<costList>
+		<Plasteel>25</Plasteel>
+		<Cloth>50</Cloth>
+		<ComponentSpacer>1</ComponentSpacer>
+	</costList>
+	<statBases>
+		<WorkToMake>26000</WorkToMake>
+		<Mass>0.1</Mass>
+	</statBases>
+</ThingDef>
+
+<!-- Tail Blade Recipe -->
+<ThingDef ParentName="BodyPartBionicBase">
+    <defName>KurinTailBlade</defName>
+    <label>kurin tail blade</label>
+    <description>A soft fluffy Kurin tail, but if the wearer wishes so, it opens at the end to reveal a razor-sharp dagger. Unsuspecting tail-grabbers have often found an early demise from a surprise tail blade.</description>
+    <descriptionHyperlinks><RecipeDef>InstallTailBlade</RecipeDef></descriptionHyperlinks>
+    <thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+    </thingSetMakerTags>
+    <costList>
+      <Plasteel>40</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <statBases>
+	  <WorkToMake>26000</WorkToMake>
+      <Mass>4</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+      <li>AdvancedWeapon</li>
+    </techHediffsTags>
+</ThingDef>
+
+<ThingDef ParentName="BodyPartBionicBase">
+	<defName>Kurin_MechanitorEar</defName>
+	<label>mechanitor kurin ear</label>
+	<description>Kurin ear modified for mechanitor to improve control over mechs. Using those ears slightly shifts hearing focus into controlling, so hearing is worse than with natural ears.</description>
+	<techLevel>Spacer</techLevel>
+	<costList>
+		<Plasteel>15</Plasteel>
+		<Synthread>25</Synthread>
+		<ComponentSpacer>3</ComponentSpacer>
+	</costList>
+	<statBases>
+		<WorkToMake>32000</WorkToMake>
+		<Mass>0.1</Mass>
+	</statBases>
+	<recipeMaker>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<researchPrerequisite></researchPrerequisite>
+		<researchPrerequisites>
+			<li>Kurin_Mechtech</li>
+			<li>HighMechtech</li>
+		</researchPrerequisites>
+		<recipeUsers>
+			<li>FabricationBench</li>
+		</recipeUsers>
+		<displayPriority>300</displayPriority>
+	</recipeMaker>
+</ThingDef>
+
+</Defs>

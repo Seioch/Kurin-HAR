@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="Kurin_UnderwearBase" ParentName="Kurin_ApparelBase" Abstract="True">
+	<defName>Kurin_Apparel_Underwear</defName>
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT1</researchPrerequisite>
+	</recipeMaker>
+	<costStuffCount>30</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+	</stuffCategories>
+	<statBases>
+		<Mass>0.2</Mass>
+		<EquipDelay>0.7</EquipDelay>
+		<MaxHitPoints>150</MaxHitPoints>
+		<WorkToMake>2000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.09</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<layers>
+			<li>Kurin_Underwear</li>
+		</layers>
+		<tags>
+			<li>Kurin_Underwear</li>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Grunt</li>
+			<li>IndustrialBasic</li>
+			<li>Neolithic</li>
+			<!--Royal-->
+			<li>Royal</li>
+			<li>RoyalTier5</li>
+			<!--Royal-->
+		</tags>
+	</apparel>
+	<thingCategories>
+		<li>Kurin_Apparel_Underwear</li>
+	</thingCategories>
+</ThingDef>
+
+<!-- White -->
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear</defName>
+	<label>kurin white underwear</label>
+	<description>Plain underwear, dyed white</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/White_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/White_Underwear/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<!-- Stuffed -->
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Stuffed</defName>
+	<label>kurin underwear</label>
+	<description>Plain underwear that matches the color of the material used</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/White_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/White_Underwear/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<!-- Prude -->
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Prude</defName>
+	<label>kurin prude underwear</label>
+	<description>Underwear so light and comfortable kurin often forget they're even wearing it</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Prude_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Prude_Underwear/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<!-- Black -->
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Black</defName>
+	<label>kurin black underwear</label>
+	<description>Plain underwear, dyed black</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Black_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Black_Underwear/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<!-- Red -->
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Red</defName>
+	<label>kurin red underwear</label>
+	<description>Plain underwear, dyed red</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Red_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Red_Underwear/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<!-- Striped -->
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Striped</defName>
+	<label>kurin white striped Bra</label>
+	<description>Cute striped underwear. They've been dyed white.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Striped_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Striped_Underwear/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<!-- Striped stuffed -->
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Striped_Stuffed</defName>
+	<label>kurin striped underwear</label>
+	<description>Cute striped bra. Colorable.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Striped_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Striped_Underwear/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<!-- Slim -->
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Slim</defName>
+	<label>kurin slim underwear</label>
+	<description>Slim underwear for kurin. Doesn't cover much.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Slim_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Slim_Underwear/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<!-- Redfox -->
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Waterfox_Armor</defName>
+	<label>kurin waterfox skinsuit</label>
+	<description>Replica skinsuit from the old Kurin republic. The Waterfox logistical corp dedicated themselves to supplying the Kurin military. This skinsuit provided basic protection while improving work efficiency.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Waterfox_armor/Texture</texPath>
+	</graphicData>
+	<tradeTags>
+      <li>HiTechArmor</li>
+    </tradeTags>
+	<costList>
+		<ComponentSpacer>1</ComponentSpacer>
+		<Plasteel>50</Plasteel>
+		<Uranium>10</Uranium>
+		<Synthread>75</Synthread>
+	</costList>
+	<statBases>
+		<MaxHitPoints>200</MaxHitPoints>
+		<WorkToMake>40000</WorkToMake>
+		<ArmorRating_Sharp>0.21</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+		<ArmorRating_Heat>4.0</ArmorRating_Heat>
+		<Insulation_Cold>48</Insulation_Cold>
+    	<Insulation_Heat>48</Insulation_Heat>
+		<EquipDelay>2</EquipDelay>
+	</statBases>
+	<equippedStatOffsets>
+		<WorkSpeedGlobal>0.3</WorkSpeedGlobal>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+			<li>Arms</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Feet</li>
+			<li>Hands</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Waterfox_armor/Texture</wornGraphicPath>
+		<tags>
+			<li>Kurin_Glitterworld</li>
+ 			<li>RoyalCombatGear</li>
+		</tags>
+	</apparel>
+    <recipeMaker>
+		<researchPrerequisites>
+			<li>Kurin_ApparelT4</li>
+		</researchPrerequisites>
+    </recipeMaker>
+</ThingDef>
+
+</Defs>

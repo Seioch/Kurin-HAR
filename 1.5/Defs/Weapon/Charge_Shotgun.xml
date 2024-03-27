@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="BaseMakeableGun">
+	<defName>Kurin_Gun_Charge_Shotgun</defName>
+	<label>kurin charge shotgun</label>
+	<description>A unique assault weapon of Aolarian design. Kurin shock troopers would use this weapon to destroy mechanoid clusters that landed near Kurin cities.</description>
+	<graphicData>
+		<texPath>Kurin/Weapon/Charge_Shotgun/Texture</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<soundInteract>Interact_Rifle</soundInteract>
+	<statBases>
+        <WorkToMake>48000</WorkToMake>
+        <Mass>3.8</Mass>
+        <AccuracyTouch>0.65</AccuracyTouch>
+        <AccuracyShort>0.89</AccuracyShort>
+        <AccuracyMedium>0.5</AccuracyMedium>
+        <AccuracyLong>0.35</AccuracyLong>
+        <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+	</statBases>
+	<weaponTags>
+		<li>SpacerGun</li>
+	</weaponTags>
+	<costList>
+		<Plasteel>75</Plasteel>
+		<ComponentSpacer>5</ComponentSpacer>
+	</costList>
+	<recipeMaker>
+		<researchPrerequisites>
+			<li>Kurin_CombatT4</li>
+		</researchPrerequisites>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+        <recipeUsers Inherit="False">
+            <li>FabricationBench</li>
+        </recipeUsers>
+	</recipeMaker>
+	<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Kurin_Bullet_Charge_Shotgun</defaultProjectile>
+			<warmupTime>1.2</warmupTime>
+			<range>12.9</range>
+			<burstShotCount>4</burstShotCount>
+			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+			<soundCast>Kurin_Shot_Charge_Shotgun</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</li>
+	</verbs>
+	<tools>
+		<li>
+			<label>stock</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>barrel</label>
+			<capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+	</tools>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+	<defName>Kurin_Bullet_Charge_Shotgun</defName>
+	<label>kurin charge Shotgun bullet</label>
+	<projectile>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>18</damageAmountBase>
+		<stoppingPower>3</stoppingPower>
+		<armorPenetrationBase>0.6</armorPenetrationBase>
+		<speed>75</speed>
+	</projectile>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+</ThingDef>
+
+<SoundDef>
+	<defName>Kurin_Shot_Charge_Shotgun</defName>  
+	<context>MapOnly</context>  
+	<maxSimultaneous>1</maxSimultaneous>  
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Kurin/KurinChargeShotgun</clipPath>
+				</li>
+			</grains>      
+			<volumeRange>35~45</volumeRange>
+		</li>
+	</subSounds>
+</SoundDef>
+
+</Defs>

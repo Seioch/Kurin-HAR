@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ResearchTabDef>
+	<defName>Kurin_ResearchTab</defName>
+	<label>Kurin</label>
+</ResearchTabDef>
+
+<ResearchProjectDef>
+	<defName>Kurin_Flower</defName>
+	<label>Convallaria</label>
+	<description>Learn how to cultivate Convallaria, gene-ingenered glitterworld plant that produces synthread.</description>
+	<baseCost>800</baseCost>
+	<techLevel>Industrial</techLevel>
+	<prerequisites>
+		<li>Hydroponics</li>
+	</prerequisites>
+	<researchViewX>1</researchViewX>
+	<researchViewY>0.7</researchViewY>
+	<tab>Kurin_ResearchTab</tab>
+</ResearchProjectDef>
+
+<ResearchProjectDef>
+	<defName>Kurin_ApparelT1</defName>
+	<label>Kurin basic clothing</label>
+	<description>Research how to produce simple clothing.</description>
+	<baseCost>400</baseCost>
+	<techLevel>Industrial</techLevel>
+	<researchViewX>0</researchViewX>
+	<researchViewY>0</researchViewY>
+	<tab>Kurin_ResearchTab</tab>
+</ResearchProjectDef>
+
+<ResearchProjectDef>
+	<defName>Kurin_ApparelT2</defName>
+	<label>Kurin advanced clothing</label>
+	<description>Research how to produce advanced clothes.</description>
+	<baseCost>800</baseCost>
+	<techLevel>Industrial</techLevel>
+	<prerequisites>
+		<li>Kurin_ApparelT1</li>
+		<li>ComplexClothing</li>
+	</prerequisites>
+	<researchViewX>1</researchViewX>
+	<researchViewY>0</researchViewY>
+	<tab>Kurin_ResearchTab</tab>
+</ResearchProjectDef>
+
+<ResearchProjectDef>
+	<defName>Kurin_ApparelT3</defName>
+	<label>Kurin fine clothing</label>
+	<description>Research how to produce fine clothes.</description>
+	<baseCost>1200</baseCost>
+	<techLevel>Industrial</techLevel>
+	<prerequisites>
+		<li>Kurin_ApparelT2</li>
+		<li>Kurin_Flower</li>
+		<li MayRequire="Ludeon.RimWorld.Royalty">NobleApparel</li>
+	</prerequisites>
+	<researchViewX>2</researchViewX>
+	<researchViewY>0</researchViewY>
+	<tab>Kurin_ResearchTab</tab>
+</ResearchProjectDef>
+
+<ResearchProjectDef>
+	<defName>Kurin_CombatT2</defName>
+	<label>Kurin basic combat</label>
+	<description>Research how to produce basic combat armor and weapons.</description>
+	<baseCost>800</baseCost>
+	<techLevel>Industrial</techLevel>
+	<prerequisites>
+		<li>Kurin_ApparelT1</li>
+		<li>Smithing</li>
+	</prerequisites>
+	<researchViewX>1</researchViewX>
+	<researchViewY>1.4</researchViewY>
+	<tab>Kurin_ResearchTab</tab>
+</ResearchProjectDef>
+
+<ResearchProjectDef>
+	<defName>Kurin_CombatT3</defName>
+	<label>Kurin advanced combat</label>
+	<description>Research how to produce advanced combat armor and weapons.</description>
+	<baseCost>1200</baseCost>
+	<techLevel>Industrial</techLevel>
+	<prerequisites>
+		<li>Kurin_CombatT2</li>
+		<li>Kurin_Flower</li>
+	</prerequisites>
+	<researchViewX>2</researchViewX>
+	<researchViewY>1.4</researchViewY>
+	<tab>Kurin_ResearchTab</tab>
+</ResearchProjectDef>
+
+<ResearchProjectDef MayRequire="Ludeon.RimWorld.Biotech">
+	<defName>Kurin_Mechtech</defName>
+	<label>Kurin mechtech</label>
+	<description>Research how to produce mechanitor technologies that fit to Kurin.</description>
+	<baseCost>400</baseCost>
+	<techLevel>Spacer</techLevel>
+	<prerequisites>
+		<li>Kurin_Flower</li>
+		<li>BasicMechtech</li>
+	</prerequisites>
+	<researchViewX>2</researchViewX>
+	<researchViewY>0.7</researchViewY>
+	<tab>Kurin_ResearchTab</tab>
+</ResearchProjectDef>
+
+<ResearchProjectDef>
+	<defName>Kurin_CombatT4</defName>
+	<label>Kurin spacer combat</label>
+	<description>Research how to produce pulse-charged kurin weapons.</description>
+	<baseCost>1600</baseCost>
+	<techLevel>Spacer</techLevel>
+	<prerequisites>
+		<li>Kurin_CombatT3</li>
+		<li>ChargedShot</li>
+	</prerequisites>
+	<researchViewX>3</researchViewX>
+	<researchViewY>1.4</researchViewY>
+	<tab>Kurin_ResearchTab</tab>
+</ResearchProjectDef>
+
+<ResearchProjectDef>
+	<defName>Kurin_ApparelT4</defName>
+	<label>Kurin republic armor replicas</label>
+	<description>Research how to produce replica Kurin military armor.</description>
+	<baseCost>1600</baseCost>
+	<techLevel>Spacer</techLevel>
+	<prerequisites>
+		<li>Kurin_ApparelT3</li>
+		<li>Kurin_CombatT3</li>
+		<li>Fabrication</li>
+	</prerequisites>
+	<researchViewX>3</researchViewX>
+	<researchViewY>0.7</researchViewY>
+	<tab>Kurin_ResearchTab</tab>
+</ResearchProjectDef>
+
+<ResearchProjectDef>
+	<defName>Kurin_Turret</defName>
+	<label>Kurin ancient defenses</label>
+	<description>Research how to assemble an ancient defensive turret.</description>
+	<baseCost>400</baseCost>
+	<techLevel>Medieval</techLevel>
+	<prerequisites>
+		<li>Smithing</li>
+	</prerequisites>
+	<researchViewX>0</researchViewX>
+	<researchViewY>2.8</researchViewY>
+	<tab>Kurin_ResearchTab</tab>
+</ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="Kurin_ShellBase" ParentName="Kurin_ApparelBase" Abstract="True">
+	<statBases>
+		<Mass>1.0</Mass>
+		<EquipDelay>3.0</EquipDelay>
+	</statBases>
+	<apparel>
+		<layers>
+			<li>Shell</li>
+		</layers>
+		<tags>
+			<li>Kurin_Colonist</li>
+		</tags>
+	</apparel>
+	<thingCategories>
+		<li>Kurin_Apparel_Shell</li>
+	</thingCategories>
+</ThingDef>
+
+<!--================================================== Tear 1 ==================================================-->
+
+<ThingDef Name="Kurin_ShellBaseTear1" ParentName="Kurin_ShellBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT1</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Grunt</li>
+			<li>Kurin_Ninja</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<!-- Cardigan -->
+<ThingDef ParentName="Kurin_ShellBaseTear1">
+	<defName>Kurin_Shell_Cardigan</defName>
+	<label>kurin cardigan</label>
+	<description>푹신푹신하고 따듯한 카디건입니다. 옷이 늘어나지 않게 조심하세요!</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Shell/Cardigan/Texture</texPath>
+	</graphicData>
+	<costStuffCount>75</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>200</MaxHitPoints>
+		<WorkToMake>8000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.60</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Shoulders</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Shell/Cardigan/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<!-- Duster -->
+<ThingDef ParentName="Kurin_ShellBaseTear1">
+	<defName>Kurin_Shell_Duster</defName>
+	<label>kurin duster</label>
+	<description>상당한 더위와 어느정도의 추위를 막아 줄 수 있는 세련된 외투입니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Shell/Duster/Texture</texPath>
+	</graphicData>
+	<costStuffCount>75</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>200</MaxHitPoints>
+		<WorkToMake>8000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.80</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Shell/Duster/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<!--================================================== Tear 2 ==================================================-->
+
+<ThingDef Name="Kurin_ShellBaseTear2" ParentName="Kurin_ShellBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT2</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Grunt</li>
+			<li>Kurin_Ninja</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<!-- Winter padding -->
+<ThingDef ParentName="Kurin_ShellBaseTear2">
+	<defName>Kurin_Shell_Winter_Padding</defName>
+	<label>kurin winter padding</label>
+	<description>두꺼운 겨울 패딩입니다. 추위를 잘 타는 쿠린들에게는 겨울 필수품입니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Shell/Winter_Padding/Texture</texPath>
+	</graphicData>
+	<costStuffCount>75</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>200</MaxHitPoints>
+		<WorkToMake>8000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Arms</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Shell/Winter_Padding/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<!-- Traditional coat -->
+<ThingDef ParentName="Kurin_ShellBaseTear2">
+	<defName>Kurin_OnSkin_Traditional_Coat</defName>
+	<label>kurin traditional coat</label>
+	<description>단조로운 남색 코트 위에 흰색 무늬가 인상적인 쿠린들의 전통의상입니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Shell/Traditional_Coat/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Arms</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/Shell/Traditional_Coat/Texture</wornGraphicPath>
+	</apparel>
+	<costStuffCount>75</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>200</MaxHitPoints>
+		<WorkToMake>8000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>2.00</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+</ThingDef>
+
+<!--================================================== Tear 3 ==================================================-->
+
+<ThingDef Name="Kurin_ShellBaseTear3" ParentName="Kurin_ShellBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT3</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kurin_Trader</li>
+			<li>Royal</li>
+			<li>RoyalTier1</li>
+        	<li>RoyalTier2</li>
+			<li>RoyalTier3</li>
+			<li>RoyalTier4</li>
+			<li>RoyalTier5</li>
+			<li>RoyalTier6</li>
+			<li>RoyalTier7</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Grunt</li>
+			<li>Kurin_Ninja</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<!--================================================== Endgame Armor ==================================================-->
+
+<ThingDef Name="Kurin_ShellArmor" ParentName="Kurin_ShellBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT4</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<layers>
+			<li>Middle</li>
+		</layers>
+		<tags>
+			<li>Kurin_Glitterworld</li>
+			<li>Royal</li>
+			<li>RoyalTier1</li>
+        	<li>RoyalTier2</li>
+			<li>RoyalTier3</li>
+			<li>RoyalTier4</li>
+			<li>RoyalTier5</li>
+			<li>RoyalTier6</li>
+			<li>RoyalTier7</li>
+			<li>EVA</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_ShellArmor">
+	<defName>Kurin_Redfox_Armor</defName>
+	<label>kurin redfox armor</label>
+	<description>Replica power armor from the old Kurin republic. The Redfox army would wear this armor for space and ground combat.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Redfox_armor/Texture</texPath>
+	</graphicData>
+	<tradeTags>
+		<li>HiTechArmor</li>
+    </tradeTags>
+	<costList>
+		<ComponentSpacer>4</ComponentSpacer>
+		<Plasteel>100</Plasteel>
+		<Uranium>40</Uranium>
+		<Synthread>75</Synthread>
+	</costList>
+	<statBases>
+		<MaxHitPoints>300</MaxHitPoints>
+		<WorkToMake>64000</WorkToMake>
+		<ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+		<ArmorRating_Heat>0.54</ArmorRating_Heat>
+		<Insulation_Cold>48</Insulation_Cold>
+    	<Insulation_Heat>48</Insulation_Heat>
+		<EquipDelay>6</EquipDelay>
+	</statBases>
+	<equippedStatOffsets>
+		<MeleeHitChance>3.0</MeleeHitChance>
+		<ShootingAccuracyPawn>3.0</ShootingAccuracyPawn>
+		<MeleeDodgeChance>9.0</MeleeDodgeChance>
+		<MoveSpeed>0.4</MoveSpeed>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+			<li>Arms</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Feet</li>
+			<li>Hands</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Redfox_armor/Texture</wornGraphicPath>
+		<tags>
+			<li>Kurin_Glitterworld</li>
+ 			<li>RoyalCombatGear</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<!-- Content merged with Redfox armor -->
+<!-- <ThingDef ParentName="Kurin_ShellArmor">
+	<defName>Kurin_Shadowfox_Armor</defName>
+	<label>kurin shadowfox armor</label>
+	<description>Replica power armor from the old Kurin republic. The Shadowfox special forces wore this advanced armor to enhance assassination capabilities. Hidden servos augment shooting stability and movement speed.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Shadowfox_armor/Texture</texPath>
+	</graphicData>
+	<tradeTags>
+      <li>HiTechArmor</li>
+    </tradeTags>
+    <costList>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Plasteel>100</Plasteel>
+      <Uranium>20</Uranium>
+	  <DevilstrandCloth>75</DevilstrandCloth>
+    </costList>
+	<statBases>
+		<MaxHitPoints>300</MaxHitPoints>
+		<WorkToMake>64000</WorkToMake>
+		<ArmorRating_Sharp>0.31</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.23</ArmorRating_Blunt>
+		<ArmorRating_Heat>4.0</ArmorRating_Heat>
+		<Insulation_Cold>96</Insulation_Cold>
+    	<Insulation_Heat>96</Insulation_Heat>
+		<EquipDelay>6</EquipDelay>
+	</statBases>
+	<equippedStatOffsets>
+		<ShootingAccuracyPawn>3.0</ShootingAccuracyPawn>
+		<MoveSpeed>0.4</MoveSpeed>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+			<li>Arms</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Feet</li>
+			<li>Hands</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Shadowfox_armor/Texture</wornGraphicPath>
+		<tags>
+			<li>Kurin_Glitterworld</li>
+ 			<li>RoyalCombatGear</li>
+		</tags>
+	</apparel>
+</ThingDef> -->
+
+</Defs>
