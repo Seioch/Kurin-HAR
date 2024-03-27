@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="BaseMakeableGun">
+	<defName>Kurin_Gun_Shotgun</defName>
+	<label>kurin shotgun</label>
+	<description>A CQB weapon used by Kurin special forces. Deadly and accurate at close range, and pierces the thickest infantry armor.</description>
+	<graphicData>
+		<texPath>Kurin/Weapon/Shotgun/Texture</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<soundInteract>Interact_Rifle</soundInteract>
+	<statBases>
+        <WorkToMake>48000</WorkToMake>
+        <Mass>2.8</Mass>
+        <AccuracyTouch>0.85</AccuracyTouch>
+        <AccuracyShort>0.91</AccuracyShort>
+        <AccuracyMedium>0.77</AccuracyMedium>
+        <AccuracyLong>0.64</AccuracyLong>
+        <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+	</statBases>
+	<weaponTags>
+		<li>Kurin_Shotgun</li>
+	</weaponTags>
+	<costList>
+		<Steel>75</Steel>
+		<ComponentIndustrial>5</ComponentIndustrial>
+	</costList>
+	<recipeMaker>
+		<researchPrerequisites>
+			<li>Kurin_CombatT3</li>
+			<li>PrecisionRifling</li>
+		</researchPrerequisites>
+		<skillRequirements>
+			<Crafting>7</Crafting>
+		</skillRequirements>
+        <recipeUsers Inherit="False">
+            <li>FabricationBench</li>
+        </recipeUsers>
+	</recipeMaker>
+	<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Kurin_Bullet_Shotgun</defaultProjectile>
+            <warmupTime>0.9</warmupTime>
+            <range>15.9</range>
+            <soundCast>Kurin_Shot_Shotgun</soundCast>
+            <soundCastTail>GunTail_Heavy</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+		</li>
+	</verbs>
+	<tools>
+		<li>
+			<label>stock</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>barrel</label>
+			<capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+	</tools>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+	<defName>Kurin_Bullet_Shotgun</defName>
+	<label>kurin shotgun bullet</label>
+	<projectile>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>22</damageAmountBase>
+		<stoppingPower>4</stoppingPower>
+		<armorPenetrationBase>0.35</armorPenetrationBase>
+		<speed>75</speed>
+	</projectile>
+	<graphicData>
+        <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+</ThingDef>
+
+<SoundDef>
+	<defName>Kurin_Shot_Shotgun</defName>  
+	<context>MapOnly</context>  
+	<maxSimultaneous>1</maxSimultaneous>  
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>Kurin/Shotgun</clipPath>
+				</li>
+			</grains>      
+			<volumeRange>45~50</volumeRange>
+		</li>
+	</subSounds>
+</SoundDef>
+
+</Defs>

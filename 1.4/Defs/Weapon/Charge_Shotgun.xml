@@ -2,26 +2,25 @@
 <Defs>
 
 <ThingDef ParentName="BaseMakeableGun">
-	<defName>Kurin_Gun_Charge_Rifle</defName>
-	<label>kurin charge rifle</label>
-	<description>A unique anti-mechanoid rifle of Aolarian design. The charged shots are designed to penetrate thick Mechanoid armor.</description>
+	<defName>Kurin_Gun_Charge_Shotgun</defName>
+	<label>kurin charge shotgun</label>
+	<description>A unique assault weapon of Aolarian design. Kurin shock troopers would use this weapon to destroy mechanoid clusters that landed near Kurin cities.</description>
 	<graphicData>
-		<texPath>Kurin/Weapon/Charge_Rifle/Texture</texPath>
+		<texPath>Kurin/Weapon/Charge_Shotgun/Texture</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
-	<soundInteract>Interact_ChargeRifle</soundInteract>
+	<soundInteract>Interact_Rifle</soundInteract>
 	<statBases>
-		<WorkToMake>48000</WorkToMake>
-		<Mass>3.0</Mass>
-		<AccuracyTouch>0.55</AccuracyTouch>
-		<AccuracyShort>0.75</AccuracyShort>
-		<AccuracyMedium>0.75</AccuracyMedium>
-		<AccuracyLong>0.65</AccuracyLong>
-		<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+        <WorkToMake>48000</WorkToMake>
+        <Mass>3.8</Mass>
+        <AccuracyTouch>0.65</AccuracyTouch>
+        <AccuracyShort>0.89</AccuracyShort>
+        <AccuracyMedium>0.5</AccuracyMedium>
+        <AccuracyLong>0.35</AccuracyLong>
+        <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
 	</statBases>
 	<weaponTags>
 		<li>SpacerGun</li>
-		<li>ShortShots</li>
 	</weaponTags>
 	<costList>
 		<Plasteel>75</Plasteel>
@@ -42,13 +41,13 @@
 		<li>
 			<verbClass>Verb_Shoot</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Kurin_Bullet_Charge_Rifle</defaultProjectile>
-			<warmupTime>1.0</warmupTime>
-			<range>30.9</range>
-			<burstShotCount>2</burstShotCount>
+			<defaultProjectile>Kurin_Bullet_Charge_Shotgun</defaultProjectile>
+			<warmupTime>1.2</warmupTime>
+			<range>12.9</range>
+			<burstShotCount>4</burstShotCount>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-			<soundCast>Kurin_Shot_Charge_Rifle</soundCast>
-			<soundCastTail>GunTail_Medium</soundCastTail>
+			<soundCast>Kurin_Shot_Charge_Shotgun</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
 		</li>
 	</verbs>
@@ -74,30 +73,30 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseBullet">
-	<defName>Kurin_Bullet_Charge_Rifle</defName>
-	<label>kurin charge rifle bullet</label>
+	<defName>Kurin_Bullet_Charge_Shotgun</defName>
+	<label>kurin charge Shotgun bullet</label>
 	<projectile>
 		<damageDef>Bullet</damageDef>
 		<damageAmountBase>18</damageAmountBase>
-		<stoppingPower>1.8</stoppingPower>
+		<stoppingPower>3</stoppingPower>
 		<armorPenetrationBase>0.6</armorPenetrationBase>
-		<speed>100</speed>
+		<speed>75</speed>
 	</projectile>
 	<graphicData>
-		<texPath>Things/Projectile/Charge_Small</texPath>
+		<texPath>Things/Projectile/Bullet_Shotgun</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 </ThingDef>
 
 <SoundDef>
-	<defName>Kurin_Shot_Charge_Rifle</defName>  
+	<defName>Kurin_Shot_Charge_Shotgun</defName>  
 	<context>MapOnly</context>  
 	<maxSimultaneous>1</maxSimultaneous>  
 	<subSounds>
 		<li>
 			<grains>
 				<li Class="AudioGrain_Clip">
-					<clipPath>Kurin/KurinChargeRifle</clipPath>
+					<clipPath>Kurin/KurinChargeShotgun</clipPath>
 				</li>
 			</grains>      
 			<volumeRange>35~45</volumeRange>

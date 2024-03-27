@@ -112,6 +112,7 @@
     </apparelTags>
     <apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
     <weaponTags>
+      <li>Kurin_Shotgun</li>
       <li>Kurin_Carbine</li>
     </weaponTags>
     <weaponMoney>
@@ -170,6 +171,7 @@
     <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
     <weaponTags>
       <li>Kurin_Rifle</li>
+      <li>Kurin_Shotgun</li>
       <li>Kurin_Carbine</li>
     </weaponTags>
     <weaponMoney>
@@ -290,6 +292,7 @@
     <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
     <weaponTags>
       <li>Kurin_Rifle</li>
+      <li>Kurin_Shotgun</li>
       <li>Kurin_Carbine</li>
     </weaponTags>
     <weaponMoney>
@@ -377,6 +380,7 @@
     <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
     <weaponTags>
       <li>Kurin_Rifle</li>
+      <li>Kurin_Shotgun</li>
       <li>Kurin_Carbine</li>
     </weaponTags>
     <weaponMoney>
@@ -445,44 +449,3 @@
     </backstoryCategories>
   </PawnKindDef>
 </Defs>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

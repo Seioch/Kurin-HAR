@@ -93,6 +93,7 @@
     </apparelMoney>
     <weaponTags>
       <li>Kurin_Rifle</li>
+      <li>Kurin_Shotgun</li>
       <li>Kurin_Carbine</li>
     </weaponTags>
     <weaponMoney>
@@ -129,6 +130,7 @@
     <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
     <weaponTags>
       <li>Kurin_Rifle</li>
+      <li>Kurin_Shotgun</li>
       <li>Kurin_Carbine</li>
     </weaponTags>
     <weaponMoney>
@@ -162,6 +164,7 @@
     <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
     <weaponTags>
       <li>Kurin_Rifle</li>
+      <li>Kurin_Shotgun</li>
       <li>Kurin_Carbine</li>
     </weaponTags>
     <weaponMoney>
