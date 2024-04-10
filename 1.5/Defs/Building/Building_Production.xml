@@ -26,11 +26,6 @@
 	</graphicData>
 	<castEdgeShadows>true</castEdgeShadows>
 	<staticSunShadowHeight>0.20</staticSunShadowHeight>
-	<!--<costStuffCount>75</costStuffCount>
-	<stuffCategories>
-		<li>Metallic</li>
-		<li>Woody</li>
-	</stuffCategories>-->
 	<costList>
 		<WoodLog>75</WoodLog>
 		<Steel>50</Steel>
@@ -46,8 +41,9 @@
 	</statBases>
 	<size>(3,1)</size>
 	<designationCategory>Production</designationCategory>
+	<uiOrder>2410</uiOrder>
 	<passability>PassThroughOnly</passability>
-	<pathCost>70</pathCost>
+	<pathCost>50</pathCost>
 	<hasInteractionCell>True</hasInteractionCell>
 	<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 	<surfaceType>Item</surfaceType>

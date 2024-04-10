@@ -6,7 +6,10 @@
 		<Mass>0.2</Mass>
 		<EquipDelay>1.0</EquipDelay>
 	</statBases>
-	<apparel>	
+	<apparel>
+		<renderSkipFlags>
+			<li>None</li>
+		</renderSkipFlags>
 		<layers>
 			<li>Overhead</li>
 		</layers>

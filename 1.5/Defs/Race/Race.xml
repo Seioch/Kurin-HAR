@@ -19,12 +19,10 @@
         </forcedRaceTraitEntries>
         <disallowedTraits>
           <li>
-            <defName>Beauty</defName>
-            <degree>-1</degree>
+            <defName Degree="-2">Beauty</defName>
           </li>
           <li>
-            <defName>Beauty</defName>
-            <degree>-2</degree>
+            <defName Degree="-1">Beauty</defName>
           </li>
         </disallowedTraits>
         <factionRelations>
@@ -66,7 +64,17 @@
             <!-- Tail 1-->
             <li>
               <path>Kurin/Tail/Single tails/Texture1</path>
-              <bodyPartLabel>Right tail</bodyPartLabel>
+              <conditions>
+                <RotStage>Fresh, Rotting</RotStage>
+                <BodyPart>
+                  <bodyPartLabel>Right tail</bodyPartLabel>
+                </BodyPart>
+                <Posture>
+                  <drawnStanding>true</drawnStanding>
+                  <drawnLaying>true</drawnLaying>
+                  <drawnInBed>false</drawnInBed>
+                </Posture>
+              </conditions>
               <inFrontOfBody>false</inFrontOfBody>
               <colorChannel>hair</colorChannel>
               <drawSize>0.9</drawSize>
@@ -111,19 +119,18 @@
                   </headTypes>
                 </east>
               </offsets>
-              <drawnInBed>false</drawnInBed>
               <ageGraphics>
                 <HumanlikeAdult>
                   <path>Kurin/Tail/Single tails/Texture1</path>
-                  <drawSize>0.9</drawSize>
+                  <!-- <drawSize>0.9</drawSize> -->
                 </HumanlikeAdult>
                 <HumanlikeBaby>
                   <path>Kurin/TailChild/Single tails/Texture1</path>
-                  <drawSize>0.3</drawSize>
+                  <!-- <drawSize>0.3</drawSize> -->
                 </HumanlikeBaby>
                 <HumanlikeChild>
                   <path>Kurin/TailChild/Single tails/Texture1</path>
-                  <drawSize>0.6</drawSize>
+                  <!-- <drawSize>0.6</drawSize> -->
                 </HumanlikeChild>
               </ageGraphics>
             </li>
@@ -131,7 +138,17 @@
             <!-- Tail 2-->
             <li>
               <path>Kurin/Tail/Single tails/Texture2</path>
-              <bodyPartLabel>Left tail</bodyPartLabel>
+              <conditions>
+                <RotStage>Fresh, Rotting</RotStage>
+                <BodyPart>
+                  <bodyPartLabel>Left tail</bodyPartLabel>
+                </BodyPart>
+                <Posture>
+                  <drawnStanding>true</drawnStanding>
+                  <drawnLaying>true</drawnLaying>
+                  <drawnInBed>false</drawnInBed>
+                </Posture>
+              </conditions>
               <inFrontOfBody>false</inFrontOfBody>
               <colorChannel>hair</colorChannel>
               <drawSize>0.9</drawSize>
@@ -180,24 +197,33 @@
               <ageGraphics>
                 <HumanlikeAdult>
                   <path>Kurin/Tail/Single tails/Texture2</path>
-                  <drawSize>0.9</drawSize>
+                  <!-- <drawSize>0.9</drawSize> -->
                 </HumanlikeAdult>
                 <HumanlikeBaby>
                   <path>Kurin/TailChild/Single tails/Texture2</path>
-                  <drawSize>0.3</drawSize>
+                  <!-- <drawSize>0.3</drawSize> -->
                 </HumanlikeBaby>
                 <HumanlikeChild>
                   <path>Kurin/TailChild/Single tails/Texture2</path>
-                  <drawSize>0.6</drawSize>
+                  <!-- <drawSize>0.6</drawSize> -->
                 </HumanlikeChild>
               </ageGraphics>
-              <drawnInBed>false</drawnInBed>
             </li>
 
             <!-- Tail 3-->
             <li>
               <path>Kurin/Tail/Single tails/Texture3</path>
-              <bodyPartLabel>Middle tail</bodyPartLabel>
+              <conditions>
+                <RotStage>Fresh, Rotting</RotStage>
+                <BodyPart>
+                  <bodyPartLabel>Middle tail</bodyPartLabel>
+                </BodyPart>
+                <Posture>
+                  <drawnStanding>true</drawnStanding>
+                  <drawnLaying>true</drawnLaying>
+                  <drawnInBed>false</drawnInBed>
+                </Posture>
+              </conditions>
               <inFrontOfBody>false</inFrontOfBody>
               <colorChannel>hair</colorChannel>
               <drawSize>0.9</drawSize>
@@ -246,18 +272,17 @@
               <ageGraphics>
                 <HumanlikeAdult>
                   <path>Kurin/Tail/Single tails/Texture3</path>
-                  <drawSize>0.9</drawSize>
+                  <!-- <drawSize>0.9</drawSize> -->
                 </HumanlikeAdult>
                 <HumanlikeBaby>
                   <path>Kurin/TailChild/Single tails/Texture3</path>
-                  <drawSize>0.3</drawSize>
+                  <!-- <drawSize>0.3</drawSize> -->
                 </HumanlikeBaby>
                 <HumanlikeChild>
                   <path>Kurin/TailChild/Single tails/Texture3</path>
-                  <drawSize>0.6</drawSize>
+                  <!-- <drawSize>0.6</drawSize> -->
                 </HumanlikeChild>
               </ageGraphics>
-              <drawnInBed>false</drawnInBed>
             </li>
             
 			<!-- Ear graphic layer for drawing behind helmets is -0.269, only behind masks is -0.2675, and to draw above everything is -0.266-->
@@ -265,6 +290,7 @@
             <li>
               <path>Kurin/Ear/Left/DRNTFEarLA</path>
               <conditions>
+                <RotStage>Fresh, Rotting</RotStage>
                 <BodyPart>
                   <bodyPartLabel>left ear</bodyPartLabel>
                 </BodyPart>
@@ -273,7 +299,6 @@
               <inFrontOfBody>true</inFrontOfBody>
               <colorChannel>hair</colorChannel>
               <drawSize>0.9</drawSize>
-			        <drawnDesiccated>false</drawnDesiccated>
               <angle>0</angle>
               <!-- <defaultOffset>Head</defaultOffset> -->
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
@@ -330,19 +355,19 @@
 			  <ageGraphics>
                 <HumanlikeAdult>
                   <path>Kurin/Ear/Left/DRNTFEarLA</path>
-                  <drawSize>0.9</drawSize>
+                  <!-- <drawSize>0.9</drawSize> -->
                 </HumanlikeAdult>
                 <HumanlikeTeenager>
                   <path>Kurin/EarChild/Left/DRNTFEarLA</path>
-                  <drawSize>0.9</drawSize>
+                  <!-- <drawSize>0.9</drawSize> -->
                 </HumanlikeTeenager>
                 <HumanlikeBaby>
                   <path>Kurin/EarChild/Left/DRNTFEarLA</path>
-                  <drawSize>0.25</drawSize>
+                  <!-- <drawSize>0.25</drawSize> -->
                 </HumanlikeBaby>
                 <HumanlikeChild>
                   <path>Kurin/EarChild/Left/DRNTFEarLA</path>
-                  <drawSize>0.6</drawSize>
+                  <!-- <drawSize>0.6</drawSize> -->
                 </HumanlikeChild>
               </ageGraphics>
 			  <hediffGraphics>
@@ -354,6 +379,7 @@
             <li>
               <path>Kurin/Ear/Right/DRNTFEarRA</path>
               <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
                 <BodyPart>
                   <bodyPartLabel>right ear</bodyPartLabel>
                 </BodyPart>
@@ -362,7 +388,6 @@
               <inFrontOfBody>true</inFrontOfBody>
               <colorChannel>hair</colorChannel>
               <drawSize>0.9</drawSize>
-			        <drawnDesiccated>false</drawnDesiccated>
               <angle>0</angle>
               <!-- <defaultOffset>Head</defaultOffset> -->
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
@@ -419,19 +444,19 @@
               <ageGraphics>
                 <HumanlikeAdult>
                   <path>Kurin/Ear/Right/DRNTFEarRA</path>
-                  <drawSize>0.9</drawSize>
+                  <!-- <drawSize>0.9</drawSize> -->
                 </HumanlikeAdult>
                 <HumanlikeTeenager>
                   <path>Kurin/EarChild/Right/DRNTFEarRA</path>
-                  <drawSize>0.9</drawSize>
+                  <!-- <drawSize>0.9</drawSize> -->
                 </HumanlikeTeenager>
                 <HumanlikeBaby>
                   <path>Kurin/EarChild/Right/DRNTFEarRA</path>
-                  <drawSize>0.25</drawSize>
+                  <!-- <drawSize>0.25</drawSize> -->
                 </HumanlikeBaby>
                 <HumanlikeChild>
                   <path>Kurin/EarChild/Right/DRNTFEarRA</path>
-                  <drawSize>0.6</drawSize>
+                  <!-- <drawSize>0.6</drawSize> -->
                 </HumanlikeChild>
               </ageGraphics>
 			  <hediffGraphics>

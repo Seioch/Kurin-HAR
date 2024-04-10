@@ -4,14 +4,10 @@
 	<AlienRace.AlienBackstoryDef Name="Kurin_BaseBackstory" Abstract="True">
 		<disallowedTraitsChance>
 			<li>
-				<defName>Beauty</defName>
-				<degree>-1</degree>
-				<chance>100</chance>
+				<defName Degree="-1">Beauty</defName>
 			</li>
 			<li>
-				<defName>Beauty</defName>
-				<degree>-2</degree>
-				<chance>100</chance>
+				<defName Degree="-2">Beauty</defName>
 			</li>
 		</disallowedTraitsChance>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -178,8 +174,7 @@
 		<slot>Childhood</slot>
 		<forcedTraitsChance>
 			<li>
-				<defName>Industriousness</defName>
-				<degree>-1</degree>
+				<defName Degree="-1">Industriousness</defName>
 			</li>
 		</forcedTraitsChance>
 		<spawnCategories>
@@ -307,8 +302,7 @@
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>Beauty</defName>
-				<degree>2</degree>
+				<defName Degree="2">Beauty</defName>
 			</li>
 		</forcedTraitsChance>
 		<spawnCategories>
@@ -353,7 +347,6 @@
 		<forcedTraitsChance>
 			<li>
 				<defName>Kind</defName>
-				<degree>0</degree>
 			</li>
 		</forcedTraitsChance>
 		<spawnCategories>
@@ -580,8 +573,7 @@
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>Beauty</defName>
-				<degree>2</degree>
+				<defName Degree="2">Beauty</defName>
 			</li>
 		</forcedTraitsChance>
 		<spawnCategories>
@@ -951,8 +943,7 @@
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>Industriousness</defName>
-				<degree>1</degree>
+				<defName Degree="-1">Industriousness</defName>
 			</li>
 		</forcedTraitsChance>
 		<spawnCategories>
@@ -1008,8 +999,7 @@
 		<slot>Adulthood</slot>
 		<forcedTraitsChance>
 			<li>
-				<defName>Nerves</defName>
-				<degree>2</degree>
+				<defName Degree="2">Nerves</defName>
 			</li>
 		</forcedTraitsChance>
 		<spawnCategories>
@@ -1517,9 +1507,7 @@
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>Beauty</defName>
-				<degree>2</degree>
-
+				<defName Degree="2">Beauty</defName>
 			</li>
 		</forcedTraitsChance>
 		<spawnCategories>
@@ -1557,9 +1545,7 @@
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>Beauty</defName>
-				<degree>1</degree>
-
+				<defName Degree="2">Beauty</defName>
 			</li>
 		</forcedTraitsChance>
 		<spawnCategories>
@@ -1579,9 +1565,7 @@
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>Beauty</defName>
-				<degree>1</degree>
-
+				<defName Degree="1">Beauty</defName>
 			</li>
 		</forcedTraitsChance>
 		<spawnCategories>
@@ -1617,8 +1601,7 @@
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>ShootingAccuracy</defName>
-				<degree>1</degree>
+				<defName Degree="1">ShootingAccuracy</defName>
 			</li>
 		</forcedTraitsChance>
 		<spawnCategories>
@@ -1807,9 +1790,7 @@
 		</skillGains>
 		<forcedTraitsChance>
 			<li>
-				<defName>Beauty</defName>
-				<degree>2</degree>
-				<chance>100</chance>
+				<defName Degree="2">Beauty</defName>
 			</li>
 		</forcedTraitsChance>
 		<spawnCategories>
