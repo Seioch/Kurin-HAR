@@ -15,6 +15,7 @@
   <equippedAngleOffset>-20</equippedAngleOffset>
 	<techLevel>Industrial</techLevel>
 	<weaponTags>
+		<li>Kurin_Weapons</li>
 		<li>Kurin_Ceremonial_Polearm</li>
 	</weaponTags>
 	<costStuffCount>225</costStuffCount>

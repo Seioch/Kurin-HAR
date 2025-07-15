@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WandererJoin_Kurin.label>魅狐流浪者加入</WandererJoin_Kurin.label>
+  <WandererJoin_Kurin.letterText>一个名为{PAWN_title}的{PAWN_nameDef}到达了这个殖民地，挥舞着三个美丽的尾巴魅狐。\n\n如果您不想收编{PAWN_nameDef}，可以驱逐{PAWN_objective}，或将{PAWN_objective}卖给奴隶商人，或者干脆处死{PAWN_objective}。</WandererJoin_Kurin.letterText>
+  <WandererJoin_Kurin.letterLabel>魅狐流浪者加入: {PAWN_nameDef}</WandererJoin_Kurin.letterLabel>
+
+
+  <!-- EN: wanderer kurin join -->
+  <!-- EN: Wanderer kurin joins: {PAWN_nameDef} -->
+  <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony waving three beautiful tails.\n\n If you don't want {PAWN_nameDef}, you can banish {PAWN_objective}, sell {PAWN_objective} into slavery, or simply kill {PAWN_objective}. -->
+
+</LanguageData>

@@ -21,7 +21,7 @@
     <ingestible />
 	<altitudeLayer>Item</altitudeLayer>
     <plant>
-      <growDays>21.00</growDays>
+      <growDays>11.50</growDays>
       <dieIfLeafless>true</dieIfLeafless>
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>Synthread</harvestedThingDef>

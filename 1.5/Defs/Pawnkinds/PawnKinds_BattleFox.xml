@@ -359,8 +359,8 @@
       <max>2500</max>
     </weaponMoney>
     <backstoryCategories>
-      <li>Kurin_EliteSoldier</li>
       <li>Kurin_Army</li>
+      <li>Kurin_EliteSoldier</li>
     </backstoryCategories>
   </PawnKindDef>
   

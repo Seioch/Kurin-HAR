@@ -82,5 +82,19 @@
 		</match>
 	</Operation>
 
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/MeditationFocusDef[defName="Natural"]/requiredBackstoriesAny</xpath>
+      <value>
+        <li>
+          <categoryName>Kurin_Natural</categoryName>
+          <slot>Childhood</slot>
+        </li>
+      </value>
+    </match>
+    <success>Normal</success>
+  </Operation>
 </Patch>
-

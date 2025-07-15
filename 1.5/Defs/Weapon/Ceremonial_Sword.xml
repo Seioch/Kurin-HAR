@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 	<defName>Kurin_MeleeWeapon_Ceremonial_Sword</defName>
 	<label>kurin ceremonial sword</label>
 	<description>A large sword for Kurin ceremonial guards. Though unwieldy and slow, it can cleave a person right in half.</description>
@@ -12,6 +12,7 @@
     <uiIconScale>1.0</uiIconScale>
 	<techLevel>Industrial</techLevel>
 	<weaponTags>
+		<li>Kurin_Weapons</li>
 		<li>Kurin_Ceremonial_Sword</li>
 	</weaponTags>
 	<costStuffCount>125</costStuffCount>
@@ -19,6 +20,7 @@
 		<WorkToMake>24000</WorkToMake>
 		<Mass>4</Mass>
 	</statBases>
+  <equippedAngleOffset>-65</equippedAngleOffset>
 	<stuffCategories>
 		<li>Metallic</li>
 	</stuffCategories>

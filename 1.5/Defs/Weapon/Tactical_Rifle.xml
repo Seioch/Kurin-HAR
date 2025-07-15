@@ -2,7 +2,7 @@
 <Defs>
 
 <!-- AR -->
-<ThingDef ParentName="BaseMakeableGun">
+<ThingDef ParentName="BaseHumanMakeableGun">
 	<defName>Kurin_Gun_Assault_Rifle</defName>
 	<label>kurin assault rifle</label>
 	<description>A unique Kurin developed assault rifle. Faster projectiles and higher armor penetration at the cost of lower damage and smaller burst. Cheaper to manufacture than the traditional assault rifle.</description>
@@ -21,6 +21,7 @@
 		<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
 	</statBases>
 	<weaponTags>
+		<li>Kurin_Weapons</li>
 		<li>Kurin_Rifle</li>
 	</weaponTags>
 	<costList>
@@ -88,7 +89,7 @@
 </ThingDef>
 
 <!-- SMG -->
-<ThingDef ParentName="BaseMakeableGun">
+<ThingDef ParentName="BaseHumanMakeableGun">
 	<defName>Kurin_Gun_Carbine</defName>
 	<label>kurin carbine</label>
 	<description>A unique Kurin developed carbine. Short ranged, but faster projectiles and higher armor penetration. Cheaper to manufacture than the traditional assault rifle.</description>
@@ -107,6 +108,7 @@
 		<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
 	</statBases>
 	<weaponTags>
+		<li>Kurin_Weapons</li>
 		<li>Kurin_Carbine</li>
 	</weaponTags>
 	<costList>
@@ -174,7 +176,7 @@
 </ThingDef>
 
 <!-- SR -->
-<ThingDef ParentName="BaseMakeableGun">
+<ThingDef ParentName="BaseHumanMakeableGun">
 	<defName>Kurin_Gun_Sniper_Rifle</defName>
 	<label>kurin sniper rifle</label>
 	<description>A unique Kurin developed DMR. Faster shooting than the sniper rifle with lower damage and armor penetration.</description>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Name="MechanitorBase">
+    <defName>kurin_Mechanitor</defName>
+    <label>kurin mechanitor</label>
+    <race>Kurin_Race</race>
+    <combatPower>120</combatPower>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Scientist</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <chemicalAddictionChance>0.08</chemicalAddictionChance>
+    <apparelMoney>0~2500</apparelMoney>
+    <apparelTags>
+      <li>Kurin_Underwear</li>
+      <li>Kurin_Colonist</li>
+    </apparelTags>
+    <apparelRequired>
+      <li>Kurin_OnSkin_Mechanic_Clothing</li>
+      <li>Kurin_Portable_Bandwidth_Node</li>
+      <li>Kurin_Overhead_Mechanic_Goggles</li>
+    </apparelRequired>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelIgnorePollution MayRequire="Ludeon.RimWorld.Biotech">true</apparelIgnorePollution>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <weaponMoney>30000~90000</weaponMoney>
+    <weaponTags>
+      <li>Kurin_Mechanic_Weapons</li>
+    </weaponTags>
+    <forceWeaponQuality>Excellent</forceWeaponQuality>
+    <itemQuality>Excellent</itemQuality>
+    <techHediffsMoney>1000~2000</techHediffsMoney>
+    <techHediffsRequired>
+      <li>Mechlink</li>
+    </techHediffsRequired>
+    <biocodeWeaponChance>1</biocodeWeaponChance>
+    <combatEnhancingDrugsChance>0.5</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>1~2</combatEnhancingDrugsCount>
+    <initialWillRange>0</initialWillRange>
+    <initialResistanceRange>0~1</initialResistanceRange>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <disallowedTraits>
+      <li>BodyPurist</li>
+    </disallowedTraits>
+    <disallowedTraitsWithDegree>
+      <PsychicSensitivity>-1</PsychicSensitivity>
+      <PsychicSensitivity>-2</PsychicSensitivity>
+    </disallowedTraitsWithDegree>
+  </PawnKindDef>
+
+</Defs>

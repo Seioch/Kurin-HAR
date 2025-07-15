@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseMakeableGun">
+		<defName>Kurin_Gun_Mechanic_Charge_Rifle</defName>
+		<label>Kurin Mechanitor Charge Rifle</label>
+		<description>An energy rifle used by Kurin Mechanitors. Has weaker damage and armor penetration than the original, but provides tools to assist mech gestation and repair speed. The tools also boost general work speed.</description>
+		<graphicData>
+			<texPath>Things/KurinWeapon/Mechanic_Charge_Rifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<statBases>
+			<WorkToMake>58000</WorkToMake>
+			<Mass>4.7</Mass>
+			<AccuracyTouch>0.65</AccuracyTouch>
+			<AccuracyShort>0.79</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.69</AccuracyLong>
+			<RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+			<MechRepairSpeed>0.5</MechRepairSpeed>
+			<MechFormingSpeed>0.45</MechFormingSpeed>
+			<WorkSpeedGlobalOffsetMech>0.1</WorkSpeedGlobalOffsetMech>
+		</equippedStatOffsets>
+		<weaponTags>
+			<li>Kurin_Mechanic_Weapons</li>
+		</weaponTags>
+		<costList>
+			<Plasteel>150</Plasteel>
+			<ComponentSpacer>6</ComponentSpacer>
+			<SignalChip>2</SignalChip>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisites>
+				<li>Kurin_CombatT4</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Kurin_Bullet_Mechanic_Charge_Rifle</defaultProjectile>
+				<warmupTime>1.2</warmupTime>
+				<range>30.9</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>Kurin_Shot_MechanicWeapon</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Kurin_Bullet_Mechanic_Charge_Rifle</defName>
+		<label>kurin mech rifle bullet</label>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<stoppingPower>1.2</stoppingPower>
+			<armorPenetrationBase>0.45</armorPenetrationBase>
+			<speed>100</speed>
+		</projectile>
+		<graphicData>
+			<texPath>Kurin/Weapon/KurinChargeBullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<SoundDef>
+		<defName>Kurin_Shot_MechanicWeapon</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Kurin/MechanicWeapon</clipPath>
+					</li>
+				</grains>
+				<volumeRange>35~45</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

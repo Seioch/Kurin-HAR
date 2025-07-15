@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Scout.label>魅狐斥候</Kurin_Scout.label>
+  <Kurin_Scout.labelPlural>魅狐斥候</Kurin_Scout.labelPlural>
+  <Kurin_Scout.labelMale>男性 魅狐斥候</Kurin_Scout.labelMale>
+  <Kurin_Scout.labelMalePlural>男性 魅狐斥候</Kurin_Scout.labelMalePlural>
+  <Kurin_Scout.labelFemale>女性 魅狐斥候</Kurin_Scout.labelFemale>
+  <Kurin_Scout.labelFemalePlural>女性 魅狐斥候</Kurin_Scout.labelFemalePlural>
+
+  <Kurin_Savage.label>魅狐从者</Kurin_Savage.label>
+  <Kurin_Savage.labelPlural>魅狐从者</Kurin_Savage.labelPlural>
+  <Kurin_Savage.labelMale>男性 魅狐从者</Kurin_Savage.labelMale>
+  <Kurin_Savage.labelMalePlural>男性 魅狐从者</Kurin_Savage.labelMalePlural>
+  <Kurin_Savage.labelFemale>女性 魅狐从者</Kurin_Savage.labelFemale>
+  <Kurin_Savage.labelFemalePlural>女性 魅狐从者</Kurin_Savage.labelFemalePlural>
+
+  <Kurin_Initiate.label>魅狐族新人</Kurin_Initiate.label>
+  <Kurin_Initiate.labelPlural>魅狐族新人</Kurin_Initiate.labelPlural>
+  <Kurin_Initiate.labelMale>男性 魅狐族新人</Kurin_Initiate.labelMale>
+  <Kurin_Initiate.labelMalePlural>男性 魅狐族新人</Kurin_Initiate.labelMalePlural>
+  <Kurin_Initiate.labelFemale>女性 魅狐族新人</Kurin_Initiate.labelFemale>
+  <Kurin_Initiate.labelFemalePlural>女性 魅狐族新人</Kurin_Initiate.labelFemalePlural>
+
+
+  <!-- Tier 2 -->
+
+  <Kurin_Recruit.label>魅狐动员兵</Kurin_Recruit.label>
+  <Kurin_Recruit.labelPlural>魅狐动员兵</Kurin_Recruit.labelPlural>
+  <Kurin_Recruit.labelMale>男性 魅狐动员兵</Kurin_Recruit.labelMale>
+  <Kurin_Recruit.labelMalePlural>男性 魅狐动员兵</Kurin_Recruit.labelMalePlural>
+  <Kurin_Recruit.labelFemale>女性 魅狐动员兵</Kurin_Recruit.labelFemale>
+  <Kurin_Recruit.labelFemalePlural>女性 魅狐动员兵</Kurin_Recruit.labelFemalePlural>
+
+  <Kurin_ELite_Scout.label>魅狐精英侦察员</Kurin_ELite_Scout.label>
+  <Kurin_ELite_Scout.labelPlural>魅狐精英侦察员</Kurin_ELite_Scout.labelPlural>
+  <Kurin_ELite_Scout.labelMale>男性 魅狐精英侦察员</Kurin_ELite_Scout.labelMale>
+  <Kurin_ELite_Scout.labelMalePlural>男性 魅狐精英侦察员</Kurin_ELite_Scout.labelMalePlural>
+  <Kurin_ELite_Scout.labelFemale>女性 魅狐精英侦察员</Kurin_ELite_Scout.labelFemale>
+  <Kurin_ELite_Scout.labelFemalePlural>女性 魅狐精英侦察员</Kurin_ELite_Scout.labelFemalePlural>
+
+  <Kurin_Trooper.label>魅狐空降兵</Kurin_Trooper.label>
+  <Kurin_Trooper.labelPlural>魅狐空降兵</Kurin_Trooper.labelPlural>
+  <Kurin_Trooper.labelMale>男性 魅狐空降兵</Kurin_Trooper.labelMale>
+  <Kurin_Trooper.labelMalePlural>男性 魅狐空降兵</Kurin_Trooper.labelMalePlural>
+  <Kurin_Trooper.labelFemale>女性 魅狐空降兵</Kurin_Trooper.labelFemale>
+  <Kurin_Trooper.labelFemalePlural>女性 魅狐空降兵</Kurin_Trooper.labelFemalePlural>
+
+  <Kurin_Ninja.label>魅狐忍者</Kurin_Ninja.label>
+  <Kurin_Ninja.labelPlural>魅狐忍者</Kurin_Ninja.labelPlural>
+  <Kurin_Ninja.labelMale>男性 魅狐忍者</Kurin_Ninja.labelMale>
+  <Kurin_Ninja.labelMalePlural>男性 魅狐忍者</Kurin_Ninja.labelMalePlural>
+  <Kurin_Ninja.labelFemale>女性 魅狐忍者</Kurin_Ninja.labelFemale>
+  <Kurin_Ninja.labelFemalePlural>女性 魅狐忍者</Kurin_Ninja.labelFemalePlural>
+
+  <Kurin_Slasher.label>魅狐刀斧手</Kurin_Slasher.label>
+  <Kurin_Slasher.labelPlural>魅狐刀斧手</Kurin_Slasher.labelPlural>
+  <Kurin_Slasher.labelMale>男性 魅狐刀斧手</Kurin_Slasher.labelMale>
+  <Kurin_Slasher.labelMalePlural>男性 魅狐刀斧手</Kurin_Slasher.labelMalePlural>
+  <Kurin_Slasher.labelFemale>女性 魅狐刀斧手</Kurin_Slasher.labelFemale>
+  <Kurin_Slasher.labelFemalePlural>女性 魅狐刀斧手</Kurin_Slasher.labelFemalePlural>
+
+  <Kurin_Sniper_H.label>魅狐狙击手</Kurin_Sniper_H.label>
+  <Kurin_Sniper_H.labelPlural>魅狐狙击手</Kurin_Sniper_H.labelPlural>
+  <Kurin_Sniper_H.labelMale>男性 魅狐狙击手</Kurin_Sniper_H.labelMale>
+  <Kurin_Sniper_H.labelMalePlural>男性 魅狐狙击手</Kurin_Sniper_H.labelMalePlural>
+  <Kurin_Sniper_H.labelFemale>女性 魅狐狙击手</Kurin_Sniper_H.labelFemale>
+  <Kurin_Sniper_H.labelFemalePlural>女性 魅狐狙击手</Kurin_Sniper_H.labelFemalePlural>
+
+
+  <!-- Tier 3 -->
+
+  <Kurin_EliteTrooper.label>魅狐战士</Kurin_EliteTrooper.label>
+  <Kurin_EliteTrooper.labelPlural>魅狐战士</Kurin_EliteTrooper.labelPlural>
+  <Kurin_EliteTrooper.labelMale>男性 魅狐战士</Kurin_EliteTrooper.labelMale>
+  <Kurin_EliteTrooper.labelMalePlural>男性 魅狐战士</Kurin_EliteTrooper.labelMalePlural>
+  <Kurin_EliteTrooper.labelFemale>女性 魅狐战士</Kurin_EliteTrooper.labelFemale>
+  <Kurin_EliteTrooper.labelFemalePlural>女性 魅狐战士</Kurin_EliteTrooper.labelFemalePlural>
+
+  <Kurin_EliteSlasher.label>魅狐士兵</Kurin_EliteSlasher.label>
+  <Kurin_EliteSlasher.labelPlural>魅狐士兵</Kurin_EliteSlasher.labelPlural>
+  <Kurin_EliteSlasher.labelMale>男性 魅狐士兵</Kurin_EliteSlasher.labelMale>
+  <Kurin_EliteSlasher.labelMalePlural>男性 魅狐士兵</Kurin_EliteSlasher.labelMalePlural>
+  <Kurin_EliteSlasher.labelFemale>女性 魅狐士兵</Kurin_EliteSlasher.labelFemale>
+  <Kurin_EliteSlasher.labelFemalePlural>女性 魅狐士兵</Kurin_EliteSlasher.labelFemalePlural>
+
+  <Kurin_EliteSniper_H.label>魅狐狙击手</Kurin_EliteSniper_H.label>
+  <Kurin_EliteSniper_H.labelPlural>魅狐狙击手</Kurin_EliteSniper_H.labelPlural>
+  <Kurin_EliteSniper_H.labelMale>男性 魅狐狙击手</Kurin_EliteSniper_H.labelMale>
+  <Kurin_EliteSniper_H.labelMalePlural>男性 魅狐狙击手</Kurin_EliteSniper_H.labelMalePlural>
+  <Kurin_EliteSniper_H.labelFemale>女性 魅狐狙击手</Kurin_EliteSniper_H.labelFemale>
+  <Kurin_EliteSniper_H.labelFemalePlural>女性 魅狐狙击手</Kurin_EliteSniper_H.labelFemalePlural>
+
+  <Kurin_Veteran.label>魅狐老兵</Kurin_Veteran.label>
+  <Kurin_Veteran.labelPlural>魅狐老兵</Kurin_Veteran.labelPlural>
+  <Kurin_Veteran.labelMale>男性 魅狐老兵</Kurin_Veteran.labelMale>
+  <Kurin_Veteran.labelMalePlural>男性 魅狐老兵</Kurin_Veteran.labelMalePlural>
+  <Kurin_Veteran.labelFemale>女性 魅狐老兵</Kurin_Veteran.labelFemale>
+  <Kurin_Veteran.labelFemalePlural>女性 魅狐老兵</Kurin_Veteran.labelFemalePlural>
+
+
+  <!-- Special -->
+
+  <Kurin_Warlord1.label>魅狐军阀</Kurin_Warlord1.label>
+  <Kurin_Warlord1.labelPlural>魅狐军阀</Kurin_Warlord1.labelPlural>
+  <Kurin_Warlord1.labelMale>男性 魅狐军阀</Kurin_Warlord1.labelMale>
+  <Kurin_Warlord1.labelMalePlural>男性 魅狐军阀</Kurin_Warlord1.labelMalePlural>
+  <Kurin_Warlord1.labelFemale>女性 魅狐军阀</Kurin_Warlord1.labelFemale>
+  <Kurin_Warlord1.labelFemalePlural>女性 魅狐军阀</Kurin_Warlord1.labelFemalePlural>
+
+  <Kurin_Warlord2.label>魅狐领主</Kurin_Warlord2.label>
+  <Kurin_Warlord2.labelPlural>魅狐领主</Kurin_Warlord2.labelPlural>
+  <Kurin_Warlord2.labelMale>男性 魅狐领主</Kurin_Warlord2.labelMale>
+  <Kurin_Warlord2.labelMalePlural>男性 魅狐领主</Kurin_Warlord2.labelMalePlural>
+  <Kurin_Warlord2.labelFemale>女性 魅狐领主</Kurin_Warlord2.labelFemale>
+  <Kurin_Warlord2.labelFemalePlural>女性 魅狐领主</Kurin_Warlord2.labelFemalePlural>
+
+
+  <!-- EN: Kurin Elite Scout -->
+  <!-- EN: Kurin Soldier -->
+  <!-- EN: Kurin Sniper -->
+  <!-- EN: Kurin Initiate -->
+  <!-- EN: Kurin Ninja -->
+  <!-- EN: Kurin Recruit -->
+  <!-- EN: kurin savage -->
+  <!-- EN: kurin scout -->
+  <!-- EN: Kurin Slasher -->
+  <!-- EN: Kurin Trooper -->
+  <!-- EN: kurin veteran -->
+  <!-- EN: kurin warlord -->
+  <!-- EN: Kurin Warlord -->
+
+</LanguageData>

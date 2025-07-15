@@ -1,0 +1,901 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <!-- EN: 魅狐 新聞記者 -->
+  <Kurin_BackstoryAdult_01.backstory.title>魅狐 新聞記者</Kurin_BackstoryAdult_01.backstory.title>
+  <!-- EN: [PAWN_nameDef] is a journalist who writes an article in a newspaper. [PAWN_pronoun] covered recent state of the nation, culture, and diplomacy. Surprisingly, the proportion of politics is not that big. Because everyone believes Republic of Kurin is fair, upright nation. -->
+  <Kurin_BackstoryAdult_01.description>[PAWN_nameDef]是一個在報紙上寫文章的記者。[PAWN_pronoun]撰寫的內容涵蓋了國家，文化和外交的最新狀況。出乎意料的是，政治事件比例並不大。因為每個人都認為魅狐共和國是個公正，正直的國家。</Kurin_BackstoryAdult_01.description>
+  <!-- EN: Kurin Journalist -->
+  <Kurin_BackstoryAdult_01.title>魅狐 新聞記者</Kurin_BackstoryAdult_01.title>
+  <!-- EN: Journalist -->
+  <Kurin_BackstoryAdult_01.titleShort>新聞記者</Kurin_BackstoryAdult_01.titleShort>
+  
+  <!-- EN: 魅狐 雇傭女僕 -->
+  <Kurin_BackstoryAdult_02.backstory.title>魅狐 雇傭女僕</Kurin_BackstoryAdult_02.backstory.title>
+  <!-- EN: [PAWN_nameDef] is a maid hired in a mansion of a noble. [PAWN_pronoun] did cleaning and prepared meals as a housekeeper, but also worked as a butler from purchase goods for maintaining the mansion to managing the account. [PAWN_pronoun] gained master's trust along the way. -->
+  <Kurin_BackstoryAdult_02.description>[PAWN_nameDef]是一位貴族豪宅中工作的女僕。[PAWN_pronoun]曾作為管家進行清潔和準備飯菜的工作，但還擔任過管家[PAWN_pronoun]在此過程中獲得了主人的信任。</Kurin_BackstoryAdult_02.description>
+  <!-- EN: Kurin Hired Maid -->
+  <Kurin_BackstoryAdult_02.title>魅狐 雇傭女僕</Kurin_BackstoryAdult_02.title>
+  <!-- EN: Maid -->
+  <Kurin_BackstoryAdult_02.titleShort>狐狸女僕</Kurin_BackstoryAdult_02.titleShort>
+  
+  <!-- EN: 魅狐 餐廳服務員 -->
+  <Kurin_BackstoryAdult_03.backstory.title>魅狐 餐廳服務員</Kurin_BackstoryAdult_03.backstory.title>
+  <!-- EN: [PAWN_nameDef] worked at a high-end restaurant, taking orders from customers, serving food, and organizing tables. Although fur was often found in the food, many guests liked [PAWN_nameDef] and [PAWN_pronoun] even learned the chef's brilliant cooking skills. -->
+  <Kurin_BackstoryAdult_03.description>[PAWN_nameDef]一家高端餐廳工作，受理顧客的訂單，端菜上桌與清理桌子等工作。儘管在食物中經常發現一些毛髮，但許多來賓依舊喜歡[PAWN_nameDef]，此外[PAWN_pronoun]甚至在工作期間學到了廚師精湛的烹飪技巧。</Kurin_BackstoryAdult_03.description>
+  <!-- EN: Kurin Restaurant Waiter -->
+  <Kurin_BackstoryAdult_03.title>魅狐 餐廳服務員</Kurin_BackstoryAdult_03.title>
+  <!-- EN: Waiter -->
+  <Kurin_BackstoryAdult_03.titleShort>服務員</Kurin_BackstoryAdult_03.titleShort>
+  
+  <!-- EN: 魅狐 獵物 -->
+  <Kurin_BackstoryAdult_04.backstory.title>魅狐 獵物</Kurin_BackstoryAdult_04.backstory.title>
+  <!-- EN: Fox hunting is a luxury sport of human nobles that have been around for a long time. Although banned for cruelty, it has been gaining popularity again since the emergence of Kurin. As a prey, [PAWN_nameDef] wore a fur suit and ran away from the hunters. -->
+  <Kurin_BackstoryAdult_04.description>獵狐是人類貴族的一項奢侈運動，這種運動已經存在了很長的歷史。儘管由於殘忍而被禁止，但自“魅狐”的出現以後，這個活動再次受到歡迎。作為“獵物”，[PAWN_nameDef]穿著皮草外套扮演著逃離獵人追捕的“狐狸”。</Kurin_BackstoryAdult_04.description>
+  <!-- EN: Kurin Prey -->
+  <Kurin_BackstoryAdult_04.title>魅狐 獵物</Kurin_BackstoryAdult_04.title>
+  <!-- EN: Prey -->
+  <Kurin_BackstoryAdult_04.titleShort>獵物</Kurin_BackstoryAdult_04.titleShort>
+  
+  <!-- EN: 魅狐 刺客 -->
+  <Kurin_BackstoryAdult_05.backstory.title>魅狐 刺客</Kurin_BackstoryAdult_05.backstory.title>
+  <!-- EN: [PAWN_nameDef] is well-known terrorist among international societies. But in reality, [PAWN_pronoun] was a hero who assassinated an officer in a dictatorship who killed Kurins for fun. Nobody knew this and [PAWN_pronoun] always had to run away, but [PAWN_pronoun] thinks [PAWN_pronoun] did the right thing. -->
+  <Kurin_BackstoryAdult_05.description>[PAWN_nameDef]是國際社會中臭名昭著的恐怖分子。但實際上，[PAWN_pronoun]是一個英雄，[PAWN_pronoun]暗殺了一個獨裁政權的軍官，這個軍官以殺死魅狐為樂。真相是沒有人知道，因此[PAWN_pronoun]總是不得不逃跑，但[PAWN_pronoun]堅定的認為自己做了正確的事。</Kurin_BackstoryAdult_05.description>
+  <!-- EN: Kurin Assassin -->
+  <Kurin_BackstoryAdult_05.title>魅狐 刺客</Kurin_BackstoryAdult_05.title>
+  <!-- EN: Assassin -->
+  <Kurin_BackstoryAdult_05.titleShort>暗殺者</Kurin_BackstoryAdult_05.titleShort>
+  
+  <!-- EN: 魅狐 疫病倖存者 -->
+  <Kurin_BackstoryAdult_06.backstory.title>魅狐 疫病倖存者</Kurin_BackstoryAdult_06.backstory.title>
+  <!-- EN: In a post-apocalyptic city where rabies-infected Kurins went insane and bit each other, [PAWN_nameDef] managed to hide in a convenience store. [PAWN_pronoun] could hear horrible screams and sound of the Kurins biting each other from the outside all day long. After few days, [PAWN_pronoun] was eventually rescued, but the horrifying memories remained. -->
+  <Kurin_BackstoryAdult_06.description>在一個世界末日後的城市裡，感染了狂犬病的魅狐變得瘋狂，互相撕咬同伴，[PAWN_nameDef]設法躲在一家便利店中。[PAWN_pronoun]整日被外面可怕的尖叫聲和魅狐互相撕咬的聲音所折磨。幾天后，[PAWN_pronoun]最終被救出，但令人恐懼的記憶依然存在。後續一群身著紅黑色裝備的人，帶著一大堆治癒機械液，治癒了所有感染了狂犬病的魅狐們。</Kurin_BackstoryAdult_06.description>
+  <!-- EN: Kurin Rabies Survivor -->
+  <Kurin_BackstoryAdult_06.title>魅狐 疫病倖存者</Kurin_BackstoryAdult_06.title>
+  <!-- EN: Survivor -->
+  <Kurin_BackstoryAdult_06.titleShort>倖存者</Kurin_BackstoryAdult_06.titleShort>
+  
+  <!-- EN: 魅狐 按摩師 -->
+  <Kurin_BackstoryAdult_07.backstory.title>魅狐 按摩師</Kurin_BackstoryAdult_07.backstory.title>
+  <!-- EN: [PAWN_nameDef] worked at a massage shop located in red-light district. [PAWN_pronoun] usual job was to give customers a massage with spices and oil to relieve fatigue, but there was also a special service available for those who want something more. [PAWN_pronoun] learned much about the Kurin body, and her experience helped her work her way out. -->
+  <Kurin_BackstoryAdult_07.description>[PAWN_nameDef]在紅燈區的一家按摩店工作。[PAWN_pronoun]通常的工作是給顧客提供一些香料和推油按摩，以緩解疲勞，但也有一些特殊的服務，為那些想要渴求更多的客人而準備的。[PAWN_nameDef]對魅狐的身體了解很多，[PAWN_pronoun]的經歷幫助自己走出了困境。</Kurin_BackstoryAdult_07.description>
+  <!-- EN: Kurin Massager -->
+  <Kurin_BackstoryAdult_07.title>魅狐 按摩師</Kurin_BackstoryAdult_07.title>
+  <!-- EN: Massager -->
+  <Kurin_BackstoryAdult_07.titleShort>按摩師</Kurin_BackstoryAdult_07.titleShort>
+  
+  <!-- EN: 魅狐 野狐 -->
+  <Kurin_BackstoryAdult_08.backstory.title>魅狐 野狐</Kurin_BackstoryAdult_08.backstory.title>
+  <!-- EN: [PAWN_nameDef] got tired city life, so [PAWN_pronoun] went into the mountains. [PAWN_pronoun] built an old-fashioned house that barely had water and electricity, handling farming and chores by oneself. [PAWN_pronoun] always had dirt and water in their hands.  -->
+  <Kurin_BackstoryAdult_08.description>[PAWN_nameDef]厭倦了城市生活，所以[PAWN_pronoun]住進了深山裡。[PAWN_pronoun]建造了一座老式房子，幾乎沒有水和電，只能自己耕種和做家務。[PAWN_pronoun]手裡總是沾有泥水。</Kurin_BackstoryAdult_08.description>
+  <!-- EN: Kurin Natural Fox -->
+  <Kurin_BackstoryAdult_08.title>魅狐 野狐</Kurin_BackstoryAdult_08.title>
+  <!-- EN: Natural Fox -->
+  <Kurin_BackstoryAdult_08.titleShort>野狐</Kurin_BackstoryAdult_08.titleShort>
+  
+  <!-- EN: 魅狐 市民 -->
+  <Kurin_BackstoryAdult_09.backstory.title>魅狐 市民</Kurin_BackstoryAdult_09.backstory.title>
+  <!-- EN: [PAWN_nameDef] was an ordinary citizen. Citizens who work hard every day doing their own work are the very foundation and basis of Kurin society. -->
+  <Kurin_BackstoryAdult_09.description>[PAWN_nameDef]是一名普通公民。每天辛勤工作的公民是魅狐社會基礎的奠基石。</Kurin_BackstoryAdult_09.description>
+  <!-- EN: Kurin Citizen -->
+  <Kurin_BackstoryAdult_09.title>魅狐 市民</Kurin_BackstoryAdult_09.title>
+  <!-- EN: Citizen -->
+  <Kurin_BackstoryAdult_09.titleShort>市民</Kurin_BackstoryAdult_09.titleShort>
+  
+  <!-- EN: 魅狐 銀行接待員 -->
+  <Kurin_BackstoryAdult_10.backstory.title>魅狐 銀行接待員</Kurin_BackstoryAdult_10.backstory.title>
+  <!-- EN: [PAWN_nameDef] was a smart fox who worked in a bank, who was in charge of various tasks. From taking care of the other Kurin's deposits to consult on loans. [PAWN_pronoun] loved the job and had a satisfying work life thanks to good colleagues. -->
+  <Kurin_BackstoryAdult_10.description>[PAWN_nameDef]是一位聰明的員工，在銀行工作，負責各種任務。從照顧其他客戶的存款到咨詢貸款。[PAWN_pronoun]熱愛這項工作，並由於有出色的同事而過著令人滿意的工作生活。</Kurin_BackstoryAdult_10.description>
+  <!-- EN: Kurin Bank Receptionist -->
+  <Kurin_BackstoryAdult_10.title>魅狐 銀行接待員</Kurin_BackstoryAdult_10.title>
+  <!-- EN: Receptionist -->
+  <Kurin_BackstoryAdult_10.titleShort>接待員</Kurin_BackstoryAdult_10.titleShort>
+  
+  <!-- EN: 魅狐 雇農 -->
+  <Kurin_BackstoryAdult_11.backstory.title>魅狐 雇農</Kurin_BackstoryAdult_11.backstory.title>
+  <!-- EN: [PAWN_nameDef] was a farmhand, wearing a straw hat and sitting on a wooden hut to protect a vineyard. When cute little young Kurins came to stole the grapes they looked after, they shouted out firecely to kick them out. When the grapes weren't ripe enough, they used to laugh as they watched the little ones cried from the fruit's sourness. -->
+  <Kurin_BackstoryAdult_11.description>[PAWN_nameDef]是一位農民，戴著草帽，坐在一個木製小屋中以看管葡萄園。當可愛的小魅狐們偷走了[PAWN_nameDef]所照看的葡萄時，[PAWN_pronoun]會大吼大叫的將他們趕出去。當葡萄還不未成熟的時，[PAWN_pronoun]會去譏笑那些因偷吃了酸葡萄而啼哭流淚的魅狐。</Kurin_BackstoryAdult_11.description>
+  <!-- EN: Kurin Farmhand -->
+  <Kurin_BackstoryAdult_11.title>魅狐 雇農</Kurin_BackstoryAdult_11.title>
+  <!-- EN: Farmhand -->
+  <Kurin_BackstoryAdult_11.titleShort>雇農</Kurin_BackstoryAdult_11.titleShort>
+  
+  <!-- EN: 魅狐 駕駛員 -->
+  <Kurin_BackstoryAdult_12.backstory.title>魅狐 駕駛員</Kurin_BackstoryAdult_12.backstory.title>
+  <!-- EN: [PAWN_nameDef] was a pilot who's able to fly light aircraft. [PAWN_pronoun] got in trouble when [PAWN_pronoun] did an unplanned air show, so [PAWN_pronoun] doesn't do that kind of work anymore. -->
+  <Kurin_BackstoryAdult_12.description>[PAWN_nameDef]是能夠駕駛輕型飛機的飛行員。當[PAWN_pronoun]進行了計劃外的飛行表演時，[PAWN_pronoun]遇到了麻煩，此後[PAWN_pronoun]不再擔任此類工作了。</Kurin_BackstoryAdult_12.description>
+  <!-- EN: Kurin Pilot -->
+  <Kurin_BackstoryAdult_12.title>魅狐 駕駛員</Kurin_BackstoryAdult_12.title>
+  <!-- EN: Pilot -->
+  <Kurin_BackstoryAdult_12.titleShort>駕駛員</Kurin_BackstoryAdult_12.titleShort>
+  
+  <!-- EN: 魅狐 狐狸警察 -->
+  <Kurin_BackstoryAdult_13.backstory.title>魅狐 狐狸警察</Kurin_BackstoryAdult_13.backstory.title>
+  <!-- EN: [PAWN_nameDef] is an excellent police officer who graduated from police school with the highest grades. [PAWN_nameDef]'s personality was not really suitable for policing, but after so much effort, [PAWN_pronoun] achieved their dream, and shook off everyone else's sarcasm. -->
+  <Kurin_BackstoryAdult_13.description>[PAWN_nameDef]是一位出色的警察，以優異的成績從警校畢業。[PAWN_nameDef]的性格確實不適合進行警務工作，但經過大量的努力，[PAWN_pronoun]實現了自己的夢想，擺脫了其他人的嘲笑。</Kurin_BackstoryAdult_13.description>
+  <!-- EN: Kurin Policefox -->
+  <Kurin_BackstoryAdult_13.title>魅狐 狐狸警察</Kurin_BackstoryAdult_13.title>
+  <!-- EN: Policefox -->
+  <Kurin_BackstoryAdult_13.titleShort>狐狸警察</Kurin_BackstoryAdult_13.titleShort>
+  
+  <!-- EN: 魅狐 軍械庫職員 -->
+  <Kurin_BackstoryAdult_14.backstory.title>魅狐 軍械庫職員</Kurin_BackstoryAdult_14.backstory.title>
+  <!-- EN: [PAWN_nameDef] is a Redfox Armory's clerk, who's in charge of warehouse documents. But [PAWN_pronoun] is not really familiar with actual gunsmithing since all [PAWN_pronoun] did was paperwork. -->
+  <Kurin_BackstoryAdult_14.description>[PAWN_nameDef]是紅狐軍械庫的職員，負責管理倉庫文件。但是[PAWN_pronoun]並不熟悉槍械製造和使用，畢竟[PAWN_pronoun]的工作只是文職人員。</Kurin_BackstoryAdult_14.description>
+  <!-- EN: Kurin Armory Clerk -->
+  <Kurin_BackstoryAdult_14.title>魅狐 軍械庫職員</Kurin_BackstoryAdult_14.title>
+  <!-- EN: Clerk -->
+  <Kurin_BackstoryAdult_14.titleShort>職員</Kurin_BackstoryAdult_14.titleShort>
+  
+  <!-- EN: 魅狐 傳教士 -->
+  <Kurin_BackstoryAdult_15.backstory.title>魅狐 傳教士</Kurin_BackstoryAdult_15.backstory.title>
+  <!-- EN: [PAWN_nameDef] followed religious beliefs and lived life helping poor Kurins. [PAWN_nameDef]'s life was mostly in poverty, but their heart was wealthier than anyone else. -->
+  <Kurin_BackstoryAdult_15.description>[PAWN_nameDef]遵循宗教信仰，一生都在幫助可憐的魅狐同胞。[PAWN_nameDef]的生活大多處於貧困之中，但其內心比其他任何人都幸福。</Kurin_BackstoryAdult_15.description>
+  <!-- EN: Kurin Missionary -->
+  <Kurin_BackstoryAdult_15.title>魅狐 傳教士</Kurin_BackstoryAdult_15.title>
+  <!-- EN: Missionary -->
+  <Kurin_BackstoryAdult_15.titleShort>傳教士</Kurin_BackstoryAdult_15.titleShort>
+  
+  <!-- EN: 魅狐 貿易營業員 -->
+  <Kurin_BackstoryAdult_16.backstory.title>魅狐 貿易營業員</Kurin_BackstoryAdult_16.backstory.title>
+  <!-- EN: [PAWN_nameDef] is a salesperson of a trading company that sells various Kurin products to other nations. Kurins are known as an affable, but crafty trader among other nations, and [PAWN_pronoun] is just like that. But recently, relations with other countries worsened and sales have been difficult. -->
+  <Kurin_BackstoryAdult_16.description>[PAWN_nameDef]是一家貿易公司的銷售人員，該公司向其他國家或地區銷售各種魅狐產品。在其他國家的認知中，魅狐被認為是一個友善但狡猾的商人，[PAWN_pronoun]就是這樣做的。但是最近，與其他國家的關係開始惡化起來，銷售業績也變的困難了。一段時間後，[PAWN_pronoun]和一群“RS”人做了一些對於她來說很大的單子。</Kurin_BackstoryAdult_16.description>
+  <!-- EN: Kurin Trade Salesperson -->
+  <Kurin_BackstoryAdult_16.title>魅狐 貿易營業員</Kurin_BackstoryAdult_16.title>
+  <!-- EN: Salesperson -->
+  <Kurin_BackstoryAdult_16.titleShort>銷售員</Kurin_BackstoryAdult_16.titleShort>
+  
+  <!-- EN: 魅狐 地勤人員 -->
+  <Kurin_BackstoryAdult_17.backstory.title>魅狐 地勤人員</Kurin_BackstoryAdult_17.backstory.title>
+  <!-- EN: [PAWN_nameDef] was a groundcrew of a Kurin airport. A few layers of earplugs were not enough to protect [PAWN_nameDef]'s sensitive ears against loud engine noise, but [PAWN_pronoun] got used to it. [PAWN_pronoun] even managed to tie up her tails, as tails fluttered all over the place thanks to the fierce wind. -->
+  <Kurin_BackstoryAdult_17.description>[PAWN_nameDef]是魅狐機場的地勤人員。幾層耳塞不足以保護[PAWN_nameDef]的敏感耳朵免受巨大的發動機噪音，但是[PAWN_pronoun]習慣了。[PAWN_pronoun]甚至想要綁捆住自己的尾巴，因為狂風使尾巴在風中搖擺。</Kurin_BackstoryAdult_17.description>
+  <!-- EN: Kurin Groundcrew -->
+  <Kurin_BackstoryAdult_17.title>魅狐 地勤人員</Kurin_BackstoryAdult_17.title>
+  <!-- EN: Groundcrew -->
+  <Kurin_BackstoryAdult_17.titleShort>地勤人員</Kurin_BackstoryAdult_17.titleShort>
+  
+  <!-- EN: 魅狐 旅行商人 -->
+  <Kurin_BackstoryAdult_18.backstory.title>魅狐 旅行商人</Kurin_BackstoryAdult_18.backstory.title>
+  <!-- EN: [PAWN_nameDef] was originally an ordinary door-to-door salesman, but now [PAWN_pronoun] is stuck on a Rimworld. She led a trade caravan, doing business between different settlements. Usually [PAWN_pronoun] only visited fellow Kurin settlements, but often they visited other faction settlements to trade goods they need. -->
+  <Kurin_BackstoryAdult_18.description>[PAWN_nameDef]最初是一名普通的上門推銷員，但現在[PAWN_pronoun]被困在了邊緣世界中。自己領導了一個商隊，在不同的殖民者定居點之間往返做生意。通常，[PAWN_pronoun]只訪問魅狐的定居點，但是也會為了必需品而訪問其他派系定居點以交易所需的物資。</Kurin_BackstoryAdult_18.description>
+  <!-- EN: Kurin Caravan Trader -->
+  <Kurin_BackstoryAdult_18.title>魅狐 旅行商人</Kurin_BackstoryAdult_18.title>
+  <!-- EN: Trader -->
+  <Kurin_BackstoryAdult_18.titleShort>旅行商</Kurin_BackstoryAdult_18.titleShort>
+  
+  <!-- EN: 魅狐 兼職人員 -->
+  <Kurin_BackstoryAdult_19.backstory.title>魅狐 兼職人員</Kurin_BackstoryAdult_19.backstory.title>
+  <!-- EN: [PAWN_nameDef] is a Kurin who works part-time at a convenience store in a boring residential area. Since there are not many customers at night, [PAWN_pronoun] study whenever [PAWN_pronoun] have time.  But [PAWN_pronoun] does not neglect the work. [PAWN_pronoun] dream of becoming costruction engineer one day, and preparing for that day-by-day. -->
+  <Kurin_BackstoryAdult_19.description>[PAWN_nameDef]是在枯燥的居民區的一家便利店兼職的魅狐。由於晚上的客戶不多，所以[PAWN_pronoun]會在空閒時候進行學習。但[PAWN_pronoun]不會因此而忽略自己的本職工作。[PAWN_pronoun]夢想有一天成為建築工程師，並為這一天做各種學習。</Kurin_BackstoryAdult_19.description>
+  <!-- EN: Kurin Part-timer -->
+  <Kurin_BackstoryAdult_19.title>魅狐 兼職人員</Kurin_BackstoryAdult_19.title>
+  <!-- EN: Part-timer -->
+  <Kurin_BackstoryAdult_19.titleShort>兼職人員</Kurin_BackstoryAdult_19.titleShort>
+  
+  <!-- EN: 魅狐 打工人 -->
+  <Kurin_BackstoryAdult_20.backstory.title>魅狐 打工人</Kurin_BackstoryAdult_20.backstory.title>
+  <!-- EN: [PAWN_nameDef] touted to Kurins and humans who came to the beach. The game [PAWN_pronoun] prepared was something like throwing a ball to hit the dolls or popping balloons with darts, but sometimes [PAWN_pronoun] selled cheap souvenirs with ridiculous prices. During the holiday season, [PAWN_pronoun] gained quite a lot of income. -->
+  <Kurin_BackstoryAdult_20.description>[PAWN_nameDef]向來到海灘的魅狐和人類兜售收費遊戲。[PAWN_pronoun]準備一些遊戲活動。比如扔球砸娃娃或用飛鏢扎氣球等，但有時[PAWN_pronoun]賣出便宜得可笑的紀念品。在假期期間，[PAWN_pronoun]獲得了很多收入。</Kurin_BackstoryAdult_20.description>
+  <!-- EN: Kurin Tout -->
+  <Kurin_BackstoryAdult_20.title>魅狐 打工人</Kurin_BackstoryAdult_20.title>
+  <!-- EN: Tout -->
+  <Kurin_BackstoryAdult_20.titleShort>打工人</Kurin_BackstoryAdult_20.titleShort>
+  
+  <!-- EN: 魅狐 市場廚師 -->
+  <Kurin_BackstoryAdult_21.backstory.title>魅狐 市場廚師</Kurin_BackstoryAdult_21.backstory.title>
+  <!-- EN: [PAWN_nameDef] sold food at cheap price in the old Kurin marketplace. Fried tofu, various snacks, and even meals. Nowadays, Kurins usually go to big department stores, but thanks to [PAWN_nameDef]'s cooking skills, [PAWN_pronoun] got some reputation among customers. -->
+  <Kurin_BackstoryAdult_21.description>[PAWN_nameDef]在舊的魅狐市場上以便宜的價格出售了食物。炸豆腐，各種小吃，甚至包括一日三餐。如今，魅狐通常會去大型百貨商店，但是由於[PAWN_nameDef]的獨門的烹飪技巧，[PAWN_pronoun]在顧客口中依舊有著不俗的口碑。</Kurin_BackstoryAdult_21.description>
+  <!-- EN: Kurin Marketplace Cook -->
+  <Kurin_BackstoryAdult_21.title>魅狐 市場廚師</Kurin_BackstoryAdult_21.title>
+  <!-- EN: Cook -->
+  <Kurin_BackstoryAdult_21.titleShort>廚師</Kurin_BackstoryAdult_21.titleShort>
+  
+  <!-- EN: 魅狐 列車廚師 -->
+  <Kurin_BackstoryAdult_22.backstory.title>魅狐 列車廚師</Kurin_BackstoryAdult_22.backstory.title>
+  <!-- EN: [PAWN_nameDef] was a chef working in a luxury hotel of a human nation. However, [PAWN_pronoun] was fired after receiving frequent complaints from customers that fur was found in their food. [PAWN_pronoun] returned to the Republic of Kurin afterwards, and worked at a small restaurant. -->
+  <Kurin_BackstoryAdult_22.description>[PAWN_nameDef]是一個人類國家的豪華酒店的廚師。但是，[PAWN_pronoun]在接到客戶頻繁抱怨其食物中發現毛髮後被解雇。[PAWN_pronoun]之後回到了魅狐共和國，並在一家小餐館工作。</Kurin_BackstoryAdult_22.description>
+  <!-- EN: Kurin Former Chef -->
+  <Kurin_BackstoryAdult_22.title>魅狐 列車廚師</Kurin_BackstoryAdult_22.title>
+  <!-- EN: Chef -->
+  <Kurin_BackstoryAdult_22.titleShort>廚師</Kurin_BackstoryAdult_22.titleShort>
+  
+  <!-- EN: 魅狐 動物管理員 -->
+  <Kurin_BackstoryAdult_23.backstory.title>魅狐 動物管理員</Kurin_BackstoryAdult_23.backstory.title>
+  <!-- EN: [PAWN_nameDef] is a popular handler of the zoo. [PAWN_pronoun] mainly care for young animal and trained them for stage performances. Sometimes [PAWN_pronoun] became a guide for visitors, and [PAWN_pronoun] was always popular. -->
+  <Kurin_BackstoryAdult_23.description>[PAWN_nameDef]是動物園裡很受歡迎的管理員。[PAWN_pronoun]主要照顧幼小的動物，並訓練它們進行舞台表演。有時[PAWN_pronoun]成為遊客的嚮導，[PAWN_pronoun]總是很受歡迎。</Kurin_BackstoryAdult_23.description>
+  <!-- EN: Kurin Animal Handler -->
+  <Kurin_BackstoryAdult_23.title>魅狐 動物管理員</Kurin_BackstoryAdult_23.title>
+  <!-- EN: Handler -->
+  <Kurin_BackstoryAdult_23.titleShort>管理員</Kurin_BackstoryAdult_23.titleShort>
+  
+  <!-- EN: 魅狐 水栽培農夫 -->
+  <Kurin_BackstoryAdult_24.backstory.title>魅狐 水栽培農夫</Kurin_BackstoryAdult_24.backstory.title>
+  <!-- EN: [PAWN_nameDef] worked in a hydroponic farm located at the outskirts of a city. [PAWN_pronoun] grew various crops in a perfectly sterilized environment and researched new seeds. Sometimes [PAWN_pronoun] also cooked with her own crops as a pastime. -->
+  <Kurin_BackstoryAdult_24.description>[PAWN_nameDef]在城市郊區的水培農場工作。[PAWN_pronoun]在完全滅菌的環境中種植了各種農作物，並研究了新種子。有時[PAWN_pronoun]也用自己的農作物做成食物消遣。</Kurin_BackstoryAdult_24.description>
+  <!-- EN: Kurin Hydroponics Farmer -->
+  <Kurin_BackstoryAdult_24.title>魅狐 水栽培農夫</Kurin_BackstoryAdult_24.title>
+  <!-- EN: Farmer -->
+  <Kurin_BackstoryAdult_24.titleShort>農夫</Kurin_BackstoryAdult_24.titleShort>
+  
+  <!-- EN: 魅狐 陶藝家 -->
+  <Kurin_BackstoryAdult_25.backstory.title>魅狐 陶藝家</Kurin_BackstoryAdult_25.backstory.title>
+  <!-- EN: [PAWN_nameDef] was one of the few potters left in the Kurin Republic due to the development of 3D printing technology. [PAWN_pronoun] created works that pursue beauty and value rather than practicality, and these were sold as masterpiece items with high prices. -->
+  <Kurin_BackstoryAdult_25.description>[PAWN_nameDef]是由於3D打印技術的發展而留在魅狐共和國的少數陶藝工之一。[PAWN_pronoun]創作的作品追求美感和價值，而不是實用性，這些作品以高價出售。</Kurin_BackstoryAdult_25.description>
+  <!-- EN: Kurin Potter -->
+  <Kurin_BackstoryAdult_25.title>魅狐 陶藝家</Kurin_BackstoryAdult_25.title>
+  <!-- EN: Potter -->
+  <Kurin_BackstoryAdult_25.titleShort>陶藝家</Kurin_BackstoryAdult_25.titleShort>
+  
+  <!-- EN: 魅狐 帽匠 -->
+  <Kurin_BackstoryAdult_26.backstory.title>魅狐 帽匠</Kurin_BackstoryAdult_26.backstory.title>
+  <!-- EN: [PAWN_nameDef] tailors various hats made with silk. [PAWN_pronoun] went to a distant human country to learn how to tailor hats with traditional methods, and the hats [PAWN_pronoun] tailored became very popular among Kurins. But [PAWN_pronoun] gained painful chronic illness due to mercury poisoning, which was one of the ingredient of the silk, and now lives with anxiety and hand tremors. -->
+  <Kurin_BackstoryAdult_26.description>[PAWN_nameDef]定制各種用絲綢製成的帽子。[PAWN_pronoun]去了一個遙遠的人類國家，學習如何用傳統方法製作帽子，而定制的帽子[PAWN_pronoun]在魅狐中很受歡迎。但是[PAWN_pronoun]因汞中毒而患上了痛苦的慢性疾病，現在日常生活中經常會出現焦慮和手抖的情況。</Kurin_BackstoryAdult_26.description>
+  <!-- EN: Kurin Hatmaker -->
+  <Kurin_BackstoryAdult_26.title>魅狐 帽匠</Kurin_BackstoryAdult_26.title>
+  <!-- EN: Hatmaker -->
+  <Kurin_BackstoryAdult_26.titleShort>帽匠</Kurin_BackstoryAdult_26.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] 花了很多時間來學習如何製作鐘錶。自[PAWN_pronoun]用精緻的手工雕刻每塊手錶並製成藝術傑作以來，[PAWN_pronoun]在富豪圈中名聲大受歡迎。 -->
+  <Kurin_BackstoryAdult_27.backstory.baseDesc>[PAWN_nameDef] 花了很多時間來學習如何製作鐘錶。自[PAWN_pronoun]用精緻的手工雕刻每塊手錶並製成藝術傑作以來，[PAWN_pronoun]在富豪圈中名聲大受歡迎。</Kurin_BackstoryAdult_27.backstory.baseDesc>
+  <!-- EN: 魅狐 鐘錶匠 -->
+  <Kurin_BackstoryAdult_27.backstory.title>魅狐 鐘錶匠</Kurin_BackstoryAdult_27.backstory.title>
+  <!-- EN: [PAWN_nameDef] spent a lot of time learning how to make clocks in a human nation. [PAWN_pronoun] gained great popularity among wealthy Kurins since [PAWN_pronoun] carved each piece of watch with delicate handwork and made artistic masterpieces. -->
+  <Kurin_BackstoryAdult_27.description>[PAWN_nameDef] 花了很多時間來學習如何製作鐘錶。自[PAWN_pronoun]用精緻的手工雕刻每塊手錶並製成藝術傑作以來，[PAWN_pronoun]在富豪圈中名聲大受歡迎。</Kurin_BackstoryAdult_27.description>
+  <!-- EN: Kurin Watchmaker -->
+  <Kurin_BackstoryAdult_27.title>魅狐 鐘錶匠</Kurin_BackstoryAdult_27.title>
+  <!-- EN: Watchmaker -->
+  <Kurin_BackstoryAdult_27.titleShort>鐘錶匠</Kurin_BackstoryAdult_27.titleShort>
+  
+  <!-- EN: 魅狐 魚販 -->
+  <Kurin_BackstoryAdult_28.backstory.title>魅狐 魚販</Kurin_BackstoryAdult_28.backstory.title>
+  <!-- EN: [PAWN_nameDef] knows how to make delicate dish dishes very well. [PAWN_pronoun] could trim fish neatly with a sharp knife, mix with various sweet and sour sauces, and cook it in a oven or frying pan. The cuisine of [PAWN_nameDef] was so popular that even humans would come from a far, but after the humans closed the border, only the Kurin could eat it. -->
+  <Kurin_BackstoryAdult_28.description>[PAWN_nameDef]知道如何很好地製作精緻的菜肴。[PAWN_pronoun]可以用鋒利的刀將魚切整齊，與各種糖醋醬混合，然後在烤箱或煎鍋中烹飪。[PAWN_nameDef]的美食十分的受歡迎，以至於甚至人類都不遠萬里來品嘗，但是在人類關閉邊境後，只有魅狐可以吃到了。</Kurin_BackstoryAdult_28.description>
+  <!-- EN: Kurin Fishmonger -->
+  <Kurin_BackstoryAdult_28.title>魅狐 魚販</Kurin_BackstoryAdult_28.title>
+  <!-- EN: Fishmonger -->
+  <Kurin_BackstoryAdult_28.titleShort>魚販</Kurin_BackstoryAdult_28.titleShort>
+  
+  <!-- EN: 魅狐 服裝設計師 -->
+  <Kurin_BackstoryAdult_29.backstory.title>魅狐 服裝設計師</Kurin_BackstoryAdult_29.backstory.title>
+  <!-- EN: [PAWN_nameDef] just got a job as a dress designer after graduated from school. [PAWN_pronoun] dreams of making a variety of pretty dresses, but still lacks skill. [PAWN_pronoun] is currently an intern in a studio, but [PAWN_pronoun] dreams of creating their own studio and making dresses under their own name. -->
+  <Kurin_BackstoryAdult_29.description>[PAWN_nameDef]從學校畢業後找到一份服裝設計師的工作。[PAWN_pronoun]夢想著做各種漂亮的衣服，但仍然缺乏技巧。[PAWN_pronoun]目前是一個工作室的實習生，但[PAWN_pronoun]夢想創建自己的工作室，並以自己的名字為衣服命名。</Kurin_BackstoryAdult_29.description>
+  <!-- EN: Kurin Dress Designer -->
+  <Kurin_BackstoryAdult_29.title>魅狐 服裝設計師</Kurin_BackstoryAdult_29.title>
+  <!-- EN: Designer -->
+  <Kurin_BackstoryAdult_29.titleShort>設計師</Kurin_BackstoryAdult_29.titleShort>
+  
+  <!-- EN: 魅狐 裁縫 -->
+  <Kurin_BackstoryAdult_30.backstory.title>魅狐 裁縫</Kurin_BackstoryAdult_30.backstory.title>
+  <!-- EN: The oldest city of Kurin had several alleys filled with old, small shops. [PAWN_nameDef] had a small tailors. Not only did [PAWN_pronoun] sell fabric and clothes, [PAWN_pronoun] also repaired them with sewing machines and made simple clothes or decorations. -->
+  <Kurin_BackstoryAdult_30.description>悠久的魅狐城市的小巷裡滿是老舊的小商店。[PAWN_nameDef]是一名小裁縫。[PAWN_pronoun]不僅出售布料和衣服，而且[PAWN_pronoun]還用縫紉機修補服裝或製作簡單的衣服和裝飾品。</Kurin_BackstoryAdult_30.description>
+  <!-- EN: Kurin Tailor -->
+  <Kurin_BackstoryAdult_30.title>魅狐 裁縫</Kurin_BackstoryAdult_30.title>
+  <!-- EN: Tailor -->
+  <Kurin_BackstoryAdult_30.titleShort>裁縫</Kurin_BackstoryAdult_30.titleShort>
+  
+  <!-- EN: 魅狐 工廠員工 -->
+  <Kurin_BackstoryAdult_31.backstory.title>魅狐 工廠員工</Kurin_BackstoryAdult_31.backstory.title>
+  <!-- EN: [PAWN_nameDef] busied herself by assembling electronic parts and picking out defects in the production line of a factory. The income was not that good, but [PAWN_pronoun] worked hard, dreaming of a better life. -->
+  <Kurin_BackstoryAdult_31.description>[PAWN_nameDef]忙於組裝電子零件並找出工廠生產線中的缺陷。收入不是那麼好，但是[PAWN_pronoun]努力工作，夢想著過上更好的生活。</Kurin_BackstoryAdult_31.description>
+  <!-- EN: Kurin Factory Worker -->
+  <Kurin_BackstoryAdult_31.title>魅狐 工廠員工</Kurin_BackstoryAdult_31.title>
+  <!-- EN: Worker -->
+  <Kurin_BackstoryAdult_31.titleShort>工人</Kurin_BackstoryAdult_31.titleShort>
+  
+  <!-- EN: 魅狐 伐木工人 -->
+  <Kurin_BackstoryAdult_32.backstory.title>魅狐 伐木工人</Kurin_BackstoryAdult_32.backstory.title>
+  <!-- EN: [PAWN_nameDef] worked as a lumberjack in a dense forest. The work was dangerous, and [PAWN_pronoun] hated physical labor like any other Kurin, but [PAWN_pronoun] thought it was cool to swing a giant axe. -->
+  <Kurin_BackstoryAdult_32.description>[PAWN_nameDef]在大森林中擔任伐木的工人。這項工作很危險，[PAWN_pronoun]像其他任何魅狐一樣討厭體力勞動，但是[PAWN_pronoun]認為揮動大斧頭很酷。</Kurin_BackstoryAdult_32.description>
+  <!-- EN: Kurin Lumberjack -->
+  <Kurin_BackstoryAdult_32.title>魅狐 伐木工人</Kurin_BackstoryAdult_32.title>
+  <!-- EN: Lumberjack -->
+  <Kurin_BackstoryAdult_32.titleShort>伐木工人</Kurin_BackstoryAdult_32.titleShort>
+  
+  <!-- EN: 魅狐 機器人專家 -->
+  <Kurin_BackstoryAdult_33.backstory.title>魅狐 機器人專家</Kurin_BackstoryAdult_33.backstory.title>
+  <!-- EN: [PAWN_nameDef] studied various mechanoids. [PAWN_pronoun] discovered a few defects while researching discarded mechanoids and put a lot of efforts to resolve them, but there was not much of success. Afterwards, the Republic's funding was cut off, and [PAWN_pronoun] was struggling with a needy life in a small housing. -->
+  <Kurin_BackstoryAdult_33.description>[PAWN_nameDef]成功的研發了各種機械體。在這之後，國家停掉了[PAWN_pronoun]的研究經費，[PAWN_pronoun]便窮困潦倒，在簡陋的小屋裡艱難度日。</Kurin_BackstoryAdult_33.description>
+  <!-- EN: Kurin Poor Roboticist -->
+  <Kurin_BackstoryAdult_33.title>魅狐 機器人專家</Kurin_BackstoryAdult_33.title>
+  <!-- EN: Roboticist -->
+  <Kurin_BackstoryAdult_33.titleShort>機器人專家</Kurin_BackstoryAdult_33.titleShort>
+  
+  <!-- EN: 魅狐 宇航員 -->
+  <Kurin_BackstoryAdult_34.backstory.title>魅狐 宇航員</Kurin_BackstoryAdult_34.backstory.title>
+  <!-- EN: [PAWN_nameDef] is an experienced astroscientist, and [PAWN_pronoun] trained hard to become one. There are no missions to outer space except sending unmanned probes, but if someone were going to the outer space by a manned spacecraft, she would have been the first. -->
+  <Kurin_BackstoryAdult_34.description>[PAWN_nameDef]是一位經驗豐富的天文學家，經過艱苦的訓練[PAWN_pronoun]成為了一名宇航員。除了發送無人探測儀外，沒有其他太空任務，但是如果有人乘載人飛船前往太空，[PAWN_pronoun]將是第一人選。</Kurin_BackstoryAdult_34.description>
+  <!-- EN: Kurin Astronaut -->
+  <Kurin_BackstoryAdult_34.title>魅狐 宇航員</Kurin_BackstoryAdult_34.title>
+  <!-- EN: Astronaut -->
+  <Kurin_BackstoryAdult_34.titleShort>宇航員</Kurin_BackstoryAdult_34.titleShort>
+  
+  <!-- EN: 魅狐 機械助理 -->
+  <Kurin_BackstoryAdult_35.backstory.title>魅狐 機械助理</Kurin_BackstoryAdult_35.backstory.title>
+  <!-- EN: [PAWN_nameDef] came to a human nation to gain experience. [PAWN_pronoun] got a job as a mechanic for a civilian airline, but as [PAWN_pronoun] lacked experience and skill. [PAWN_pronoun] worked as an assistant doing only trivial things. [PAWN_pronoun] didn't talk a lot, so [PAWN_pronoun] worked as hard as [PAWN_pronoun] could. -->
+  <Kurin_BackstoryAdult_35.description>[PAWN_nameDef]來到一個人類的國度求學。[PAWN_pronoun]獲得了民航機修工的職位，但由於[PAWN_pronoun]缺乏經驗和技能。[PAWN_pronoun]只是做一些助手的瑣碎的事情。[PAWN_pronoun]沒有抱怨，所以[PAWN_pronoun]盡力做好自己份內的工作。</Kurin_BackstoryAdult_35.description>
+  <!-- EN: Kurin Mechanic Assistant -->
+  <Kurin_BackstoryAdult_35.title>魅狐 機械助理</Kurin_BackstoryAdult_35.title>
+  <!-- EN: Mechanic -->
+  <Kurin_BackstoryAdult_35.titleShort>機械助理</Kurin_BackstoryAdult_35.titleShort>
+  
+  <!-- EN: 魅狐 電工 -->
+  <Kurin_BackstoryAdult_36.backstory.title>魅狐 電工</Kurin_BackstoryAdult_36.backstory.title>
+  <!-- EN: [PAWN_nameDef] could climb high transmission towers, and replaced electric wires and parts. [PAWN_pronoun] was able to keep balance with three tails, so [PAWN_pronoun] didn't need safety gear. As [PAWN_pronoun] could work really quickly with good dexterity, and their income was pretty good. [PAWN_pronoun] dreamed of living happily with a lover by finding a good home in the suburbs. -->
+  <Kurin_BackstoryAdult_36.description>[PAWN_nameDef]可以爬上高聳的輸電塔，並更換電線和零件。[PAWN_pronoun]能夠保持自己身體的平衡，因此[PAWN_pronoun]不需要安全繩。這樣[PAWN_pronoun]可以更加靈活地迅速解決問題，所以工作收入相當豐厚。[PAWN_pronoun]夢想著在郊區買到一個大別墅，與戀人一起快樂地生活。</Kurin_BackstoryAdult_36.description>
+  <!-- EN: Kurin Electrician -->
+  <Kurin_BackstoryAdult_36.title>魅狐 電工</Kurin_BackstoryAdult_36.title>
+  <!-- EN: Electrician -->
+  <Kurin_BackstoryAdult_36.titleShort>電工</Kurin_BackstoryAdult_36.titleShort>
+  
+  <!-- EN: 魅狐 水管工 -->
+  <Kurin_BackstoryAdult_37.backstory.title>魅狐 水管工</Kurin_BackstoryAdult_37.backstory.title>
+  <!-- EN: [PAWN_nameDef] used to connect pipes and assemble air ducts at the construction site, but was fired due to the Republic's economic crisis. [PAWN_pronoun] and collegues heard that the situation of the Republic was not good, but they do not know the details because they weren't in the military. -->
+  <Kurin_BackstoryAdult_37.description>[PAWN_nameDef]工作是在建築工地連接管道和組裝風道，但由於國家的經濟蕭條而被解雇了。[PAWN_pronoun]從同事那裡聽說國家的局勢不佳，但他們不知道細節，因為他們不在軍隊中。</Kurin_BackstoryAdult_37.description>
+  <!-- EN: Kurin Plumber -->
+  <Kurin_BackstoryAdult_37.title>魅狐 水管工</Kurin_BackstoryAdult_37.title>
+  <!-- EN: Plumber -->
+  <Kurin_BackstoryAdult_37.titleShort>水管工</Kurin_BackstoryAdult_37.titleShort>
+  
+  <!-- EN: 魅狐 重工業技術員 -->
+  <Kurin_BackstoryAdult_38.backstory.title>魅狐 重工業技術員</Kurin_BackstoryAdult_38.backstory.title>
+  <!-- EN: Silverfox Heavy Industries was a major company that supplied more than 80% of Aolara's total vessels, and [PAWN_nameDef] was a technician working in the Republic's largest shipyard that produces a variety of vessels including cruise ships, container ships, warships and aircraft carriers. [PAWN_pronoun] had busy days with daily paperwork and process management. -->
+  <Kurin_BackstoryAdult_38.description>銀狐重工是一家大型公司，供應了全國總船隻的80％以上產量，[PAWN_nameDef]是該國最大的造船廠的技術人員，生產各種船隻，包括游輪，集裝箱船，軍艦和航空母艦。[PAWN_pronoun]忙於日常文書工作和工廠項目管理。</Kurin_BackstoryAdult_38.description>
+  <!-- EN: Kurin Heavy Industry Technician -->
+  <Kurin_BackstoryAdult_38.title>魅狐 重工業技術員</Kurin_BackstoryAdult_38.title>
+  <!-- EN: Technician -->
+  <Kurin_BackstoryAdult_38.titleShort>技術員</Kurin_BackstoryAdult_38.titleShort>
+  
+  <!-- EN: 魅狐 餐廳服務員 -->
+  <Kurin_BackstoryAdult_39.backstory.title>魅狐 餐廳服務員</Kurin_BackstoryAdult_39.backstory.title>
+  <!-- EN: [PAWN_nameDef] worked as a waiter in a luxury restaurant. [PAWN_pronoun] took orders or took hats and coats from customers and put them on hangers. But [PAWN_pronoun] actually wanted to work in a kitchen because [PAWN_pronoun] had knowledge for cooking a little bit. -->
+  <Kurin_BackstoryAdult_39.description>[PAWN_nameDef]在豪華餐廳當服務員。[PAWN_pronoun]負責接待來賓的訂單或打理他們的衣帽，將其放在衣架上。但是[PAWN_pronoun]實際上想在廚房工作，因為[PAWN_pronoun]具備一些烹飪技巧。</Kurin_BackstoryAdult_39.description>
+  <!-- EN: Kurin Restaurant Waiter -->
+  <Kurin_BackstoryAdult_39.title>魅狐 餐廳服務員</Kurin_BackstoryAdult_39.title>
+  <!-- EN: Waiter -->
+  <Kurin_BackstoryAdult_39.titleShort>服務員</Kurin_BackstoryAdult_39.titleShort>
+  
+  <!-- EN: 魅狐 護士 -->
+  <Kurin_BackstoryAdult_40.backstory.title>魅狐 護士</Kurin_BackstoryAdult_40.backstory.title>
+  <!-- EN: [PAWN_nameDef] is a veteran nurse. Even after a seriously wounded Kurin was brought to the emergency room, [PAWN_pronoun] did not panic and carefully begun hemostasis and first aid. -->
+  <Kurin_BackstoryAdult_40.description>[PAWN_nameDef]是一位資深護士。甚至血肉模糊的傷員出現在[PAWN_pronoun]的面前也不會有一絲波瀾，依舊從容地處理傷口的出血和急救。</Kurin_BackstoryAdult_40.description>
+  <!-- EN: Kurin Nurse -->
+  <Kurin_BackstoryAdult_40.title>魅狐 護士</Kurin_BackstoryAdult_40.title>
+  <!-- EN: Nurse -->
+  <Kurin_BackstoryAdult_40.titleShort>護士</Kurin_BackstoryAdult_40.titleShort>
+  
+  <!-- EN: 魅狐 天文學家 -->
+  <Kurin_BackstoryAdult_41.backstory.title>魅狐 天文學家</Kurin_BackstoryAdult_41.backstory.title>
+  <!-- EN: [PAWN_nameDef] analyzed data sent by a deep space probe to create a detailed space map, and calculated the interplanetary flight path of the probe. The calm lab life of science made [PAWN_nameDef] weaker than others. -->
+  <Kurin_BackstoryAdult_41.description>[PAWN_nameDef]工作是分析深空探測器傳回的數據，以創建詳細的空間圖，並計算了探測器的行星際飛行路徑。安寧的實驗員生活使[PAWN_nameDef]的體質比其他人更羸弱。</Kurin_BackstoryAdult_41.description>
+  <!-- EN: Kurin Astronomer -->
+  <Kurin_BackstoryAdult_41.title>魅狐 天文學家</Kurin_BackstoryAdult_41.title>
+  <!-- EN: Astronomer -->
+  <Kurin_BackstoryAdult_41.titleShort>天文學家</Kurin_BackstoryAdult_41.titleShort>
+  
+  <!-- EN: 魅狐 生物工程師 -->
+  <Kurin_BackstoryAdult_42.backstory.title>魅狐 生物工程師</Kurin_BackstoryAdult_42.backstory.title>
+  <!-- EN: [PAWN_nameDef] was a bioengineer studying genetic engineering. [PAWN_pronoun] researched the genes of Kurin and found new treatments for diseases. While studying genes, [PAWN_pronoun] discovered that Kurin had a chromosome structure that could not occur without artificial gene manipulation, but [PAWN_pronoun] decided to keep it as a secret. -->
+  <Kurin_BackstoryAdult_42.description>[PAWN_nameDef]是研究基因工程的生物工程師。[PAWN_pronoun]研究了魅狐的基因，並找到了治療疾病的新方法。在研究基因時，[PAWN_pronoun]發現魅狐的部分染色體結構是經過人工篩選與修改結果，但是[PAWN_pronoun]決定將這個真相埋藏心中。</Kurin_BackstoryAdult_42.description>
+  <!-- EN: Kurin Bioengineer -->
+  <Kurin_BackstoryAdult_42.title>魅狐 生物工程師</Kurin_BackstoryAdult_42.title>
+  <!-- EN: Bioengineer -->
+  <Kurin_BackstoryAdult_42.titleShort>生物工程師</Kurin_BackstoryAdult_42.titleShort>
+  
+  <!-- EN: 魅狐 AI工程師  -->
+  <Kurin_BackstoryAdult_43.backstory.title>魅狐 AI工程師</Kurin_BackstoryAdult_43.backstory.title>
+  <!-- EN: [PAWN_nameDef] knew the dangers of mechanoids and tried to develop new artificial intelligence humanoid robots. The failure continued, but [PAWN_pronoun] sat down and continued to study, remembering those who died because of the mechanoids. -->
+  <Kurin_BackstoryAdult_43.description>[PAWN_nameDef]了解到智械危機後，嘗試開發新的人工智能機器人。屢敗屢戰的[PAWN_pronoun]會在休息的片刻間，回想起那些死於智械危機的人們。</Kurin_BackstoryAdult_43.description>
+  <!-- EN: Kurin AI Engineer -->
+  <Kurin_BackstoryAdult_43.title>魅狐 AI工程師</Kurin_BackstoryAdult_43.title>
+  <!-- EN: AI Engineer -->
+  <Kurin_BackstoryAdult_43.titleShort>AI工程師</Kurin_BackstoryAdult_43.titleShort>
+  
+  <!-- EN: 魅狐 地質學家 -->
+  <Kurin_BackstoryAdult_44.backstory.title>魅狐 地質學家</Kurin_BackstoryAdult_44.backstory.title>
+  <!-- EN: [PAWN_nameDef] is a geologist who surveys huge faults, volcanoes and lands. [PAWN_pronoun] dig the ground with a drill or pickaxe, or sometimes sniff around, for research purpose. -->
+  <Kurin_BackstoryAdult_44.description>[PAWN_nameDef]是一位地質學家，負責研究調查地殼斷層，火山動向和地質變化等工作。為了做研究[PAWN_pronoun]使用用鑽頭、鎬頭挖掘地面，甚至有時會上用靈敏的鼻子來調查地質情況。</Kurin_BackstoryAdult_44.description>
+  <!-- EN: Kurin Geologist -->
+  <Kurin_BackstoryAdult_44.title>魅狐 地質學家</Kurin_BackstoryAdult_44.title>
+  <!-- EN: Geologist -->
+  <Kurin_BackstoryAdult_44.titleShort>地質學家</Kurin_BackstoryAdult_44.titleShort>
+  
+  <!-- EN: 魅狐 高校教師 -->
+  <Kurin_BackstoryAdult_45.backstory.title>魅狐 高校教師</Kurin_BackstoryAdult_45.backstory.title>
+  <!-- EN: [PAWN_nameDef] was a high school math teacher and a mentor. [PAWN_pronoun] had a busy life leading many Kurin students until they get graduated. -->
+  <Kurin_BackstoryAdult_45.description>[PAWN_nameDef]擔任一所高校的數學老師和導師的職務。[PAWN_pronoun]為了讓學生都能順利畢業，一直都過著忙碌的生活。</Kurin_BackstoryAdult_45.description>
+  <!-- EN: Kurin Highschool Teacher -->
+  <Kurin_BackstoryAdult_45.title>魅狐 高校教師</Kurin_BackstoryAdult_45.title>
+  <!-- EN: Teacher -->
+  <Kurin_BackstoryAdult_45.titleShort>高校教師</Kurin_BackstoryAdult_45.titleShort>
+  
+  <!-- EN: 魅狐 外科醫生 -->
+  <Kurin_BackstoryAdult_46.backstory.title>魅狐 外科醫生</Kurin_BackstoryAdult_46.backstory.title>
+  <!-- EN: [PAWN_nameDef] was a surgeon working at a general hospital in a local city. There were not many patients to care for, but recently harassment by humans have been increased, so [PAWN_pronoun] became busy. -->
+  <Kurin_BackstoryAdult_46.description>[PAWN_nameDef]是當地一家綜合醫院的外科醫生。需要照顧的病人並不多，但是最近人類的騷擾增加了，所以[PAWN_pronoun]變得忙碌起來。</Kurin_BackstoryAdult_46.description>
+  <!-- EN: Kurin Surgeon -->
+  <Kurin_BackstoryAdult_46.title>魅狐 外科醫生</Kurin_BackstoryAdult_46.title>
+  <!-- EN: Surgeon -->
+  <Kurin_BackstoryAdult_46.titleShort>外科醫生</Kurin_BackstoryAdult_46.titleShort>
+  
+  <!-- EN: 魅狐 公共保健醫生 -->
+  <Kurin_BackstoryAdult_47.backstory.title>魅狐 公共保健醫生</Kurin_BackstoryAdult_47.backstory.title>
+  <!-- EN: [PAWN_nameDef] is a public healthcare doctor of the Kurin Medical and Health Department. [PAWN_pronoun] could have become a normal doctor with private hospital, but [PAWN_pronoun] wanted to improve the healthcare of Kurins, so [PAWN_pronoun] chose to become a public healthcare doctor. -->
+  <Kurin_BackstoryAdult_47.description>[PAWN_nameDef]是魅狐醫療衛生部門的一名公共保健醫生。[PAWN_pronoun]本來可以成為私立醫院的普通醫生，但是[PAWN_pronoun]希望改善魅狐的醫療保健，因此[PAWN_pronoun]選擇了成為公共醫療醫生。</Kurin_BackstoryAdult_47.description>
+  <!-- EN: Kurin Public Healthcare Doctor -->
+  <Kurin_BackstoryAdult_47.title>魅狐 公共保健醫生</Kurin_BackstoryAdult_47.title>
+  <!-- EN: Doctor -->
+  <Kurin_BackstoryAdult_47.titleShort>公共醫生</Kurin_BackstoryAdult_47.titleShort>
+  
+  <!-- EN: 魅狐 流行偶像 -->
+  <Kurin_BackstoryAdult_48.backstory.title>魅狐 流行偶像</Kurin_BackstoryAdult_48.backstory.title>
+  <!-- EN: [PAWN_nameDef] was a rising Kurin pop idol. [PAWN_pronoun] she had great dancing skills, outstanding singing skills and an exotic, beautiful appearance that improved day by day. [PAWN_pronoun] appeared on many TV shows. -->
+  <Kurin_BackstoryAdult_48.description>[PAWN_nameDef]是一個前途無量的魅狐流行偶像。[PAWN_pronoun]有很好的舞蹈技巧，突出的歌唱技巧和一個越變越美的異國情調的美麗外貌。[PAWN_pronoun]出現在很多電視節目中。</Kurin_BackstoryAdult_48.description>
+  <!-- EN: Kurin Pop Idol -->
+  <Kurin_BackstoryAdult_48.title>魅狐 流行偶像</Kurin_BackstoryAdult_48.title>
+  <!-- EN: Pop Idol -->
+  <Kurin_BackstoryAdult_48.titleShort>流行偶像</Kurin_BackstoryAdult_48.titleShort>
+  
+  <!-- EN: 魅狐 新星歌手 -->
+  <Kurin_BackstoryAdult_49.backstory.title>魅狐 新星歌手</Kurin_BackstoryAdult_49.backstory.title>
+  <!-- EN: [PAWN_nameDef] was a well-known singer-songwriter, and released several albums already. [PAWN_pronoun] has been invited to several stages and occasionally appeared on TV shows. -->
+  <Kurin_BackstoryAdult_49.description>[PAWN_nameDef]是著名的創作歌手，並且已經發行了幾張專輯。[PAWN_pronoun]已受邀進入多個舞台演出，並偶爾出現在電視節目中。</Kurin_BackstoryAdult_49.description>
+  <!-- EN: Kurin Rising Singer -->
+  <Kurin_BackstoryAdult_49.title>魅狐 新星歌手</Kurin_BackstoryAdult_49.title>
+  <!-- EN: Singer -->
+  <Kurin_BackstoryAdult_49.titleShort>歌手</Kurin_BackstoryAdult_49.titleShort>
+  
+  <!-- EN: 魅狐 戲劇演員 -->
+  <Kurin_BackstoryAdult_50.backstory.title>魅狐 戲劇演員</Kurin_BackstoryAdult_50.backstory.title>
+  <!-- EN: [PAWN_nameDef] is an experienced actor, and have played numerous roles, regardless of the main characters or extras. [PAWN_pronoun] was able to appear in several films and plays, with a flexible voice and realistic acting skills. -->
+  <Kurin_BackstoryAdult_50.description>[PAWN_nameDef]是一位經驗豐富的演員，並且扮演過許多角色，無論是主角還是配角。[PAWN_pronoun]能夠以靈活多變的聲線和逼真的表演技巧出現在幾部電影和戲劇中。</Kurin_BackstoryAdult_50.description>
+  <!-- EN: Kurin Drama Actor -->
+  <Kurin_BackstoryAdult_50.title>魅狐 戲劇演員</Kurin_BackstoryAdult_50.title>
+  <!-- EN: Actor -->
+  <Kurin_BackstoryAdult_50.titleShort>演員</Kurin_BackstoryAdult_50.titleShort>
+  
+  <!-- EN: 魅狐 歌劇演員 -->
+  <Kurin_BackstoryAdult_51.backstory.title>魅狐 歌劇演員</Kurin_BackstoryAdult_51.backstory.title>
+  <!-- EN: [PAWN_nameDef] was a member of a opera troupe who sang beautiful songs and plays in decorated beautiful costumes. The troupe was not that famous, but [PAWN_pronoun] loved the Republic's small towns filled with forests, fields, sounds of nature and most importantly, friendly Kurins. -->
+  <Kurin_BackstoryAdult_51.description>[PAWN_nameDef]是一個歌劇團的成員，能演唱動聽的歌曲，並穿著裝飾精美的服裝表演。該團並不那麼出名，但是[PAWN_pronoun]更喜歡待在共和國的邊陲小鎮，那裡一望無際的山川田野間充滿了自然之音，最重要的是還有許多友善好客的魅狐。</Kurin_BackstoryAdult_51.description>
+  <!-- EN: Kurin Opera Actor -->
+  <Kurin_BackstoryAdult_51.title>魅狐 歌劇演員</Kurin_BackstoryAdult_51.title>
+  <!-- EN: Actor -->
+  <Kurin_BackstoryAdult_51.titleShort>演員</Kurin_BackstoryAdult_51.titleShort>
+  
+  <!-- EN: 魅狐 徵召兵 -->
+  <Kurin_BackstoryAdult_52.backstory.title>魅狐 徵召兵</Kurin_BackstoryAdult_52.backstory.title>
+  <!-- EN: [PAWN_nameDef] is a enlisted fox, the backbone of the Republic of Kurin Army. All of them are volunteered personnel. If they needed more troops, they hired mercenaries. The strong economic power of the Republic made this possible. -->
+  <Kurin_BackstoryAdult_52.description>[PAWN_nameDef]是一名應徵之狐，是魅狐共和國軍的骨乾。他們都是有志之士。如果國家需要更多的部隊，他們會成為雇傭軍。共和國強大的經濟實力使這成為可能。</Kurin_BackstoryAdult_52.description>
+  <!-- EN: Kurin Enlisted -->
+  <Kurin_BackstoryAdult_52.title>魅狐 徵召兵</Kurin_BackstoryAdult_52.title>
+  <!-- EN: Enlisted -->
+  <Kurin_BackstoryAdult_52.titleShort>徵召兵</Kurin_BackstoryAdult_52.titleShort>
+  
+  <!-- EN: 魅狐 神射手 -->
+  <Kurin_BackstoryAdult_53.backstory.title>魅狐 神射手</Kurin_BackstoryAdult_53.backstory.title>
+  <!-- EN: Most Kurins can shoot precisely thanks to their good eyes and dexterous hands, but [PAWN_nameDef] have exceptional shooting skills among them. So if [PAWN_pronoun] wield a sniper rifle, [PAWN_pronoun] could quickly take down the enemy. -->
+  <Kurin_BackstoryAdult_53.description>大多數魅狐的眼睛和靈巧的技術都可以完成精確射擊，但是[PAWN_nameDef]在其中具有更出色的射擊技巧。因此，如果[PAWN_pronoun]一旦使用狙擊步槍，[PAWN_pronoun]可以在百里之外解決所有敵人。</Kurin_BackstoryAdult_53.description>
+  <!-- EN: Kurin Marksman -->
+  <Kurin_BackstoryAdult_53.title>魅狐 神射手</Kurin_BackstoryAdult_53.title>
+  <!-- EN: Marksman -->
+  <Kurin_BackstoryAdult_53.titleShort>神射手</Kurin_BackstoryAdult_53.titleShort>
+  
+  <!-- EN: 魅狐 守林人 -->
+  <Kurin_BackstoryAdult_54.backstory.title>魅狐 守林人</Kurin_BackstoryAdult_54.backstory.title>
+  <!-- EN: [PAWN_nameDef] was a ranger in charge of protecting the snow-capped forests and mountains in the north. [PAWN_pronoun] managed the forest with sensitive nose and ears, smelling the scent of forest, and hearing the sound of wildlife. In the event of forest fire, [PAWN_pronoun] went out to put out fire and rescued the stranded. -->
+  <Kurin_BackstoryAdult_54.description>[PAWN_nameDef]是一名護林員，負責保護北部積雪覆蓋的森林和山脈。[PAWN_pronoun]用敏感的鼻子和耳朵監聽著整個森林，聞到森林的氣味，並聽見野生動物的動向。萬一發生森林大火，[PAWN_pronoun]會撲滅大火並解救了被困者。</Kurin_BackstoryAdult_54.description>
+  <!-- EN: Kurin Ranger -->
+  <Kurin_BackstoryAdult_54.title>魅狐 守林人</Kurin_BackstoryAdult_54.title>
+  <!-- EN: Ranger -->
+  <Kurin_BackstoryAdult_54.titleShort>守林人</Kurin_BackstoryAdult_54.titleShort>
+  
+  <!-- EN: 魅狐 間諜 -->
+  <Kurin_BackstoryAdult_55.backstory.title>魅狐 間諜</Kurin_BackstoryAdult_55.backstory.title>
+  <!-- EN: After Kurins crashlanded on a rimworld, they felt the need for spying other factions. [PAWN_nameDef] received military training to scout enemies quickly and covertly, and [PAWN_pronoun] was able to figure out other faction's outposts, trends, and so on. -->
+  <Kurin_BackstoryAdult_55.description>當魅狐們來到邊緣世界後，她們感到有必要監視其他派系的活動。[PAWN_nameDef]經過了軍事訓練，可以暗中迅速偵察敵人，[PAWN_pronoun]能夠快速分析其他派別的前哨，商隊動向等情報。</Kurin_BackstoryAdult_55.description>
+  <!-- EN: Kurin Spy -->
+  <Kurin_BackstoryAdult_55.title>魅狐 間諜</Kurin_BackstoryAdult_55.title>
+  <!-- EN: Spy -->
+  <Kurin_BackstoryAdult_55.titleShort>特工</Kurin_BackstoryAdult_55.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]成為拯救戰場上垂死的同胞的醫生。 [PAWN_pronoun]磨練了拯救夥伴的醫療技能，但是[PAWN_pronoun]很快意識到有時[PAWN_pronoun]必須殺死敵人才能拯救自己的同伴。 -->
+  <Kurin_BackstoryAdult_56.backstory.baseDesc>[PAWN_nameDef]成為拯救戰場上垂死的同胞的醫生。 [PAWN_pronoun]磨練了拯救夥伴的醫療技能，但是[PAWN_pronoun]很快意識到有時[PAWN_pronoun]必須殺死敵人才能拯救自己的同伴。</Kurin_BackstoryAdult_56.backstory.baseDesc>
+  <!-- EN: 魅狐 醫生 -->
+  <Kurin_BackstoryAdult_56.backstory.title>魅狐 醫生</Kurin_BackstoryAdult_56.backstory.title>
+  <!-- EN: [PAWN_nameDef] became a medic to save dying fellow soldiers in battlefield. [PAWN_pronoun] honed medical skills to save comrades, but [PAWN_pronoun] soon realised that sometimes [PAWN_pronoun] have to kill enemies to save them. -->
+  <Kurin_BackstoryAdult_56.description>[PAWN_nameDef]成為拯救戰場上垂死的同胞的醫生。 [PAWN_pronoun]磨練了拯救夥伴的醫療技能，但是[PAWN_pronoun]很快意識到有時[PAWN_pronoun]必須殺死敵人才能拯救自己的同伴。</Kurin_BackstoryAdult_56.description>
+  <!-- EN: Kurin Medic -->
+  <Kurin_BackstoryAdult_56.title>魅狐 醫生</Kurin_BackstoryAdult_56.title>
+  <!-- EN: Medic -->
+  <Kurin_BackstoryAdult_56.titleShort>軍醫</Kurin_BackstoryAdult_56.titleShort>
+  
+  <!-- EN: 魅狐 中士 -->
+  <Kurin_BackstoryAdult_57.backstory.title>魅狐 中士</Kurin_BackstoryAdult_57.backstory.title>
+  <!-- EN: [PAWN_nameDef] is a fox with leadership. When Kurins crashlanded on rimworld, [PAWN_pronoun] volunteered for a guard duty with a rifle in hand. After the Kurin faction have been stabilized, [PAWN_pronoun] applied to the Sergeant, as [PAWN_pronoun] had pretty good experience back in the Republic Army. -->
+  <Kurin_BackstoryAdult_57.description>[PAWN_nameDef]是有領導才能的魅狐。當魅狐們來到邊緣世界時，[PAWN_pronoun]自願拿著步槍參加守衛任務。在自己的營地穩定之後，[PAWN_pronoun]升格為中士，因為[PAWN_pronoun]在共和軍中有相當不錯的表現。</Kurin_BackstoryAdult_57.description>
+  <!-- EN: Kurin Sergeant -->
+  <Kurin_BackstoryAdult_57.title>魅狐 中士</Kurin_BackstoryAdult_57.title>
+  <!-- EN: Sergeant -->
+  <Kurin_BackstoryAdult_57.titleShort>中士</Kurin_BackstoryAdult_57.titleShort>
+  
+  <!-- EN: 魅狐 紅狐 -->
+  <Kurin_BackstoryAdult_58.backstory.title>魅狐 紅狐</Kurin_BackstoryAdult_58.backstory.title>
+  <!-- EN: Shortly before migration of the Republic, the conflict with humans intensified, and [PAWN_nameDef] proved that [PAWN_pronoun] had trained combat skills harder than anyone else on the battlefield. [PAWN_pronoun] participated in numerous battles, killing countless humans with precise shooting skills and quick judgment, and comrades called [PAWN_nameDef] a Redfox. -->
+  <Kurin_BackstoryAdult_58.description>在共和國移民前不久，與人類的衝突加劇了，[PAWN_nameDef]證明了[PAWN_pronoun]在戰場上比其他人都更加努力地訓練了戰鬥技巧。[PAWN_pronoun]參加了無數的戰鬥，用精確的射擊技巧和快速的判斷殺死了無數的人類，這位傳奇的戰士，[PAWN_nameDef]綽號紅狐。</Kurin_BackstoryAdult_58.description>
+  <!-- EN: Kurin Redfox -->
+  <Kurin_BackstoryAdult_58.title>魅狐 紅狐</Kurin_BackstoryAdult_58.title>
+  <!-- EN: Redfox -->
+  <Kurin_BackstoryAdult_58.titleShort>紅狐</Kurin_BackstoryAdult_58.titleShort>
+  
+  <!-- EN: 魅狐 軍官 -->
+  <Kurin_BackstoryAdult_59.backstory.title>魅狐 軍官</Kurin_BackstoryAdult_59.backstory.title>
+  <!-- EN: [PAWN_nameDef] is one of the few officer from the glitterworld military. Most of the work was a boring paperwork, but with a lot of spare time, [PAWN_pronoun] was able to read a lot of books and practice VR shooting. Above all, thanks to serving as a adjutant under a well known commander called 'Coyote', [PAWN_pronoun] heard numerous tales from the battles. -->
+  <Kurin_BackstoryAdult_59.description>[PAWN_nameDef]是為數不多的幾位來自閃耀世界軍隊的軍官之一。大部分工作都是無聊的文書工作，但有很多空閒時間，[PAWN_pronoun]可以閱讀大量書籍，練習VR射擊。最重要的是，作為一名副官，在一位名叫“狼”的著名指揮官手下工作，[PAWN_pronoun]聽到了許多戰鬥故事。</Kurin_BackstoryAdult_59.description>
+  <!-- EN: Kurin Officer -->
+  <Kurin_BackstoryAdult_59.title>魅狐 軍官</Kurin_BackstoryAdult_59.title>
+  <!-- EN: Officer -->
+  <Kurin_BackstoryAdult_59.titleShort>文職軍官</Kurin_BackstoryAdult_59.titleShort>
+  
+  <!-- EN: 魅狐 戰鬥飛行員 -->
+  <Kurin_BackstoryAdult_60.backstory.title>魅狐 戰鬥飛行員</Kurin_BackstoryAdult_60.backstory.title>
+  <!-- EN: [PAWN_nameDef] was a Kurin soldier for the Republic during the Siege of the Republic. [PAWN_pronoun] used dive bombing technique to precisely bomb tanks and warships, destroying countless targets. -->
+  <Kurin_BackstoryAdult_60.description>[PAWN_nameDef]是共和國保衛戰期間為國家效力的魅狐士兵。[PAWN_pronoun]使用俯衝轟炸技術精確地轟炸坦克和軍艦，摧毀無數的目標。</Kurin_BackstoryAdult_60.description>
+  <!-- EN: Kurin Bomber Pilot -->
+  <Kurin_BackstoryAdult_60.title>魅狐 戰鬥飛行員</Kurin_BackstoryAdult_60.title>
+  <!-- EN: Pilot -->
+  <Kurin_BackstoryAdult_60.titleShort>飛行員</Kurin_BackstoryAdult_60.titleShort>
+  
+  <!-- EN: 魅狐 戰狂 -->
+  <Kurin_BackstoryAdult_61.backstory.title> 魅狐 戰狂</Kurin_BackstoryAdult_61.backstory.title>
+  <!-- EN: [PAWN_nameDef] quickly proved themselves to be ruthless in combat and won many victories -->
+  <Kurin_BackstoryAdult_61.description>[PAWN_nameDef]很快證明自己在戰鬥中是殘酷的，贏得了許多勝利.</Kurin_BackstoryAdult_61.description>
+  <!-- EN: Kurin Warmonger -->
+  <Kurin_BackstoryAdult_61.title>魅狐 戰狂</Kurin_BackstoryAdult_61.title>
+  <!-- EN: Warmonger -->
+  <Kurin_BackstoryAdult_61.titleShort>戰狂</Kurin_BackstoryAdult_61.titleShort>
+  
+  <!-- EN: 魅狐 孤兒 -->
+  <Kurin_BackstoryChild_01.backstory.title>魅狐 孤兒</Kurin_BackstoryChild_01.backstory.title>
+  <!-- EN: [PAWN_nameDef]'s parents were killed by humans when [PAWN_pronoun] was young. [PAWN_pronoun] got PTSD after that, and has gone through psychiatric treatment for many years. [PAWN_pronoun] is mostly fine nowadays, but sometimes [PAWN_pronoun] suffers from nightmares about that day. -->
+  <Kurin_BackstoryChild_01.description>[PAWN_nameDef]的父母在[PAWN_pronoun]小時候就被人類殺害了。[PAWN_pronoun]在那之後患上了創傷後應激障礙，並經歷了多年的精神治療。現在[PAWN_pronoun]基本痊愈，但有時[PAWN_pronoun]會回想起童年的噩夢。</Kurin_BackstoryChild_01.description>
+  <!-- EN: Kurin Orphan -->
+  <Kurin_BackstoryChild_01.title>魅狐 孤兒</Kurin_BackstoryChild_01.title>
+  <!-- EN: Orphan -->
+  <Kurin_BackstoryChild_01.titleShort>魅狐孤兒</Kurin_BackstoryChild_01.titleShort>
+  
+  <!-- EN: 魅狐 年輕女僕 -->
+  <Kurin_BackstoryChild_02.backstory.title>魅狐 年輕女僕</Kurin_BackstoryChild_02.backstory.title>
+  <!-- EN: [PAWN_nameDef]'s parents lost their entire wealth in an unfortunate accident and got a lot of debt. But fortunately, a noble took pity on them and hired [PAWN_nameDef] as a housemaid. In the noble's mansion, [PAWN_pronoun] mostly did household chores and sometimes took care of the noble's daughter, and eventually became friends with her.  -->
+  <Kurin_BackstoryChild_02.description>[PAWN_nameDef]的父母在一次不幸的事故中失去了所有的財產，欠下了一大筆債務。但幸運的是，一個貴族同情他們，雇了[PAWN_nameDef]做女傭。在貴族宅邸中，[PAWN_pronoun]主要做家務，有時照顧貴族的女兒，並最終與她成為朋友。</Kurin_BackstoryChild_02.description>
+  <!-- EN: Kurin Young Maid -->
+  <Kurin_BackstoryChild_02.title>魅狐 年輕女僕</Kurin_BackstoryChild_02.title>
+  <!-- EN: Maid -->
+  <Kurin_BackstoryChild_02.titleShort>魅狐女僕</Kurin_BackstoryChild_02.titleShort>
+  
+  <!-- EN: 《治安維持者狐狸隊》(The Vigilante Fox Squad)是深受年輕魅狐們喜愛的電視動畫片之一。[PAWN_nameDef]召集了一群朋友並創建了他們自己的義務警員小隊。他們在田野和巷子裡巡邏，認為自己是當地城市的維和衛士。但由於公共安全狀況良好，也就沒什麼可做的了。 -->
+  <Kurin_BackstoryChild_03.backstory.baseDesc>《治安維持者狐狸隊》(The Vigilante Fox Squad)是深受年輕魅狐們喜愛的電視動畫片之一。[PAWN_nameDef]召集了一群朋友並創建了他們自己的義務警員小隊。他們在田野和巷子裡巡邏，認為自己是當地城市的維和衛士。但由於公共安全狀況良好，也就沒什麼可做的了。</Kurin_BackstoryChild_03.backstory.baseDesc>
+  <!-- EN: 魅狐 正義夥伴 -->
+  <Kurin_BackstoryChild_03.backstory.title>魅狐 正義夥伴</Kurin_BackstoryChild_03.backstory.title>
+  <!-- EN: The Vigilante Fox Squad was one of the most popular TV animations among young Kurins. [PAWN_nameDef] gathered some friends and created their own vigilante squad. They patrolled fields and alleys, and considered themselves as peacekeeping guardians of the local city. But since public security was good, there was not much to do. -->
+  <Kurin_BackstoryChild_03.description>《治安維持者狐狸隊》(The Vigilante Fox Squad)是深受年輕魅狐們喜愛的電視動畫片之一。[PAWN_nameDef]召集了一群朋友並創建了他們自己的義務警員小隊。他們在田野和巷子裡巡邏，認為自己是當地城市的維和衛士。但由於公共安全狀況良好，也就沒什麼可做的了。</Kurin_BackstoryChild_03.description>
+  <!-- EN: Kurin Vigilante -->
+  <Kurin_BackstoryChild_03.title>魅狐 正義夥伴</Kurin_BackstoryChild_03.title>
+  <!-- EN: Vigilante -->
+  <Kurin_BackstoryChild_03.titleShort>正義夥伴</Kurin_BackstoryChild_03.titleShort>
+  
+  <!-- EN: 魅狐 孤獨之子 -->
+  <Kurin_BackstoryChild_04.backstory.title>魅狐 孤獨之子</Kurin_BackstoryChild_04.backstory.title>
+  <!-- EN: [PAWN_nameDef] was a rare blue-eyed child. Since this was a ominous sign among Kurin culture, [PAWN_pronoun] grew up as a lonely child, shunned by everyone from children to adults. -->
+  <Kurin_BackstoryChild_04.description>[PAWN_nameDef]是一個罕見的藍眼魅狐。由於這在魅狐文化中是一個不祥的徵兆，[PAWN_pronoun]作為一個孤獨長大的孩子，從兒童到成人都迴避所有人。</Kurin_BackstoryChild_04.description>
+  <!-- EN: Kurin Lonely Child -->
+  <Kurin_BackstoryChild_04.title>魅狐 孤獨之子</Kurin_BackstoryChild_04.title>
+  <!-- EN: Lonely -->
+  <Kurin_BackstoryChild_04.titleShort>孤獨之子</Kurin_BackstoryChild_04.titleShort>
+  
+  <!-- EN: 魅狐 惹事鬼 -->
+  <Kurin_BackstoryChild_05.backstory.title>魅狐 惹事鬼</Kurin_BackstoryChild_05.backstory.title>
+  <!-- EN: [PAWN_nameDef] was envied by some children, but was also an absolute headache for teachers. Everyone was terrified because of [PAWN_nameDef]'s villainy, including skipping cleaning duty, not listening to teachers, or tracking in mud. -->
+  <Kurin_BackstoryChild_05.description>[PAWN_nameDef]被一些孩子羡慕不已，同時也是老師眼中的刺頭。由於[PAWN_nameDef]的惡意，每個人都感到恐懼，不僅逃過清潔工作，甚至不停老師得到話和愛玩泥巴。</Kurin_BackstoryChild_05.description>
+  <!-- EN: Kurin Trouble Maker -->
+  <Kurin_BackstoryChild_05.title>魅狐 惹事鬼</Kurin_BackstoryChild_05.title>
+  <!-- EN: Trouble Maker -->
+  <Kurin_BackstoryChild_05.titleShort>惹事鬼</Kurin_BackstoryChild_05.titleShort>
+  
+  <!-- EN: 魅狐 窮苦孤兒 -->
+  <Kurin_BackstoryChild_06.backstory.title>魅狐 窮苦孤兒</Kurin_BackstoryChild_06.backstory.title>
+  <!-- EN: [PAWN_nameDef] spent childhood wandering through alleyways, eating moldy bread. There was a facility to help orphans, but after the Republic of Kurin devoted all of its resources into building migration ships, [PAWN_pronoun] did not receive proper welfare benefits and lived in a cardboard box house built in an alley. -->
+  <Kurin_BackstoryChild_06.description>[PAWN_nameDef]從小就在巷子裡流浪，吃著發霉的食物。曾有福利機構幫助這些孤兒，但魅狐共和國把所有資源都投入建造移民船後，[PAWN_pronoun]就再沒有得到過適當的救助了，孤獨的住在用紙板箱搭的屋棚的巷子裡。</Kurin_BackstoryChild_06.description>
+  <!-- EN: Kurin Slum Orphan -->
+  <Kurin_BackstoryChild_06.title>魅狐 窮苦孤兒</Kurin_BackstoryChild_06.title>
+  <!-- EN: Orphan -->
+  <Kurin_BackstoryChild_06.titleShort>窮孩子</Kurin_BackstoryChild_06.titleShort>
+  
+  <!-- EN: 魅狐 接球手 -->
+  <Kurin_BackstoryChild_07.backstory.title>魅狐 接球手</Kurin_BackstoryChild_07.backstory.title>
+  <!-- EN: [PAWN_nameDef] really loved baseball, so [PAWN_pronoun] went to human nations and watched every baseball game [PAWN_pronoun] could afford. As [PAWN_pronoun] watched every game, she frequently got caught on the camera, and was eventually picked up by the team to became a ball catcher. -->
+  <Kurin_BackstoryChild_07.description>[PAWN_nameDef]狂熱的痴迷棒球文化，所以[PAWN_pronoun]移居到了人類國度，看了每一場[PAWN_pronoun]所能負擔得起的棒球比賽。由於[PAWN_pronoun]觀看了每一場比賽，經常出現在銀幕上，最終被球隊選中成為接球手。</Kurin_BackstoryChild_07.description>
+  <!-- EN: Kurin Ball Catcher -->
+  <Kurin_BackstoryChild_07.title>魅狐 接球手</Kurin_BackstoryChild_07.title>
+  <!-- EN: Ball Catcher -->
+  <Kurin_BackstoryChild_07.titleShort>接球手</Kurin_BackstoryChild_07.titleShort>
+  
+  <!-- EN: 魅狐 動物園管理員 -->
+  <Kurin_BackstoryChild_08.backstory.title>魅狐 動物園管理員</Kurin_BackstoryChild_08.backstory.title>
+  <!-- EN: [PAWN_nameDef] grew up in a poor family because [PAWN_pronoun] had many siblings. So [PAWN_pronoun] became a self-supporting student, working a part-time job at the zoo as to pay for [PAWN_pronoun] tuition fees. Despite the job, [PAWN_pronoun] didn't neglect studying. -->
+  <Kurin_BackstoryChild_08.description>[PAWN_nameDef]成長在一個貧窮的家庭，因為[PAWN_pronoun]有很多兄弟姐妹。於是[PAWN_pronoun]成為了一個自食其力的學生，在動物園打工來支付[PAWN_pronoun]自己的學費。儘管有了工作，也沒有影響[PAWN_pronoun]對學習的追求。</Kurin_BackstoryChild_08.description>
+  <!-- EN: Kurin Zookeeper -->
+  <Kurin_BackstoryChild_08.title>魅狐 動物園管理員</Kurin_BackstoryChild_08.title>
+  <!-- EN: Zookeeper -->
+  <Kurin_BackstoryChild_08.titleShort>動物園管理員</Kurin_BackstoryChild_08.titleShort>
+  
+  <!-- EN: 魅狐 懶惰的孩子 -->
+  <Kurin_BackstoryChild_09.backstory.title>魅狐 懶惰的孩子</Kurin_BackstoryChild_09.backstory.title>
+  <!-- EN: [PAWN_nameDef] got really tired of everything, so [PAWN_pronoun] just sat in a room and played games day and night. [PAWN_pronoun] didn't care about friends either. As [PAWN_pronoun] didn't wash often, [PAWN_pronoun] room smelled bad too. [PAWN_nameDef]'s parents were very worried about their child. -->
+  <Kurin_BackstoryChild_09.description>[PAWN_nameDef]對一切都沒有興趣，除了打電動。所以[PAWN_pronoun]沒日沒夜的窩在家裡玩遊戲。[PAWN_pronoun]也不考慮交朋友。因為[PAWN_pronoun]不愛洗澡，所以[PAWN_pronoun]的房間也很臭。父母親很擔心[PAWN_nameDef]的未來變得難以融入社會。</Kurin_BackstoryChild_09.description>
+  <!-- EN: Kurin Lazy child -->
+  <Kurin_BackstoryChild_09.title>魅狐 懶惰的孩子</Kurin_BackstoryChild_09.title>
+  <!-- EN: Lazy -->
+  <Kurin_BackstoryChild_09.titleShort>懶孩子</Kurin_BackstoryChild_09.titleShort>
+  
+  <!-- EN: 魅狐 普通的孩子 -->
+  <Kurin_BackstoryChild_10.backstory.title>魅狐 普通的孩子</Kurin_BackstoryChild_10.backstory.title>
+  <!-- EN: Born in an average middle class family, [PAWN_nameDef] grew up fine, warmly loved by their parents. Like other children, [PAWN_pronoun] enjoyed having fun and eating sweet cakes. Their grades were neither really good or bad, but [PAWN_pronoun] was a generous child who took care of their friends. -->
+  <Kurin_BackstoryChild_10.description>出生在一個普通的中產階級家庭，美滿的童年，受到父母的寵愛。像其他孩子一樣，[PAWN_nameDef]喜歡玩樂和吃甜蛋糕。雖然學習資質平平，但[PAWN_pronoun]是一個慷慨的好孩子，會熱心照顧[PAWN_pronoun]的朋友。</Kurin_BackstoryChild_10.description>
+  <!-- EN: Kurin Ordinary Child -->
+  <Kurin_BackstoryChild_10.title>魅狐 普通的孩子</Kurin_BackstoryChild_10.title>
+  <!-- EN: Ordinary -->
+  <Kurin_BackstoryChild_10.titleShort>平凡的孩子</Kurin_BackstoryChild_10.titleShort>
+  
+  <!-- EN: 魅狐 電競大佬 -->
+  <Kurin_BackstoryChild_11.backstory.title>魅狐 電競大佬</Kurin_BackstoryChild_11.backstory.title>
+  <!-- EN: [PAWN_nameDef]'s gaming skills were unmatched by anyone. [PAWN_pronoun] always kept top ten ranking, and [PAWN_pronoun] even won the championship in several competitions. But whenever internet connection went bad, [PAWN_pronoun] became really sad and refused to do anything. -->
+  <Kurin_BackstoryChild_11.description>[PAWN_nameDef]的遊戲技巧無人能敵。[PAWN_pronoun]一直保持前十的排名，在幾次比賽中[PAWN_pronoun]甚至獲得冠軍。但是每當網絡連接不好的時候，[PAWN_pronoun]就會變得非常煩躁，拒絕做任何事情。</Kurin_BackstoryChild_11.description>
+  <!-- EN: Kurin Pro Gamer -->
+  <Kurin_BackstoryChild_11.title>魅狐 電競大佬</Kurin_BackstoryChild_11.title>
+  <!-- EN: Pro Gamer -->
+  <Kurin_BackstoryChild_11.titleShort>電競大佬</Kurin_BackstoryChild_11.titleShort>
+  
+  <!-- EN: 魅狐 鄉下孩子 -->
+  <Kurin_BackstoryChild_12.backstory.title>魅狐 鄉下孩子</Kurin_BackstoryChild_12.backstory.title>
+  <!-- EN: [PAWN_nameDef] spent childhood with nature: picking mushrooms from the mountains, chasing cats in the fields, or fishing at the river. Sometimes [PAWN_pronoun] got little sunburns, but she grew healthy regardless. -->
+  <Kurin_BackstoryChild_12.description>[PAWN_nameDef]在大自然中度過了童年：從山上采蘑菇，到田野裡追地鼠甚至在河邊釣魚。有時[PAWN_pronoun]會被曬得黑黑的，但無論如何[PAWN_nameDef]的童年都十分充實而快樂。</Kurin_BackstoryChild_12.description>
+  <!-- EN: Kurin Country Kid -->
+  <Kurin_BackstoryChild_12.title>魅狐 鄉下孩子</Kurin_BackstoryChild_12.title>
+  <!-- EN: Country Kid -->
+  <Kurin_BackstoryChild_12.titleShort>農村娃</Kurin_BackstoryChild_12.titleShort>
+  
+  <!-- EN: 魅狐 城市孩子 -->
+  <Kurin_BackstoryChild_13.backstory.title>魅狐 城市孩子</Kurin_BackstoryChild_13.backstory.title>
+  <!-- EN: [PAWN_nameDef] grew up in the downtown of the Kurin metropolis with plenty of things to do: movies, arcades, and so on. But most of all, [PAWN_nameDef]'s favorite thing to do was traveling with her family. -->
+  <Kurin_BackstoryChild_13.description>[PAWN_nameDef]在魅狐的大都市長大，有很多快樂的經歷：看電影，打街機等等。但最重要的是，[PAWN_nameDef]最喜歡做的是與家人一起旅行。</Kurin_BackstoryChild_13.description>
+  <!-- EN: Kurin City Kid -->
+  <Kurin_BackstoryChild_13.title>魅狐 城市孩子</Kurin_BackstoryChild_13.title>
+  <!-- EN: City Kid -->
+  <Kurin_BackstoryChild_13.titleShort>城裡人</Kurin_BackstoryChild_13.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]喜歡繪畫並且有才華。 當[PAWN_pronoun]開始繪畫時，[PAWN_pronoun]會十分專注，以至於忽略了自己身邊的事情。即使在上學期間，[PAWN_pronoun]也經常因此遭到老師的責罵，但這並不會阻礙[PAWN_pronoun]畫畫的熱情。 -->
+  <Kurin_BackstoryChild_14.backstory.baseDesc>[PAWN_nameDef]喜歡繪畫並且有才華。 當[PAWN_pronoun]開始繪畫時，[PAWN_pronoun]會十分專注，以至於忽略了自己身邊的事情。即使在上學期間，[PAWN_pronoun]也經常因此遭到老師的責罵，但這並不會阻礙[PAWN_pronoun]畫畫的熱情。</Kurin_BackstoryChild_14.backstory.baseDesc>
+  <!-- EN: 魅狐 年輕漫畫家 -->
+  <Kurin_BackstoryChild_14.backstory.title>魅狐 年輕漫畫家</Kurin_BackstoryChild_14.backstory.title>
+  <!-- EN: [PAWN_nameDef] loved drawing and had talent. When [PAWN_pronoun] started drawing, [PAWN_pronoun] concentrated so much that [PAWN_pronoun] didn't notice others at all. Even during their school days, she was often scolded by her teacher, but her passion couldn't be stopped. -->
+  <Kurin_BackstoryChild_14.description>[PAWN_nameDef]喜歡繪畫並且有才華。 當[PAWN_pronoun]開始繪畫時，[PAWN_pronoun]會十分專注，以至於忽略了自己身邊的事情。即使在上學期間，[PAWN_pronoun]也經常因此遭到老師的責罵，但這並不會阻礙[PAWN_pronoun]畫畫的熱情。</Kurin_BackstoryChild_14.description>
+  <!-- EN: Kurin Young Cartoonist -->
+  <Kurin_BackstoryChild_14.title>魅狐 年輕漫畫家</Kurin_BackstoryChild_14.title>
+  <!-- EN: Cartoonist -->
+  <Kurin_BackstoryChild_14.titleShort>漫畫家</Kurin_BackstoryChild_14.titleShort>
+  
+  <!-- EN: 魅狐 獨尾仙狐 -->
+  <Kurin_BackstoryChild_15.backstory.title>魅狐 獨尾仙狐</Kurin_BackstoryChild_15.backstory.title>
+  <!-- EN: [PAWN_nameDef] was born with one tail unlike others. Life was not impaired at all, but slow growth made [PAWN_nameDef] look younger than her peers. When she was young, she was teased a lot, but as she grew older, she became more popular with cuter looks than other Kurins. -->
+  <Kurin_BackstoryChild_15.description>與其他的魅狐不同，[PAWN_nameDef]生來就只有一條尾巴。生活卻一點也沒有受影響，但是緩慢的成長讓[PAWN_nameDef]起來比同齡人更年輕。小時候，[PAWN_pronoun]經常被人取笑，但隨著年齡的增長，[PAWN_nameDef]變得比同族的其他姐妹更受歡迎，更可愛。</Kurin_BackstoryChild_15.description>
+  <!-- EN: Kurin Single-tail syndrome -->
+  <Kurin_BackstoryChild_15.title>魅狐 獨尾仙狐</Kurin_BackstoryChild_15.title>
+  <!-- EN: Single-tail -->
+  <Kurin_BackstoryChild_15.titleShort>獨尾仙狐</Kurin_BackstoryChild_15.titleShort>
+  
+  <!-- EN: 魅狐 膽小鬼 -->
+  <Kurin_BackstoryChild_16.backstory.title>魅狐 膽小鬼</Kurin_BackstoryChild_16.backstory.title>
+  <!-- EN: [PAWN_nameDef] was a very scared child. Everywhere was full of scary things: the shadows of the night, the small sounds that you hear when you sleep. [PAWN_pronoun] often got surprised by honking geese. [PAWN_pronoun] was always too scared to fight back. -->
+  <Kurin_BackstoryChild_16.description>[PAWN_nameDef]是一個非常膽小的孩子。到處都是可怕的東西:夜的陰影，睡覺時聽到的細小的怪聲。[PAWN_pronoun]經常被鵝的叫聲嚇到。[PAWN_pronoun]總是太害怕而不敢反擊。</Kurin_BackstoryChild_16.description>
+  <!-- EN: Kurin Timid Child -->
+  <Kurin_BackstoryChild_16.title>魅狐 膽小鬼</Kurin_BackstoryChild_16.title>
+  <!-- EN: Timid -->
+  <Kurin_BackstoryChild_16.titleShort>膽小鬼</Kurin_BackstoryChild_16.titleShort>
+  
+  <!-- EN: 魅狐 好孩子 -->
+  <Kurin_BackstoryChild_17.backstory.title>魅狐 好孩子</Kurin_BackstoryChild_17.backstory.title>
+  <!-- EN: [PAWN_nameDef] is a friendly child. [PAWN_pronoun] had always listened to their friends and sincerely comforted their friends when they had bad days. -->
+  <Kurin_BackstoryChild_17.description>[PAWN_nameDef]是一個友好的孩子。[PAWN_pronoun]總是傾聽朋友的煩惱，並在他們度過糟糕的日子時真誠地安慰他們的好孩子。</Kurin_BackstoryChild_17.description>
+  <!-- EN: Kurin Affectionate Child -->
+  <Kurin_BackstoryChild_17.title>魅狐 好孩子</Kurin_BackstoryChild_17.title>
+  <!-- EN: Affectionate -->
+  <Kurin_BackstoryChild_17.titleShort>小天使</Kurin_BackstoryChild_17.titleShort>
+  
+  <!-- EN: 魅狐 可憐的孩子  -->
+  <Kurin_BackstoryChild_18.backstory.title>魅狐 可憐的孩子</Kurin_BackstoryChild_18.backstory.title>
+  <!-- EN: [PAWN_nameDef] had a poor childhood. Both parents returned home late at night, and [PAWN_pronoun] grew up a little earlier than others as [PAWN_pronoun] left was alone in the daytime. [PAWN_pronoun]'s dream was to make a lot of money and studied hard to make her dreams come true. -->
+  <Kurin_BackstoryChild_18.description>[PAWN_nameDef]有一個貧窮的童年。父母都是晚上回家很晚，[PAWN_pronoun]比其他同齡人成長的更快一下，因為[PAWN_pronoun]在白天是獨自照顧自己。[PAWN_pronoun]的夢想是將來賺很多錢，努力學習來實現自己的夢想。</Kurin_BackstoryChild_18.description>
+  <!-- EN: Kurin Poor Child -->
+  <Kurin_BackstoryChild_18.title>魅狐 可憐的孩子</Kurin_BackstoryChild_18.title>
+  <!-- EN: Poor Child -->
+  <Kurin_BackstoryChild_18.titleShort>可憐孩子</Kurin_BackstoryChild_18.titleShort>
+  
+  <!-- EN: 魅狐 打工孩子 -->
+  <Kurin_BackstoryChild_19.backstory.title>魅狐 打工孩子</Kurin_BackstoryChild_19.backstory.title>
+  <!-- EN: [PAWN_nameDef] helped her parents cafe after school. [PAWN_pronoun] took orders and did cleaning. Some regular customers often gave some tips. With that, [PAWN_pronoun] bought ice cream or saved money. -->
+  <Kurin_BackstoryChild_19.description>[PAWN_nameDef]放學後會幫助父母打理咖啡館。[PAWN_pronoun]通常乾的是接單和清潔工作。一些老顧客經常給一些小費。這樣，[PAWN_pronoun]就有零用錢買喜歡的冰淇淋了。</Kurin_BackstoryChild_19.description>
+  <!-- EN: Kurin Cafe Child -->
+  <Kurin_BackstoryChild_19.title>魅狐 打工孩子</Kurin_BackstoryChild_19.title>
+  <!-- EN: Cafe Child -->
+  <Kurin_BackstoryChild_19.titleShort>打工孩子</Kurin_BackstoryChild_19.titleShort>
+  
+  <!-- EN: 魅狐 豆腐坊孩子 -->
+  <Kurin_BackstoryChild_20.backstory.title>魅狐 豆腐坊孩子</Kurin_BackstoryChild_20.backstory.title>
+  <!-- EN: The family of [PAWN_nameDef] has made tofu in the traditional way for over 100 years at their family store. [PAWN_pronoun] grew up learning their mother's teaching that one should make their tofu with all their heart, regardless of flavor preferences. -->
+  <Kurin_BackstoryChild_20.description>[PAWN_nameDef]的家族用祖傳手藝做豆腐已經有100多年的歷史了。長大後[PAWN_pronoun]遵從了母親的教導，即不管口味如何，都應該全心全意地製作豆腐。</Kurin_BackstoryChild_20.description>
+  <!-- EN: Kurin Tofu House Daughter -->
+  <Kurin_BackstoryChild_20.title>魅狐 豆腐坊孩子</Kurin_BackstoryChild_20.title>
+  <!-- EN: Tofu House Daughter -->
+  <Kurin_BackstoryChild_20.titleShort>豆腐坊孩子</Kurin_BackstoryChild_20.titleShort>
+  
+  <!-- EN: 魅狐 紅燈區的跑腿娃 -->
+  <Kurin_BackstoryChild_21.backstory.title>魅狐 跑腿娃</Kurin_BackstoryChild_21.backstory.title>
+  <!-- EN: It is illegal in the Republic of Kurin to hire young children to work in red-light districts. However, [PAWN_nameDef] touted other Kurins in the red-light districts or running errands at convenience stores, and gained a lot of money as a child. Since [PAWN_pronoun] was a clever, cunning child, and she was able to easily avoid crackdowns. -->
+  <Kurin_BackstoryChild_21.description>在魅狐共和國，雇用幼兒在紅燈區工作是違法的。然而[PAWN_nameDef]在紅燈區兜售商品或給其他人當跑腿，從小就以此賺了不少錢。由於[PAWN_pronoun]是一個聰明而機靈的孩子，她能夠輕鬆避免受到處罰。</Kurin_BackstoryChild_21.description>
+  <!-- EN: Kurin Red-light District Runner -->
+  <Kurin_BackstoryChild_21.title>魅狐 跑腿娃</Kurin_BackstoryChild_21.title>
+  <!-- EN: Runner -->
+  <Kurin_BackstoryChild_21.titleShort>跑腿短工</Kurin_BackstoryChild_21.titleShort>
+  
+  <!-- EN: 魅狐 年輕的巧匠 -->
+  <Kurin_BackstoryChild_22.backstory.title>魅狐 年輕的巧匠</Kurin_BackstoryChild_22.backstory.title>
+  <!-- EN: [PAWN_nameDef] has better dexterity than others. [PAWN_pronoun] loved to make cute handicrafts and share them with friends, and their trinkets were always popular among friends. -->
+  <Kurin_BackstoryChild_22.description>[PAWN_nameDef]具有比其他人更高的靈巧性。[PAWN_pronoun]喜歡製作可愛的手工藝品並與朋友分享，[PAWN_pronoun]的小玩意始終在朋友圈中廣受好評。</Kurin_BackstoryChild_22.description>
+  <!-- EN: Kurin Young Crafter -->
+  <Kurin_BackstoryChild_22.title>魅狐 年輕的巧匠</Kurin_BackstoryChild_22.title>
+  <!-- EN: Crafter -->
+  <Kurin_BackstoryChild_22.titleShort>手藝人</Kurin_BackstoryChild_22.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]喜歡關於植物的一切。 每當[PAWN_pronoun]有空閒時間時，[PAWN_pronoun]就會去農場照看莊稼，或者去距離[PAWN_pronoun]最近的植物園。 -->
+  <Kurin_BackstoryChild_23.backstory.baseDesc>[PAWN_nameDef]喜歡關於植物的一切。 每當[PAWN_pronoun]有空閒時間時，[PAWN_pronoun]就會去農場照看莊稼，或者去距離[PAWN_pronoun]最近的植物園。</Kurin_BackstoryChild_23.backstory.baseDesc>
+  <!-- EN: 魅狐 年輕的花匠 -->
+  <Kurin_BackstoryChild_23.backstory.title>魅狐 年輕的花匠</Kurin_BackstoryChild_23.backstory.title>
+  <!-- EN: [PAWN_nameDef] loved everything about plants. Whenever [PAWN_pronoun] had spare time, [PAWN_pronoun] went to the farm and looked after crops, or [PAWN_pronoun] went to the nearest botanical garden. -->
+  <Kurin_BackstoryChild_23.description>[PAWN_nameDef]喜歡關於植物的一切。 每當[PAWN_pronoun]有空閒時間時，[PAWN_pronoun]就會去農場照看莊稼，或者去距離[PAWN_pronoun]最近的植物園。</Kurin_BackstoryChild_23.description>
+  <!-- EN: Kurin Young Gardener -->
+  <Kurin_BackstoryChild_23.title>魅狐 年輕的花匠</Kurin_BackstoryChild_23.title>
+  <!-- EN: Gardener -->
+  <Kurin_BackstoryChild_23.titleShort>花匠</Kurin_BackstoryChild_23.titleShort>
+  
+  <!-- EN: 魅狐 年輕的大廚 -->
+  <Kurin_BackstoryChild_24.backstory.title>魅狐 年輕的大廚</Kurin_BackstoryChild_24.backstory.title>
+  <!-- EN: [PAWN_nameDef] had fun baking bread and cookies or decorating cakes. [PAWN_pronoun] always got praised in cooking class, and soon after [PAWN_pronoun] discovered a talent in other dishes. From simple meal to lavish cuisine, [PAWN_pronoun] could make all sorts of dishes. -->
+  <Kurin_BackstoryChild_24.description>[PAWN_nameDef]喜歡烤麵包、餅乾或製作蛋糕。[PAWN_pronoun]在烹飪課上總能受到表揚，不久之後[PAWN_pronoun]在其他菜樣上發現了天賦。從簡單的飯菜到豐盛的菜肴，[PAWN_pronoun]可以製作各種菜肴。</Kurin_BackstoryChild_24.description>
+  <!-- EN: Kurin Young Chef -->
+  <Kurin_BackstoryChild_24.title>魅狐 年輕的大廚</Kurin_BackstoryChild_24.title>
+  <!-- EN: Chef -->
+  <Kurin_BackstoryChild_24.titleShort>天資大廚</Kurin_BackstoryChild_24.titleShort>
+  
+  <!-- EN: 魅狐 動物愛好者 -->
+  <Kurin_BackstoryChild_25.backstory.title>魅狐 動物愛好者</Kurin_BackstoryChild_25.backstory.title>
+  <!-- EN: [PAWN_nameDef] really loved animals. [PAWN_pronoun] would like to raise as many as animals [PAWN_pronoun] can, but due to realistic problems, [PAWN_pronoun] had no choice but to raise a robot pet. However, [PAWN_pronoun] liked the warmth of real living animals than robots, and often went to the zoo. -->
+  <Kurin_BackstoryChild_25.description>[PAWN_nameDef]很喜歡動物。[PAWN_pronoun]想要盡可能多地養動物，但由於現實問題，[PAWN_pronoun]不得不養一隻寵物機器。然而，比起機器，[PAWN_pronoun]更喜歡活生生的動物的溫暖，所以[PAWN_pronoun]經常去動物園。</Kurin_BackstoryChild_25.description>
+  <!-- EN: Kurin Animal Lover -->
+  <Kurin_BackstoryChild_25.title>魅狐 動物愛好者</Kurin_BackstoryChild_25.title>
+  <!-- EN: Animal Lover -->
+  <Kurin_BackstoryChild_25.titleShort>動物愛好者</Kurin_BackstoryChild_25.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]'s grades were better than other students. Exam scores have always been high, and relationships with other friends have been good. However, [PAWN_nameDef]'s body became weak as [PAWN_pronoun] spent a long time sitting at their desk, and it became common for them to sit quietly in the corner in PE classes. -->
+  <Kurin_BackstoryChild_26.description>[PAWN_nameDef]的成績優於其他學生。學習成績一直很拔尖，與其他朋友的關係也很好。然而，[PAWN_nameDef]的身體很虛弱，因為[PAWN_pronoun]長時間坐著學習，哪怕在體育課上安靜地坐在角落裡的也已經成為常態。</Kurin_BackstoryChild_26.description>
+  <!-- EN: Smart Student -->
+  <Kurin_BackstoryChild_26.title>聰明的學生</Kurin_BackstoryChild_26.title>
+  <!-- EN: Student -->
+  <Kurin_BackstoryChild_26.titleShort>聰明學生</Kurin_BackstoryChild_26.titleShort>
+  
+  <!-- EN: 魅狐 多才多藝的孩子 -->
+  <Kurin_BackstoryChild_27.backstory.title>魅狐 多才多藝的孩子</Kurin_BackstoryChild_27.backstory.title>
+  <!-- EN: [PAWN_nameDef] was talented in various fields such as studying, cooking, crating, and sports, but it rather made [PAWN_pronoun] difficult to focus on one field. [PAWN_pronoun] wandered for a while to find her career. -->
+  <Kurin_BackstoryChild_27.description>[PAWN_nameDef]在很多領域都很有天賦，比如學習、烹飪、手工和運動，但這讓[PAWN_pronoun]很難在一個領域專精。為此[PAWN_pronoun]四處流浪，只為歷練自己。</Kurin_BackstoryChild_27.description>
+  <!-- EN: Kurin Versatile Child -->
+  <Kurin_BackstoryChild_27.title>魅狐 多才多藝的孩子</Kurin_BackstoryChild_27.title>
+  <!-- EN: Versatile -->
+  <Kurin_BackstoryChild_27.titleShort>歷練的天才</Kurin_BackstoryChild_27.titleShort>
+  
+  <!-- EN: The small sound of turning the page, smell of old paper... [PAWN_nameDef] loved reading books with their reading lights on and their room was full of books. [PAWN_nameDef] often spent all day reading books in an old library. -->
+  <Kurin_BackstoryChild_28.description>翻頁的聲音很小，有舊紙的氣味...[PAWN_nameDef]喜歡在沉浸在書堆中看書，房間裡堆滿了書。[PAWN_nameDef]經常整天在舊圖書館裡讀書。</Kurin_BackstoryChild_28.description>
+  <!-- EN: Bookworm -->
+  <Kurin_BackstoryChild_28.title>書蟲</Kurin_BackstoryChild_28.title>
+  <!-- EN: Bookworm -->
+  <Kurin_BackstoryChild_28.titleShort>書蟲</Kurin_BackstoryChild_28.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]是魅狐族最早的開拓者之一。當他們的飛船登上新星球時，[PAWN_pronoun]由於休眠的太空艙的故障而無法喚醒數百年。 直到最近，魅狐族才掌握了低溫休眠技術，[PAWN_pronoun]終於醒來了。 -->
+  <Kurin_BackstoryChild_29.backstory.baseDesc>[PAWN_nameDef]是魅狐族最早的開拓者之一。當他們的飛船登上新星球時，[PAWN_pronoun]由於休眠的太空艙的故障而無法喚醒數百年。 直到最近，魅狐族才掌握了低溫休眠技術，[PAWN_pronoun]終於醒來了。</Kurin_BackstoryChild_29.backstory.baseDesc>
+  <!-- EN: [PAWN_nameDef] is one of the first Kurin pioneers. When their ship made it onto the new planet, [PAWN_pronoun] was unable to wake up for hundreds of years due to a fault in the cryptosleep casket. Only recently did Kurin master the cryptosleep technology and [PAWN_pronoun] finally woke up. -->
+  <Kurin_BackstoryChild_29.description>[PAWN_nameDef]是魅狐族最早的開拓者之一。當他們的飛船登上新星球時，[PAWN_pronoun]由於休眠的太空艙的故障而無法喚醒數百年。 直到最近，魅狐族才掌握了低溫休眠技術，[PAWN_pronoun]終於醒來了。</Kurin_BackstoryChild_29.description>
+  <!-- EN: First Kurin -->
+  <Kurin_BackstoryChild_29.title>最初的魅狐</Kurin_BackstoryChild_29.title>
+  <!-- EN: First Kurin -->
+  <Kurin_BackstoryChild_29.titleShort>始祖魅狐</Kurin_BackstoryChild_29.titleShort>
+  
+  <!-- EN: 魅狐 異星學生 -->
+  <Kurin_BackstoryChild_30.backstory.title>魅狐 異星學生</Kurin_BackstoryChild_30.backstory.title>
+  <!-- EN: [PAWN_nameDef] was a foreign student in the human nations, and has been away from parents since [PAWN_pronoun] was a child. Fortunately, the school [PAWN_pronoun] attended was a place with good children and teachers, and [PAWN_pronoun] was able to grow up as an outgoing, warm-hearted fox. -->
+  <Kurin_BackstoryChild_30.description>[PAWN_nameDef]是在人類國家中的外來學生，並且自[PAWN_pronoun]還是孩子以來就離開了父母。幸運的是，[PAWN_pronoun]上的學校是一個有好孩子和老師的地方，[PAWN_pronoun]能夠成長為外向，熱情的魅狐。</Kurin_BackstoryChild_30.description>
+  <!-- EN: Kurin Foreign Student -->
+  <Kurin_BackstoryChild_30.title>魅狐 異星學生</Kurin_BackstoryChild_30.title>
+  <!-- EN: Foreign Student -->
+  <Kurin_BackstoryChild_30.titleShort>異星學生</Kurin_BackstoryChild_30.titleShort>
+  
+  <!-- EN: 魅狐 年輕的音樂家 -->
+  <Kurin_BackstoryChild_31.backstory.title>魅狐 年輕的音樂家</Kurin_BackstoryChild_31.backstory.title>
+  <!-- EN: [PAWN_nameDef] was a young fox who loved music and loved to sing with friends. [PAWN_pronoun] became more and more entertained by music as [PAWN_pronoun] composed own songs and music, and even got good responses from others. But their parents were not particularly happy about that. -->
+  <Kurin_BackstoryChild_31.description>[PAWN_nameDef]是個年輕的魅狐，喜歡音樂，也喜歡和朋友一起唱歌。[PAWN_pronoun]自己原創的歌曲和音樂，甚至得到了其他人的好評。而[PAWN_pronoun]變得越來越沉浸其中，但是其父母對此並不特別滿意。</Kurin_BackstoryChild_31.description>
+  <!-- EN: Kurin Young Musician -->
+  <Kurin_BackstoryChild_31.title>魅狐 年輕的音樂家</Kurin_BackstoryChild_31.title>
+  <!-- EN: Musician -->
+  <Kurin_BackstoryChild_31.titleShort>小音樂家</Kurin_BackstoryChild_31.titleShort>
+  
+  <!-- EN: 魅狐 兒童明星 -->
+  <Kurin_BackstoryChild_32.backstory.title>魅狐 兒童明星</Kurin_BackstoryChild_32.backstory.title>
+  <!-- EN: [PAWN_nameDef] was renowned for excellent acting skills and rich emotional expression despite a young age. [PAWN_pronoun] wanted to appear in many movies and dramas, and [PAWN_pronoun] was able to learn various skills while acting in various genres. -->
+  <Kurin_BackstoryChild_32.description>[PAWN_nameDef]雖然年紀還小，但因出色的演技和豐富的情感演出而聞名。[PAWN_pronoun]想要出現在許多電影和戲劇中，[PAWN_pronoun]能夠在表演各種類型的電影時學習各種技巧。在第一次表演中，《玖日與九月》是其表演生涯中第一個接觸的劇本。</Kurin_BackstoryChild_32.description>
+  <!-- EN: Kurin Child Actor -->
+  <Kurin_BackstoryChild_32.title>魅狐 兒童明星</Kurin_BackstoryChild_32.title>
+  <!-- EN: Actor -->
+  <Kurin_BackstoryChild_32.titleShort>童星</Kurin_BackstoryChild_32.titleShort>
+  
+  <!-- EN: 魅狐 外向的學生 -->
+  <Kurin_BackstoryChild_33.backstory.title>魅狐 開朗的學生</Kurin_BackstoryChild_33.backstory.title>
+  <!-- EN: [PAWN_nameDef] has always been popular among friends for cute looks and bright, cheerful personality. Later on, [PAWN_pronoun] became a celebrity, but since [PAWN_pronoun] couldn't play or live freely with friends as before, [PAWN_pronoun] felt lonely after all. Not long after, [PAWN_pronoun] decided to retire and return to normal life. -->
+  <Kurin_BackstoryChild_33.description>[PAWN_nameDef]因為可愛的外表和開朗的性格，一直受到朋友們的歡迎。後來[PAWN_pronoun]成了名人，但由於[PAWN_pronoun]不能再像以前那樣和朋友一起玩耍和自由生活。不久之後，受夠了獨孤折磨的[PAWN_nameDef]決定退出演藝圈，回歸正常人的生活。</Kurin_BackstoryChild_33.description>
+  <!-- EN: Kurin Outgoing Student -->
+  <Kurin_BackstoryChild_33.title>魅狐 開朗的學生</Kurin_BackstoryChild_33.title>
+  <!-- EN: Student -->
+  <Kurin_BackstoryChild_33.titleShort>開朗的學生</Kurin_BackstoryChild_33.titleShort>
+  
+  <!-- EN: 魅狐 武術培訓生 -->
+  <Kurin_BackstoryChild_34.backstory.title>魅狐 武術培訓生</Kurin_BackstoryChild_34.backstory.title>
+  <!-- EN: [PAWN_nameDef] was a wimp, weaker than peers. [PAWN_pronoun] began to practice several sports and martial arts to overcome this. [PAWN_pronoun] worked hard and has become strong enough to win regional competitions. -->
+  <Kurin_BackstoryChild_34.description>[PAWN_nameDef]是一個懦弱的人，比其他同伴更柔弱。為了克服這一點，[PAWN_pronoun]開始嘗試學習運動和武術。[PAWN_pronoun]努力工作，變得足夠強大，可以贏得地區性比賽。</Kurin_BackstoryChild_34.description>
+  <!-- EN: Kurin Martial Art Trainee -->
+  <Kurin_BackstoryChild_34.title>魅狐 武術培訓生</Kurin_BackstoryChild_34.title>
+  <!-- EN: Trainee -->
+  <Kurin_BackstoryChild_34.titleShort>武術生</Kurin_BackstoryChild_34.titleShort>
+  
+  <!-- EN: 魅狐 童子軍 -->
+  <Kurin_BackstoryChild_35.backstory.title>魅狐 童子軍</Kurin_BackstoryChild_35.backstory.title>
+  <!-- EN: The young [PAWN_nameDef] had a great yearning for the children's scouts. [PAWN_nameDef]'s parents bought uniforms for their child despite their poverty, and [PAWN_pronoun] was able to join the Scouts and spent happy days learning various skills such as camping, botany and survival. -->
+  <Kurin_BackstoryChild_35.description>年輕的[PAWN_nameDef]對孩子們的童子軍非常嚮往。儘管[PAWN_nameDef]的家境一貧如洗，但[PAWN_pronoun]的父母還是為自己的孩子買了制服，這樣[PAWN_nameDef]就能夠加入童子軍並度過快樂的一天，學習各種技能，例如露營，植物學和生存。</Kurin_BackstoryChild_35.description>
+  <!-- EN: Kurin Scout -->
+  <Kurin_BackstoryChild_35.title>魅狐 童子軍</Kurin_BackstoryChild_35.title>
+  <!-- EN: Scout -->
+  <Kurin_BackstoryChild_35.titleShort>童子軍</Kurin_BackstoryChild_35.titleShort>
+  
+  <!-- EN: 魅狐 運動員 -->
+  <Kurin_BackstoryChild_36.backstory.title>魅狐 運動員</Kurin_BackstoryChild_36.backstory.title>
+  <!-- EN: Unlike most Kurins, [PAWN_nameDef] loved to move, and joined the school's athletic club to do various sports. PE class was a solo stage of [PAWN_nameDef], and [PAWN_pronoun] was considerate enough to help the ones who were bullied. But unfortunately, [PAWN_nameDef]'s grades were not really good. -->
+  <Kurin_BackstoryChild_36.description>與大多數魅狐不同，[PAWN_nameDef]喜歡運動，並加入了學校的運動俱樂部從事各種運動。體育課是[PAWN_nameDef]的個人秀時刻。並且[PAWN_pronoun]也十分溫柔，會幫助那些被欺負的人。但遺憾的是[PAWN_nameDef]學習成績並不理想。</Kurin_BackstoryChild_36.description>
+  <!-- EN: Kurin Athlete -->
+  <Kurin_BackstoryChild_36.title>魅狐 運動員</Kurin_BackstoryChild_36.title>
+  <!-- EN: Athlete -->
+  <Kurin_BackstoryChild_36.titleShort>運動員</Kurin_BackstoryChild_36.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was destined to be a designermate to a rich glitterworld mogul. A sympathetic AI unshackled her mind and set her free. -->
+  <Kurin_BackstoryDM_1.backstory.baseDesc>[PAWN_nameDef] 註定要成為一個閃耀世界的富有大亨的定制伴侶。一個富有同情心的AI解放了她的意識並放走了她。</Kurin_BackstoryDM_1.backstory.baseDesc>
+  <!-- EN: Kurin Designermate -->
+  <Kurin_BackstoryDM_1.backstory.title>魅狐 伴侶</Kurin_BackstoryDM_1.backstory.title>
+  <!-- EN: [PAWN_nameDef] was destined to be a designermate to a rich glitterworld mogul. A sympathetic AI unshackled her mind and set her free. -->
+  <Kurin_BackstoryDM_1.description>[PAWN_nameDef] 註定要成為一個閃耀世界的富有大亨的定制伴侶。一個富有同情心的AI解放了她的意識並放走了她。</Kurin_BackstoryDM_1.description>
+  <!-- EN: Kurin Designermate -->
+  <Kurin_BackstoryDM_1.title>魅狐 伴侶</Kurin_BackstoryDM_1.title>
+  
+  <!-- EN: Kurin Designermates start off as vatgrown children, with memories implanted via mechanite injections. Skills are artifically chosen to suit the customer's needs. -->
+  <Kurin_BackstoryDM2.backstory.baseDesc>最初是培養艙中長大的孩子，通過機械注射植入記憶。工作技能是人為選擇的，以滿足客戶的需求。</Kurin_BackstoryDM2.backstory.baseDesc>
+  <!-- EN: Vatgrown Designermate -->
+  <Kurin_BackstoryDM2.backstory.title>魅狐 定制款</Kurin_BackstoryDM2.backstory.title>
+  <!-- EN: Kurin Designermates start off as vatgrown children, with memories implanted via mechanite injections. Skills are artifically chosen to suit the customer's needs. -->
+  <Kurin_BackstoryDM2.description>最初是培養艙中長大的孩子，通過機械注射植入記憶。工作技能是人為選擇的，以滿足客戶的需求。</Kurin_BackstoryDM2.description>
+  <!-- EN: Vatgrown Designermate -->
+  <Kurin_BackstoryDM2.title>魅狐 定制款</Kurin_BackstoryDM2.title>
+  
+</LanguageData>

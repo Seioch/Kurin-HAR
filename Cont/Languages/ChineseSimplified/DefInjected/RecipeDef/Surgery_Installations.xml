@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_InstallFakeTail.label>安装魅狐假尾巴</Kurin_InstallFakeTail.label>
+  <Kurin_InstallFakeTail.description>安装魅狐假尾巴。</Kurin_InstallFakeTail.description>
+  <Kurin_InstallFakeTail.jobString>正在安装魅狐假尾巴。</Kurin_InstallFakeTail.jobString>
+
+  <Kurin_InstallBionicEar.label>安装魅狐仿生耳朵</Kurin_InstallBionicEar.label>
+  <Kurin_InstallBionicEar.description>安装魅狐仿生耳朵。</Kurin_InstallBionicEar.description>
+  <Kurin_InstallBionicEar.jobString>正在安装魅狐仿生耳朵。</Kurin_InstallBionicEar.jobString>
+
+  <Kurin_InstallBionicTail.label>安装魅狐仿生尾巴</Kurin_InstallBionicTail.label>
+  <Kurin_InstallBionicTail.description>安装魅狐仿生尾巴。</Kurin_InstallBionicTail.description>
+  <Kurin_InstallBionicTail.jobString>正在安装魅狐仿生尾巴。</Kurin_InstallBionicTail.jobString>
+
+
+  <!-- Surgery to add Kurin Tail Blade -->
+
+  <InstallTailBlade.label>安装魅狐尾刃</InstallTailBlade.label>
+  <InstallTailBlade.description>安装一条魅狐尾刃。</InstallTailBlade.description>
+  <InstallTailBlade.jobString>正在安装魅狐尾刃。</InstallTailBlade.jobString>
+
+  <Kurin_InstallMechanitorEar.label>安装魅狐机械师耳朵</Kurin_InstallMechanitorEar.label>
+  <Kurin_InstallMechanitorEar.description>安装魅狐机械师耳朵。</Kurin_InstallMechanitorEar.description>
+  <Kurin_InstallMechanitorEar.jobString>正在安装魅狐仿生耳朵。</Kurin_InstallMechanitorEar.jobString>
+
+
+  <!-- EN: install a kurin tail blade -->
+  <!-- EN: Install a Kurin Tail Blade. -->
+  <!-- EN: Installing tail blade. -->
+  <!-- EN: install bionic kurin ear -->
+  <!-- EN: Install a bionic kurin ear. -->
+  <!-- EN: Installing bionic kurin ear. -->
+  <!-- EN: install bionic kurin tail -->
+  <!-- EN: Install a bionic kurin tail. -->
+  <!-- EN: Installing bionic kurin tail. -->
+  <!-- EN: install fake kurin tail -->
+  <!-- EN: Install a fake kurin tail. -->
+  <!-- EN: Installing fake kurin tail. -->
+
+</LanguageData>

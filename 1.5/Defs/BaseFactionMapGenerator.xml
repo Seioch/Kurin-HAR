@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MapGeneratorDef ParentName="MapCommonBase">
+    <defName>Kurin_Base_Faction_Republic</defName>
+    <genSteps>
+      <li>RocksFromGrid</li>
+      <li>KurinRepublicSettlement</li>
+      <li>SettlementPower</li>
+    </genSteps>
+  </MapGeneratorDef>
+  <MapGeneratorDef ParentName="MapCommonBase">
+    <defName>Kurin_Base_Faction_BattleFoxes</defName>
+    <genSteps>
+      <li>RocksFromGrid</li>
+      <li>KurinBattleFoxesSettlement</li>
+      <li>SettlementPower</li>
+    </genSteps>
+  </MapGeneratorDef>
+
+  <!-- Generate faction base -->
+  <GenStepDef>
+    <defName>KurinRepublicSettlement</defName>
+    <order>450</order>
+    <genStep Class="Kurin.GenStep_Republic">
+      <count>1</count>
+      <nearMapCenter>true</nearMapCenter>
+      <clearBuildingFaction>true</clearBuildingFaction>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef>
+    <defName>KurinBattleFoxesSettlement</defName>
+    <order>450</order>
+    <genStep Class="Kurin.GenStep_BattleFoxes">
+      <count>1</count>
+      <nearMapCenter>true</nearMapCenter>
+      <clearBuildingFaction>true</clearBuildingFaction>
+    </genStep>
+  </GenStepDef>
+
+</Defs>

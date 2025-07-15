@@ -3,6 +3,8 @@
 <ResearchTabDef>
 	<defName>Kurin_ResearchTab</defName>
 	<label>Kurin</label>
+	<generalTitle>Kurin research</generalTitle>
+    <generalDescription>Unlock techonologies tailored for Kurin</generalDescription>
 </ResearchTabDef>
 
 <ResearchProjectDef>

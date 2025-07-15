@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Flower.label>鈴蘭</Kurin_Flower.label>
+  <Kurin_Flower.description>瞭解如何種植鈴蘭。 這是一種獨特的閃耀世界植物，收割後可產出合成纖維。</Kurin_Flower.description>
+
+  <Kurin_ApparelT1.label>魅狐簡易的服飾</Kurin_ApparelT1.label>
+  <Kurin_ApparelT1.description>研究如何製作簡易的日常服飾。</Kurin_ApparelT1.description>
+
+  <Kurin_ApparelT2.label>魅狐日常的服飾</Kurin_ApparelT2.label>
+  <Kurin_ApparelT2.description>研究如何製作魅狐的日常服飾。</Kurin_ApparelT2.description>
+
+  <Kurin_ApparelT3.label>魅狐精美的服飾</Kurin_ApparelT3.label>
+  <Kurin_ApparelT3.description>研究如何製作精美的日常服飾。</Kurin_ApparelT3.description>
+
+  <Kurin_CombatT2.label>魅狐基礎作戰</Kurin_CombatT2.label>
+  <Kurin_CombatT2.description>研究如何生產基礎的作戰裝甲和武器。</Kurin_CombatT2.description>
+
+  <Kurin_CombatT3.label>魅狐先進作戰</Kurin_CombatT3.label>
+  <Kurin_CombatT3.description>研究如何生產先進的作戰裝甲和武器。</Kurin_CombatT3.description>
+
+  <Kurin_Mechtech.label>魅狐機械師植入物</Kurin_Mechtech.label>
+  <Kurin_Mechtech.description>研究如何生產適合魅狐的機械師植入物科技。</Kurin_Mechtech.description>
+
+  <Kurin_CombatT4.label>魅狐太空作戰</Kurin_CombatT4.label>
+  <Kurin_CombatT4.description>研究如何生產魅狐的電荷武器。</Kurin_CombatT4.description>
+
+  <Kurin_ApparelT4.label>魅狐共和國裝甲仿製品</Kurin_ApparelT4.label>
+  <Kurin_ApparelT4.description>研究如何製作共和國裝甲……的仿製品。</Kurin_ApparelT4.description>
+
+  <Kurin_Turret.label>魅狐族防禦設施</Kurin_Turret.label>
+  <Kurin_Turret.description>研究如何組裝古代防禦炮塔。</Kurin_Turret.description>
+
+
+  <!-- EN: Kurin simple clothing -->
+  <!-- EN: Research how to produce simple clothing. -->
+  <!-- EN: Kurin plain clothing -->
+  <!-- EN: Research how to produce plain clothes. -->
+  <!-- EN: Kurin fine clothing -->
+  <!-- EN: Research how to produce fine clothes. -->
+  <!-- EN: Kurin Defenses -->
+  <!-- EN: Research how to assemble an ancient defensive turret. -->
+
+</LanguageData>

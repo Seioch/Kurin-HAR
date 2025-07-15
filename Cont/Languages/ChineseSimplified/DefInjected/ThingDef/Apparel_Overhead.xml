@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Winter hat -->
+
+  <Kurin_Overhead_Winter_Hat.label>魅狐冬季帽子</Kurin_Overhead_Winter_Hat.label>
+  <Kurin_Overhead_Winter_Hat.description>一款简便的冬季帽子。耐寒较弱的奎琳也可以舒舒服服地过冬。</Kurin_Overhead_Winter_Hat.description>
+
+
+  <!-- Summer hat -->
+
+  <Kurin_Overhead_Summer_Hat.label>魅狐夏季帽子</Kurin_Overhead_Summer_Hat.label>
+  <Kurin_Overhead_Summer_Hat.description>一款简便的夏季帽子。即使在炎热的夏天，只要是和这顶帽子在一起就能撑得住。</Kurin_Overhead_Summer_Hat.description>
+
+
+  <!-- Casual hairpin -->
+
+  <Kurin_Overhead_Casual_Hair_Pin.label>魅狐休闲发夹</Kurin_Overhead_Casual_Hair_Pin.label>
+  <Kurin_Overhead_Casual_Hair_Pin.description>休闲气息的发卡。单纯地戴上也会显得有活力。</Kurin_Overhead_Casual_Hair_Pin.description>
+
+
+  <!-- Googles -->
+
+  <Kurin_Overhead_Goggles.label>魅狐护目镜</Kurin_Overhead_Goggles.label>
+  <Kurin_Overhead_Goggles.description>战斗用护目镜。提供了最小限度的防御能力。</Kurin_Overhead_Goggles.description>
+
+
+  <!-- Gothic hairpin -->
+
+  <Kurin_Overhead_Gothic_Hair_Pin.label>魅狐哥特发夹</Kurin_Overhead_Gothic_Hair_Pin.label>
+  <Kurin_Overhead_Gothic_Hair_Pin.description>哥特式发夹。</Kurin_Overhead_Gothic_Hair_Pin.description>
+
+
+  <!-- Bikini tiara -->
+
+  <Kurin_Overhead_Bikini_Armor_Headgear.label>魅狐比基尼头盔</Kurin_Overhead_Bikini_Armor_Headgear.label>
+  <Kurin_Overhead_Bikini_Armor_Headgear.description>比基尼盔甲配套的头盔。比看起来要结实得多。</Kurin_Overhead_Bikini_Armor_Headgear.description>
+
+
+  <!-- Military helmet -->
+
+  <Kurin_Overhead_Military_Helmet.label>魅狐哥特式头盔</Kurin_Overhead_Military_Helmet.label>
+  <Kurin_Overhead_Military_Helmet.description>安装壁挂式防弹板的战斗用防弹帽。防止流弹伤害头部的最后一种手段。</Kurin_Overhead_Military_Helmet.description>
+
+
+  <!-- Traditional hairpin -->
+
+  <Kurin_Overhead_Traditional_Hair_Pin.label>魅狐传统发卡</Kurin_Overhead_Traditional_Hair_Pin.label>
+  <Kurin_Overhead_Traditional_Hair_Pin.description>可爱的花型发夹。</Kurin_Overhead_Traditional_Hair_Pin.description>
+
+
+  <!-- Cute hairpin -->
+
+  <Kurin_Overhead_Cute_Hair_Pin.label>魅狐可爱发卡</Kurin_Overhead_Cute_Hair_Pin.label>
+  <Kurin_Overhead_Cute_Hair_Pin.description>有着可爱狐狸模样的发夹。</Kurin_Overhead_Cute_Hair_Pin.description>
+
+  <Kurin_Overhead_Chinese_Wedding_Headwear.label>魅狐中式婚纱头饰</Kurin_Overhead_Chinese_Wedding_Headwear.label>
+  <Kurin_Overhead_Chinese_Wedding_Headwear.description>一个用金属做的中式婚纱头饰。</Kurin_Overhead_Chinese_Wedding_Headwear.description>
+
+  <Kurin_Overhead_Black_Wedding_Headwear.label>魅狐黑色婚纱头饰</Kurin_Overhead_Black_Wedding_Headwear.label>
+  <Kurin_Overhead_Black_Wedding_Headwear.description>一个用布料做的黑色婚纱头饰。</Kurin_Overhead_Black_Wedding_Headwear.description>
+
+  <Kurin_Overhead_White_Wedding_Headwear.label>魅狐白色婚纱头饰</Kurin_Overhead_White_Wedding_Headwear.label>
+  <Kurin_Overhead_White_Wedding_Headwear.description>一个用布料做的白色婚纱头饰。</Kurin_Overhead_White_Wedding_Headwear.description>
+
+
+  <!-- Redfox helmet -->
+
+  <Kurin_Redfox_Helmet.label>“赤狐”头盔</Kurin_Redfox_Helmet.label>
+  <Kurin_Redfox_Helmet.description>为魅狐赤狐士兵提供的高度防护军用头盔。由于用纳米纤维的编织物为头盔夹层，它能够吸收令人难以置信的伤害。</Kurin_Redfox_Helmet.description>
+
+
+  <!-- EN: kurin bikini armor headgear -->
+  <!-- EN: 비키니 아머용 머리 방어구입니다. 보기보다 매우 튼튼합니다. -->
+  <!-- EN: kurin casual hair pin -->
+  <!-- EN: 캐주얼한 느낌의 머리핀입니다. 단순히 착용만 해도 활기가 생기는 거 같습니다. -->
+  <!-- EN: kurin cute hair pin -->
+  <!-- EN: 귀여운 여우 모양의 머리핀입니다. -->
+  <!-- EN: kurin goggles -->
+  <!-- EN: 전투용 고글입니다. 최소한의 방어력을 제공해줍니다. -->
+  <!-- EN: kurin gothic hair pin -->
+  <!-- EN: 고딕 양식의 머리핀입니다. -->
+  <!-- EN: kurin Military Helmet -->
+  <!-- EN: 플라스틸 방탄판이 장착된 전투용 방탄모입니다. 머리를 향해 날라오는 총알을 막을 수 있는 최후의 수단입니다. -->
+  <!-- EN: kurin summer hat -->
+  <!-- EN: 간단한 여름모자입니다. 아주 더운 여름날이라도 이 모자와 함께라면 버틸 수 있습니다. -->
+  <!-- EN: kurin traditional hair pin -->
+  <!-- EN: 귀여운 꽃 모양의 머리핀입니다. -->
+  <!-- EN: kurin winter hat -->
+  <!-- EN: 간단한 겨울모자입니다. 추위에 약한 쿠린들도 겨울을 편하게 보내게 해줍니다. -->
+
+</LanguageData>

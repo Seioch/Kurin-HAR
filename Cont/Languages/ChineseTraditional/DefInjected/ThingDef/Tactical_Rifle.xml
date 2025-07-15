@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AR -->
+
+  <Kurin_Gun_Assault_Rifle.label>魅狐突擊步槍</Kurin_Gun_Assault_Rifle.label>
+  <Kurin_Gun_Assault_Rifle.description>魅狐所配備的步槍。</Kurin_Gun_Assault_Rifle.description>
+  <Kurin_Gun_Assault_Rifle.tools.0.label>stock</Kurin_Gun_Assault_Rifle.tools.0.label>
+  <Kurin_Gun_Assault_Rifle.tools.1.label>barrel</Kurin_Gun_Assault_Rifle.tools.1.label>
+
+  <Kurin_Bullet_Assault_Rifle.label>魅狐突擊步槍子彈</Kurin_Bullet_Assault_Rifle.label>
+
+
+  <!-- SMG -->
+
+  <Kurin_Gun_Carbine.label>魅狐戰術步槍</Kurin_Gun_Carbine.label>
+  <Kurin_Gun_Carbine.description>一種魅狐開發的獨特卡賓槍。射擊距離較近，但速度更快的子彈和更高的穿甲力。製造成本比傳統突擊步槍低。</Kurin_Gun_Carbine.description>
+  <Kurin_Gun_Carbine.tools.0.label>stock</Kurin_Gun_Carbine.tools.0.label>
+  <Kurin_Gun_Carbine.tools.1.label>barrel</Kurin_Gun_Carbine.tools.1.label>
+
+  <Kurin_Bullet_Carbine.label>魅狐戰術步槍子彈</Kurin_Bullet_Carbine.label>
+
+
+  <!-- SR -->
+
+  <Kurin_Gun_Sniper_Rifle.label>魅狐狙擊步槍</Kurin_Gun_Sniper_Rifle.label>
+  <Kurin_Gun_Sniper_Rifle.description>魅狐所配備的狙擊步槍。</Kurin_Gun_Sniper_Rifle.description>
+  <Kurin_Gun_Sniper_Rifle.tools.0.label>stock</Kurin_Gun_Sniper_Rifle.tools.0.label>
+  <Kurin_Gun_Sniper_Rifle.tools.1.label>barrel</Kurin_Gun_Sniper_Rifle.tools.1.label>
+
+  <Kurin_Bullet_Sniper_Rifle.label>魅狐狙擊步槍子彈</Kurin_Bullet_Sniper_Rifle.label>
+
+
+  <!-- EN: kurin assault rifle bullet -->
+  <!-- EN: kurin assault carbine -->
+  <!-- EN: kurin sniper rifle bullet -->
+  <!-- EN: kurin assault rifle -->
+  <!-- EN: A unique Kurin developed assault rifle. Faster projectiles and higher armor penetration at the cost of lower damage and smaller burst. Cheaper to manufacture than the traditional assault rifle. -->
+  <!-- EN: stock -->
+  <!--<Kurin_Gun_Assault_Rifle.tools.stock.label>槍托</Kurin_Gun_Assault_Rifle.tools.stock.label>-->
+  <!-- EN: barrel -->
+  <!--<Kurin_Gun_Assault_Rifle.tools.barrel.label>槍管</Kurin_Gun_Assault_Rifle.tools.barrel.label>-->
+  <!--<Kurin_Gun_Assault_Rifle.verbs.Verb_Shoot.label>魅狐突擊步槍</Kurin_Gun_Assault_Rifle.verbs.Verb_Shoot.label>-->
+  <!-- EN: kurin carbine -->
+  <!-- EN: A unique Kurin developed carbine. Short ranged, but faster projectiles and higher armor penetration. Cheaper to manufacture than the traditional assault rifle. -->
+  <!--<Kurin_Gun_Carbine.tools.stock.label>槍托</Kurin_Gun_Carbine.tools.stock.label>-->
+  <!--<Kurin_Gun_Carbine.tools.barrel.label>槍管</Kurin_Gun_Carbine.tools.barrel.label>-->
+  <!--<Kurin_Gun_Carbine.verbs.Verb_Shoot.label>魅狐戰術步槍</Kurin_Gun_Carbine.verbs.Verb_Shoot.label>-->
+  <!-- EN: kurin sniper rifle -->
+  <!-- EN: A unique Kurin developed DMR. Faster shooting than the sniper rifle with lower damage and armor penetration. -->
+  <!--<Kurin_Gun_Sniper_Rifle.tools.stock.label>槍托</Kurin_Gun_Sniper_Rifle.tools.stock.label>-->
+  <!--<Kurin_Gun_Sniper_Rifle.tools.barrel.label>槍管</Kurin_Gun_Sniper_Rifle.tools.barrel.label>-->
+  <!--<Kurin_Gun_Sniper_Rifle.verbs.Verb_Shoot.label>魅狐狙擊步槍</Kurin_Gun_Sniper_Rifle.verbs.Verb_Shoot.label>-->
+  <!--<Kurin_Gun_Charge_Rifle.label>魅狐電荷步槍</Kurin_Gun_Charge_Rifle.label>-->
+  <!--<Kurin_Gun_Charge_Rifle.description>一把罕見的阿蘿拉反機械體突擊步槍，配備的電荷彈用以擊穿較薄的機械裝甲。</Kurin_Gun_Charge_Rifle.description>-->
+  <!--<Kurin_Gun_Charge_Rifle.tools.stock.label>槍托</Kurin_Gun_Charge_Rifle.tools.stock.label>-->
+  <!--<Kurin_Gun_Charge_Rifle.tools.barrel.label>槍管</Kurin_Gun_Charge_Rifle.tools.barrel.label>-->
+  <!--<Kurin_Gun_Charge_Rifle.verbs.Verb_Shoot.label>魅狐電荷步槍</Kurin_Gun_Charge_Rifle.verbs.Verb_Shoot.label>-->
+
+</LanguageData>

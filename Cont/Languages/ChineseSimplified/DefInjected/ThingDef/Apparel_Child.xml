@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_OnSkin_Kid_Shirt.label>魅狐童装</Kurin_OnSkin_Kid_Shirt.label>
+  <Kurin_OnSkin_Kid_Shirt.description>专为魅狐儿童设计的连衣裙</Kurin_OnSkin_Kid_Shirt.description>
+
+  <Kurin_Kid_Hat.label>魅狐儿童帽</Kurin_Kid_Hat.label>
+  <Kurin_Kid_Hat.description>为魅狐儿童设计的帽子</Kurin_Kid_Hat.description>
+
+  <Kurin_Kid_Sweater.label>魅狐儿童毛衣</Kurin_Kid_Sweater.label>
+  <Kurin_Kid_Sweater.description>魅狐儿童在寒冷的日子里穿的保暖毛衣。</Kurin_Kid_Sweater.description>
+
+
+  <!--<Kurin_OnSkin_Makeshift_Dress.label>魅狐临时连衣裙</Kurin_OnSkin_Makeshift_Dress.label>-->
+  <!--<Kurin_OnSkin_Makeshift_Dress.description>用多余的布料手工制作的连衣裙，以阻隔一些自然环境和其他注意到自己体态的眼睛。</Kurin_OnSkin_Makeshift_Dress.description>-->
+
+</LanguageData>

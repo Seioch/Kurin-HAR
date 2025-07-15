@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Kurin_OnSkin_Mechanic_Clothing.label>魅狐机械师服装</Kurin_OnSkin_Mechanic_Clothing.label>
+    <Kurin_OnSkin_Mechanic_Clothing.description>魅狐机械师的专属服装，用来加魅狐机械师对机械体的控制。</Kurin_OnSkin_Mechanic_Clothing.description>
+
+    <Kurin_Overhead_Mechanic_Goggles.label>魅狐机械师护目镜</Kurin_Overhead_Mechanic_Goggles.label>
+    <Kurin_Overhead_Mechanic_Goggles.description>一个用于加强魅狐机械师的护目镜。</Kurin_Overhead_Mechanic_Goggles.description>
+
+    <Kurin_Portable_Bandwidth_Node.label>魅狐便携式带宽节点</Kurin_Portable_Bandwidth_Node.label>
+    <Kurin_Portable_Bandwidth_Node.description>一个便携式魅狐带宽节点，用于增加魅狐机械师的带宽，并增强其能力。</Kurin_Portable_Bandwidth_Node.description>
+
+</LanguageData>

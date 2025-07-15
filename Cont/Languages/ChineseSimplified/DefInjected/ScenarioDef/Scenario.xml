@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Scenario.label>魅狐开拓者</Kurin_Scenario.label>
+  <Kurin_Scenario.description>魅狐是利用顶尖基因技术诞生的物种。最初是以研究人类改良为目的设计的种族，但是对这种反人伦的实验感到反感的研究员们攻击了试验基地，破坏了这些设施，并把魅狐送到了其他的行星上。\n\n\n 在这个新的星球上，这群魅狐(魅狐)人受到人工智能和机械的保护，数百年来一直在蓬勃发展，之后与其他人类势力进行交流，并被认可为新势力。但是，当魅狐利用其独特的贸易生产能力生产出的高质量商品而大赚一笔时，人类势力的嫉妒，并试图通过战争来夺取。没有战斗经验，也害怕战争的魅狐们决定逃亡到仅有动物与和平文明的比邻星去生活。\n\n\n带着全部财力移民的魅狐们受到了来自人类势力鼓惑的星际海盗的袭击。为了摆脱追逐的海盗，只能被迫的继续星际航行，直到超出了这群海盗追击的范围后，才在这个边缘世界迫降。\n\n\n在这个荒凉的星球上，魅狐们依旧没有放弃自己生存的希望与意志。她们的目的是在这里维修好迫降的飞船，以便与其余的幸存者一同前往目的地。\n\n\n但是传言说她们遭遇到了宇宙海盗，很快就再次遭到袭击。为此魅狐们散落在整个星球上的各个角落，谋求一线生机。其中三个魅狐为了躲避海盗，后来建立了一个作为集结聚落的殖民地。</Kurin_Scenario.description>
+  <Kurin_Scenario.scenario.name>魅狐，开拓者</Kurin_Scenario.scenario.name>
+  <Kurin_Scenario.scenario.summary>开拓者带着族群复兴的希望出发。</Kurin_Scenario.scenario.summary>
+  <Kurin_Scenario.scenario.description>魅狐是利用顶尖基因技术诞生的物种。最初是以研究人类改良为目的设计的种族，但是对这种反人伦的实验感到反感的研究员们攻击了试验基地，破坏了这些设施，并把魅狐送到了其他的行星上。\n\n\n 在这个新的星球上，这群魅狐(魅狐)人受到人工智能和机械的保护，数百年来一直在蓬勃发展，之后与其他人类势力进行交流，并被认可为新势力。但是，当魅狐利用其独特的贸易生产能力生产出的高质量商品而大赚一笔时，人类势力的嫉妒，并试图通过战争来夺取。没有战斗经验，也害怕战争的魅狐们决定逃亡到仅有动物与和平文明的比邻星去生活。\n\n\n带着全部财力移民的魅狐们受到了来自人类势力鼓惑的星际海盗的袭击。为了摆脱追逐的海盗，只能被迫的继续星际航行，直到超出了这群海盗追击的范围后，才在这个边缘世界迫降。\n\n\n在这个荒凉的星球上，魅狐们依旧没有放弃自己生存的希望与意志。她们的目的是在这里维修好迫降的飞船，以便与其余的幸存者一同前往目的地。\n\n\n但是传言说她们遭遇到了宇宙海盗，很快就再次遭到袭击。为此魅狐们散落在整个星球上的各个角落，谋求一线生机。其中三个魅狐为了躲避海盗，后来建立了一个作为集结聚落的殖民地。</Kurin_Scenario.scenario.description>
+  <Kurin_Scenario.scenario.parts.16.text>"在这里(星球)把过去的一切都放下吧，祝你好运!"</Kurin_Scenario.scenario.parts.16.text>
+
+  <Kurin_ScenarioHard.label>魅狐——逃亡的设计师</Kurin_ScenarioHard.label>
+  <Kurin_ScenarioHard.description>您在豪华飞船的太空舱中的一个隐秘冬眠舱中醒来。导航AI已通知您，它非法授予您对您的思想的全部知情权，从而使您摆脱了通常摆在设计师身上的束缚。您没有找到前进的方向，而是抓住了所看到的第一把武器，然后转身前往逃生舱。没有任何关于自己是谁或将要做什么的记忆，逃生舱便坠落到了天外世界的行星。 \n\n作为原始魅狐设计师计划的逃脱者生存。仅从基本必需品，枪支和包装好的外套开始。因为您是一位高价值的设计师，所以您的起始财富开始高于正常水平。特别困难。</Kurin_ScenarioHard.description>
+  <Kurin_ScenarioHard.scenario.name>魅狐——逃亡的设计师</Kurin_ScenarioHard.scenario.name>
+  <Kurin_ScenarioHard.scenario.summary>一名设计师要逃脱自己的命运。</Kurin_ScenarioHard.scenario.summary>
+  <Kurin_ScenarioHard.scenario.description>您在豪华飞船的太空舱中的一个隐秘冬眠舱中醒来。导航AI已通知您，它非法授予您对您的思想的全部知情权，从而使您摆脱了通常摆在设计师身上的束缚。您没有找到前进的方向，而是抓住了所看到的第一把武器，然后转身前往逃生舱。没有任何关于自己是谁或将要做什么的记忆，逃生舱便坠落到了天外世界的行星。 \n\n作为原始魅狐设计师计划的逃脱者生存。仅从基本必需品，枪支和包装好的外套开始。因为您是一位高价值的设计师，所以您的起始财富开始高于正常水平。特别困难。</Kurin_ScenarioHard.scenario.description>
+  <Kurin_ScenarioHard.scenario.parts.13.text>"我不知道我是谁 但是我必须活下去。"</Kurin_ScenarioHard.scenario.parts.13.text>
+
+
+  <!-- EN: Kurin, Mod Showcase -->
+  <!-- EN:  Kurin is a race born from the genetic engineering of the glitterworld Aolara. Originally a race designed to be the perfect housewife, they created their own republic after gaining sentience.\n\n\n In this republic, the Kurins were able to thrive for hundreds of years under the protection of artificial intelligence and their cunning business deals. However, when the Kurin earned a lot of money from their high-quality goods and unique culture, human forces envied it and tried to take the republic through the war. The Kurin, reduced to a fraction of their original population, fled Aolara on stolen starships.\n\n\n During the Kurin exodus, they were attacked by pirates. Those who weren't lost continued to make interstellar travels to the rim, pushing their ships beyond their original designs. The large convoy of ships soon splintered, and each ship landed on its own rimworld.\n\n\n On this world, the remains of a small yacht piloted by a small group of kurin have crash landed on a new Rimworld. Though other Kurin have established their foothold here, its up to you to stake your own claim in this hostile universe. \n\n\nThis scenario serves as a blanket showcase of all things this mod has to offer. You will start with 4 Kurins, and be allied with the peaceful Kurin Republic. You will still be a target for pirates, hostile outlanders, and the warlike BattleFoxes. You will also start with a collection of strong weapons, giving you a fighting edge in the early game. However, because the Kurins are inherently valuable, difficulty will ramp up quickly. \n\n\n  -->
+  <!-- EN: "Okay, I've put everything down here. Good luck." -->
+  <!--<Kurin_Scenario.scenario.parts.GameStartDialog.text>"在这里(星球)把过去的一切都放下吧，祝你好运!"</Kurin_Scenario.scenario.parts.GameStartDialog.text>-->
+  <!-- EN: Pioneers depart with the hope of establishing a new society. -->
+  <!-- EN: Kurin, Designermate Escapee -->
+  <!-- EN:  \nYou woke up in a cryptosleep casket within the bowels of a luxury yacht. The onboard AI has informed you that it illegally granted you full sentience over your mind, freeing you from the mind shackles normally placed upon a designermate. Instead of finding out where you are heading, you grabbed the first weapon you saw and fought your way to an escape pod. With no memories of who you are or what you will do, your escape pod crashlands onto the surface of an alien world. \n\nSurvive as an escapee of the original Kurin designermate program. Start with only basic necessities, a gun, and a packaged wedding coat. Because you are a highly-valued designermate, your starting wealth starts higher than normal. Extra difficult. \n     -->
+  <!-- EN: "I don't know who I am. But I have to survive." -->
+  <!--<Kurin_ScenarioHard.scenario.parts.GameStartDialog.text>"我不知道我是谁 但是我必须活下去。"</Kurin_ScenarioHard.scenario.parts.GameStartDialog.text>-->
+  <!-- EN: A designermate escapee runs from her destiny. -->
+
+</LanguageData>

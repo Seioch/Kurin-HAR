@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Gun_Charge_Rifle.label>魅狐电荷步枪</Kurin_Gun_Charge_Rifle.label>
+  <Kurin_Gun_Charge_Rifle.description>一把罕见的阿劳拉反机械体突击步枪，配备的电荷弹用以击穿较薄的机械装甲。</Kurin_Gun_Charge_Rifle.description>
+  <Kurin_Gun_Charge_Rifle.tools.0.label>枪托</Kurin_Gun_Charge_Rifle.tools.0.label>
+  <Kurin_Gun_Charge_Rifle.tools.1.label>枪管</Kurin_Gun_Charge_Rifle.tools.1.label>
+
+  <Kurin_Bullet_Charge_Rifle.label>电荷弹</Kurin_Bullet_Charge_Rifle.label>
+
+
+</LanguageData>
