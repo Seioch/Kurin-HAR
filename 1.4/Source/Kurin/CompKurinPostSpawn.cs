@@ -30,6 +30,10 @@ namespace Kurin
                     // Log.Message("Single-Tailed Backstory detected, removing tails");
                     foreach (BodyPartRecord record in pawn.RaceProps.body.GetPartsWithDef(Kurin_DefOf.Kurin_Tail))
                     {
+                        if (pawn.health.hediffSet.PartIsMissing(record))
+                        {
+                            return;
+                        }
                         if (record.customLabel == "Right tail") // Remove the right tail
                         {
                             pawn.health.AddHediff(HediffDefOf.MissingBodyPart, record); 

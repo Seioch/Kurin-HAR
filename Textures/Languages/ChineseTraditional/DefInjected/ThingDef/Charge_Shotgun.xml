@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Gun_Charge_Shotgun.label>魅狐電荷全自動霰彈槍</Kurin_Gun_Charge_Shotgun.label>
+  <Kurin_Gun_Charge_Shotgun.description>一種獨特的阿蘿拉全自動電荷霰彈槍。魅狐的突擊隊將使用這種武器摧毀降落在魅狐都市附近的機械集羣。</Kurin_Gun_Charge_Shotgun.description>
+  <Kurin_Gun_Charge_Shotgun.tools.0.label>槍托</Kurin_Gun_Charge_Shotgun.tools.0.label>
+  <Kurin_Gun_Charge_Shotgun.tools.1.label>槍管</Kurin_Gun_Charge_Shotgun.tools.1.label>
+
+  <Kurin_Bullet_Charge_Shotgun.label>電荷霰彈</Kurin_Bullet_Charge_Shotgun.label>
+
+
+</LanguageData>

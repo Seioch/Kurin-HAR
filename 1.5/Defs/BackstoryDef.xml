@@ -245,6 +245,7 @@
 			<li>Kurin_Army</li>
 			<li>Kurin_Warmonger</li>
 			<li>Kurin_Trader</li>
+			<li>Kurin_Natural</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 	<!--도시꼬마-->
@@ -459,11 +460,11 @@
 			<Animals>2</Animals>
 			<Plants>6</Plants>
 			<Social>-2</Social>
-
 		</skillGains>
 		<spawnCategories>
 			<li>Kurin_Citizen</li>
 			<li>Kurin_Elite</li>
+			<li>Kurin_Natural</li>
 		</spawnCategories>
 	</AlienRace.AlienBackstoryDef>
 	<!--어린 요리사-->

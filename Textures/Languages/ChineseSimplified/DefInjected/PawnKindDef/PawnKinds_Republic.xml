@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 시민 -->
+
+  <Kurin_Citizen.label>魅狐公民</Kurin_Citizen.label>
+  <Kurin_Citizen.labelPlural>魅狐公民</Kurin_Citizen.labelPlural>
+  <Kurin_Citizen.labelMale>男性 魅狐公民</Kurin_Citizen.labelMale>
+  <Kurin_Citizen.labelMalePlural>男性 魅狐公民</Kurin_Citizen.labelMalePlural>
+  <Kurin_Citizen.labelFemale>女性 魅狐公民</Kurin_Citizen.labelFemale>
+  <Kurin_Citizen.labelFemalePlural>女性 魅狐公民</Kurin_Citizen.labelFemalePlural>
+
+
+  <!-- 자경단 -->
+
+  <Kurin_Vigilante.label>魅狐警卫队</Kurin_Vigilante.label>
+  <Kurin_Vigilante.labelPlural>魅狐警卫队</Kurin_Vigilante.labelPlural>
+  <Kurin_Vigilante.labelMale>男性 魅狐警卫队</Kurin_Vigilante.labelMale>
+  <Kurin_Vigilante.labelMalePlural>男性 魅狐警卫队</Kurin_Vigilante.labelMalePlural>
+  <Kurin_Vigilante.labelFemale>女性 魅狐警卫队</Kurin_Vigilante.labelFemale>
+  <Kurin_Vigilante.labelFemalePlural>女性 魅狐警卫队</Kurin_Vigilante.labelFemalePlural>
+
+
+  <!-- 상인 -->
+
+  <Kurin_Trader.label>魅狐交易员</Kurin_Trader.label>
+  <Kurin_Trader.labelPlural>魅狐交易员</Kurin_Trader.labelPlural>
+  <Kurin_Trader.labelMale>男性 魅狐交易员</Kurin_Trader.labelMale>
+  <Kurin_Trader.labelMalePlural>男性 魅狐交易员</Kurin_Trader.labelMalePlural>
+  <Kurin_Trader.labelFemale>女性 魅狐交易员</Kurin_Trader.labelFemale>
+  <Kurin_Trader.labelFemalePlural>女性 魅狐交易员</Kurin_Trader.labelFemalePlural>
+
+
+  <!-- 엘리트 -->
+
+  <Kurin_Elite.label>魅狐精英</Kurin_Elite.label>
+  <Kurin_Elite.labelPlural>魅狐精英</Kurin_Elite.labelPlural>
+  <Kurin_Elite.labelMale>男性 魅狐精英</Kurin_Elite.labelMale>
+  <Kurin_Elite.labelMalePlural>男性 魅狐精英</Kurin_Elite.labelMalePlural>
+  <Kurin_Elite.labelFemale>女性 魅狐精英</Kurin_Elite.labelFemale>
+  <Kurin_Elite.labelFemalePlural>女性 魅狐精英</Kurin_Elite.labelFemalePlural>
+
+
+  <!-- 군인(분대원) -->
+
+  <Kurin_Soldier.label>魅狐军团士兵</Kurin_Soldier.label>
+  <Kurin_Soldier.labelPlural>魅狐军团士兵</Kurin_Soldier.labelPlural>
+  <Kurin_Soldier.labelMale>男性 魅狐军团士兵</Kurin_Soldier.labelMale>
+  <Kurin_Soldier.labelMalePlural>男性 魅狐军团士兵</Kurin_Soldier.labelMalePlural>
+  <Kurin_Soldier.labelFemale>女性 魅狐军团士兵</Kurin_Soldier.labelFemale>
+  <Kurin_Soldier.labelFemalePlural>女性 魅狐军团士兵</Kurin_Soldier.labelFemalePlural>
+
+
+  <!-- 군인(분대장) -->
+
+  <Kurin_EliteSoldier.label>魅狐军团中士</Kurin_EliteSoldier.label>
+  <Kurin_EliteSoldier.labelPlural>魅狐军团中士</Kurin_EliteSoldier.labelPlural>
+  <Kurin_EliteSoldier.labelMale>男性 魅狐军团中士</Kurin_EliteSoldier.labelMale>
+  <Kurin_EliteSoldier.labelMalePlural>男性 魅狐军团中士</Kurin_EliteSoldier.labelMalePlural>
+  <Kurin_EliteSoldier.labelFemale>女性 魅狐军团中士</Kurin_EliteSoldier.labelFemale>
+  <Kurin_EliteSoldier.labelFemalePlural>女性 魅狐军团中士</Kurin_EliteSoldier.labelFemalePlural>
+
+
+  <!-- 군인(저격수) -->
+
+  <Kurin_Sniper.label>魅狐军团狙击手</Kurin_Sniper.label>
+  <Kurin_Sniper.labelPlural>魅狐军团狙击手</Kurin_Sniper.labelPlural>
+  <Kurin_Sniper.labelMale>男性 魅狐军团狙击手</Kurin_Sniper.labelMale>
+  <Kurin_Sniper.labelMalePlural>男性 魅狐军团狙击手</Kurin_Sniper.labelMalePlural>
+  <Kurin_Sniper.labelFemale>女性 魅狐军团狙击手</Kurin_Sniper.labelFemale>
+  <Kurin_Sniper.labelFemalePlural>女性 魅狐军团狙击手</Kurin_Sniper.labelFemalePlural>
+
+
+  <!-- Special -->
+
+  <Kurin_Commader_melee.label>魅狐指挥官</Kurin_Commader_melee.label>
+  <Kurin_Commader_melee.labelPlural>魅狐指挥官</Kurin_Commader_melee.labelPlural>
+  <Kurin_Commader_melee.labelMale>男性 魅狐指挥官</Kurin_Commader_melee.labelMale>
+  <Kurin_Commader_melee.labelMalePlural>男性 魅狐指挥官</Kurin_Commader_melee.labelMalePlural>
+  <Kurin_Commader_melee.labelFemale>女性 魅狐指挥官</Kurin_Commader_melee.labelFemale>
+  <Kurin_Commader_melee.labelFemalePlural>女性 魅狐指挥官</Kurin_Commader_melee.labelFemalePlural>
+
+  <Kurin_Commander_ranged.label>魅狐指挥官</Kurin_Commander_ranged.label>
+  <Kurin_Commander_ranged.labelPlural>魅狐指挥官</Kurin_Commander_ranged.labelPlural>
+  <Kurin_Commander_ranged.labelMale>男性 魅狐指挥官</Kurin_Commander_ranged.labelMale>
+  <Kurin_Commander_ranged.labelMalePlural>男性 魅狐指挥官</Kurin_Commander_ranged.labelMalePlural>
+  <Kurin_Commander_ranged.labelFemale>女性 魅狐指挥官</Kurin_Commander_ranged.labelFemale>
+  <Kurin_Commander_ranged.labelFemalePlural>女性 魅狐指挥官</Kurin_Commander_ranged.labelFemalePlural>
+
+
+  <!-- EN: Kurin Citizen -->
+  <!-- EN: 魅狐指挥官 -->
+  <!-- EN: Kurin Elite -->
+  <!-- EN: Kurin Army Sergeant -->
+  <!-- EN: Kurin Army Sniper -->
+  <!-- EN: Kurin Army Soldier -->
+  <!-- EN: Kurin Trader -->
+  <!-- EN: Kurin Vigilante -->
+
+</LanguageData>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="Kurin_OnSkinBaseTear1">
+	<defName>Kurin_OnSkin_Kid_Shirt</defName>
+	<label>kurin kid dress</label>
+	<description>Dress designed to be worn by Kurin children</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/ChildDress/Texture</texPath>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+	<costStuffCount>35</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+	</stuffCategories>
+	<apparel>
+        <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+        <developmentalStageFilter>Child</developmentalStageFilter>
+		<useWornGraphicMask>true</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+			<li>Shoulders</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/ChildDress/Texture</wornGraphicPath>
+	</apparel>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>2000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<recipeMaker>
+		<researchPrerequisites>
+			<li>Kurin_ApparelT1</li>
+		</researchPrerequisites>
+	</recipeMaker>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OverheadBaseTear1">
+	<defName>Kurin_Kid_Hat</defName>
+	<label>kurin kid hat</label>
+	<description>A hat designed for Kurin children</description>
+	<costStuffCount>20</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+	</stuffCategories>
+	<graphicData>
+		<texPath>Kurin/Apparel/ChildHat/Texture</texPath>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+	<apparel>
+        <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+        <developmentalStageFilter>Child</developmentalStageFilter>
+		<useWornGraphicMask>true</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>UpperHead</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/ChildHat/Texture</wornGraphicPath>
+	</apparel>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>1000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<recipeMaker>
+		<researchPrerequisites>
+			<li>Kurin_ApparelT1</li>
+		</researchPrerequisites>
+	</recipeMaker>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_ShellBaseTear1">
+	<defName>Kurin_Kid_Sweater</defName>
+	<label>kurin kid sweater</label>
+	<description>Warm sweater designed to be worn by kurin children during cold days.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/ChildSweater/Texture</texPath>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+	<costList>
+		<Cloth>25</Cloth>
+	</costList>
+	<costStuffCount>50</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>125</MaxHitPoints>
+		<WorkToMake>4000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>1.20</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+        <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+        <developmentalStageFilter>Child</developmentalStageFilter>
+		<useWornGraphicMask>true</useWornGraphicMask>
+		<tags>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Citizen</li>
+		</tags>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Arms</li>
+			<li>Shoulders</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/ChildSweater/Texture</wornGraphicPath>
+	</apparel>
+	<recipeMaker>
+		<researchPrerequisites>
+			<li>Kurin_ApparelT1</li>
+		</researchPrerequisites>
+	</recipeMaker>
+</ThingDef>
+
+</Defs>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_MeleeWeapon_Ceremonial_Sword.label>魅狐儀式劍</Kurin_MeleeWeapon_Ceremonial_Sword.label>
+  <Kurin_MeleeWeapon_Ceremonial_Sword.description>魅狐的儀式用劍。雖然不是為戰鬥而設計的武器，但是將敵人一刀兩斷完全可以做到。</Kurin_MeleeWeapon_Ceremonial_Sword.description>
+  <Kurin_MeleeWeapon_Ceremonial_Sword.tools.0.label>edge</Kurin_MeleeWeapon_Ceremonial_Sword.tools.0.label>
+  <Kurin_MeleeWeapon_Ceremonial_Sword.tools.1.label>flat side</Kurin_MeleeWeapon_Ceremonial_Sword.tools.1.label>
+
+
+  <!-- EN: kurin ceremonial sword -->
+  <!-- EN: A large sword for Kurin ceremonial guards. Though unwieldy and slow, it can cleave a person right in half. -->
+  <!-- EN: edge -->
+  <!--<Kurin_MeleeWeapon_Ceremonial_Sword.tools.edge.label>劍刃</Kurin_MeleeWeapon_Ceremonial_Sword.tools.edge.label>-->
+  <!--<Kurin_nanoedge.label>魅狐納米劍</Kurin_nanoedge.label>-->
+  <!--<Kurin_nanoedge.description>舊魅狐共和國期間，授予魅狐精英衛隊的一種强大的閃耀世界武器。 它的刀刃用上了奈米科技，其鋒利性可以與帝國的單分子劍抗爭。 \n\n這是舊魅狐共和國的遺產，數量稀少。</Kurin_nanoedge.description>-->
+  <!--<Kurin_nanoedge.tools.edge.label>劍刃</Kurin_nanoedge.tools.edge.label>-->
+
+</LanguageData>

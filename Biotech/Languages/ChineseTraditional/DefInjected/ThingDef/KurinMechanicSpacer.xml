@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Gun_Mechanic_Charge_Rifle.label>魅狐機械師電荷步槍</Kurin_Gun_Mechanic_Charge_Rifle.label>
+  <Kurin_Gun_Mechanic_Charge_Rifle.description>魅狐機械師所使用的電荷步槍，傷害和穿甲弱於電荷步槍，但它可以為魅狐機械師提供培育速度，維修速度和機械體工作速度加成。</Kurin_Gun_Mechanic_Charge_Rifle.description>
+  <Kurin_Gun_Mechanic_Charge_Rifle.tools.0.label>槍托</Kurin_Gun_Mechanic_Charge_Rifle.tools.0.label>
+  <Kurin_Gun_Mechanic_Charge_Rifle.tools.1.label>槍管</Kurin_Gun_Mechanic_Charge_Rifle.tools.1.label>
+  <Kurin_Bullet_Mechanic_Charge_Rifle.label>魅狐電荷彈</Kurin_Bullet_Mechanic_Charge_Rifle.label>
+
+</LanguageData>

@@ -20,6 +20,7 @@
 		<StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
 	</statBases>
 	<apparel>
+		<countsAsClothingForNudity>false</countsAsClothingForNudity>
 		<layers>
 			<li>Kurin_Underwear</li>
 		</layers>

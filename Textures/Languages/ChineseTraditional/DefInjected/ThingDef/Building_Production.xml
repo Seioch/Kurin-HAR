@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Tailoring_Bench.label>魅狐裁縫臺（1x3）</Kurin_Tailoring_Bench.label>
+  <Kurin_Tailoring_Bench.description>一種帶縫紉機的工作臺，用於快速裁剪衣服。可以在沒有電的情况下以正常速度的50%工作。這個提供了更大的工作空間。</Kurin_Tailoring_Bench.description>
+
+  <Kurin_Electric_Tailoring_Bench.label>奎琳電力裁縫台</Kurin_Electric_Tailoring_Bench.label>
+  <Kurin_Electric_Tailoring_Bench.description>帶有縫紉機的工作台，用於快速裁剪衣服。可以在沒有電的情況下以50%的正常速度工作。</Kurin_Electric_Tailoring_Bench.description>
+
+
+  <!-- EN: kurin electric tailor bench -->
+  <!-- EN: A workbench with a sewing machine for rapid tailoring of clothes. Can work without electricity at 50% of normal speed. -->
+
+</LanguageData>

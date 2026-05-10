@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Kurin HAR Edition</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_Race"]/alienRace/raceRestriction/apparelList</xpath>
+			<value>
+				<li>Kurin_OnSkin_Mechanic_Clothing</li>
+				<li>Kurin_Portable_Bandwidth_Node</li>
+				<li>Kurin_Overhead_Mechanic_Goggles</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>

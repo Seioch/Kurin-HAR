@@ -916,9 +916,9 @@
       <graphicPaths>
         <head>Kurin/Head/A/</head>
         <body>Kurin/Body/B/</body>
-		<apparel>
-			<pathPrefix>Kurin/</pathPrefix>
-		</apparel>
+        <apparel>
+          <pathPrefix>Kurin/</pathPrefix>
+        </apparel>
       </graphicPaths>
       <styleSettings>
         <li>

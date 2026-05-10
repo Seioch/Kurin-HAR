@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThoughtDef>
+        <defName>Kurin_LostTail</defName>
+        <workerClass>Kurin.ThoughtWorker_LostTail</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+          <li>
+            <label>lost kurin tail</label>
+            <description>One of my tails has been lost. This feels weird.</description>
+            <baseMoodEffect>-3</baseMoodEffect>
+          </li>
+          <li>
+            <label>lost kurin tail</label>
+            <description>Two of my tails have been lost. My natural beauty has been ruined.</description>
+            <baseMoodEffect>-6</baseMoodEffect>
+          </li>
+          <li>
+            <label>lost kurin tail</label>
+            <description>All of my tails are gone. I have lost my identity as a foxgirl. Existence is pain.</description>
+            <baseMoodEffect>-12</baseMoodEffect>
+          </li>
+        </stages>
+      </ThoughtDef>
+</Defs>

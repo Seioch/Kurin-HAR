@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Colonist.label>魅狐殖民者</Kurin_Colonist.label>
+  <Kurin_Colonist.labelPlural>魅狐殖民者</Kurin_Colonist.labelPlural>
+  <Kurin_Colonist.labelMale>男性 魅狐殖民者</Kurin_Colonist.labelMale>
+  <Kurin_Colonist.labelMalePlural>男性 魅狐殖民者</Kurin_Colonist.labelMalePlural>
+  <Kurin_Colonist.labelFemale>女性 魅狐殖民者</Kurin_Colonist.labelFemale>
+  <Kurin_Colonist.labelFemalePlural>女性 魅狐殖民者</Kurin_Colonist.labelFemalePlural>
+
+  <Kurin_Designermate.label>魅狐 伴侶</Kurin_Designermate.label>
+  <Kurin_Designermate.labelPlural>kurin designermates</Kurin_Designermate.labelPlural>
+  <Kurin_Designermate.labelMale>male kurin designermate</Kurin_Designermate.labelMale>
+  <Kurin_Designermate.labelMalePlural>male kurin designermates</Kurin_Designermate.labelMalePlural>
+  <Kurin_Designermate.labelFemale>female kurin designermate</Kurin_Designermate.labelFemale>
+  <Kurin_Designermate.labelFemalePlural>female kurin designermates</Kurin_Designermate.labelFemalePlural>
+
+
+  <!-- EN: kurin colonist -->
+  <!-- EN: kurin designermate -->
+
+</LanguageData>

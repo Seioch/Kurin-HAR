@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Abstract="True" Name="KurinMechanitorPackBase" ParentName="ApparelNoQualityBase">
+    <recipeMaker>
+      <displayPriority>720</displayPriority>
+    </recipeMaker>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+
+  <ThingDef ParentName="KurinMechanitorPackBase">
+    <defName>Kurin_Portable_Bandwidth_Node</defName>
+    <label>Kurin Portable Bandwidth Node</label>
+    <description>A portable bandwidth node for Kurin mechanics, which can increase the MechBandwidth of Kurin mechanics and enhance their capabilities.</description>
+    <thingClass>Apparel</thingClass>
+    <graphicData>
+      <texPath>Apparel/Others/Portable_Bandwidth_Node</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+      <researchPrerequisite>BasicMechtech</researchPrerequisite>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <Synthread>70</Synthread>
+      <Plasteel>260</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+      <SignalChip>2</SignalChip>
+      <PowerfocusChip>2</PowerfocusChip>
+    </costList>
+    <statBases>
+      <WorkToMake>16000</WorkToMake>
+      <Mass>0.34</Mass>
+      <Flammability>0</Flammability>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <equippedStatOffsets>
+      <MechBandwidth>12</MechBandwidth>
+      <MechRemoteRepairDistance>8</MechRemoteRepairDistance>
+      <MechRemoteShieldDistance>12</MechRemoteShieldDistance>
+      <MechRemoteShieldEnergy>300</MechRemoteShieldEnergy>
+    </equippedStatOffsets>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <scoreOffset>4</scoreOffset>
+      <mechanitorApparel>true</mechanitorApparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+			<drawData>
+				<dataEast>
+					<layer>1</layer>
+				</dataEast>
+         <dataSouth>
+          <layer>1</layer>
+        </dataSouth>
+				<dataNorth>
+					<layer>120</layer>
+				</dataNorth>
+			</drawData>
+      <wornGraphicPath>Apparel/Others/Portable_Bandwidth_Node</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+</Defs>

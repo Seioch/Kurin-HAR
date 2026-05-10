@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DRNTF_NooseTrap.label>絞索陷阱</DRNTF_NooseTrap.label>
+  <DRNTF_NooseTrap.description>奎琳族的特殊絞索陷阱，只需少量材料即可快速製成。激活陷阱後，套索會束縛敵人的腿。它對大型敵人和機械單位沒有效果。</DRNTF_NooseTrap.description>
+
+
+  <!-- EN: Noose Trap -->
+  <!-- EN: Kurin's special noose trap that can be quickly made with a small amount of ingredients. When the trap is activated, a noose binds the enemy's legs. It has no effect on large enemies and mechanoids. -->
+
+</LanguageData>

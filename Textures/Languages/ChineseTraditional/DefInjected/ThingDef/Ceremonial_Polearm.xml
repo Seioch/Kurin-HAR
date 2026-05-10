@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Kurin Ceremonial Polearm -->
+
+  <Kurin_MeleeWeapon_Ceremonial_Polearm.label>魅狐儀式杖</Kurin_MeleeWeapon_Ceremonial_Polearm.label>
+  <Kurin_MeleeWeapon_Ceremonial_Polearm.description>兩端有鋒利刀片的大手杖。專為快速砍殺和刺殺而設計，這是魅狐衛兵的可怕武器。然而，這種武器現在只是一件複製品——更致命的原型在魅狐共和國的淪陷中遺失了。</Kurin_MeleeWeapon_Ceremonial_Polearm.description>
+  <Kurin_MeleeWeapon_Ceremonial_Polearm.tools.0.label>point</Kurin_MeleeWeapon_Ceremonial_Polearm.tools.0.label>
+  <Kurin_MeleeWeapon_Ceremonial_Polearm.tools.1.label>edge</Kurin_MeleeWeapon_Ceremonial_Polearm.tools.1.label>
+
+
+  <!-- EN: kurin ceremonial polearm -->
+  <!-- EN: A large staff with sharp blades at each end. Designed for fast slashes and stabs, this is a fearsome weapon of Kurin guards. However, this weapons is now simply a replica: the original, deadlier design was lost in the fall of the Kurin Republic. -->
+  <!-- EN: point -->
+  <!--<Kurin_MeleeWeapon_Ceremonial_Polearm.tools.point.label>尖刃</Kurin_MeleeWeapon_Ceremonial_Polearm.tools.point.label>-->
+  <!-- EN: edge -->
+  <!--<Kurin_MeleeWeapon_Ceremonial_Polearm.tools.edge.label>刀刃</Kurin_MeleeWeapon_Ceremonial_Polearm.tools.edge.label>-->
+
+</LanguageData>

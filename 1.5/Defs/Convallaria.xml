@@ -3,9 +3,9 @@
   <ThingDef ParentName="PlantBase">
 	<defName>Plant_Convallaria</defName>
 	<label>Convallaria</label>
-	<description>Genetically engineered glitterworld flower originated from lily of the valley. Flower produces big petals that can be processed into soft but strong fabric, known as synthread.
+	<description>Genetically engineered glitterworld flowers, a descendant of the lily of the valley. This flower produces big petals that can be processed into a soft but strong fabric.
 	
-	Due to the fact that they were artificially grown in the gardens of Glitterworld, these plants are very demanding, and can only be grown in hydroponics to survive.</description>
+	As a glitterworld designed gene plant, it can only be survive in hydroponics.</description>
 	<statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <Nutrition>0.2</Nutrition>
@@ -13,7 +13,7 @@
 	  <BeautyOutdoors>12</BeautyOutdoors>
     </statBases>
     <graphicData>
-      <texPath>Kurin/Things/Plants/Convallaria</texPath>
+      <texPath>Kurin/Things/Plants/Convallaria/Convallaria</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <selectable>true</selectable>
@@ -21,7 +21,7 @@
     <ingestible />
 	<altitudeLayer>Item</altitudeLayer>
     <plant>
-      <growDays>21.00</growDays>
+      <growDays>11.50</growDays>
       <dieIfLeafless>true</dieIfLeafless>
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>Synthread</harvestedThingDef>
@@ -38,7 +38,7 @@
       <wildOrder>2</wildOrder>
       <fertilityMin>1.50</fertilityMin>
       <fertilitySensitivity>1.00</fertilitySensitivity>
-	  <immatureGraphicPath>Kurin/Things/Plants/Convallaria_Immature</immatureGraphicPath>
+	  <immatureGraphicPath>Kurin/Things/Plants/Convallaria_Immature/Convallaria_Immature</immatureGraphicPath>
       <sowResearchPrerequisites Inherit="False">
         <li>Kurin_Flower</li>
       </sowResearchPrerequisites>

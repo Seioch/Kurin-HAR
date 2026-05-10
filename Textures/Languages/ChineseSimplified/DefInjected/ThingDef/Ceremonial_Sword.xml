@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_MeleeWeapon_Ceremonial_Sword.label>魅狐仪式剑</Kurin_MeleeWeapon_Ceremonial_Sword.label>
+  <Kurin_MeleeWeapon_Ceremonial_Sword.description>魅狐的仪式用剑。虽然不是为战斗而设计的武器，但是将敌人一刀两断完全可以做到。</Kurin_MeleeWeapon_Ceremonial_Sword.description>
+  <Kurin_MeleeWeapon_Ceremonial_Sword.tools.0.label>剑刃</Kurin_MeleeWeapon_Ceremonial_Sword.tools.0.label>
+  <Kurin_MeleeWeapon_Ceremonial_Sword.tools.1.label>剑</Kurin_MeleeWeapon_Ceremonial_Sword.tools.1.label>
+
+  <Kurin_nanoedge.label>魅狐纳米剑</Kurin_nanoedge.label>
+  <Kurin_nanoedge.description>旧魅狐共和国期间，授予魅狐精英卫队的一种强大的闪耀世界武器。它的刀刃用上了纳米技术，其锋利性可以与帝国的单分子剑抗争。\n\n这是旧魅狐共和国的遗产，数量稀少。</Kurin_nanoedge.description>
+  <Kurin_nanoedge.tools.edge.label>剑刃</Kurin_nanoedge.tools.edge.label>
+
+</LanguageData>

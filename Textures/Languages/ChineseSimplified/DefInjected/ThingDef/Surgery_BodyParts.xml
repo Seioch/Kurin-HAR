@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_FakeTail.label>魅狐假尾巴</Kurin_FakeTail.label>
+  <Kurin_FakeTail.description>简单的假尾巴。如果仔细观察，会发现有些尴尬。</Kurin_FakeTail.description>
+
+  <Kurin_BionicEar.label>魅狐仿生耳朵</Kurin_BionicEar.label>
+  <Kurin_BionicEar.description>其制作工艺与真正的魅狐耳朵难以区分的人造仿生耳朵。</Kurin_BionicEar.description>
+
+  <Kurin_BionicTail.label>魅狐仿生尾巴</Kurin_BionicTail.label>
+  <Kurin_BionicTail.description>这是一条人造仿生尾巴，与真正的魅狐的尾巴没有区别。</Kurin_BionicTail.description>
+
+
+  <!-- Tail Blade Recipe -->
+
+  <KurinTailBlade.label>魅狐尾刃</KurinTailBlade.label>
+  <KurinTailBlade.description>毛茸茸的魅狐尾巴，如果使用者愿意，尾巴末端会张开，露出一把锋利的刀刃。毫无准备的抓尾者经常会死于自己的疏忽大意。</KurinTailBlade.description>
+
+  <Kurin_MechanitorEar.label>魅狐机械师耳朵</Kurin_MechanitorEar.label>
+  <Kurin_MechanitorEar.description>一种专门用于魅狐机械师的仿生耳朵，能提高魅狐机械师的带宽上限。由于使用这些仿生耳朵会稍微将听力转移到带宽控制上，因此听力比自然的耳朵更差。</Kurin_MechanitorEar.description>
+
+
+  <!-- EN: bionic kurin ear -->
+  <!-- EN: Assemble a bionic kurin ear. -->
+  <!-- EN: bionic kurin tail -->
+  <!-- EN: A Kurin tail indistinguishable from that of a real one. Internal neuro-assisted motors assist with balance, making the wearer walk slightly faster. -->
+  <!-- EN: fake kurin tail -->
+  <!-- EN: A fake Kurin tail made with cloth and a bit of metal. Although it will look and feel like a real tail, having one of these will throw off the wearer's balance, slightly reducing speed. -->
+  <!-- EN: kurin tail blade -->
+  <!-- EN: A soft fluffy Kurin tail, but if the wearer wishes so, it opens at the end to reveal a razor-sharp dagger. Unsuspecting tail-grabbers have often found an early demise from a surprise tail blade. -->
+
+</LanguageData>

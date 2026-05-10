@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Underwear.label>内衣</Kurin_Underwear.label>
+
+
+  <!-- Keeping this layerdef for backwards compatability, although the sotcking item itself is gone. -->
+
+  <Kurin_Stocking.label>长袜</Kurin_Stocking.label>
+  <Kurin_Apparel_Middle.label>魅狐中层服装</Kurin_Apparel_Middle.label>
+  <Kurin_Apparel_OnSkin.label>魅狐内层服装</Kurin_Apparel_OnSkin.label>
+  <Kurin_Apparel_Shell.label>魅狐外层服装</Kurin_Apparel_Shell.label>
+
+
+  <!-- EN: kurin middle apparel -->
+  <!-- EN: kurin onskin apparel -->
+  <!-- EN: kurin shell apparel -->
+  <!-- EN: stocking -->
+  <!-- EN: underwear -->
+
+</LanguageData>

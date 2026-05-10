@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!--==============================================NPC기본==============================================-->
+  <!--==============================================NPC기본==============================================-->
   <PawnKindDef Name="Kurin_RepublicBase" Abstract="True">
     <race>Kurin_Race</race>
     <defaultFactionType>Kurin_Faction</defaultFactionType>
@@ -9,12 +9,12 @@
     <apparelRequired>
       <li>Kurin_Underwear</li>
     </apparelRequired>
-	<apparelIgnoreSeasons>false</apparelIgnoreSeasons>
-  <initialWillRange>3~5</initialWillRange>
-  <initialResistanceRange>6~10</initialResistanceRange>
+    <apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+    <initialWillRange>3~5</initialWillRange>
+    <initialResistanceRange>6~10</initialResistanceRange>
   </PawnKindDef>
-<!--==============================================NPC세부==============================================-->
-<!--시민-->
+  <!--==============================================NPC세부==============================================-->
+  <!--시민-->
   <PawnKindDef ParentName="Kurin_RepublicBase">
     <defName>Kurin_Citizen</defName>
     <label>Kurin Citizen</label>
@@ -33,7 +33,7 @@
       <li>Kurin_Citizen</li>
     </backstoryCategories>
   </PawnKindDef>
-<!--자경단-->
+  <!--자경단-->
   <PawnKindDef ParentName="Kurin_RepublicBase">
     <defName>Kurin_Vigilante</defName>
     <label>Kurin Vigilante</label>
@@ -59,14 +59,14 @@
       <li>Kurin_Citizen</li>
     </backstoryCategories>
   </PawnKindDef>
-<!--상인-->
+  <!--상인-->
   <PawnKindDef ParentName="Kurin_RepublicBase">
     <defName>Kurin_Trader</defName>
     <label>Kurin Trader</label>
     <combatPower>25</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>false</isFighter>
-	<trader>true</trader>
+    <trader>true</trader>
     <apparelMoney>
       <min>1500</min>
       <max>1900</max>
@@ -79,14 +79,14 @@
       <li>Kurin_Trader</li>
     </backstoryCategories>
   </PawnKindDef>
-<!--엘리트-->
+  <!--엘리트-->
   <PawnKindDef ParentName="Kurin_RepublicBase">
     <defName>Kurin_Elite</defName>
     <label>Kurin Elite</label>
     <combatPower>60</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>false</isFighter>
-	<factionLeader>true</factionLeader>
+    <factionLeader>true</factionLeader>
     <apparelMoney>
       <min>1000</min>
       <max>1200</max>
@@ -108,22 +108,22 @@
       <li>Kurin_Elite</li>
     </backstoryCategories>
   </PawnKindDef>
-<!--군인(분대원)-->
+  <!--군인(분대원)-->
   <PawnKindDef ParentName="Kurin_RepublicBase">
     <defName>Kurin_Soldier</defName>
     <label>Kurin Army Soldier</label>
     <combatPower>70</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
-	<minGenerationAge>22</minGenerationAge>
-	<maxGenerationAge>34</maxGenerationAge>
+    <minGenerationAge>22</minGenerationAge>
+    <maxGenerationAge>34</maxGenerationAge>
     <apparelMoney>
       <min>1400</min>
       <max>2000</max>
     </apparelMoney>
     <apparelTags>
       <li>Kurin_Military</li>
-    </apparelTags> <!--
+    </apparelTags>    <!--
 	<apparelRequired>
       <li>Kurin_OnSkin_Military_Uniform</li>
     </apparelRequired> -->
@@ -142,22 +142,22 @@
       <li>Kurin_Soldier</li>
     </backstoryCategories>
   </PawnKindDef>
-<!--군인(분대장)-->
+  <!--군인(분대장)-->
   <PawnKindDef ParentName="Kurin_RepublicBase">
     <defName>Kurin_EliteSoldier</defName>
     <label>Kurin Army Sergeant</label>
     <combatPower>100</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
-	<minGenerationAge>22</minGenerationAge>
-	<maxGenerationAge>34</maxGenerationAge>
+    <minGenerationAge>22</minGenerationAge>
+    <maxGenerationAge>34</maxGenerationAge>
     <apparelMoney>
       <min>1400</min>
       <max>1500</max>
     </apparelMoney>
     <apparelTags>
       <li>Kurin_Military</li>
-    </apparelTags> <!--
+    </apparelTags>    <!--
 	<apparelRequired>
       <li>Kurin_Onskin_Military_Uniform</li>
     </apparelRequired> -->
@@ -176,22 +176,22 @@
       <li>Kurin_EliteSoldier</li>
     </backstoryCategories>
   </PawnKindDef>
-<!--군인(저격수)-->
+  <!--군인(저격수)-->
   <PawnKindDef ParentName="Kurin_RepublicBase">
     <defName>Kurin_Sniper</defName>
     <label>Kurin Army Sniper</label>
     <combatPower>100</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
-	<minGenerationAge>22</minGenerationAge>
-	<maxGenerationAge>34</maxGenerationAge>
+    <minGenerationAge>22</minGenerationAge>
+    <maxGenerationAge>34</maxGenerationAge>
     <apparelMoney>
       <min>1400</min>
       <max>1500</max>
     </apparelMoney>
     <apparelTags>
       <li>Kurin_Military</li>
-    </apparelTags> <!--
+    </apparelTags>    <!--
 	<apparelRequired>
       <li>Kurin_Onskin_Military_Uniform</li>
     </apparelRequired> -->
@@ -205,18 +205,19 @@
     </weaponMoney>
     <backstoryCategories>
       <li>Kurin_Army</li>
+      <li>Kurin_EliteSoldier</li>
     </backstoryCategories>
   </PawnKindDef>
 
-<!--=============Special===============-->
-  
+  <!--=============Special===============-->
+
   <PawnKindDef ParentName="Kurin_RepublicBase">
     <defName>Kurin_Commader_melee</defName>
     <label>Kurin Commander</label>
     <combatPower>350</combatPower>
     <itemQuality>Masterwork</itemQuality>
     <isFighter>true</isFighter>
-	<factionLeader>true</factionLeader>
+    <factionLeader>true</factionLeader>
     <apparelMoney>
       <min>3000</min>
       <max>5000</max>
@@ -237,14 +238,14 @@
       <li>Kurin_Warmonger</li>
     </backstoryCategories>
   </PawnKindDef>
-  
-   <PawnKindDef ParentName="Kurin_HostileBase">
+
+  <PawnKindDef ParentName="Kurin_HostileBase">
     <defName>Kurin_Commander_ranged</defName>
     <label>Kurin Commander</label>
     <combatPower>350</combatPower>
     <itemQuality>Masterwork</itemQuality>
     <isFighter>true</isFighter>
-	<factionLeader>true</factionLeader>
+    <factionLeader>true</factionLeader>
     <apparelMoney>
       <min>3000</min>
       <max>5000</max>
@@ -263,7 +264,7 @@
       <max>5000</max>
     </weaponMoney>
     <backstoryCategories>
-	  <li>Kurin_Warmonger</li>
+      <li>Kurin_Warmonger</li>
     </backstoryCategories>
   </PawnKindDef>
 </Defs>

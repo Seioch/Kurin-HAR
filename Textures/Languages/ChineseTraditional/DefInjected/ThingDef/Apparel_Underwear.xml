@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- White -->
+
+  <Kurin_Underwear.label>魅狐白色內衣</Kurin_Underwear.label>
+  <Kurin_Underwear.description>素色內衣，染成了白色。</Kurin_Underwear.description>
+
+
+  <!-- Stuffed -->
+
+  <Kurin_Underwear_Stuffed.label>魅狐內衣</Kurin_Underwear_Stuffed.label>
+  <Kurin_Underwear_Stuffed.description>與所用材料的顏色相匹配的素色內衣。</Kurin_Underwear_Stuffed.description>
+
+
+  <!-- Prude -->
+
+  <Kurin_Underwear_Prude.label>魅狐古樸內衣</Kurin_Underwear_Prude.label>
+  <Kurin_Underwear_Prude.description>內衣既輕又舒服，魅狐們甚至經常忘記她們還穿著一件內衣。</Kurin_Underwear_Prude.description>
+
+
+  <!-- Black -->
+
+  <Kurin_Underwear_Black.label>魅狐黑色內衣</Kurin_Underwear_Black.label>
+  <Kurin_Underwear_Black.description>素色內衣，染成了黑色。</Kurin_Underwear_Black.description>
+
+
+  <!-- Red -->
+
+  <Kurin_Underwear_Red.label>魅狐紅色內衣</Kurin_Underwear_Red.label>
+  <Kurin_Underwear_Red.description>素色內衣，染成了紅色。</Kurin_Underwear_Red.description>
+
+
+  <!-- Striped -->
+
+  <Kurin_Underwear_Striped.label>魅狐白色條紋的胸罩</Kurin_Underwear_Striped.label>
+  <Kurin_Underwear_Striped.description>可愛的條紋內褲。被染成了白色。</Kurin_Underwear_Striped.description>
+
+
+  <!-- Striped stuffed -->
+
+  <Kurin_Underwear_Striped_Stuffed.label>魅狐條紋的胸罩</Kurin_Underwear_Striped_Stuffed.label>
+  <Kurin_Underwear_Striped_Stuffed.description>可愛的條紋文胸。適合調整成其他款色。</Kurin_Underwear_Striped_Stuffed.description>
+
+
+  <!-- Slim -->
+
+  <Kurin_Underwear_Slim.label>魅狐修身內衣</Kurin_Underwear_Slim.label>
+  <Kurin_Underwear_Slim.description>魅狐們用的修身內衣。遮擋的地方不多。</Kurin_Underwear_Slim.description>
+
+
+  <!-- Redfox -->
+
+  <Kurin_Waterfox_Armor.label>“水狐”緊身衣</Kurin_Waterfox_Armor.label>
+  <Kurin_Waterfox_Armor.description>舊奎林共和國的複製品緊身衣。 水狐後勤公司致力於為魅狐軍隊提供物資。 這款緊身衣在提高工作效率的同時提供了基本的保護。</Kurin_Waterfox_Armor.description>
+
+
+  <!-- EN: kurin white underwear -->
+  <!-- EN: Plain underwear, dyed white -->
+  <!-- EN: kurin black underwear -->
+  <!-- EN: Plain underwear, dyed black -->
+  <!-- EN: kurin prude underwear -->
+  <!-- EN: Underwear so light and comfortable kurin often forget they're even wearing it -->
+  <!-- EN: kurin red underwear -->
+  <!-- EN: Plain underwear, dyed red -->
+  <!-- EN: kurin slim underwear -->
+  <!-- EN: Slim underwear for kurin. Doesn't cover much. -->
+  <!-- EN: kurin white striped Bra -->
+  <!-- EN: Cute striped underwear. They've been dyed white. -->
+  <!-- EN: kurin striped underwear -->
+  <!-- EN: Cute striped bra. Colorable. -->
+  <!-- EN: kurin underwear -->
+  <!-- EN: Plain underwear that matches the color of the material used -->
+
+</LanguageData>

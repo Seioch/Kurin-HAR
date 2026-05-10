@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Gun_Charge_Rifle.label>魅狐電荷步槍</Kurin_Gun_Charge_Rifle.label>
+  <Kurin_Gun_Charge_Rifle.description>一把罕見的阿蘿拉反機械體突擊步槍，配備的電荷彈用以擊穿較薄的機械裝甲。</Kurin_Gun_Charge_Rifle.description>
+  <Kurin_Gun_Charge_Rifle.tools.0.label>stock</Kurin_Gun_Charge_Rifle.tools.0.label>
+  <Kurin_Gun_Charge_Rifle.tools.1.label>barrel</Kurin_Gun_Charge_Rifle.tools.1.label>
+
+  <Kurin_Bullet_Charge_Rifle.label>kurin charge rifle bullet</Kurin_Bullet_Charge_Rifle.label>
+
+
+</LanguageData>

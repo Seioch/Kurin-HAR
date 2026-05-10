@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_FakeTail.label>魅狐假尾巴</Kurin_FakeTail.label>
+  <Kurin_FakeTail.description>一條假的魅狐尾巴</Kurin_FakeTail.description>
+  <Kurin_FakeTail.labelNoun>一條假的魅狐尾巴</Kurin_FakeTail.labelNoun>
+
+  <Kurin_BionicTail.label>魅狐仿生尾巴</Kurin_BionicTail.label>
+  <Kurin_BionicTail.description>一條魅狐仿生尾巴</Kurin_BionicTail.description>
+  <Kurin_BionicTail.labelNoun>一條魅狐仿生尾巴</Kurin_BionicTail.labelNoun>
+
+  <Kurin_BionicEar.label>魅狐仿生耳朵</Kurin_BionicEar.label>
+  <Kurin_BionicEar.description>一隻魅狐仿生耳朵</Kurin_BionicEar.description>
+  <Kurin_BionicEar.labelNoun>一隻魅狐仿生耳朵</Kurin_BionicEar.labelNoun>
+
+
+  <!-- Tail Blade -->
+
+  <KurinTailBlade.label>魅狐尾刃</KurinTailBlade.label>
+  <KurinTailBlade.description>一條安裝好的尾刃</KurinTailBlade.description>
+  <KurinTailBlade.comps.0.tools.0.label>blade</KurinTailBlade.comps.0.tools.0.label>
+  <KurinTailBlade.comps.0.tools.1.label>point</KurinTailBlade.comps.0.tools.1.label>
+  <KurinTailBlade.labelNoun>魅狐尾刃</KurinTailBlade.labelNoun>
+
+  <Kurin_MechanitorEarHediff.label>魅狐機械師耳朵</Kurin_MechanitorEarHediff.label>
+  <Kurin_MechanitorEarHediff.description>一個魅狐機械師耳朵</Kurin_MechanitorEarHediff.description>
+  <Kurin_MechanitorEarHediff.labelNoun>一個魅狐機械師耳朵</Kurin_MechanitorEarHediff.labelNoun>
+
+
+  <!-- EN: bionic kurin ear -->
+  <!-- EN: A bionic kurin ear -->
+  <!-- EN: a bionic kurin ear -->
+  <!-- EN: bionic kurin tail -->
+  <!-- EN: A bionic kurin tail. -->
+  <!-- EN: a bionic kurin tail -->
+  <!-- EN: fake kurin tail -->
+  <!-- EN: A fake kurin tail to restore one's three tailed beauty. Because it can't move, balanced walking and running is impaired. -->
+  <!-- EN: a fake kurin tail -->
+  <!-- EN: kurin tail blade -->
+  <!-- EN: An installed Kurin Tail Blade. -->
+  <!-- EN: blade -->
+  <!--<KurinTailBlade.comps.HediffComp_VerbGiver.tools.blade.label>利刃</KurinTailBlade.comps.HediffComp_VerbGiver.tools.blade.label>-->
+  <!-- EN: point -->
+  <!--<KurinTailBlade.comps.HediffComp_VerbGiver.tools.point.label>尖刺</KurinTailBlade.comps.HediffComp_VerbGiver.tools.point.label>-->
+  <!-- EN: a kurin tail blade -->
+
+</LanguageData>

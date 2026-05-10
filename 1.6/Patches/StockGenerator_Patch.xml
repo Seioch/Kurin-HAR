@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- <Operation Class="PatchOperationInsert">
+        <xpath>Defs/TraderKindDef/stockGenerators/li[@Class="StockGenerator_MarketValue"] and tradeTag="WeaponRanged"</xpath>
+        <value>
+            <li Class="StockGenerator_BuyTradeTag"><tag>Kurin_Weapons</tag></li>
+        </value>
+    </Operation> -->
+</Patch>

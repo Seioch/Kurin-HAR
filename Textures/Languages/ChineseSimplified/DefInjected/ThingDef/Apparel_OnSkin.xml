@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Makeshift dress -->
+
+  <Kurin_OnSkin_Makeshift_Dress.label>魅狐临时连衣裙</Kurin_OnSkin_Makeshift_Dress.label>
+  <Kurin_OnSkin_Makeshift_Dress.description>用多余的布料手工制作的连衣裙，以阻隔一些自然环境和其他注意到自己体态的眼睛。</Kurin_OnSkin_Makeshift_Dress.description>
+
+
+  <!-- Shirt -->
+
+  <Kurin_OnSkin_Shirt.label>魅狐衬衫</Kurin_OnSkin_Shirt.label>
+  <Kurin_OnSkin_Shirt.description>带领子和纽扣的宽松衬衫。不是太热的天气随时都能穿。</Kurin_OnSkin_Shirt.description>
+
+
+  <!-- T-Shirt -->
+
+  <Kurin_OnSkin_T_Shirt.label>魅狐T恤衫</Kurin_OnSkin_T_Shirt.label>
+  <Kurin_OnSkin_T_Shirt.description>适合在炎热夏天穿的T恤衫。</Kurin_OnSkin_T_Shirt.description>
+
+
+  <!-- Hot pants -->
+
+  <Kurin_OnSkin_Hot_Pants.label>魅狐热裤</Kurin_OnSkin_Hot_Pants.label>
+  <Kurin_OnSkin_Hot_Pants.description>一款轻盈的热裤。在阳光强烈的天气里为了不让皮肤晒黑，必须要防晒霜。</Kurin_OnSkin_Hot_Pants.description>
+
+
+  <!-- Pajamas A -->
+
+  <Kurin_OnSkin_PajamasA.label>魅狐睡衣A款</Kurin_OnSkin_PajamasA.label>
+  <Kurin_OnSkin_PajamasA.description>非常舒适的睡衣。被失眠所困的魅狐们也能安稳入睡。</Kurin_OnSkin_PajamasA.description>
+
+
+  <!-- Pajamas B -->
+
+  <Kurin_OnSkin_PajamasB.label>魅狐睡衣B款</Kurin_OnSkin_PajamasB.label>
+  <Kurin_OnSkin_PajamasB.description>非常舒适的睡衣。被失眠所困的魅狐们也能安稳入睡。</Kurin_OnSkin_PajamasB.description>
+
+
+  <!-- Pajamas C -->
+
+  <Kurin_OnSkin_PajamasC.label>魅狐睡衣C款</Kurin_OnSkin_PajamasC.label>
+  <Kurin_OnSkin_PajamasC.description>非常舒适的睡衣。被失眠所困的魅狐们也能安稳入睡。</Kurin_OnSkin_PajamasC.description>
+
+
+  <!-- One-piece dress -->
+
+  <Kurin_OnSkin_One_Piece_Dress.label>魅狐连衣裙</Kurin_OnSkin_One_Piece_Dress.label>
+  <Kurin_OnSkin_One_Piece_Dress.description>一款轻盈的连衣裙。看起来很清纯!</Kurin_OnSkin_One_Piece_Dress.description>
+
+
+  <!-- Virgin killer sweater -->
+
+  <Kurin_OnSkin_Open_Back_Knit.label>魅狐露背毛衣</Kurin_OnSkin_Open_Back_Knit.label>
+  <Kurin_OnSkin_Open_Back_Knit.description>背部裸露的大胆设计。在魅狐间引起了不小的争论。</Kurin_OnSkin_Open_Back_Knit.description>
+
+
+  <!-- Overshoulder sweater -->
+
+  <Kurin_OnSkin_Open_Shoulder_Knit.label>魅狐露肩毛衣</Kurin_OnSkin_Open_Shoulder_Knit.label>
+  <Kurin_OnSkin_Open_Shoulder_Knit.description>一款可爱的露肩毛衣。它非常舒适和柔软，舒适得甚至容易犯困。</Kurin_OnSkin_Open_Shoulder_Knit.description>
+
+
+  <!-- Hoodie -->
+
+  <Kurin_OnSkin_Hoodie.label>魅狐连帽衫</Kurin_OnSkin_Hoodie.label>
+  <Kurin_OnSkin_Hoodie.description>一款易于使用的大尺寸连帽衫。</Kurin_OnSkin_Hoodie.description>
+
+
+  <!-- Casual wear -->
+
+  <Kurin_OnSkin_Casual_Wear.label>魅狐休闲装</Kurin_OnSkin_Casual_Wear.label>
+  <Kurin_OnSkin_Casual_Wear.description>这是魅狐社会的流行休闲服。既舒适又时尚。</Kurin_OnSkin_Casual_Wear.description>
+
+
+  <!-- Armored gothic dress -->
+
+  <Kurin_OnSkin_Armored_Gothic_Dress.label>魅狐哥特式裙甲</Kurin_OnSkin_Armored_Gothic_Dress.label>
+  <Kurin_OnSkin_Armored_Gothic_Dress.description>通过在哥特式连衣裙上垫一块板子制成的服装。兼顾了防护性和美观性。</Kurin_OnSkin_Armored_Gothic_Dress.description>
+
+
+  <!-- Gothic dress -->
+
+  <Kurin_OnSkin_Gothic_Dress.label>魅狐哥特式服装</Kurin_OnSkin_Gothic_Dress.label>
+  <Kurin_OnSkin_Gothic_Dress.description>哥特式的衣服。任何时候看起来都很有古典气息。</Kurin_OnSkin_Gothic_Dress.description>
+
+
+  <!-- Bikini armor -->
+
+  <Kurin_OnSkin_Bikini_Armor.label>魅狐比基尼盔甲</Kurin_OnSkin_Bikini_Armor.label>
+  <Kurin_OnSkin_Bikini_Armor.description>添加的材料很多，但看起来却非常贫乏。但是与贫乏的外形不同，它非常坚固，可以显着增加穿戴者的近战能力。</Kurin_OnSkin_Bikini_Armor.description>
+
+
+  <!-- Military uniform -->
+
+  <Kurin_OnSkin_Military_Uniform.label>魅狐军服</Kurin_OnSkin_Military_Uniform.label>
+  <Kurin_OnSkin_Military_Uniform.description>使用塑钢内嵌护板作战服。 轻便而保暖，可确保足够的防御力。其人体工程学设计还极大地提高了穿戴者的远程作战能力。</Kurin_OnSkin_Military_Uniform.description>
+
+
+  <!-- Nun dress -->
+
+  <Kurin_OnSkin_Nun_Dress.label>魅狐修女礼服</Kurin_OnSkin_Nun_Dress.label>
+  <Kurin_OnSkin_Nun_Dress.description>一款修女的特殊设计服装。</Kurin_OnSkin_Nun_Dress.description>
+
+
+  <!-- Work jumpsuit -->
+
+  <Kurin_OnSkin_Work_Jumpsuit.label>魅狐工作连衣裤</Kurin_OnSkin_Work_Jumpsuit.label>
+  <Kurin_OnSkin_Work_Jumpsuit.description>它是在赤狐军械库工作的技术人员的制服。不仅有用于存放各种工具和零件的便捷口袋，而且这种口袋用不易被烧灼，油渍污染的材料制成。</Kurin_OnSkin_Work_Jumpsuit.description>
+
+
+  <!-- Traditional simple dress -->
+
+  <Kurin_OnSkin_Traditional_Simple_Dress.label>魅狐传统连衣裙</Kurin_OnSkin_Traditional_Simple_Dress.label>
+  <Kurin_OnSkin_Traditional_Simple_Dress.description>纯白色的裙子和粉红色的衬衫是令人印象深刻的魅狐服装。</Kurin_OnSkin_Traditional_Simple_Dress.description>
+
+
+  <!-- Traditional fancy dress -->
+
+  <Kurin_OnSkin_Traditional_Fancy_Dress.label>魅狐花式连衣裙</Kurin_OnSkin_Traditional_Fancy_Dress.label>
+  <Kurin_OnSkin_Traditional_Fancy_Dress.description>华丽的蓝色短裙和作为点缀白色的衬衫是令人印象深刻的魅狐服饰。</Kurin_OnSkin_Traditional_Fancy_Dress.description>
+
+
+  <!-- Traditional luxury dress -->
+
+  <Kurin_OnSkin_Traditional_Luxury_Dress.label>魅狐奢侈连衣裙</Kurin_OnSkin_Traditional_Luxury_Dress.label>
+  <Kurin_OnSkin_Traditional_Luxury_Dress.description>魅狐的传统服装以棕色透明的裙子和衬衫为特色。</Kurin_OnSkin_Traditional_Luxury_Dress.description>
+
+
+  <!-- Cute dress -->
+
+  <Kurin_OnSkin_Cute_Dress.label>魅狐可爱连衣裙</Kurin_OnSkin_Cute_Dress.label>
+  <Kurin_OnSkin_Cute_Dress.description>很可爱的衣服。在一些开心的节日里，魅狐经常穿戴它。</Kurin_OnSkin_Cute_Dress.description>
+
+
+  <!-- Seductive white dress -->
+
+  <Kurin_OnSkin_Seductive_White_Dress.label>魅狐诱人白色连衣裙</Kurin_OnSkin_Seductive_White_Dress.label>
+  <Kurin_OnSkin_Seductive_White_Dress.description>一条裙子的白色迷人的连衣裙。</Kurin_OnSkin_Seductive_White_Dress.description>
+
+
+  <!-- Seductive black dress -->
+
+  <Kurin_OnSkin_Seductive_Black_Dress.label>魅狐诱人黑色连衣裙</Kurin_OnSkin_Seductive_Black_Dress.label>
+  <Kurin_OnSkin_Seductive_Black_Dress.description>一条裙子的黑色迷人的连衣裙。</Kurin_OnSkin_Seductive_Black_Dress.description>
+
+  <Kurin_OnSkin_Wedding_Dress_White.label>魅狐白色婚纱</Kurin_OnSkin_Wedding_Dress_White.label>
+  <Kurin_OnSkin_Wedding_Dress_White.description>魅狐们最喜欢在婚礼上穿的衣服，凸显出魅狐们的魅力。</Kurin_OnSkin_Wedding_Dress_White.description>
+
+  <Kurin_OnSkin_Black_Dress.label>魅狐黑色连衣裙</Kurin_OnSkin_Black_Dress.label>
+  <Kurin_OnSkin_Black_Dress.description>一件奢华的连衣裙，凸显了魅狐的魅力。</Kurin_OnSkin_Black_Dress.description>
+
+  <Kurin_OnSkin_Luxury_Dress.label>魅狐豪华连衣裙</Kurin_OnSkin_Luxury_Dress.label>
+  <Kurin_OnSkin_Luxury_Dress.description>一件奢华的连衣裙，凸显了魅狐的魅力。</Kurin_OnSkin_Luxury_Dress.description>
+
+  <Kurin_OnSkin_Chinese_Wedding_Dress.label>魅狐中式婚纱</Kurin_OnSkin_Chinese_Wedding_Dress.label>
+  <Kurin_OnSkin_Chinese_Wedding_Dress.description>魅狐们最喜欢在婚礼上穿的衣服，凸显出魅狐们的魅力。</Kurin_OnSkin_Chinese_Wedding_Dress.description>
+
+<Kurin_OnSkin_Wedding_Dress_Black.label>魅狐黑色婚纱</Kurin_OnSkin_Wedding_Dress_Black.label>
+<Kurin_OnSkin_Wedding_Dress_Black.description>魅狐们最喜欢在婚礼上穿的衣服，凸显出魅狐们的魅力。</Kurin_OnSkin_Wedding_Dress_Black.description>
+
+  <Kurin_OnSkin_Research_Clothing.label>魅狐科研服</Kurin_OnSkin_Research_Clothing.label>
+  <Kurin_OnSkin_Research_Clothing.description>魅狐科研人员的服装，在保证美观的同时，也能提供不错的科研加成。</Kurin_OnSkin_Research_Clothing.description>
+
+
+  <!-- EN: kurin armored gothic dress -->
+  <!-- EN: Although it looks like a normal dress, this outfit is actually more like stylish power armor. Folds of plasteel weave meshed between devilstrand padding makes any Kurin wearing this a goddess of brawling. It's heavy weight makes the wearer more vulnerable to hits, however. -->
+  <!-- EN: kurin bikini armor -->
+  <!-- EN: Even though a lot went into it, it appears weak and exposed. However, the plasteel mesh is as strong as power armor and significantly increases the wearer's melee strength. -->
+  <!-- EN: kurin casual wear -->
+  <!-- EN: 쿠린들에게 인기 있는 캐주얼웨어입니다. 편안함과 스타일 둘 다 놓치지 않았습니다. -->
+  <!-- EN: kurin cute dress -->
+  <!-- EN: 아주 귀여운 드레스입니다. 즐거운 축제 때 자주 입습니다. -->
+  <!-- EN: kurin gothic dress -->
+  <!-- EN: An old timey gothic style dress. Hidden pockets store cooking utensils for speedy cooking. -->
+  <!-- EN: kurin hoodie -->
+  <!-- EN: 활동하기 편한 큰 사이즈의 후드티입니다. -->
+  <!-- EN: kurin hot pants -->
+  <!-- EN: 가벼운 핫팬츠입니다. 햇빛이 강한 날에는 피부가 타지 않게 선크림은 필수입니다. -->
+  <!-- EN: kurin hot top -->
+  <!--<Kurin_OnSkin_Hot_Top.label>魅狐热裤(无罩)</Kurin_OnSkin_Hot_Top.label>-->
+  <!--<Kurin_OnSkin_Hot_Top.description>一款轻盈的热裤。在阳光强烈的天气里为了不让皮肤晒黑，必须要防晒霜。</Kurin_OnSkin_Hot_Top.description>-->
+  <!-- EN: kurin military uniform -->
+  <!-- EN: 플라스틸 방탄판이 장착된 전투용 군복입니다. 가볍고 따듯하며 상당한 방어력을 보장합니다. 또한 인체 공학적으로 설계된 구조덕분에 착용자의 원거리 전투력을 상당히 올려줍니다. -->
+  <!-- EN: kurin nun dress -->
+  <!-- EN: 파격적인 디자인의 수녀복입니다. -->
+  <!-- EN: kurin one piece dress -->
+  <!-- EN: 적당히 가벼운 원피스입니다. 아주 청순해 보이네요! -->
+  <!-- EN: kurin open back knit -->
+  <!-- EN: 한쪽이 크게 파여있는 니트입니다. 아직도 쿠린들 사이에서는 이걸 어떻게 입어야 하는지 논쟁이 일어나고 있습니다. -->
+  <!-- EN: kurin open shoulder knit -->
+  <!-- EN: 귀여운 오픈숄더 니트입니다. 아주 편하고 부드러워서 깜박 졸 수도 있습니다. -->
+  <!-- EN: kurin pajamas A -->
+  <!-- EN: Very comfortable pajamas. Great for a good night's sleep, even for those who suffer from insomnia. -->
+  <!-- EN: kurin pajamas B -->
+  <!-- EN: kurin pajamas C -->
+  <!-- EN: kurin seductive black dress -->
+  <!-- EN: 한쪽 치마가 열려있는 아주 매혹적인 검은색의 드레스입니다. -->
+  <!-- EN: kurin seductive white dress -->
+  <!-- EN: 한쪽 치마가 열려있는 아주 매혹적인 흰색의 드레스입니다. -->
+  <!-- EN: kurin shirt -->
+  <!-- EN: 옷깃과 단추가 달려있는 조금 큰 셔츠입니다. 매우 더운 날씨가 아니라면 언제든지 입기 좋습니다. -->
+  <!-- EN: kurin T-shirt -->
+  <!-- EN: 더운 여름에 입기 좋은 티셔츠입니다. -->
+  <!-- EN: kurin traditional fancy dress -->
+  <!-- EN: 푸른색의 화려한 치마와 포인트가 들어간 흰색의 셔츠가 인상적인 쿠린들의 전통의상입니다. -->
+  <!-- EN: kurin traditional luxury dress -->
+  <!-- EN: 갈색 시스루 치마와 셔츠가 인상적인 쿠린들의 전통의상입니다. -->
+  <!-- EN: kurin traditional simple dress -->
+  <!-- EN: 흰색의 순수한 치마와 분홍색의 셔츠가 인상적인 쿠린들의 전통의상입니다. -->
+  <!-- EN: kurin work jumpsuit -->
+  <!-- EN: 붉은여우 병기창에서 근무하는 기술자들의 유니폼입니다. 각종 공구와 부품을 보관하기 좋은 주머니들이 달려 있는 건 물론이고, 기름이나 불꽃에 손상되거나 오염되지 않는 재질로 만들어져 작업에 유리합니다. -->
+
+</LanguageData>

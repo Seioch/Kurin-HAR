@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="Kurin_OverheadCombatTier3">
+		<defName>Kurin_Overhead_Mechanic_Goggles</defName>
+		<label>kurin Mechanic Goggles</label>
+		<description>A protective goggles used to strengthen Kurin mechanics.</description>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Overhead/Mechanic_Goggles/Mechanic_Goggles</wornGraphicPath>
+			<tags>
+				<li>Kurin_Melee</li>
+				<li>RoyalCombatGear</li>
+			</tags>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<drawData>
+				<dataSouth>
+					<layer>60</layer>
+				</dataSouth>
+				<dataEast>
+					<layer>60</layer>
+				</dataEast>
+				<dataWest>
+					<layer>60</layer>
+				</dataWest>
+				<dataNorth>
+					<layer>60</layer>
+				</dataNorth>
+			</drawData>
+		</apparel>
+		<graphicData>
+			<texPath>Apparel/Overhead/Mechanic_Goggles/Mechanic_Goggles</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<Synthread>40</Synthread>
+			<Plasteel>90</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+			<SignalChip>1</SignalChip>
+		</costList>
+		<statBases>
+			<MaxHitPoints>280</MaxHitPoints>
+			<WorkToMake>21000</WorkToMake>
+			<Mass>1.15</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>0.32</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.34</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.41</ArmorRating_Heat>
+			<Insulation_Cold>0</Insulation_Cold>
+			<Insulation_Heat>0</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MechBandwidth>12</MechBandwidth>
+			<ButcheryMechanoidEfficiency>1</ButcheryMechanoidEfficiency>
+			<WorkSpeedGlobalOffsetMech>0.2</WorkSpeedGlobalOffsetMech>
+			<SubcoreEncodingSpeed>0.6</SubcoreEncodingSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
+
+</Defs>
