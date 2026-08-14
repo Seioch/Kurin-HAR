@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 基因分类 -->
+  <Kurin_GeneCategory.label>魅狐</Kurin_GeneCategory.label>
+
+
+  <!-- 闪耀世界耐力 -->
+  <Kurin_GlitterWorldEndurance.label>闪耀世界耐力</Kurin_GlitterWorldEndurance.label>
+  <Kurin_GlitterWorldEndurance.description>这种基因的携带者的耐力相比人类接近于完美，其极少感到疲惫且总能保持充沛的活力，不过作为代价，身体所需对的营养代谢率会极大提高。</Kurin_GlitterWorldEndurance.description>
+  <!-- 闪耀世界魅力 -->
+  <Kurin_GlitterWorldCharm.label>闪耀世界魅力</Kurin_GlitterWorldCharm.label>
+  <Kurin_GlitterWorldCharm.description>这种基因的携带者总是散发着十分独特的魅力，其个性令人难忘，却不会因为过于特殊而显得单调。</Kurin_GlitterWorldCharm.description>
+
+
+  <!-- 不耐劳动 -->
+  <Kurin_UnsuitedForLabor.label>不耐劳作</Kurin_UnsuitedForLabor.label>
+  <Kurin_UnsuitedForLabor.description>这种基因的携带者的身体结构不擅长于长时间的体力劳动，她们依然能够学习建造、采矿与种植等技能，甚至成为其中的专家，但进行体力劳动的效率明显低于正常人。</Kurin_UnsuitedForLabor.description>
+
+
+  <!-- 闪耀世界超感 -->
+  <Kurin_GlitterworldHypersense.label>闪耀世界超感</Kurin_GlitterworldHypersense.label>
+  <Kurin_GlitterworldHypersense.description>这种基因的携带者拥有经过基因工程改造的超敏神经系统，以便更好的察觉他人情绪、动作与思维的细微变化，通常会因此拥有出色的社交能力。但代价是疼痛耐受力较低，也更容易受到精神压力影响。</Kurin_GlitterworldHypersense.description>
+
+
+  <!-- 好生养 -->
+  <Kurin_Fertile.label>好生养</Kurin_Fertile.label>
+  <Kurin_Fertile.description>这种基因的携带者的受孕力和受青睐感都相当优秀，是优秀的天生伴侣。在一段亲密的时光结束后，她们带来的温暖与满足感仍会久久留存。</Kurin_Fertile.description>
+
+  <Kurin_Fertile.customEffectDescriptions.0>给予滚床单对象 +6 心情加成。</Kurin_Fertile.customEffectDescriptions.0>
+
+
+</LanguageData>

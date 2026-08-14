@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Kurin_Head</defName>
+		<graphicPath>Kurin/Head/A/Kurin_Head</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+</Defs>

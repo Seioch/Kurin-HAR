@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneCategoryDef>
+    <defName>Kurin_GeneCategory</defName>
+    <label>kurin</label>
+    <displayPriorityInXenotype>600</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneDef Name="KurinGeneBase" Abstract="True">
+    <displayCategory>Kurin_GeneCategory</displayCategory>
+    <randomChosen>true</randomChosen>
+  </GeneDef>
+
+<GeneDef ParentName="KurinGeneBase">
+  <defName>Kurin_GlitterWorldEndurance</defName>
+  <label>glitterworld endurance</label>
+  <iconPath>Kurin/Gene/Kurin_GlitterWorldEndurance</iconPath>
+  <description>Carriers of this gene possess endurance approaching perfection by human standards. They rarely tire and remain energetic throughout the day.However, such exceptional stamina comes at the cost of a dramatically increased nutrition demand.</description>
+  <statFactors>
+    <RestFallRateFactor>0.8</RestFallRateFactor>
+    <WorkSpeedGlobal>1.1</WorkSpeedGlobal>
+  </statFactors>
+  <statOffsets>
+    <MoveSpeed>0.3</MoveSpeed>
+  </statOffsets>
+  <biostatMet>-4</biostatMet>
+    <exclusionTags>
+      <li>Sleep</li>
+    </exclusionTags>
+  </GeneDef>
+
+<GeneDef ParentName="KurinGeneBase">
+  <defName>Kurin_GlitterWorldCharm</defName>
+  <label>glitterworld charm</label>
+  <iconPath>Kurin/Gene/Kurin_GlitterWorldCharm</iconPath>
+  <description>Carriers of this gene possess extraordinarily captivating beauty.</description>
+  <statFactors>
+    <NegotiationAbility>1.2</NegotiationAbility>
+  </statFactors>
+  <statOffsets>
+    <Beauty>1</Beauty>
+  </statOffsets>
+  <biostatMet>-1</biostatMet>
+    <exclusionTags>
+      <li>Beauty</li>
+    </exclusionTags>
+  </GeneDef>
+
+<GeneDef ParentName="KurinGeneBase">
+  <defName>Kurin_UnsuitedForLabor</defName>
+  <label>unsuited for labor</label>
+  <iconPath>Kurin/Gene/Kurin_UnsuitedForLabor</iconPath>
+  <description>Carriers of this gene possess a physique ill-suited for prolonged physical labor. While fully capable of learning construction, mining, and plant work, sustained manual labor is done slower than an average person.</description>
+  <statOffsets>
+    <PlantWorkSpeed>-0.2</PlantWorkSpeed>
+    <ConstructionSpeed>-0.2</ConstructionSpeed>
+    <MiningSpeed>-0.2</MiningSpeed>
+  </statOffsets>
+  <biostatMet>2</biostatMet>
+  </GeneDef>
+
+  <GeneDef ParentName="KurinGeneBase">
+  <defName>Kurin_GlitterworldHypersense</defName>
+  <label>glitterworld hypersense</label>
+  <iconPath>Kurin/Gene/Kurin_GlitterworldHypersense</iconPath>
+  <description>Carriers of this gene possess a nervous system tuned to sense even the slightest shift in another's mood, movements, and thoughts. While it allows for skillful social awareness, carriers of this gene have lower pain tolerance and higher stress.</description>
+  <statFactors>
+    <MentalBreakThreshold>1.1</MentalBreakThreshold>
+    <PainShockThreshold>0.9</PainShockThreshold>
+  </statFactors>
+  <biostatMet>3</biostatMet>
+  </GeneDef>
+
+
+<GeneDef ParentName="KurinGeneBase">
+  <defName>Kurin_Fertile</defName>
+  <label>fertile</label>
+  <iconPath>Kurin/Gene/Kurin_Fertile</iconPath>
+  <description>Carriers of this gene possess both remarkable fertility and a sublime embrace that heightens the joy brought from lovin'.</description>
+  <statFactors>
+    <Fertility>2.0</Fertility>
+  </statFactors>
+  <customEffectDescriptions>
+    <li>Partners gain an additional +4 mood moodlet after lovin'.</li>
+  </customEffectDescriptions>
+  <biostatMet>-1</biostatMet>
+  </GeneDef>
+
+
+<ThoughtDef>
+  <defName>Kurin_FertileMemory</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>5</durationDays>
+    <stackLimit>5</stackLimit>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>kurin's embrace</label>
+        <description>My lover's embrace was unforgettable. I only wish those moments could last forever.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+        <baseOpinionOffset>3</baseOpinionOffset>
+      </li>
+  </stages>
+</ThoughtDef>
+
+</Defs>

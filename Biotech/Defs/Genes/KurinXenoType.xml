@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <XenotypeDef>
+	<defName>KurinXenotype</defName>
+	<label>kurin</label>
+	<description>A unique race of three-railed foxgirl designermates from the Glitterworld Aolara. Engineered as bespoke social companions, they were scattered across the rim following a devastating civil war.</description>
+	<iconPath>Kurin/Gene/Kurin_Xenotype</iconPath>
+	<inheritable>true</inheritable>
+	<displayPriority>1240</displayPriority>
+	<genes>
+        <!-- 闪耀世界耐力 -->
+        <li>Kurin_GlitterWorldEndurance</li>
+        <!-- 闪耀世界耐力 -->
+        <li>Kurin_GlitterWorldCharm</li>
+        <!-- 不耐劳动 -->
+        <li>Kurin_UnsuitedForLabor</li>
+        <!-- 好生养 -->
+        <li>Kurin_Fertile</li>
+        <!-- 闪耀世界超感 -->
+        <li>Kurin_GlitterworldHypersense</li>
+        <!-- 烹饪出色 -->
+        <li>AptitudeStrong_Cooking</li>
+        <!-- 社交出色 -->
+        <li>AptitudeStrong_Social</li>
+        <!-- 驯兽无能 -->
+        <li>AptitudeTerrible_Animals</li>
+        <!-- 采矿才疏 -->
+        <li>AptitudePoor_Mining</li>
+        <!-- 性欲旺盛 -->
+        <li>Libido_High</li>
+	</genes>
+	<factionlessGenerationWeight>0.00001</factionlessGenerationWeight>
+  </XenotypeDef>
+
+
+
+</Defs>

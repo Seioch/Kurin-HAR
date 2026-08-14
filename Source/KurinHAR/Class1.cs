@@ -13,24 +13,24 @@ namespace KurinHAR
 	public class KurinSettings : ModSettings
 	{
 
-		public override string ModIdentifier
-		{
-			get { return "KurinSettings"; }
-		}
-		public static bool toggle;
+		//public override string ModIdentifier
+		//{
+		//	get { return "KurinSettings"; }
+		//}
+		//public static bool toggle;
 
-		//Log.Warning("Endgame Buildings" + ": Settings loaded.");
-		public override void DefsLoaded()
-		{
-			toggle = Settings.GetHandle<bool>(
-				"myToggle",
-				"Allow Kurin to wear any clothing".Translate(),
-				"Toggle on to enable clothing race restrictions on Kurin pawns".Translate(),
-				false);
-		}
+		////Log.Warning("Endgame Buildings" + ": Settings loaded.");
+		//public override void DefsLoaded()
+		//{
+		//	toggle = Settings.GetHandle<bool>(
+		//		"myToggle",
+		//		"Allow Kurin to wear any clothing".Translate(),
+		//		"Toggle on to enable clothing race restrictions on Kurin pawns".Translate(),
+		//		false);
+		//}
 
-		public override void ExposeData()
-		{
-		}
+		//public override void ExposeData()
+		//{
+		//}
 	}
 }

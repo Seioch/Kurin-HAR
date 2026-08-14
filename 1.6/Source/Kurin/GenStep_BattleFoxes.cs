@@ -11263,7 +11263,7 @@ namespace Kurin
             ResolveParams rp = default(ResolveParams);
             rp.rect = rect;
             rp.faction = faction;
-            Lord singlePawnLord = (rp.settlementLord = rp.singlePawnLord ?? LordMaker.MakeNewLord(faction, new LordJob_DefendBase(faction, rp.rect.CenterCell, rp.attackWhenPlayerBecameEnemy ?? false), map));
+            Lord singlePawnLord = (rp.settlementLord = rp.singlePawnLord ?? LordMaker.MakeNewLord(faction, new LordJob_DefendBase(faction, rp.rect.CenterCell, 3, rp.attackWhenPlayerBecameEnemy ?? false), map));
             TraverseParms traverseParms = TraverseParms.For(TraverseMode.PassDoors);
             ResolveParams resolveParams2 = rp;
             resolveParams2.rect = rp.rect;

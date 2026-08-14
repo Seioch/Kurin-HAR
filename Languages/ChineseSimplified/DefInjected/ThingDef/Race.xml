@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 魅狐 -->
+  <Kurin_Race.label>魅狐</Kurin_Race.label>
+  <!-- EN: 由狐狸基因组成的类人种族。最初，她们是来自Aolara星球的闪耀世界设计师伴侣，但内部战争迫使她们离开了家乡。现在她们开始定居在边缘世界。 -->
+  <Kurin_Race.description>一种拥有狐狸基因的女性类人种族。她们最初是来自闪耀世界奥罗拉的定制伴侣，但一场内战迫使她们离开了自己的母星。如今，她们已散居于各个边缘世界。</Kurin_Race.description>
+  <!-- EN: 左拳 -->
+  <Kurin_Race.tools.left_fist.label>左拳</Kurin_Race.tools.left_fist.label>
+  <!-- EN: 右拳 -->
+  <Kurin_Race.tools.right_fist.label>右拳</Kurin_Race.tools.right_fist.label>
+  <!-- EN: 牙齿 -->
+  <Kurin_Race.tools.teeth.label>牙齿</Kurin_Race.tools.teeth.label>
+  <!-- EN: 脑袋 -->
+  <Kurin_Race.tools.head.label>脑袋</Kurin_Race.tools.head.label>
+  
+</LanguageData>

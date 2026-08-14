@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Noose -->
+  <Kurin_NooseTrapHediff.label>套索</Kurin_NooseTrapHediff.label>
+  <!-- EN: Ensnared by a noose -->
+  <Kurin_NooseTrapHediff.description>被绞索困住</Kurin_NooseTrapHediff.description>
+  <!-- EN: Lasso -->
+  <Kurin_NooseTrapHediff.labelNoun>套索</Kurin_NooseTrapHediff.labelNoun>
+  
+</LanguageData>

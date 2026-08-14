@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <!-- Kurin Vacsuit -->
+    <Kurin_OnSkin_Vacsuit.label>魅狐真空服</Kurin_OnSkin_Vacsuit.label>
+    <Kurin_OnSkin_Vacsuit.description>专为魅狐太空探索者设计的真空防护服，内置基础生命维持系统与氧气循环装置，可在真空环境中为穿戴者提供必要的生存保障。</Kurin_OnSkin_Vacsuit.description>
+
+    <!-- Kurin Vacsuit Helmet -->
+    <Kurin_Overhead_VacsuitHelmet.label>魅狐真空头盔</Kurin_Overhead_VacsuitHelmet.label>
+    <Kurin_Overhead_VacsuitHelmet.description>与真空防护服配套使用的头盔，能够高效循环佩戴者呼出的氧气，使其能够在真空环境中持续活动数小时。头盔内置微型反真空力场，可让魅狐的耳朵安全伸出。氧气储备并非无限，仍需定期返回补充。</Kurin_Overhead_VacsuitHelmet.description>
+
+    <!-- Kid Vacsuit -->
+    <Kurin_OnSkin_VacsuitChildren.label>魅狐儿童真空服</Kurin_OnSkin_VacsuitChildren.label>
+    <Kurin_OnSkin_VacsuitChildren.description>专为年轻魅狐太空探索者设计的真空防护服，内置基础生命维持系统与氧气循环装置，并配备小型娱乐设备，以缓解长途航行中的枯燥。</Kurin_OnSkin_VacsuitChildren.description>
+
+</LanguageData>

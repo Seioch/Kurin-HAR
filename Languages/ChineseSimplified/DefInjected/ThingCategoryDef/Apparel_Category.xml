@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: kurin apparel -->
+  <Kurin_Apparel.label>魅狐服饰</Kurin_Apparel.label>
+  
+  <!-- EN: kurin middle apparel -->
+  <Kurin_Apparel_Middle.label>魅狐中层服饰</Kurin_Apparel_Middle.label>
+  
+  <!-- EN: kurin onskin apparel -->
+  <Kurin_Apparel_OnSkin.label>魅狐贴身服饰</Kurin_Apparel_OnSkin.label>
+  
+  <!-- EN: kurin overhead apparel -->
+  <Kurin_Apparel_Overhead.label>魅狐头饰</Kurin_Apparel_Overhead.label>
+  
+  <!-- EN: kurin shell apparel -->
+  <Kurin_Apparel_Shell.label>魅狐外层服饰</Kurin_Apparel_Shell.label>
+  
+  <!-- EN: kurin underwear apparel -->
+  <Kurin_Apparel_Underwear.label>魅狐内衣服饰</Kurin_Apparel_Underwear.label>
+  
+</LanguageData>

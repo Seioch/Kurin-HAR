@@ -105,8 +105,7 @@
 						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
 					</bodyTypes>
 					<headTypes Inherit="false">
-						<li>Female_AverageNormal</li>
-						<li>Female_AveragePointy</li>
+						<li>Kurin_Head</li>
 					</headTypes>
 					<headOffset>(0 ,-0.07)</headOffset>
 					<headFemaleOffset>(0,-0.07)</headFemaleOffset>
@@ -114,7 +113,7 @@
 					<bodyAddons>
 						<!-- Tail 1-->
 						<li>
-							<path>Kurin/Tail/Single tails/Texture1</path>
+							<path>Kurin/Tail/New Single tails/Texture1</path>
 							<inFrontOfBody>false</inFrontOfBody>
 							<colorChannel>hair</colorChannel>
 							<defaultOffset>Tail</defaultOffset>
@@ -132,8 +131,8 @@
 								</Posture>
 							</conditions>
 							<extendedGraphics>
-								<Age For="HumanlikeChild">Kurin/TailChild/Single tails/Texture1</Age>
-								<Age For="HumanlikeBaby">Kurin/TailChild/Single tails/Texture1</Age>
+								<Age For="HumanlikeChild">Kurin/TailChild/New Single tails/Texture1</Age>
+								<Age For="HumanlikeBaby">Kurin/TailChild/New Single tails/Texture1</Age>
 							</extendedGraphics>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<offsets>
@@ -145,8 +144,8 @@
 										<Child MayRequire="ludeon.rimworld.biotech">(-0.41,0.19)</Child>
 									</bodyTypes>
 									<headTypes>
-										<Female_AverageNormal>(0,0)</Female_AverageNormal>
-										<Female_AveragePointy>(0,0)</Female_AveragePointy>
+										<Kurin_Head>(0,0)</Kurin_Head>
+										<!-- <Kurin_HeadType_Head2>(0,0)</Kurin_HeadType_Head2> -->
 									</headTypes>
 								</south>
 								<north>
@@ -157,8 +156,8 @@
 										<Child MayRequire="ludeon.rimworld.biotech">(-0.022,0.49)</Child>
 									</bodyTypes>
 									<headTypes>
-										<Female_AverageNormal>(0,0)</Female_AverageNormal>
-										<Female_AveragePointy>(0,0)</Female_AveragePointy>
+										<Kurin_Head>(0,0)</Kurin_Head>
+										<!-- <Kurin_HeadType_Head2>(0,0)</Kurin_HeadType_Head2> -->
 									</headTypes>
 								</north>
 								<east>
@@ -169,15 +168,15 @@
 										<Child MayRequire="ludeon.rimworld.biotech">(-0.45,0.19)</Child>
 									</bodyTypes>
 									<headTypes>
-										<Female_AverageNormal>(0,0)</Female_AverageNormal>
-										<Female_AveragePointy>(0,0)</Female_AveragePointy>
+										<Kurin_Head>(0,0)</Kurin_Head>
+										<!-- <Kurin_HeadType_Head2>(0,0)</Kurin_HeadType_Head2> -->
 									</headTypes>
 								</east>
 							</offsets>
 						</li>
 						<!-- Tail 2-->
 						<li>
-							<path>Kurin/Tail/Single tails/Texture2</path>
+							<path>Kurin/Tail/New Single tails/Texture2</path>
 							<conditions>
 								<BodyPart>
 									<bodyPartLabel>Left tail</bodyPartLabel>
@@ -190,8 +189,8 @@
 								</Posture>
 							</conditions>
 							<extendedGraphics>
-								<Age For="HumanlikeChild">Kurin/TailChild/Single tails/Texture2</Age>
-								<Age For="HumanlikeBaby">Kurin/TailChild/Single tails/Texture2</Age>
+								<Age For="HumanlikeChild">Kurin/TailChild/New Single tails/Texture2</Age>
+								<Age For="HumanlikeBaby">Kurin/TailChild/New Single tails/Texture2</Age>
 							</extendedGraphics>
 							<inFrontOfBody>false</inFrontOfBody>
 							<colorChannel>hair</colorChannel>
@@ -209,8 +208,8 @@
 										<Child MayRequire="ludeon.rimworld.biotech">(-0.41,0.19)</Child>
 									</bodyTypes>
 									<headTypes>
-										<Female_AverageNormal>(0,0)</Female_AverageNormal>
-										<Female_AveragePointy>(0,0)</Female_AveragePointy>
+										<Kurin_Head>(0,0)</Kurin_Head>
+										<!-- <Kurin_HeadType_Head2>(0,0)</Kurin_HeadType_Head2> -->
 									</headTypes>
 								</south>
 								<north>
@@ -221,8 +220,8 @@
 										<Child MayRequire="ludeon.rimworld.biotech">(-0.012,0.49)</Child>
 									</bodyTypes>
 									<headTypes>
-										<Female_AverageNormal>(0,0)</Female_AverageNormal>
-										<Female_AveragePointy>(0,0)</Female_AveragePointy>
+										<Kurin_Head>(0,0)</Kurin_Head>
+										<!-- <Kurin_HeadType_Head2>(0,0)</Kurin_HeadType_Head2> -->
 									</headTypes>
 								</north>
 								<east>
@@ -233,15 +232,15 @@
 										<Child MayRequire="ludeon.rimworld.biotech">(-0.45,0.19)</Child>
 									</bodyTypes>
 									<headTypes>
-										<Female_AverageNormal>(0,0)</Female_AverageNormal>
-										<Female_AveragePointy>(0,0)</Female_AveragePointy>
+										<Kurin_Head>(0,0)</Kurin_Head>
+										<!-- <Kurin_HeadType_Head2>(0,0)</Kurin_HeadType_Head2> -->
 									</headTypes>
 								</east>
 							</offsets>
 						</li>
 						<!-- Tail 3-->
 						<li>
-							<path>Kurin/Tail/Single tails/Texture3</path>
+							<path>Kurin/Tail/New Single tails/Texture3</path>
 							<conditions>
 								<BodyPart>
 									<bodyPartLabel>Middle tail</bodyPartLabel>
@@ -254,8 +253,8 @@
 								</Posture>
 							</conditions>
 							<extendedGraphics>
-								<Age For="HumanlikeChild">Kurin/TailChild/Single tails/Texture3</Age>
-								<Age For="HumanlikeBaby">Kurin/TailChild/Single tails/Texture3</Age>
+								<Age For="HumanlikeChild">Kurin/TailChild/New Single tails/Texture3</Age>
+								<Age For="HumanlikeBaby">Kurin/TailChild/New Single tails/Texture3</Age>
 							</extendedGraphics>
 							<inFrontOfBody>false</inFrontOfBody>
 							<colorChannel>hair</colorChannel>
@@ -273,8 +272,8 @@
 										<Child MayRequire="ludeon.rimworld.biotech">(-0.41,0.19)</Child>
 									</bodyTypes>
 									<headTypes>
-										<Female_AverageNormal>(0,0)</Female_AverageNormal>
-										<Female_AveragePointy>(0,0)</Female_AveragePointy>
+										<Kurin_Head>(0,0)</Kurin_Head>
+										<!-- <Kurin_HeadType_Head2>(0,0)</Kurin_HeadType_Head2> -->
 									</headTypes>
 								</south>
 								<north>
@@ -285,8 +284,8 @@
 										<Child MayRequire="ludeon.rimworld.biotech">(-0.012,0.49)</Child>
 									</bodyTypes>
 									<headTypes>
-										<Female_AverageNormal>(0,0)</Female_AverageNormal>
-										<Female_AveragePointy>(0,0)</Female_AveragePointy>
+										<Kurin_Head>(0,0)</Kurin_Head>
+										<!-- <Kurin_HeadType_Head2>(0,0)</Kurin_HeadType_Head2> -->
 									</headTypes>
 								</north>
 								<east>
@@ -297,8 +296,8 @@
 										<Child MayRequire="ludeon.rimworld.biotech">(-0.42,0.19)</Child>
 									</bodyTypes>
 									<headTypes>
-										<Female_AverageNormal>(0,0)</Female_AverageNormal>
-										<Female_AveragePointy>(0,0)</Female_AveragePointy>
+										<Kurin_Head>(0,0)</Kurin_Head>
+										<!-- <Kurin_HeadType_Head2>(0,0)</Kurin_HeadType_Head2> -->
 									</headTypes>
 								</east>
 							</offsets>
@@ -306,7 +305,7 @@
 						<!-- Ear graphic layer for drawing behind helmets is -0.269, only behind masks is -0.2675, and to draw above everything is -0.266-->
 						<!-- Ear Left -->
 						<li>
-							<path>Kurin/Ear/Left/DRNTFEarLA</path>
+							<path>Kurin/Ear/Left2/DRNTFEarLA</path>
 							<conditions>
 								<BodyPart>
 									<bodyPartLabel>left ear</bodyPartLabel>
@@ -315,10 +314,10 @@
 							</conditions>
 							<extendedGraphics>
 								<Age For="HumanlikeTeenager">Kurin/EarChild/Left/DRNTFEarLA</Age>
-								<Age For="HumanlikePreTeenager">Kurin/EarChild/Left/DRNTFEarLA</Age>
+								<Age MayRequire="ludeon.rimworld.biotech" For="HumanlikePreTeenager">Kurin/EarChild/Left/DRNTFEarLA</Age>
 								<Age For="HumanlikeChild">Kurin/EarChild/Left/DRNTFEarLA</Age>
 								<Age For="HumanlikeBaby">Kurin/EarChild/Left/DRNTFEarLA</Age>
-								<Hediff For="Kurin_MechanitorEarHediff">Kurin/Ear/Mechanitor/MechanitorEar_Left</Hediff>
+								<Hediff MayRequire="ludeon.rimworld.biotech" For="Kurin_MechanitorEarHediff">Kurin/Ear/Mechanitor/MechanitorEar_Left</Hediff>
 							</extendedGraphics>
 							<alignWithHead>true</alignWithHead>
 							<inFrontOfBody>true</inFrontOfBody>
@@ -329,16 +328,14 @@
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<offsets>
 								<west>
-									<!-- <offset>(0,-0.23)</offset> -->
 									<layerOffset>-0.2675</layerOffset>
 									<bodyTypes>
-										<Female>(0,-0.23)</Female>
+										<Female>(0.15,-0.21)</Female>
 										<Baby MayRequire="ludeon.rimworld.biotech">(0,-0.09)</Baby>
 										<Child MayRequire="ludeon.rimworld.biotech">(0.03,-0.17)</Child>
 									</bodyTypes>
 								</west>
 								<south>
-									<!-- <offset>(0,-0.21)</offset> -->
 									<layerOffset>-0.2675</layerOffset>
 									<bodyTypes>
 										<Female>(0,-0.21)</Female>
@@ -347,7 +344,6 @@
 									</bodyTypes>
 								</south>
 								<north>
-									<!-- <offset>(0,-0.21)</offset> -->
 									<layerOffset>-0.56</layerOffset>
 									<bodyTypes>
 										<Female>(0,-0.21)</Female>
@@ -356,10 +352,9 @@
 									</bodyTypes>
 								</north>
 								<east>
-									<!-- <offset>(0,-0.21)</offset> -->
 									<layerOffset>-1</layerOffset>
 									<bodyTypes>
-										<Female>(0,-0.21)</Female>
+										<Female>(0.15,-0.21)</Female>
 										<Baby MayRequire="ludeon.rimworld.biotech">(0.1,-0.53)</Baby>
 										<Child MayRequire="ludeon.rimworld.biotech">(0.08,-0.51)</Child>
 									</bodyTypes>
@@ -368,7 +363,7 @@
 						</li>
 						<!-- Ear Right -->
 						<li>
-							<path>Kurin/Ear/Right/DRNTFEarRA</path>
+							<path>Kurin/Ear/Right2/DRNTFEarRA</path>
 							<conditions>
 								<BodyPart>
 									<bodyPartLabel>right ear</bodyPartLabel>
@@ -383,24 +378,22 @@
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<extendedGraphics>
 								<Age For="HumanlikeTeenager">Kurin/EarChild/Right/DRNTFEarRA</Age>
-								<Age For="HumanlikePreTeenager">Kurin/EarChild/Right/DRNTFEarRA</Age>
+								<Age MayRequire="ludeon.rimworld.biotech"  For="HumanlikePreTeenager">Kurin/EarChild/Right/DRNTFEarRA</Age>
 								<Age For="HumanlikeChild">Kurin/EarChild/Right/DRNTFEarRA</Age>
 								<Age For="HumanlikeBaby">Kurin/EarChild/Right/DRNTFEarRA</Age>
-								<Hediff For="Kurin_MechanitorEarHediff">Kurin/Ear/Mechanitor/MechanitorEar_Right</Hediff>
+								<Hediff MayRequire="ludeon.rimworld.biotech"  For="Kurin_MechanitorEarHediff">Kurin/Ear/Mechanitor/MechanitorEar_Right</Hediff>
 							</extendedGraphics>
 							<offsets>
 								<west>
 									<layerOffset>-1</layerOffset>
-									<!-- <offset>(0,-0.23)</offset> -->
 									<bodyTypes>
-										<Female>(0,-0.23)</Female>
+										<Female>(0.15,-0.21)</Female>
 										<Baby MayRequire="ludeon.rimworld.biotech">(0.0, -0.09)</Baby>
 										<Child MayRequire="ludeon.rimworld.biotech">(0.03, -0.17)</Child>
 									</bodyTypes>
 								</west>
 								<south>
 									<layerOffset>-0.2675</layerOffset>
-									<!-- <offset>(0,-0.21)</offset> -->
 									<bodyTypes>
 										<Female>(0,-0.21)</Female>
 										<Baby MayRequire="ludeon.rimworld.biotech">(0.01, -0.086)</Baby>
@@ -409,7 +402,6 @@
 								</south>
 								<north>
 									<layerOffset>-0.56</layerOffset>
-									<!-- <offset>(0,-0.21)</offset> -->
 									<bodyTypes>
 										<Female>(0,-0.21)</Female>
 										<Baby MayRequire="ludeon.rimworld.biotech">(-0.036, -0.4)</Baby>
@@ -418,9 +410,8 @@
 								</north>
 								<east>
 									<layerOffset>-0.2675</layerOffset>
-									<!-- <offset>(0,-0.21)</offset> -->
 									<bodyTypes>
-										<Female>(0,-0.21)</Female>
+										<Female>(0.15,-0.21)</Female>
 										<Baby MayRequire="ludeon.rimworld.biotech">(0, -0.09)</Baby>
 										<Child MayRequire="ludeon.rimworld.biotech">(0.02, -0.19)</Child>
 									</bodyTypes>
@@ -996,13 +987,30 @@
 			</generalSettings>
 			<!--=============================================================================================================================-->
 			<graphicPaths>
-				<head>Kurin/Head/A/</head>
+				<head>
+					<path>Textures/Kurin/Head/A/Kurin_Head</path>
+					<!-- <extendedGraphics>
+						<Age For="HumanlikeTeenager">Textures/Kurin/Head/A/</Age>
+						<Age For="HumanlikeChild">Textures/Kurin/Head/A/</Age>
+						<Age For="HumanlikeBaby">Textures/Kurin/Head/A/</Age>
+						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">
+							Kurin/Head/Ghoul/GhoulHead
+						</Hediff>
+					</extendedGraphics> -->
+				</head>
 				<body>
 					<path>Kurin/Body/B/Adult</path>
 					<extendedGraphics>
 						<Age For="HumanlikeTeenager">Kurin/Body/B/Adult</Age>
 						<Age For="HumanlikeChild">Kurin/Body/B/Child</Age>
 						<Age For="HumanlikeBaby">Kurin/Body/B/Baby</Age>
+						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">
+							Kurin/Body/Ghoul/GhoulBody
+							<!-- <extendedGraphics>
+								<Age For="HumanlikeChild">Kurin/Body/Ghoul/Child</Age>
+								<Age For="HumanlikeBaby">Kurin/Body/Ghoul/Baby</Age>
+							</extendedGraphics> -->
+            			</Hediff>
 					</extendedGraphics>
 				</body>
 			</graphicPaths>
@@ -1085,6 +1093,9 @@
 					<li>Kurin_Kid_Hat</li>
 					<li>Kurin_Kid_Sweater</li>
 					<li>Kurin_OnSkin_Makeshift_Dress</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">Kurin_OnSkin_Vacsuit</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">Kurin_Overhead_VacsuitHelmet</li>
+					<li MayRequire="Ludeon.RimWorld.Odyssey">Kurin_OnSkin_VacsuitChildren</li>
 				</apparelList>
 				<whiteApparelList>
 					<li MayRequire="Nemonian.MY">Moyo_Tribal</li>
@@ -1150,13 +1161,19 @@
 					<!--<li MayRequire="Ludeon.RimWorld.Biotech">Headbone</li> dont ban, allow adding horns-->
 					<li MayRequire="Ludeon.RimWorld.Biotech">Jaw</li>
 				</blackGeneTags>
-				<blackXenotypeList>
+				<!-- 8/9/26: Removing black xenotype list in favor of using only race restricted Kurin xenotype -->
+				<!-- <blackXenotypeList>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Dirtmole</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Genie</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Neanderthal</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Pigskin</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Yttakin</li>
-				</blackXenotypeList>
+				</blackXenotypeList> -->
+				<xenotypeList>
+					<li>KurinXenotype</li>
+				</xenotypeList>
+				<!-- 8/9/26: Force all Kurins to use the Kurin Xenotype if Biotech is enabled. -->
+				<onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
 			</raceRestriction>
 		</alienRace>
 		<!--=============================================================================================================================-->
