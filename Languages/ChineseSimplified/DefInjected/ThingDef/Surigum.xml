@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: kurin surigum -->
+  <Kurin_Bullet_Surigum.label>魅狐飞刀</Kurin_Bullet_Surigum.label>
+  
+  <!-- EN: kurin surigum -->
+  <Kurin_Gun_Surigum.label>魅狐飞刀</Kurin_Gun_Surigum.label>
+  <!-- EN: A traditional throwing knife. Suitable for throwing and cutting. A favorite of Kurin infiltrators who favor it for its ability to pass through shield belts. -->
+  <Kurin_Gun_Surigum.description>魅狐传统飞刀。既适合投掷，也适合近身切割，是魅狐渗透人员最喜爱的武器之一，因为它能够穿过护盾腰带。</Kurin_Gun_Surigum.description>
+  <!-- EN: blade -->
+  <Kurin_Gun_Surigum.tools.blade.label>剑刃</Kurin_Gun_Surigum.tools.blade.label>
+  <!-- EN: kurin surigum -->
+  <Kurin_Gun_Surigum.verbs.Verb_Shoot.label>魅狐飞刀</Kurin_Gun_Surigum.verbs.Verb_Shoot.label>
+  
+</LanguageData>

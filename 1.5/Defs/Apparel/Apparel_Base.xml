@@ -43,8 +43,10 @@
 	</apparel>
 	<tradeability>Sellable</tradeability>
 	<tradeTags>
+		<li>Kurin_Clothing</li>
         <li>Apparel</li>
 		<li>Clothing</li>
+		<li>BasicClothing</li>
     </tradeTags>
 	<techLevel>Industrial</techLevel>
 	<statBases>

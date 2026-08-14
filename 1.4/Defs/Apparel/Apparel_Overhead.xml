@@ -272,6 +272,14 @@
 		<wornGraphicPath>Kurin/Apparel/Overhead/Bikini_Armor_Headgear/Texture</wornGraphicPath>
       <tags>
 		<li>Kurin_Melee</li>
+		<li>Royal</li>
+		<li>RoyalTier1</li>
+		<li>RoyalTier2</li>
+		<li>RoyalTier3</li>
+		<li>RoyalTier4</li>
+		<li>RoyalTier5</li>
+		<li>RoyalTier6</li>
+		<li>RoyalTier7</li>
  		<li>RoyalCombatGear</li>
       </tags>
 	</apparel>

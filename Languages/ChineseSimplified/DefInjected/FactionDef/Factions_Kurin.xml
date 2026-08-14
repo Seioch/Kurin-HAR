@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Republic Of Kurin -->
+  <Kurin_Faction.label>新魅狐共和国</Kurin_Faction.label>
+  <!-- EN: These are the forces of the Kurins who crashed decades ago.\nThere have been many incidents, but now they have enough power to protect their own people. -->
+  <Kurin_Faction.description>几十年前流落至边缘世界的魅狐建立了这一势力。\n历经无数艰难险阻，如今的她们已经拥有足够的力量保护自己的同胞。</Kurin_Faction.description>
+  <!-- EN: President -->
+  <Kurin_Faction.leaderTitle>总统</Kurin_Faction.leaderTitle>
+  <!-- EN: kurin -->
+  <Kurin_Faction.pawnSingular>魅狐</Kurin_Faction.pawnSingular>
+  <!-- EN: kurins -->
+  <Kurin_Faction.pawnsPlural>魅狐</Kurin_Faction.pawnsPlural>
+  
+  <!-- EN: Battle Foxes -->
+  <Kurin_Faction_Hostile.label>战争之狐</Kurin_Faction_Hostile.label>
+  <!-- EN: Kurins who see combat as the only way of protecting their people. -->
+  <Kurin_Faction_Hostile.description>这些魅狐坚信，唯有战争才是保护同胞的唯一途径。</Kurin_Faction_Hostile.description>
+  <!-- EN: Warlord -->
+  <Kurin_Faction_Hostile.leaderTitle>军阀</Kurin_Faction_Hostile.leaderTitle>
+  <!-- EN: kurin -->
+  <Kurin_Faction_Hostile.pawnSingular>魅狐</Kurin_Faction_Hostile.pawnSingular>
+  <!-- EN: kurins -->
+  <Kurin_Faction_Hostile.pawnsPlural>魅狐</Kurin_Faction_Hostile.pawnsPlural>
+  
+  <!-- EN: Kurin's new base -->
+  <Kurin_PlayerFaction.label>魅狐的新基地</Kurin_PlayerFaction.label>
+  <!-- EN: A new base for the Kurin race. -->
+  <Kurin_PlayerFaction.description>属于魅狐的新基地。</Kurin_PlayerFaction.description>
+  <!-- EN: kurin colonist -->
+  <Kurin_PlayerFaction.pawnSingular>魅狐</Kurin_PlayerFaction.pawnSingular>
+  <!-- EN: kurin colonists -->
+  <Kurin_PlayerFaction.pawnsPlural>魅狐殖民者</Kurin_PlayerFaction.pawnsPlural>
+  
+</LanguageData>

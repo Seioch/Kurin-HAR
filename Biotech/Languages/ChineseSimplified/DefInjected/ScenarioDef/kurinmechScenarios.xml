@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <kurin_Mechanitor.label>魅狐机械师</kurin_Mechanitor.label>
+  <kurin_Mechanitor.description>你和你的机械体为了逃避星际海盗的追杀，降落到了这里，为了生存，你和你的机械体仆从需要建立一个新的家园。好在资源还算充裕，发展应该不会有太大困难，大概吧……\n\n注意：由于物资充分，财富值会平常更高。</kurin_Mechanitor.description>
+  <kurin_Mechanitor.scenario.description>你和你的机械体为了逃避星际海盗的追杀，降落到了这里，为了生存，你和你的机械体仆从需要建立一个新的家园。好在资源还算充裕，发展应该不会有太大困难，大概吧……\n\n注意：由于物资充分，财富值会平常更高。</kurin_Mechanitor.scenario.description>
+  <kurin_Mechanitor.scenario.name>魅狐机械师</kurin_Mechanitor.scenario.name>
+  <kurin_Mechanitor.scenario.parts.GameStartDialog.text>你和你的机械体为了逃避星际海盗的追杀，降落到了这里，为了生存，你和你的机械体仆从需要建立一个新的家园。好在资源还算充裕，发展应该不会有太大困难，大概吧……=</kurin_Mechanitor.scenario.parts.GameStartDialog.text>
+  <kurin_Mechanitor.scenario.summary>一名魅狐机械师和一些机械体仆从。</kurin_Mechanitor.scenario.summary>
+  
+</LanguageData>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: kurin traditional coat -->
+  <Kurin_OnSkin_Traditional_Coat.label>魅狐传统外套</Kurin_OnSkin_Traditional_Coat.label>
+  <!-- EN: 단조로운 남색 코트 위에 흰색 무늬가 인상적인 쿠린들의 전통의상입니다. -->
+  <Kurin_OnSkin_Traditional_Coat.description>这是魅狐的传统服饰，单调的深蓝色外套上点缀着引人注目的白色花纹。</Kurin_OnSkin_Traditional_Coat.description>
+  
+  <!-- EN: kurin cardigan -->
+  <Kurin_Shell_Cardigan.label>魅狐开襟羊毛衫</Kurin_Shell_Cardigan.label>
+  <!-- EN: 푹신푹신하고 따듯한 카디건입니다. 옷이 늘어나지 않게 조심하세요! -->
+  <Kurin_Shell_Cardigan.description>蓬松温暖的开襟羊毛衫。小心别把它撑变形了！</Kurin_Shell_Cardigan.description>
+  
+  <!-- EN: kurin duster -->
+  <Kurin_Shell_Duster.label>魅狐防尘大衣</Kurin_Shell_Duster.label>
+  <!-- EN: 상당한 더위와 어느정도의 추위를 막아 줄 수 있는 세련된 외투입니다. -->
+  <Kurin_Shell_Duster.description>这是一种时尚的外套，可以防止明显的高温和寒冷。</Kurin_Shell_Duster.description>
+  
+  <!-- EN: kurin winter padding -->
+  <Kurin_Shell_Winter_Padding.label>魅狐风雪大衣</Kurin_Shell_Winter_Padding.label>
+  <!-- EN: 두꺼운 겨울 패딩입니다. 추위를 잘 타는 쿠린들에게는 겨울 필수품입니다. -->
+  <Kurin_Shell_Winter_Padding.description>冬季用的大衣。这是度过寒冷冬季时魅狐们的必备品。</Kurin_Shell_Winter_Padding.description>
+  
+  <Kurin_Redfox_Armor.label>“赤狐”动力装甲</Kurin_Redfox_Armor.label>
+  <Kurin_Redfox_Armor.description>旧魅狐共和国的强力盔甲……的复制品。赤狐军的士兵们穿着这种盔甲进行太空和地面作战。</Kurin_Redfox_Armor.description> 
+
+</LanguageData>

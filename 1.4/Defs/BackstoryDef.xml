@@ -250,8 +250,7 @@
 		<slot>Childhood</slot>
 		<forcedTraitsChance>
 			<li>
-				<defName>Industriousness</defName>
-				<degree>-1</degree>
+				<defName Degree="-1">Industriousness</defName>
 			</li>
 		</forcedTraitsChance>
 		<spawnCategories>
@@ -524,7 +523,6 @@
 		<forcedTraitsChance>
 			<li>
 				<defName>Kind</defName>
-				<degree>0</degree>
 			</li>
 		</forcedTraitsChance>
 		<spawnCategories>

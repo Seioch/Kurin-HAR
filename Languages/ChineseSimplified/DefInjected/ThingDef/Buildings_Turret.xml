@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: hwatcha gun -->
+  <Kurin_boxlauncher.label>魅狐火焰箭</Kurin_boxlauncher.label>
+  <!-- EN: A box containing dozens of launchable fire arrows -->
+  <Kurin_boxlauncher.description>一个装有数十个可发射火箭的盒子</Kurin_boxlauncher.description>
+  <!-- EN: hwatcha gun -->
+  <Kurin_boxlauncher.verbs.Verb_Shoot.label>魅狐火焰箭</Kurin_boxlauncher.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Kurin Hwatcha -->
+  <Kurin_FireTurret.label>魅狐火焰箭炮台</Kurin_FireTurret.label>
+  <!-- EN: An ancient defensive weapon that launches a flurry of flaming arrows -->
+  <Kurin_FireTurret.description>一种古老的防御武器，能发射一连串的火焰箭</Kurin_FireTurret.description>
+  <!-- EN: Shots until out of ammo -->
+  <Kurin_FireTurret.comps.CompRefuelable.fuelLabel>全弹射击</Kurin_FireTurret.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Out of ammo -->
+  <Kurin_FireTurret.comps.CompRefuelable.outOfFuelMessage>无法射击：缺少弹药</Kurin_FireTurret.comps.CompRefuelable.outOfFuelMessage>
+  
+  <!-- EN: Hwatcha Flaming Arrow -->
+  <kurin_hwatcha_arrow.label>火焰箭矢</kurin_hwatcha_arrow.label>
+  
+</LanguageData>

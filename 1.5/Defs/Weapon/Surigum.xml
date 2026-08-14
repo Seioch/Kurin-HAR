@@ -16,7 +16,7 @@
 	</projectile>
 </ThingDef>
 
-<ThingDef ParentName="BaseMakeableGun">
+<ThingDef ParentName="BaseHumanMakeableGun">
 	<defName>Kurin_Gun_Surigum</defName>
 	<label>kurin surigum</label>
 	<description>A traditional throwing knife. Suitable for throwing and cutting. A favorite of Kurin infiltrators who favor it for its ability to pass through shield belts.</description>
@@ -37,6 +37,7 @@
 	</statBases>
 	<relicChance>2</relicChance>
 	<weaponTags>
+		<li>Kurin_Weapons</li>
 		<li>Kurin_Surigum</li>
 	</weaponTags>
 	<costList>

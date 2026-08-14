@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ScenarioDef Name="kurin_Mechanitor" ParentName="ScenarioBase">
+    <defName>kurin_Mechanitor</defName>
+    <label>Kurin, Lone Mechanitor</label>
+    <description>You and your mechanoid assistants landed here to escape interstellar pirates. In order to survive, you and your mechanical servants need to establish a new home. Fortunately, resources are relatively abundant, and development should not be too difficult, probably...\n\nNote: Due to initial resources, wealth value will be higher.</description>
+    <scenario>
+      <summary>One Kurin mechanitor and a few servant mechanoids.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>Kurin_PlayerFaction</factionDef>
+      </playerFaction>
+      <parts>
+        <!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>You and your mechanoid assistants landed here to escape interstellar pirates. In order to survive, you and your mechanical servants need to establish a new home. Fortunately, resources are relatively abundant, and development should not be too difficult, probably...</text>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+        <!-- Config pages -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+          <def>ConfigurePawnsKindDefs</def>
+          <pawnChoiceCount>8</pawnChoiceCount>
+          <leftBehindPawnKind>kurin_Mechanitor</leftBehindPawnKind>
+          <kindCounts>
+            <li>
+              <kindDef>kurin_Mechanitor</kindDef>
+              <count>1</count>
+              <requiredAtStart>true</requiredAtStart>
+            </li>
+          </kindCounts>
+        </li>
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <visible>false</visible>
+          <method>DropPods</method>
+        </li>
+        <!-- Starting research -->
+			<li Class="ScenPart_StartingMech">
+				<def>StartingMech</def>
+				<mechKind>Mech_Lifter</mechKind>
+				<overseenByPlayerPawnChance>1</overseenByPlayerPawnChance>
+			</li>
+			<li Class="ScenPart_StartingMech">
+				<def>StartingMech</def>
+				<mechKind>Mech_Constructoid</mechKind>
+				<overseenByPlayerPawnChance>1</overseenByPlayerPawnChance>
+			</li>
+			<li Class="ScenPart_StartingMech">
+				<def>StartingMech</def>
+				<mechKind>Mech_Fabricor</mechKind>
+				<overseenByPlayerPawnChance>1</overseenByPlayerPawnChance>
+			</li>
+			<li Class="ScenPart_StartingMech">
+				<def>StartingMech</def>
+				<mechKind>Mech_Cleansweeper</mechKind>
+				<overseenByPlayerPawnChance>1</overseenByPlayerPawnChance>
+			</li>
+			<li Class="ScenPart_StartingMech">
+				<def>StartingMech</def>
+				<mechKind>Mech_Tunneler</mechKind>
+				<overseenByPlayerPawnChance>1</overseenByPlayerPawnChance>
+			</li>
+			<li Class="ScenPart_StartingMech">
+				<def>StartingMech</def>
+				<mechKind>Mech_Paramedic</mechKind>
+				<overseenByPlayerPawnChance>1</overseenByPlayerPawnChance>
+			</li>
+			<li Class="ScenPart_StartingMech">
+				<def>StartingMech</def>
+				<mechKind>Mech_Militor</mechKind>
+				<overseenByPlayerPawnChance>1</overseenByPlayerPawnChance>
+			</li>
+			<li Class="ScenPart_StartingMech">
+				<def>StartingMech</def>
+				<mechKind>Mech_Militor</mechKind>
+				<overseenByPlayerPawnChance>1</overseenByPlayerPawnChance>
+			</li>
+			<li Class="ScenPart_StartingMech">
+				<def>StartingMech</def>
+				<mechKind>Mech_Militor</mechKind>
+				<overseenByPlayerPawnChance>1</overseenByPlayerPawnChance>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Silver</thingDef>
+				<count>2000</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MealSurvivalPack</thingDef>
+				<count>60</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MedicineIndustrial</thingDef>
+				<count>25</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>ComponentIndustrial</thingDef>
+				<count>70</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Steel</thingDef>
+				<count>900</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Plasteel</thingDef>
+				<count>150</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>SubcoreBasic</thingDef>
+				<count>10</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>SubcoreRegular</thingDef>
+				<count>5</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>SubcoreHigh</thingDef>
+			</li>
+			<li Class="ScenPart_DisableMapGen">
+				<def>DisableExostriderRemains</def>
+			</li>
+		</parts>
+    </scenario>
+  </ScenarioDef>
+
+</Defs>
