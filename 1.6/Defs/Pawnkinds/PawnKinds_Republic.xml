@@ -12,6 +12,11 @@
     <apparelIgnoreSeasons>false</apparelIgnoreSeasons>
     <initialWillRange>3~5</initialWillRange>
     <initialResistanceRange>6~10</initialResistanceRange>
+    <xenotypeSet>
+      <xenotypeChances>
+        <KurinXenotype MayRequire="Ludeon.RimWorld.Biotech">999</KurinXenotype>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <!--==============================================NPC세부==============================================-->
   <!--시민-->

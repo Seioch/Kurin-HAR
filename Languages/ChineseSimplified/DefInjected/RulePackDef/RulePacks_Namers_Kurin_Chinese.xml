@@ -1,0 +1,999 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  
+  <Kurin_NameGen.rulePack.rulesStrings>
+    <li>r_name(p=2)-&gt;[KFirstName] '[KNickname]' [KLastName]</li>
+    <li>r_name-&gt;[KFirstName] [KLastName]</li>
+  </Kurin_NameGen.rulePack.rulesStrings>
+  
+  <KurinNameUtility.rulePack.rulesStrings>
+
+    <!-- 中文本地化名字池：覆盖 Kurin 原版的 KFirst / KLast / KNick -->
+    <!-- 保留原版 rulesFiles，使其他语言仍可使用原始名字池 -->
+    <li>KFirst->文子</li>
+    <li>KFirst->凯伊</li>
+    <li>KFirst->维奥娜</li>
+    <li>KFirst->马丁琪</li>
+    <li>KFirst->梅丽莎</li>
+    <li>KFirst->安娜</li>
+    <li>KFirst->可可萝</li>
+    <li>KFirst->贾斯汀</li>
+    <li>KFirst->贝雷奥娜</li>
+    <li>KFirst->遥香</li>
+    <li>KFirst->米科希</li>
+    <li>KFirst->杰米</li>
+    <li>KFirst->亚历山德拉</li>
+    <li>KFirst->埃莉奥娜</li>
+    <li>KFirst->海</li>
+    <li>KFirst->玛丽安</li>
+    <li>KFirst->玛丽</li>
+    <li>KFirst->妮娜</li>
+    <li>KFirst->未花</li>
+    <li>KFirst->费伊</li>
+    <li>KFirst->凯瑟琳</li>
+    <li>KFirst->艾玛</li>
+    <li>KFirst->美雪</li>
+    <li>KFirst->雏</li>
+    <li>KFirst->明里</li>
+    <li>KFirst->唯</li>
+    <li>KFirst->阳鞠</li>
+    <li>KFirst->一花</li>
+    <li>KFirst->葵</li>
+    <li>KFirst->莲</li>
+    <li>KFirst->由真</li>
+    <li>KFirst->空</li>
+    <li>KFirst->玲央</li>
+    <li>KFirst->小春</li>
+    <li>KFirst->芽衣</li>
+    <li>KFirst->穗乃花</li>
+    <li>KFirst->桃花</li>
+    <li>KFirst->梦</li>
+    <li>KFirst->爱梨</li>
+    <li>KFirst->彩花</li>
+    <li>KFirst->乃亚</li>
+    <li>KFirst->绫音</li>
+    <li>KFirst->琉花</li>
+    <li>KFirst->柚月</li>
+    <li>KFirst->纱奈</li>
+    <li>KFirst->花</li>
+    <li>KFirst->花梨</li>
+    <li>KFirst->理沙</li>
+    <li>KFirst->夏树</li>
+    <li>KFirst->玲奈</li>
+    <li>KFirst->阿玛雅</li>
+    <li>KFirst->惠美香</li>
+    <li>KFirst->惠里香</li>
+    <li>KFirst->加奈子</li>
+    <li>KFirst->美里</li>
+    <li>KFirst->望</li>
+    <li>KFirst->仁子</li>
+    <li>KFirst->安</li>
+    <li>KFirst->紬</li>
+    <li>KFirst->咲花</li>
+    <li>KFirst->秋</li>
+    <li>KFirst->亚澄</li>
+    <li>KFirst->八千子</li>
+    <li>KFirst->千花</li>
+    <li>KFirst->笑颜</li>
+    <li>KFirst->初花</li>
+    <li>KFirst->伊祢</li>
+    <li>KFirst->勇</li>
+    <li>KFirst->枫</li>
+    <li>KFirst->国</li>
+    <li>KFirst->镜</li>
+    <li>KFirst->千岁</li>
+    <li>KFirst->秀香</li>
+    <li>KFirst->卡梅</li>
+    <li>KFirst->爱美</li>
+    <li>KFirst->瑞希</li>
+    <li>KFirst->道子</li>
+    <li>KFirst->凯伊</li>
+    <li>KFirst->贵美子</li>
+    <li>KFirst->真智子</li>
+    <li>KFirst->舞子</li>
+    <li>KFirst->奈良</li>
+    <li>KFirst->玲子</li>
+    <li>KFirst->玉子</li>
+    <li>KFirst->由美</li>
+    <li>KFirst->布里吉特</li>
+    <li>KFirst->克洛黛特</li>
+    <li>KFirst->弗朗辛</li>
+    <li>KFirst->哈莱特</li>
+    <li>KFirst->朱丽叶</li>
+    <li>KFirst->凯丝琳</li>
+    <li>KFirst->凯瑟琳</li>
+    <li>KFirst->琳内特</li>
+    <li>KFirst->妮可莱特</li>
+    <li>KFirst->帕斯卡</li>
+    <li>KFirst->罗莎蒙德</li>
+    <li>KFirst->萝雪儿</li>
+    <li>KFirst->史黛拉</li>
+    <li>KFirst->崔妮特</li>
+    <li>KFirst->维罗妮卡</li>
+    <li>KFirst->维维安</li>
+    <li>KFirst->维涅塔</li>
+    <li>KFirst->诺埃米</li>
+    <li>KFirst->朱丽叶</li>
+    <li>KFirst->珂赛特</li>
+    <li>KFirst->费耶特</li>
+    <li>KFirst->米拉贝尔</li>
+    <li>KFirst->萝塞特</li>
+    <li>KFirst->安娜斯塔茜</li>
+    <li>KFirst->里尔</li>
+    <li>KFirst->艾薇尔</li>
+    <li>KFirst->卡普辛</li>
+    <li>KFirst->席琳</li>
+    <li>KFirst->阿内莉丝</li>
+    <li>KFirst->弗洛琳</li>
+    <li>KFirst->梅莉丝</li>
+    <li>KFirst->安洁琳</li>
+    <li>KFirst->奥蕾莉</li>
+    <li>KFirst->安吉莉卡</li>
+    <li>KFirst->埃莱奥诺尔</li>
+    <li>KFirst->克拉丽丝</li>
+    <li>KFirst->埃洛伊丝</li>
+    <li>KFirst->莱奥妮</li>
+    <li>KFirst->维尔吉妮</li>
+    <li>KFirst->露西尔</li>
+    <li>KFirst->希亚拉</li>
+    <li>KFirst->罗辛</li>
+    <li>KFirst->克洛达</li>
+    <li>KFirst->利莎</li>
+    <li>KFirst->奥拉</li>
+    <li>KFirst->格兰妮</li>
+    <li>KFirst->凯莉特</li>
+    <li>KFirst->艾尔维</li>
+    <li>KFirst->奥拉丝</li>
+    <li>KFirst->迪尔德丽</li>
+    <li>KFirst->阿伊努</li>
+    <li>KFirst->爱也</li>
+    <li>KFirst->赤花</li>
+    <li>KFirst->天照</li>
+    <li>KFirst->杏</li>
+    <li>KFirst->阿苏加</li>
+    <li>KFirst->千夏</li>
+    <li>KFirst->中也</li>
+    <li>KFirst->惠美佳</li>
+    <li>KFirst->江岛</li>
+    <li>KFirst->悦都</li>
+    <li>KFirst->春</li>
+    <li>KFirst->春江</li>
+    <li>KFirst->春士</li>
+    <li>KFirst->春子</li>
+    <li>KFirst->春美</li>
+    <li>KFirst->初桃</li>
+    <li>KFirst->速水</li>
+    <li>KFirst->光</li>
+    <li>KFirst->广美</li>
+    <li>KFirst->星子</li>
+    <li>KFirst->胡米亚</li>
+    <li>KFirst->伊斯马乌</li>
+    <li>KFirst->泉</li>
+    <li>KFirst->海里</li>
+    <li>KFirst->凯亚</li>
+    <li>KFirst->花音</li>
+    <li>KFirst->胜木</li>
+    <li>KFirst->和子</li>
+    <li>KFirst->和美</li>
+    <li>KFirst->庆奈</li>
+    <li>KFirst->菊</li>
+    <li>KFirst->桐香</li>
+    <li>KFirst->小花</li>
+    <li>KFirst->久美</li>
+    <li>KFirst->久美子</li>
+    <li>KFirst->正惠</li>
+    <li>KFirst->正美</li>
+    <li>KFirst->真澄</li>
+    <li>KFirst->真由</li>
+    <li>KFirst->惠</li>
+    <li>KFirst->美穗子</li>
+    <li>KFirst->南</li>
+    <li>KFirst->未来</li>
+    <li>KFirst->米莎</li>
+    <li>KFirst->美佐子</li>
+    <li>KFirst->缪</li>
+    <li>KFirst->红叶</li>
+    <li>KFirst->森香</li>
+    <li>KFirst->直</li>
+    <li>KFirst->成子</li>
+    <li>KFirst->夏美</li>
+    <li>KFirst->尼奥科</li>
+    <li>KFirst->冈见</li>
+    <li>KFirst->丽</li>
+    <li>KFirst->理惠</li>
+    <li>KFirst->凛</li>
+    <li>KFirst->留美</li>
+    <li>KFirst->幸</li>
+    <li>KFirst->贞</li>
+    <li>KFirst->赛优娅</li>
+    <li>KFirst->佐久</li>
+    <li>KFirst->纱织</li>
+    <li>KFirst->三由</li>
+    <li>KFirst->沙耶香</li>
+    <li>KFirst->小百合</li>
+    <li>KFirst->圣奈</li>
+    <li>KFirst->希尼夸</li>
+    <li>KFirst->空</li>
+    <li>KFirst->空野</li>
+    <li>KFirst->澄子</li>
+    <li>KFirst->泷</li>
+    <li>KFirst->灵奈</li>
+    <li>KFirst->龙央</li>
+    <li>KFirst->照子</li>
+    <li>KFirst->椿</li>
+    <li>KFirst->月子</li>
+    <li>KFirst->兔乃</li>
+    <li>KFirst->若菜</li>
+    <li>KFirst->吉野</li>
+    <li>KFirst->由香</li>
+    <li>KFirst->雪</li>
+    <li>KFirst->由奈</li>
+    <li>KFirst->百合</li>
+    <li>KNick->猫女</li>
+    <li>KNick->囤猫狂</li>
+    <li>KNick->毛线团</li>
+    <li>KNick->爪子</li>
+    <li>KNick->尾巴</li>
+    <li>KNick->猫粮</li>
+    <li>KNick->枕头</li>
+    <li>KNick->苹果</li>
+    <li>KNick->小蜜蜂</li>
+    <li>KNick->厨师</li>
+    <li>KNick->修理工</li>
+    <li>KNick->酒保</li>
+    <li>KNick->靶心</li>
+    <li>KNick->鸟巢</li>
+    <li>KNick->巧克力怪物</li>
+    <li>KNick->打嗝</li>
+    <li>KNick->老六</li>
+    <li>KNick->小猫们</li>
+    <li>KNick->心碎</li>
+    <li>KNick->爱</li>
+    <li>KNick->海妖</li>
+    <li>KNick->剑</li>
+    <li>KNick->馅饼</li>
+    <li>KNick->蛋糕</li>
+    <li>KNick->培根</li>
+    <li>KNick->狐狸精</li>
+    <li>KNick->绒毛</li>
+    <li>KNick->脚蹼</li>
+    <li>KNick->技术支持</li>
+    <li>KNick->客服</li>
+    <li>KNick->幽灵</li>
+    <li>KNick->嗜睡</li>
+    <li>KNick->暴躁</li>
+    <li>KNick->三明治</li>
+    <li>KNick->子弹</li>
+    <li>KNick->阿姨</li>
+    <li>KNick->妈妈</li>
+    <li>KNick->鳟鱼</li>
+    <li>KNick->泳裤</li>
+    <li>KNick->手指</li>
+    <li>KNick->砰砰</li>
+    <li>KNick->短管</li>
+    <li>KNick->时髦</li>
+    <li>KNick->花朵</li>
+    <li>KNick->小猫</li>
+    <li>KNick->猫咪</li>
+    <li>KNick->麻雀</li>
+    <li>KNick->猎鹰</li>
+    <li>KNick->潜伏</li>
+    <li>KNick->鸽子</li>
+    <li>KNick->跳跃</li>
+    <li>KNick->活泼</li>
+    <li>KNick->扑克</li>
+    <li>KNick->鱼</li>
+    <li>KNick->笨蛋</li>
+    <li>KNick->辛辣</li>
+    <li>KNick->法国人</li>
+    <li>KNick->可颂</li>
+    <li>KNick->奶酪</li>
+    <li>KNick->饭团</li>
+    <li>KNick->钱袋</li>
+    <li>KNick->纸巾</li>
+    <li>KNick->扫兴者</li>
+    <li>KNick->耳朵</li>
+    <li>KNick->舌头</li>
+    <li>KNick->英国人</li>
+    <li>KNick->酱油</li>
+    <li>KNick->可爱</li>
+    <li>KNick->甜蜜</li>
+    <li>KNick->茶包</li>
+    <li>KNick->蛋卷</li>
+    <li>KNick->桃子</li>
+    <li>KNick->薯片</li>
+    <li>KNick->呆萌</li>
+    <li>KNick->模仿者</li>
+    <li>KNick->电线</li>
+    <li>KNick->黑客</li>
+    <li>KNick->黄金</li>
+    <li>KNick->豆子</li>
+    <li>KNick->酷哥</li>
+    <li>KNick->达卡</li>
+    <li>KNick->连衣裙</li>
+    <li>KNick->花边</li>
+    <li>KNick->懒惰</li>
+    <li>KNick->快乐</li>
+    <li>KNick->精神饱满</li>
+    <li>KNick->闪亮</li>
+    <li>KNick->未来</li>
+    <li>KNick->你好</li>
+    <li>KNick->职员</li>
+    <li>KNick->炸弹</li>
+    <li>KNick->教练</li>
+    <li>KNick->教练</li>
+    <li>KNick->书虫</li>
+    <li>KNick->罂粟</li>
+    <li>KNick->老鼠</li>
+    <li>KNick->大鼠</li>
+    <li>KNick->咚</li>
+    <li>KNick->花絮</li>
+    <li>KNick->挠挠</li>
+    <li>KNick->喵喵</li>
+    <li>KNick->午睡</li>
+    <li>KNick->硕大无比</li>
+    <li>KNick->泰坦尼克</li>
+    <li>KNick->强盗</li>
+    <li>KNick->跳跳</li>
+    <li>KNick->测试员</li>
+    <li>KNick->王牌</li>
+    <li>KNick->葡萄酒</li>
+    <li>KNick->毛毛</li>
+    <li>KNick->爱</li>
+    <li>KNick->软心肠</li>
+    <li>KNick->毛茸茸</li>
+    <li>KNick->珠宝</li>
+    <li>KNick->中士</li>
+    <li>KNick->丝滑</li>
+    <li>KNick->光滑</li>
+    <li>KNick->臭烘烘</li>
+    <li>KNick->吱吱</li>
+    <li>KNick->棒球</li>
+    <li>KLast->史密斯</li>
+    <li>KLast->斋藤</li>
+    <li>KLast->中村</li>
+    <li>KLast->山本</li>
+    <li>KLast->伊藤</li>
+    <li>KLast->田中</li>
+    <li>KLast->濑户</li>
+    <li>KLast->铃木</li>
+    <li>KLast->高桥</li>
+    <li>KLast->加藤</li>
+    <li>KLast->吉田</li>
+    <li>KLast->山田</li>
+    <li>KLast->佐佐木</li>
+    <li>KLast->山口</li>
+    <li>KLast->松本</li>
+    <li>KLast->井上</li>
+    <li>KLast->木村</li>
+    <li>KLast->林</li>
+    <li>KLast->清水</li>
+    <li>KLast->山崎</li>
+    <li>KLast->森</li>
+    <li>KLast->安倍</li>
+    <li>KLast->池田</li>
+    <li>KLast->桥本</li>
+    <li>KLast->山下</li>
+    <li>KLast->石川</li>
+    <li>KLast->中岛</li>
+    <li>KLast->前田</li>
+    <li>KLast->藤田</li>
+    <li>KLast->小川</li>
+    <li>KLast->后藤</li>
+    <li>KLast->冈田</li>
+    <li>KLast->长谷川</li>
+    <li>KLast->村上</li>
+    <li>KLast->近藤</li>
+    <li>KLast->石井</li>
+    <li>KLast->坂本</li>
+    <li>KLast->远藤</li>
+    <li>KLast->青木</li>
+    <li>KLast->藤井</li>
+    <li>KLast->西村</li>
+    <li>KLast->福田</li>
+    <li>KLast->太田</li>
+    <li>KLast->三浦</li>
+    <li>KLast->藤原</li>
+    <li>KLast->冈本</li>
+    <li>KLast->松田</li>
+    <li>KLast->中川</li>
+    <li>KLast->中野</li>
+    <li>KLast->原田</li>
+    <li>KLast->小野</li>
+    <li>KLast->田村</li>
+    <li>KLast->竹内</li>
+    <li>KLast->金子</li>
+    <li>KLast->和田</li>
+    <li>KLast->中山</li>
+    <li>KLast->石田</li>
+    <li>KLast->上田</li>
+    <li>KLast->森田</li>
+    <li>KLast->原</li>
+    <li>KLast->柴田</li>
+    <li>KLast->酒井</li>
+    <li>KLast->工藤</li>
+    <li>KLast->横山</li>
+    <li>KLast->宫崎</li>
+    <li>KLast->宫本</li>
+    <li>KLast->内田</li>
+    <li>KLast->高木</li>
+    <li>KLast->安藤</li>
+    <li>KLast->谷口</li>
+    <li>KLast->大野</li>
+    <li>KLast->丸山</li>
+    <li>KLast->今井</li>
+    <li>KLast->高田</li>
+    <li>KLast->藤本</li>
+    <li>KLast->武田</li>
+    <li>KLast->村田</li>
+    <li>KLast->上野</li>
+    <li>KLast->杉山</li>
+    <li>KLast->增田</li>
+    <li>KLast->菅原</li>
+    <li>KLast->平野</li>
+    <li>KLast->小岛</li>
+    <li>KLast->大冢</li>
+    <li>KLast->千叶</li>
+    <li>KLast->久保</li>
+    <li>KLast->松井</li>
+    <li>KLast->岩崎</li>
+    <li>KLast->樱井</li>
+    <li>KLast->木下</li>
+    <li>KLast->野口</li>
+    <li>KLast->松尾</li>
+    <li>KLast->野村</li>
+    <li>KLast->菊池</li>
+    <li>KLast->佐野</li>
+    <li>KLast->大西</li>
+    <li>KLast->杉本</li>
+    <li>KLast->新井</li>
+    <li>KLast->陈</li>
+    <li>KLast->杜布瓦</li>
+    <li>KLast->马丁</li>
+    <li>KLast->拉维尼</li>
+    <li>KLast->加尼尔</li>
+    <li>KLast->杜邦</li>
+    <li>KLast->福尼耶</li>
+    <li>KLast->卢梭</li>
+    <li>KLast->方丹</li>
+    <li>KLast->阿尚博</li>
+    <li>KLast->勒菲弗</li>
+    <li>KLast->加涅</li>
+    <li>KLast->沙斯坦</li>
+    <li>KLast->德尚</li>
+    <li>KLast->阿弗琳</li>
+    <li>KLast->博蒙特</li>
+    <li>KLast->博索莱伊</li>
+    <li>KLast->博勒加德</li>
+    <li>KLast->贝多</li>
+    <li>KLast->贝尔弗耶</li>
+    <li>KLast->贝勒格勒德</li>
+    <li>KLast->贝尔肖</li>
+    <li>KLast->布朗谢</li>
+    <li>KLast->博内</li>
+    <li>KLast->勒塞尔夫</li>
+    <li>KLast->克莱尔</li>
+    <li>KLast->德利尔</li>
+    <li>KLast->德雅尔丹</li>
+    <li>KLast->费伊</li>
+    <li>KLast->勒博</li>
+    <li>KLast->黎塞留</li>
+    <li>KLast->杜桑</li>
+    <li>KLast->王</li>
+    <li>KLast->刘</li>
+    <li>KLast->黄</li>
+    <li>KLast->李</li>
+    <li>KLast->崔</li>
+    <li>KLast->吴</li>
+    <li>KLast->赵</li>
+    <li>KLast->孙</li>
+    <li>KLast->高</li>
+    <li>KLast->梁</li>
+    <li>KLast->程</li>
+    <li>KLast->方</li>
+    <li>KLast->薛</li>
+    <li>KLast->唐</li>
+    <li>KLast->童</li>
+    <li>KLast->麦克卡蒂</li>
+    <li>KLast->麦克布拉迪</li>
+    <li>KLast->麦克吉拉贝恩</li>
+    <li>KLast->奥谢</li>
+    <!-- ========== 名（KFirstName） ========== -->
+    <li>KFirstName-&gt;文子</li> <!-- Fumiko -->
+    <li>KFirstName-&gt;凯伊</li> <!-- Kayiegh -->
+    <li>KFirstName-&gt;维奥娜</li> <!-- Veona -->
+    <li>KFirstName-&gt;马丁琪</li> <!-- Martinqie -->
+    <li>KFirstName-&gt;梅丽莎</li> <!-- Melissa -->
+    <li>KFirstName-&gt;安娜</li> <!-- Anna -->
+    <li>KFirstName-&gt;可可萝</li> <!-- Kokoro -->
+    <li>KFirstName-&gt;贾斯汀</li> <!-- Justine -->
+    <li>KFirstName-&gt;贝雷奥娜</li> <!-- Berreona -->
+    <li>KFirstName-&gt;遥香</li> <!-- Haruka -->
+    <li>KFirstName-&gt;米科希</li> <!-- Mikoshi -->
+    <li>KFirstName-&gt;杰米</li> <!-- Jamie -->
+    <li>KFirstName-&gt;亚历山德拉</li> <!-- Alexandra -->
+    <li>KFirstName-&gt;埃莉奥娜</li> <!-- Eleona -->
+    <li>KFirstName-&gt;海</li> <!-- Umi -->
+    <li>KFirstName-&gt;玛丽安</li> <!-- Marian -->
+    <li>KFirstName-&gt;玛丽</li> <!-- Mari -->
+    <li>KFirstName-&gt;妮娜</li> <!-- Nina -->
+    <li>KFirstName-&gt;未花</li> <!-- Mika -->
+    <li>KFirstName-&gt;费伊</li> <!-- Fay -->
+    <li>KFirstName-&gt;凯瑟琳</li> <!-- Catherine -->
+    <li>KFirstName-&gt;艾玛</li> <!-- Emma -->
+    <li>KFirstName-&gt;美雪</li> <!-- Miyuki -->
+    <li>KFirstName-&gt;雏</li> <!-- Hina -->
+    <li>KFirstName-&gt;明里</li> <!-- Akari -->
+    <li>KFirstName-&gt;唯</li> <!-- Yui -->
+    <li>KFirstName-&gt;阳鞠</li> <!-- Himari -->
+    <li>KFirstName-&gt;一花</li> <!-- Ichika -->
+    <li>KFirstName-&gt;葵</li> <!-- Aoi -->
+    <li>KFirstName-&gt;莲</li> <!-- Ren -->
+    <li>KFirstName-&gt;由真</li> <!-- Yuma -->
+    <li>KFirstName-&gt;空</li> <!-- Sora -->
+    <li>KFirstName-&gt;玲央</li> <!-- Reo -->
+    <li>KFirstName-&gt;小春</li> <!-- Koharu -->
+    <li>KFirstName-&gt;芽衣</li> <!-- Mei -->
+    <li>KFirstName-&gt;穗乃花</li> <!-- Honoka -->
+    <li>KFirstName-&gt;桃花</li> <!-- Momoka -->
+    <li>KFirstName-&gt;梦</li> <!-- Yume -->
+    <li>KFirstName-&gt;爱梨</li> <!-- Airi -->
+    <li>KFirstName-&gt;彩花</li> <!-- Ayaka -->
+    <li>KFirstName-&gt;乃亚</li> <!-- Noa -->
+    <li>KFirstName-&gt;绫音</li> <!-- Ayane -->
+    <li>KFirstName-&gt;琉花</li> <!-- Ruka -->
+    <li>KFirstName-&gt;柚月</li> <!-- Yuzuki -->
+    <li>KFirstName-&gt;纱奈</li> <!-- Sana -->
+    <li>KFirstName-&gt;花</li> <!-- Hana -->
+    <li>KFirstName-&gt;花梨</li> <!-- Karin -->
+    <li>KFirstName-&gt;理沙</li> <!-- Risa -->
+    <li>KFirstName-&gt;夏树</li> <!-- Natsuki -->
+    <li>KFirstName-&gt;玲奈</li> <!-- Reina -->
+    <li>KFirstName-&gt;阿玛雅</li> <!-- Amaya -->
+    <li>KFirstName-&gt;惠美香</li> <!-- Emika -->
+    <li>KFirstName-&gt;惠里香</li> <!-- Erika -->
+    <li>KFirstName-&gt;加奈子</li> <!-- Kanako -->
+    <li>KFirstName-&gt;美里</li> <!-- Misato -->
+    <li>KFirstName-&gt;望</li> <!-- Nozomi -->
+    <li>KFirstName-&gt;仁子</li> <!-- Niko -->
+    <li>KFirstName-&gt;安</li> <!-- Yasu -->
+    <li>KFirstName-&gt;紬</li> <!-- Tsumugi -->
+    <li>KFirstName-&gt;咲花</li> <!-- Saika -->
+    <li>KFirstName-&gt;秋</li> <!-- Aki -->
+    <li>KFirstName-&gt;亚澄</li> <!-- Azumi -->
+    <li>KFirstName-&gt;八千子</li> <!-- Bachiko -->
+    <li>KFirstName-&gt;千花</li> <!-- Chika -->
+    <li>KFirstName-&gt;笑颜</li> <!-- Egao -->
+    <li>KFirstName-&gt;初花</li> <!-- Hatsuka -->
+    <li>KFirstName-&gt;伊祢</li> <!-- Ine -->
+    <li>KFirstName-&gt;勇</li> <!-- Isamu -->
+    <li>KFirstName-&gt;枫</li> <!-- Kaede -->
+    <li>KFirstName-&gt;国</li> <!-- Kuni -->
+    <li>KFirstName-&gt;镜</li> <!-- Kagami -->
+    <li>KFirstName-&gt;千岁</li> <!-- Chitose -->
+    <li>KFirstName-&gt;秀香</li> <!-- Hideka -->
+    <li>KFirstName-&gt;卡梅</li> <!-- Kame -->
+    <li>KFirstName-&gt;爱美</li> <!-- Manami -->
+    <li>KFirstName-&gt;瑞希</li> <!-- Mizuki -->
+    <li>KFirstName-&gt;道子</li> <!-- Michiko -->
+    <li>KFirstName-&gt;凯伊</li> <!-- Kei -->
+    <li>KFirstName-&gt;贵美子</li> <!-- Kimiko -->
+    <li>KFirstName-&gt;真智子</li> <!-- Machiko -->
+    <li>KFirstName-&gt;舞子</li> <!-- Maiko -->
+    <li>KFirstName-&gt;奈良</li> <!-- Nara -->
+    <li>KFirstName-&gt;玲子</li> <!-- Reiko -->
+    <li>KFirstName-&gt;玉子</li> <!-- Tamako -->
+    <li>KFirstName-&gt;由美</li> <!-- Yumi -->
+    <li>KFirstName-&gt;布里吉特</li> <!-- Bridgette -->
+    <li>KFirstName-&gt;克洛黛特</li> <!-- Claudette -->
+    <li>KFirstName-&gt;弗朗辛</li> <!-- Francine -->
+    <li>KFirstName-&gt;哈莱特</li> <!-- Halette -->
+    <li>KFirstName-&gt;朱丽叶</li> <!-- Juliette -->
+    <li>KFirstName-&gt;凯丝琳</li> <!-- Kathleen -->
+    <li>KFirstName-&gt;凯瑟琳</li> <!-- Kathryn -->
+    <li>KFirstName-&gt;琳内特</li> <!-- Lynette -->
+    <li>KFirstName-&gt;妮可莱特</li> <!-- Nicolette -->
+    <li>KFirstName-&gt;帕斯卡</li> <!-- Pascale -->
+    <li>KFirstName-&gt;罗莎蒙德</li> <!-- Rosamonde -->
+    <li>KFirstName-&gt;萝雪儿</li> <!-- Rachelle -->
+    <li>KFirstName-&gt;史黛拉</li> <!-- Stella -->
+    <li>KFirstName-&gt;崔妮特</li> <!-- Trinette -->
+    <li>KFirstName-&gt;维罗妮卡</li> <!-- Veronique -->
+    <li>KFirstName-&gt;维维安</li> <!-- Vivienne -->
+    <li>KFirstName-&gt;维涅塔</li> <!-- Vignetta -->
+    <li>KFirstName-&gt;诺埃米</li> <!-- Noemie -->
+    <li>KFirstName-&gt;朱丽叶</li> <!-- Juliette (重复) -->
+    <li>KFirstName-&gt;珂赛特</li> <!-- Cosette -->
+    <li>KFirstName-&gt;费耶特</li> <!-- Fayette -->
+    <li>KFirstName-&gt;米拉贝尔</li> <!-- Mirabelle -->
+    <li>KFirstName-&gt;萝塞特</li> <!-- Risette -->
+    <li>KFirstName-&gt;安娜斯塔茜</li> <!-- Anastasie -->
+    <li>KFirstName-&gt;里尔</li> <!-- Lille -->
+    <li>KFirstName-&gt;艾薇尔</li> <!-- Avryll -->
+    <li>KFirstName-&gt;卡普辛</li> <!-- Capucine -->
+    <li>KFirstName-&gt;席琳</li> <!-- Celine -->
+    <li>KFirstName-&gt;阿内莉丝</li> <!-- Anelise -->
+    <li>KFirstName-&gt;弗洛琳</li> <!-- Fleurine -->
+    <li>KFirstName-&gt;梅莉丝</li> <!-- Maelys -->
+    <li>KFirstName-&gt;安洁琳</li> <!-- Angeline -->
+    <li>KFirstName-&gt;奥蕾莉</li> <!-- Aurelie -->
+    <li>KFirstName-&gt;安吉莉卡</li> <!-- Angelique -->
+    <li>KFirstName-&gt;埃莱奥诺尔</li> <!-- Eleonore -->
+    <li>KFirstName-&gt;克拉丽丝</li> <!-- Clarisse -->
+    <li>KFirstName-&gt;埃洛伊丝</li> <!-- Heloise -->
+    <li>KFirstName-&gt;莱奥妮</li> <!-- Leonie -->
+    <li>KFirstName-&gt;维尔吉妮</li> <!-- Virginie -->
+    <li>KFirstName-&gt;露西尔</li> <!-- Lucile -->
+    <li>KFirstName-&gt;希亚拉</li> <!-- Ciara -->
+    <li>KFirstName-&gt;罗辛</li> <!-- Roisin -->
+    <li>KFirstName-&gt;克洛达</li> <!-- Clodagh -->
+    <li>KFirstName-&gt;利莎</li> <!-- Laoise -->
+    <li>KFirstName-&gt;奥拉</li> <!-- Orla -->
+    <li>KFirstName-&gt;格兰妮</li> <!-- Grainne -->
+    <li>KFirstName-&gt;凯莉特</li> <!-- Kayleight -->
+    <li>KFirstName-&gt;艾尔维</li> <!-- Ailbhe -->
+    <li>KFirstName-&gt;奥拉丝</li> <!-- Orlaith -->
+    <li>KFirstName-&gt;迪尔德丽</li> <!-- Deirdre -->
+    <li>KFirstName-&gt;阿伊努</li> <!-- Ainu -->
+    <li>KFirstName-&gt;爱也</li> <!-- Aiya -->
+    <li>KFirstName-&gt;赤花</li> <!-- Akahanna -->
+    <li>KFirstName-&gt;天照</li> <!-- Amaterasu -->
+    <li>KFirstName-&gt;杏</li> <!-- Anzu -->
+    <li>KFirstName-&gt;阿苏加</li> <!-- Asuga -->
+    <li>KFirstName-&gt;千夏</li> <!-- Chinatsu -->
+    <li>KFirstName-&gt;中也</li> <!-- Chuya -->
+    <li>KFirstName-&gt;惠美佳</li> <!-- Emica -->
+    <li>KFirstName-&gt;江岛</li> <!-- Eshima -->
+    <li>KFirstName-&gt;悦都</li> <!-- Etsudo -->
+    <li>KFirstName-&gt;春</li> <!-- Haru -->
+    <li>KFirstName-&gt;春江</li> <!-- Harue -->
+    <li>KFirstName-&gt;春士</li> <!-- Harushi -->
+    <li>KFirstName-&gt;春子</li> <!-- Haruko -->
+    <li>KFirstName-&gt;春美</li> <!-- Harumi -->
+    <li>KFirstName-&gt;初桃</li> <!-- Hatsumomo -->
+    <li>KFirstName-&gt;速水</li> <!-- Hayami -->
+    <li>KFirstName-&gt;光</li> <!-- Hikari -->
+    <li>KFirstName-&gt;广美</li> <!-- Hiromi -->
+    <li>KFirstName-&gt;星子</li> <!-- Hoshiko -->
+    <li>KFirstName-&gt;胡米亚</li> <!-- Humiya -->
+    <li>KFirstName-&gt;伊斯马乌</li> <!-- Ismau -->
+    <li>KFirstName-&gt;泉</li> <!-- Izumi -->
+    <li>KFirstName-&gt;海里</li> <!-- Kairi -->
+    <li>KFirstName-&gt;凯亚</li> <!-- Kaiya -->
+    <li>KFirstName-&gt;花音</li> <!-- Kanon -->
+    <li>KFirstName-&gt;胜木</li> <!-- Katsuki -->
+    <li>KFirstName-&gt;和子</li> <!-- Kazuko -->
+    <li>KFirstName-&gt;和美</li> <!-- Kazumi -->
+    <li>KFirstName-&gt;庆奈</li> <!-- Keina -->
+    <li>KFirstName-&gt;菊</li> <!-- Kiku -->
+    <li>KFirstName-&gt;桐香</li> <!-- Kirika -->
+    <li>KFirstName-&gt;小花</li> <!-- Kohanna -->
+    <li>KFirstName-&gt;久美</li> <!-- Kumi -->
+    <li>KFirstName-&gt;久美子</li> <!-- Kumiko -->
+    <li>KFirstName-&gt;正惠</li> <!-- Masae -->
+    <li>KFirstName-&gt;正美</li> <!-- Masami -->
+    <li>KFirstName-&gt;真澄</li> <!-- Masumi -->
+    <li>KFirstName-&gt;真由</li> <!-- Mayu -->
+    <li>KFirstName-&gt;惠</li> <!-- Megami -->
+    <li>KFirstName-&gt;美穗子</li> <!-- Mihoko -->
+    <li>KFirstName-&gt;南</li> <!-- Minami -->
+    <li>KFirstName-&gt;未来</li> <!-- Mirai -->
+    <li>KFirstName-&gt;米莎</li> <!-- Misa -->
+    <li>KFirstName-&gt;美佐子</li> <!-- Misako -->
+    <li>KFirstName-&gt;缪</li> <!-- Miu -->
+    <li>KFirstName-&gt;红叶</li> <!-- Momiji -->
+    <li>KFirstName-&gt;森香</li> <!-- Morika -->
+    <li>KFirstName-&gt;直</li> <!-- Nao -->
+    <li>KFirstName-&gt;成子</li> <!-- Nariko -->
+    <li>KFirstName-&gt;夏美</li> <!-- Natsumi -->
+    <li>KFirstName-&gt;尼奥科</li> <!-- Nyoko -->
+    <li>KFirstName-&gt;冈见</li> <!-- Okimi -->
+    <li>KFirstName-&gt;丽</li> <!-- Rei -->
+    <li>KFirstName-&gt;理惠</li> <!-- Rie -->
+    <li>KFirstName-&gt;凛</li> <!-- Rin -->
+    <li>KFirstName-&gt;留美</li> <!-- Rumi -->
+    <li>KFirstName-&gt;幸</li> <!-- Sachi -->
+    <li>KFirstName-&gt;贞</li> <!-- Sada -->
+    <li>KFirstName-&gt;赛优娅</li> <!-- Saiua -->
+    <li>KFirstName-&gt;佐久</li> <!-- Saku -->
+    <li>KFirstName-&gt;纱织</li> <!-- Saori -->
+    <li>KFirstName-&gt;三由</li> <!-- Sanyu -->
+    <li>KFirstName-&gt;沙耶香</li> <!-- Sayaka -->
+    <li>KFirstName-&gt;小百合</li> <!-- Sayuri -->
+    <li>KFirstName-&gt;圣奈</li> <!-- Seina -->
+    <li>KFirstName-&gt;希尼夸</li> <!-- Shiniqua -->
+    <li>KFirstName-&gt;空</li> <!-- Sora (重复) -->
+    <li>KFirstName-&gt;空野</li> <!-- Sorano -->
+    <li>KFirstName-&gt;澄子</li> <!-- Sumiko -->
+    <li>KFirstName-&gt;泷</li> <!-- Taki -->
+    <li>KFirstName-&gt;灵奈</li> <!-- Tamashini -->
+    <li>KFirstName-&gt;龙央</li> <!-- Tatsuo -->
+    <li>KFirstName-&gt;照子</li> <!-- Teruko -->
+    <li>KFirstName-&gt;椿</li> <!-- Tsubaki -->
+    <li>KFirstName-&gt;月子</li> <!-- Tsukiko -->
+    <li>KFirstName-&gt;兔乃</li> <!-- Usagi -->
+    <li>KFirstName-&gt;若菜</li> <!-- Wakana -->
+    <li>KFirstName-&gt;吉野</li> <!-- Yoshino -->
+    <li>KFirstName-&gt;由香</li> <!-- Yuka -->
+    <li>KFirstName-&gt;雪</li> <!-- Yuki -->
+    <li>KFirstName-&gt;由奈</li> <!-- Yuna -->
+    <li>KFirstName-&gt;百合</li> <!-- Yuri -->
+
+    <!-- ========== 昵称（KNickname） ========== -->
+    <li>KNickname-&gt;猫女士</li> <!-- Catlady -->
+    <li>KNickname-&gt;囤猫狂</li> <!-- CatHoarder -->
+    <li>KNickname-&gt;毛团</li> <!-- Furballs -->
+    <li>KNickname-&gt;爪子</li> <!-- Claws -->
+    <li>KNickname-&gt;尾巴</li> <!-- Tails -->
+    <li>KNickname-&gt;猫粮</li> <!-- Kibbles -->
+    <li>KNickname-&gt;枕头</li> <!-- Pillows -->
+    <li>KNickname-&gt;苹果</li> <!-- Apples -->
+    <li>KNickname-&gt;小蜜蜂</li> <!-- Bees -->
+    <li>KNickname-&gt;厨师</li> <!-- Chef -->
+    <li>KNickname-&gt;修理工</li> <!-- Fixer -->
+    <li>KNickname-&gt;酒保</li> <!-- Barkeep -->
+    <li>KNickname-&gt;靶心</li> <!-- Target -->
+    <li>KNickname-&gt;鸟巢</li> <!-- Birdnest -->
+    <li>KNickname-&gt;巧克力怪物</li> <!-- ChocoMonster -->
+    <li>KNickname-&gt;打嗝</li> <!-- Burps -->
+    <li>KNickname-&gt;老六</li> <!-- Camper -->
+    <li>KNickname-&gt;小猫们</li> <!-- Kitters -->
+    <li>KNickname-&gt;心碎</li> <!-- HeartBreak -->
+    <li>KNickname-&gt;爱</li> <!-- Love -->
+    <li>KNickname-&gt;海妖</li> <!-- Siren -->
+    <li>KNickname-&gt;剑</li> <!-- Jian -->
+    <li>KNickname-&gt;馅饼</li> <!-- Pies -->
+    <li>KNickname-&gt;蛋糕</li> <!-- Cake -->
+    <li>KNickname-&gt;培根</li> <!-- Bacon -->
+    <li>KNickname-&gt;狐狸精</li> <!-- Foxy -->
+    <li>KNickname-&gt;绒毛</li> <!-- Fluff -->
+    <li>KNickname-&gt;脚蹼</li> <!-- Flippers -->
+    <li>KNickname-&gt;技术支持</li> <!-- TechSupport -->
+    <li>KNickname-&gt;客服</li> <!-- CustomerService -->
+    <li>KNickname-&gt;幽灵</li> <!-- Ghost -->
+    <li>KNickname-&gt;嗜睡</li> <!-- Sleepy -->
+    <li>KNickname-&gt;暴躁</li> <!-- Cranky -->
+    <li>KNickname-&gt;三明治</li> <!-- Sandwiches -->
+    <li>KNickname-&gt;子弹</li> <!-- Bullet -->
+    <li>KNickname-&gt;阿姨</li> <!-- Auntie -->
+    <li>KNickname-&gt;妈妈</li> <!-- Mom -->
+    <li>KNickname-&gt;鳟鱼</li> <!-- Trout -->
+    <li>KNickname-&gt;泳裤</li> <!-- Speedo -->
+    <li>KNickname-&gt;手指</li> <!-- Fingers -->
+    <li>KNickname-&gt;砰砰</li> <!-- Bang Bang -->
+    <li>KNickname-&gt;短管</li> <!-- Sawed Off -->
+    <li>KNickname-&gt;时髦</li> <!-- Funky -->
+    <li>KNickname-&gt;花朵</li> <!-- Flowers -->
+    <li>KNickname-&gt;小猫</li> <!-- Koneko -->
+    <li>KNickname-&gt;猫咪</li> <!-- Nekos -->
+    <li>KNickname-&gt;麻雀</li> <!-- Sparrow -->
+    <li>KNickname-&gt;猎鹰</li> <!-- Falcon -->
+    <li>KNickname-&gt;潜伏</li> <!-- Lurk -->
+    <li>KNickname-&gt;鸽子</li> <!-- Pigeon -->
+    <li>KNickname-&gt;跳跃</li> <!-- Jumpy -->
+    <li>KNickname-&gt;活泼</li> <!-- Skippy -->
+    <li>KNickname-&gt;扑克</li> <!-- Poker -->
+    <li>KNickname-&gt;鱼</li> <!-- Fish -->
+    <li>KNickname-&gt;笨蛋</li> <!-- Baka -->
+    <li>KNickname-&gt;辛辣</li> <!-- Spicy -->
+    <li>KNickname-&gt;法国人</li> <!-- French -->
+    <li>KNickname-&gt;可颂</li> <!-- Crossants -->
+    <li>KNickname-&gt;奶酪</li> <!-- Cheese -->
+    <li>KNickname-&gt;饭团</li> <!-- Riceball -->
+    <li>KNickname-&gt;钱袋</li> <!-- MoneyBags -->
+    <li>KNickname-&gt;纸巾</li> <!-- Tissue -->
+    <li>KNickname-&gt;扫兴者</li> <!-- Wetblanket -->
+    <li>KNickname-&gt;耳朵</li> <!-- Ears -->
+    <li>KNickname-&gt;舌头</li> <!-- Tougue -->
+    <li>KNickname-&gt;英国人</li> <!-- British -->
+    <li>KNickname-&gt;酱油</li> <!-- Soysauce -->
+    <li>KNickname-&gt;可爱</li> <!-- Lovely -->
+    <li>KNickname-&gt;甜蜜</li> <!-- Sweet -->
+    <li>KNickname-&gt;茶包</li> <!-- Teabags -->
+    <li>KNickname-&gt;蛋卷</li> <!-- Eggroll -->
+    <li>KNickname-&gt;桃子</li> <!-- Peaches -->
+    <li>KNickname-&gt;薯片</li> <!-- Chips -->
+    <li>KNickname-&gt;呆萌</li> <!-- Derptastic -->
+    <li>KNickname-&gt;模仿者</li> <!-- Copycat -->
+    <li>KNickname-&gt;电线</li> <!-- Wires -->
+    <li>KNickname-&gt;黑客</li> <!-- Hacker -->
+    <li>KNickname-&gt;金色</li> <!-- Golden -->
+    <li>KNickname-&gt;豆子</li> <!-- Beans -->
+    <li>KNickname-&gt;酷哥</li> <!-- Coolios -->
+    <li>KNickname-&gt;达卡</li> <!-- Darka -->
+    <li>KNickname-&gt;连衣裙</li> <!-- Dresses -->
+    <li>KNickname-&gt;花边</li> <!-- Frills -->
+    <li>KNickname-&gt;懒惰</li> <!-- Lazy -->
+    <li>KNickname-&gt;快乐</li> <!-- Happy -->
+    <li>KNickname-&gt;精神饱满</li> <!-- Peppy -->
+    <li>KNickname-&gt;闪亮</li> <!-- Shinny -->
+    <li>KNickname-&gt;未来</li> <!-- Miku -->
+    <li>KNickname-&gt;你好</li> <!-- Hola -->
+    <li>KNickname-&gt;职员</li> <!-- Clerk -->
+    <li>KNickname-&gt;炸弹</li> <!-- Bombs -->
+    <li>KNickname-&gt;教练</li> <!-- Trainer -->
+    <li>KNickname-&gt;教练</li> <!-- Coach (重复) -->
+    <li>KNickname-&gt;书虫</li> <!-- Bookworm -->
+    <li>KNickname-&gt;罂粟</li> <!-- Poppy -->
+    <li>KNickname-&gt;老鼠</li> <!-- Mouse -->
+    <li>KNickname-&gt;大鼠</li> <!-- Rat -->
+    <li>KNickname-&gt;咚</li> <!-- Boink -->
+    <li>KNickname-&gt;花絮</li> <!-- Bloopers -->
+    <li>KNickname-&gt;挠挠</li> <!-- Scratchy -->
+    <li>KNickname-&gt;喵喵</li> <!-- Meows -->
+    <li>KNickname-&gt;午睡</li> <!-- Naptime -->
+    <li>KNickname-&gt;硕大无比</li> <!-- Ginormous -->
+    <li>KNickname-&gt;泰坦尼克</li> <!-- Titanic -->
+    <li>KNickname-&gt;强盗</li> <!-- Bandit -->
+    <li>KNickname-&gt;跳跳</li> <!-- Hopper -->
+    <li>KNickname-&gt;测试员</li> <!-- Tester -->
+    <li>KNickname-&gt;王牌</li> <!-- Ace -->
+    <li>KNickname-&gt;葡萄酒</li> <!-- Wines -->
+    <li>KNickname-&gt;多毛</li> <!-- Hairy -->
+    <li>KNickname-&gt;爱意</li> <!-- Loving -->
+    <li>KNickname-&gt;软心肠</li> <!-- Softie -->
+    <li>KNickname-&gt;毛茸茸</li> <!-- Fluffy -->
+    <li>KNickname-&gt;珠宝</li> <!-- Jewels -->
+    <li>KNickname-&gt;中士</li> <!-- Sergent -->
+    <li>KNickname-&gt;丝滑</li> <!-- Silky -->
+    <li>KNickname-&gt;光滑</li> <!-- Smooth -->
+    <li>KNickname-&gt;臭烘烘</li> <!-- Smelly -->
+    <li>KNickname-&gt;吱吱</li> <!-- Squeeky -->
+    <li>KNickname-&gt;棒球</li> <!-- Baseball -->
+
+    <!-- ========== 姓（KLastName） ========== -->
+    <li>KLastName-&gt;史密斯</li> <!-- Smithe -->
+    <li>KLastName-&gt;斋藤</li> <!-- Saito -->
+    <li>KLastName-&gt;中村</li> <!-- Nakamura -->
+    <li>KLastName-&gt;山本</li> <!-- Yamamoto -->
+    <li>KLastName-&gt;伊藤</li> <!-- Ito -->
+    <li>KLastName-&gt;田中</li> <!-- Tanaka -->
+    <li>KLastName-&gt;濑户</li> <!-- Seto -->
+    <li>KLastName-&gt;铃木</li> <!-- Suzuki -->
+    <li>KLastName-&gt;高桥</li> <!-- Takahashi -->
+    <li>KLastName-&gt;加藤</li> <!-- Kato -->
+    <li>KLastName-&gt;吉田</li> <!-- Yoshida -->
+    <li>KLastName-&gt;山田</li> <!-- Yamada -->
+    <li>KLastName-&gt;佐佐木</li> <!-- Sasaki -->
+    <li>KLastName-&gt;山口</li> <!-- Yamaguchi -->
+    <li>KLastName-&gt;松本</li> <!-- Matsumoto -->
+    <li>KLastName-&gt;井上</li> <!-- Inoue -->
+    <li>KLastName-&gt;木村</li> <!-- Kimura -->
+    <li>KLastName-&gt;林</li> <!-- Hayashi -->
+    <li>KLastName-&gt;清水</li> <!-- Shimizu -->
+    <li>KLastName-&gt;山崎</li> <!-- Yamazaki -->
+    <li>KLastName-&gt;森</li> <!-- Mori -->
+    <li>KLastName-&gt;安倍</li> <!-- Abe -->
+    <li>KLastName-&gt;池田</li> <!-- Ikeda -->
+    <li>KLastName-&gt;桥本</li> <!-- Hashimoto -->
+    <li>KLastName-&gt;山下</li> <!-- Yamashita -->
+    <li>KLastName-&gt;石川</li> <!-- Ishikawa -->
+    <li>KLastName-&gt;中岛</li> <!-- Nakajima -->
+    <li>KLastName-&gt;前田</li> <!-- Maeda -->
+    <li>KLastName-&gt;藤田</li> <!-- Fujita -->
+    <li>KLastName-&gt;小川</li> <!-- Ogawa -->
+    <li>KLastName-&gt;后藤</li> <!-- Goto -->
+    <li>KLastName-&gt;冈田</li> <!-- Okada -->
+    <li>KLastName-&gt;长谷川</li> <!-- Hasegawa -->
+    <li>KLastName-&gt;村上</li> <!-- Murakami -->
+    <li>KLastName-&gt;近藤</li> <!-- Kondo -->
+    <li>KLastName-&gt;石井</li> <!-- Ishii -->
+    <li>KLastName-&gt;坂本</li> <!-- Sakamoto -->
+    <li>KLastName-&gt;远藤</li> <!-- Endo -->
+    <li>KLastName-&gt;青木</li> <!-- Aoki -->
+    <li>KLastName-&gt;藤井</li> <!-- Fujii -->
+    <li>KLastName-&gt;西村</li> <!-- Nishimura -->
+    <li>KLastName-&gt;福田</li> <!-- Fukuda -->
+    <li>KLastName-&gt;太田</li> <!-- Ota -->
+    <li>KLastName-&gt;三浦</li> <!-- Miura -->
+    <li>KLastName-&gt;藤原</li> <!-- Fujiwara -->
+    <li>KLastName-&gt;冈本</li> <!-- Okamoto -->
+    <li>KLastName-&gt;松田</li> <!-- Matsuda -->
+    <li>KLastName-&gt;中川</li> <!-- Nakagawa -->
+    <li>KLastName-&gt;中野</li> <!-- Nakano -->
+    <li>KLastName-&gt;原田</li> <!-- Harada -->
+    <li>KLastName-&gt;小野</li> <!-- Ono -->
+    <li>KLastName-&gt;田村</li> <!-- Tamura -->
+    <li>KLastName-&gt;竹内</li> <!-- Takeuchi -->
+    <li>KLastName-&gt;金子</li> <!-- Kaneko -->
+    <li>KLastName-&gt;和田</li> <!-- Wada -->
+    <li>KLastName-&gt;中山</li> <!-- Nakayama -->
+    <li>KLastName-&gt;石田</li> <!-- Ishida -->
+    <li>KLastName-&gt;上田</li> <!-- Ueda -->
+    <li>KLastName-&gt;森田</li> <!-- Morita -->
+    <li>KLastName-&gt;原</li> <!-- Hara -->
+    <li>KLastName-&gt;柴田</li> <!-- Shibata -->
+    <li>KLastName-&gt;酒井</li> <!-- Sakai -->
+    <li>KLastName-&gt;工藤</li> <!-- Kudo -->
+    <li>KLastName-&gt;横山</li> <!-- Yokoyama -->
+    <li>KLastName-&gt;宫崎</li> <!-- Miyazaki -->
+    <li>KLastName-&gt;宫本</li> <!-- Miyamoto -->
+    <li>KLastName-&gt;内田</li> <!-- Uchida -->
+    <li>KLastName-&gt;高木</li> <!-- Takagi -->
+    <li>KLastName-&gt;安藤</li> <!-- Ando -->
+    <li>KLastName-&gt;谷口</li> <!-- Taniguchi -->
+    <li>KLastName-&gt;大野</li> <!-- Ohno -->
+    <li>KLastName-&gt;丸山</li> <!-- Maruyama -->
+    <li>KLastName-&gt;今井</li> <!-- Imai -->
+    <li>KLastName-&gt;高田</li> <!-- Takada -->
+    <li>KLastName-&gt;藤本</li> <!-- Fujimoto -->
+    <li>KLastName-&gt;武田</li> <!-- Takeda -->
+    <li>KLastName-&gt;村田</li> <!-- Murata -->
+    <li>KLastName-&gt;上野</li> <!-- Ueno -->
+    <li>KLastName-&gt;杉山</li> <!-- Sugiyama -->
+    <li>KLastName-&gt;增田</li> <!-- Masuda -->
+    <li>KLastName-&gt;菅原</li> <!-- Sugawara -->
+    <li>KLastName-&gt;平野</li> <!-- Hirano -->
+    <li>KLastName-&gt;小岛</li> <!-- Kojima -->
+    <li>KLastName-&gt;大冢</li> <!-- Otsuka -->
+    <li>KLastName-&gt;千叶</li> <!-- Chiba -->
+    <li>KLastName-&gt;久保</li> <!-- Kubo -->
+    <li>KLastName-&gt;松井</li> <!-- Matsui -->
+    <li>KLastName-&gt;岩崎</li> <!-- Iwasaki -->
+    <li>KLastName-&gt;樱井</li> <!-- Sakurai -->
+    <li>KLastName-&gt;木下</li> <!-- Kinoshita -->
+    <li>KLastName-&gt;野口</li> <!-- Noguchi -->
+    <li>KLastName-&gt;松尾</li> <!-- Matsuo -->
+    <li>KLastName-&gt;野村</li> <!-- Nomura -->
+    <li>KLastName-&gt;菊池</li> <!-- Kikuchi -->
+    <li>KLastName-&gt;佐野</li> <!-- Sano -->
+    <li>KLastName-&gt;大西</li> <!-- Onishi -->
+    <li>KLastName-&gt;杉本</li> <!-- Sugimoto -->
+    <li>KLastName-&gt;新井</li> <!-- Arai -->
+    <li>KLastName-&gt;陈</li> <!-- Chan -->
+    <li>KLastName-&gt;杜布瓦</li> <!-- Dubois -->
+    <li>KLastName-&gt;马丁</li> <!-- Martin -->
+    <li>KLastName-&gt;拉维尼</li> <!-- Lavigne -->
+    <li>KLastName-&gt;加尼尔</li> <!-- Garnier -->
+    <li>KLastName-&gt;杜邦</li> <!-- Dupont -->
+    <li>KLastName-&gt;福尼耶</li> <!-- Fournier -->
+    <li>KLastName-&gt;卢梭</li> <!-- Rousseau -->
+    <li>KLastName-&gt;方丹</li> <!-- Fontaine -->
+    <li>KLastName-&gt;阿尚博</li> <!-- Archambeau -->
+    <li>KLastName-&gt;勒菲弗</li> <!-- Lefebvre (原带空格，注释保留) -->
+    <li>KLastName-&gt;加涅</li> <!-- Gagne -->
+    <li>KLastName-&gt;沙斯坦</li> <!-- Chastain -->
+    <li>KLastName-&gt;德尚</li> <!-- Deschamps -->
+    <li>KLastName-&gt;阿弗琳</li> <!-- Aveline -->
+    <li>KLastName-&gt;博蒙特</li> <!-- Beaumont -->
+    <li>KLastName-&gt;博索莱伊</li> <!-- Beausoleil -->
+    <li>KLastName-&gt;博勒加德</li> <!-- Beauregard -->
+    <li>KLastName-&gt;贝多</li> <!-- Bedeau -->
+    <li>KLastName-&gt;贝尔弗耶</li> <!-- Bellefeuille -->
+    <li>KLastName-&gt;贝勒格勒德</li> <!-- Bellegrade -->
+    <li>KLastName-&gt;贝尔肖</li> <!-- Belshaw -->
+    <li>KLastName-&gt;布朗谢</li> <!-- Blanchet -->
+    <li>KLastName-&gt;博内</li> <!-- Bonnet -->
+    <li>KLastName-&gt;勒塞尔夫</li> <!-- Le Cerf -->
+    <li>KLastName-&gt;克莱尔</li> <!-- Clair -->
+    <li>KLastName-&gt;德利尔</li> <!-- Delisle -->
+    <li>KLastName-&gt;德雅尔丹</li> <!-- Desjardins -->
+    <li>KLastName-&gt;费伊</li> <!-- Fay -->
+    <li>KLastName-&gt;勒博</li> <!-- Le Beau -->
+    <li>KLastName-&gt;黎塞留</li> <!-- Richelieu -->
+    <li>KLastName-&gt;杜桑</li> <!-- Toussaint -->
+    <li>KLastName-&gt;王</li> <!-- Wang -->
+    <li>KLastName-&gt;刘</li> <!-- Liu -->
+    <li>KLastName-&gt;黄</li> <!-- Huang -->
+    <li>KLastName-&gt;李</li> <!-- Li -->
+    <li>KLastName-&gt;崔</li> <!-- Choi -->
+    <li>KLastName-&gt;吴</li> <!-- Wu -->
+    <li>KLastName-&gt;赵</li> <!-- Zhao -->
+    <li>KLastName-&gt;孙</li> <!-- Sun -->
+    <li>KLastName-&gt;高</li> <!-- Gao -->
+    <li>KLastName-&gt;梁</li> <!-- Laing -->
+    <li>KLastName-&gt;程</li> <!-- Cheng -->
+    <li>KLastName-&gt;方</li> <!-- Fang -->
+    <li>KLastName-&gt;薛</li> <!-- Xue -->
+    <li>KLastName-&gt;唐</li> <!-- Tang -->
+    <li>KLastName-&gt;童</li> <!-- Tong -->
+    <li>KLastName-&gt;麦克卡蒂</li> <!-- Mac Carthaigh -->
+    <li>KLastName-&gt;麦克布拉迪</li> <!-- Mac Brádaigh -->
+    <li>KLastName-&gt;麦克吉拉贝恩</li> <!-- Mac Giolla Bháin -->
+    <li>KLastName-&gt;奥谢</li> <!-- Ó Séaghdha -->
+  </KurinNameUtility.rulePack.rulesStrings>
+  
+  <NamerPerson_Kurin.rulePack.rulesStrings.0>r_name(p=2)-&gt;[KFirstName] '[KNickname]' [KLastName]</NamerPerson_Kurin.rulePack.rulesStrings.0>
+  <NamerPerson_Kurin.rulePack.rulesStrings.1>r_name(p=4)-&gt;[KFirstName] [KLastName]</NamerPerson_Kurin.rulePack.rulesStrings.1>
+
+</LanguageData>

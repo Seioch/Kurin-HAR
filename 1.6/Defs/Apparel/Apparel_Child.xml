@@ -109,6 +109,7 @@
 			<li>Shoulders</li>
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/ChildSweater/Texture</wornGraphicPath>
+		<shellRenderedBehindHead>true</shellRenderedBehindHead>
 	</apparel>
 	<recipeMaker>
 		<researchPrerequisites>

@@ -8,10 +8,15 @@
     <apparelRequired>
       <li>Kurin_Underwear</li>
     </apparelRequired>
-	<apparelIgnoreSeasons>false</apparelIgnoreSeasons>
-	<initialWillRange>3~5</initialWillRange>
-	<initialResistanceRange>6~10</initialResistanceRange>
-	<gearHealthRange>0.3~0.6</gearHealthRange>
+    <apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+    <initialWillRange>3~5</initialWillRange>
+    <initialResistanceRange>6~10</initialResistanceRange>
+    <gearHealthRange>0.3~0.6</gearHealthRange>
+    <xenotypeSet>
+      <xenotypeChances>
+        <KurinXenotype MayRequire="Ludeon.RimWorld.Biotech">999</KurinXenotype>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   
    <PawnKindDef ParentName="Kurin_HostileBase">

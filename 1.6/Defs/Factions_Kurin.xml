@@ -40,8 +40,8 @@
       <li>ClassicStartTechprints</li>
     </startingTechprintsResearchTags>
     <!-- <styleTags> 
-		<li>Kurin</li>
-	</styleTags> -->
+		  <li>Kurin</li>
+	  </styleTags> -->
     <apparelStuffFilter>
       <thingDefs>
         <li>DevilstrandCloth</li>
@@ -50,6 +50,11 @@
         <li>WoolMuffalo</li>
       </thingDefs>
     </apparelStuffFilter>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <KurinXenotype MayRequire="Ludeon.RimWorld.Biotech">999</KurinXenotype>
+      </xenotypeChances>
+    </xenotypeSet>
   </FactionDef>
 
   <FactionDef ParentName="FactionBase">
@@ -236,6 +241,11 @@
       </li>
     </pawnGroupMakers>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <KurinXenotype MayRequire="Ludeon.RimWorld.Biotech">999</KurinXenotype>
+      </xenotypeChances>
+    </xenotypeSet>
   </FactionDef>
 
   <FactionDef ParentName="FactionBase">
@@ -421,6 +431,10 @@
       </li>
     </pawnGroupMakers>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <KurinXenotype MayRequire="Ludeon.RimWorld.Biotech">999</KurinXenotype>
+      </xenotypeChances>
+    </xenotypeSet>
   </FactionDef>
-
 </Defs>
