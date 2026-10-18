@@ -4,7 +4,7 @@
 		<defName>DRNTF_Hair_01</defName>
 		<label>Kurin_Hair_01</label>
 		<hairGender>Any</hairGender>
-		<texPath>Kurin/Hairs/1/DRNTF_Hair_01</texPath>
+		<texPath>Kurin/Hairs/1/KurinHair</texPath>
 		<styleTags>
 			<li>Kurin</li>
 		</styleTags>
@@ -14,7 +14,7 @@
 		<defName>DRNTF_Hair_02</defName>
 		<label>Kurin_Hair_02</label>
 		<hairGender>Any</hairGender>
-		<texPath>Kurin/Hairs/2/DRNTF_Hair_02</texPath>
+		<texPath>Kurin/Hairs/2/KurinHair1</texPath>
 		<styleTags>
 			<li>Kurin</li>
 		</styleTags>
@@ -24,7 +24,7 @@
 		<defName>DRNTF_Hair_03</defName>
 		<label>Kurin_Hair_03</label>
 		<hairGender>Any</hairGender>
-		<texPath>Kurin/Hairs/3/DRNTF_Hair_03</texPath>
+		<texPath>Kurin/Hairs/3/KurinHair2</texPath>
 		<styleTags>
 			<li>Kurin</li>
 		</styleTags>
@@ -34,7 +34,7 @@
 		<defName>DRNTF_Hair_04</defName>
 		<label>Kurin_Hair_04</label>
 		<hairGender>Any</hairGender>
-		<texPath>Kurin/Hairs/4/DRNTF_Hair_04</texPath>
+		<texPath>Kurin/Hairs/4/KurinHair3</texPath>
 		<styleTags>
 			<li>Kurin</li>
 		</styleTags>
@@ -44,7 +44,7 @@
 		<defName>DRNTF_Hair_05</defName>
 		<label>Kurin_Hair_05</label>
 		<hairGender>Any</hairGender>
-		<texPath>Kurin/Hairs/5/DRNTF_Hair_05</texPath>
+		<texPath>Kurin/Hairs/5/KurinHair4</texPath>
 		<styleTags>
 			<li>Kurin</li>
 		</styleTags>
@@ -54,7 +54,7 @@
 		<defName>DRNTF_Hair_06</defName>
 		<label>Kurin_Hair_06</label>
 		<hairGender>Any</hairGender>
-		<texPath>Kurin/Hairs/6/DRNTF_Hair_06</texPath>
+		<texPath>Kurin/Hairs/6/KurinHair5</texPath>
 		<styleTags>
 			<li>Kurin</li>
 		</styleTags>
@@ -64,7 +64,7 @@
 		<defName>DRNTF_Hair_07</defName>
 		<label>Kurin_Hair_07</label>
 		<hairGender>Any</hairGender>
-		<texPath>Kurin/Hairs/7/DRNTF_Hair_07</texPath>
+		<texPath>Kurin/Hairs/7/KurinHair6</texPath>
 		<styleTags>
 			<li>Kurin</li>
 		</styleTags>
@@ -74,7 +74,7 @@
 		<defName>DRNTF_Hair_08</defName>
 		<label>Kurin_Hair_08</label>
 		<hairGender>Any</hairGender>
-		<texPath>Kurin/Hairs/8/DRNTF_Hair_08</texPath>
+		<texPath>Kurin/Hairs/8/KurinHair7</texPath>
 		<styleTags>
 			<li>Kurin</li>
 		</styleTags>
@@ -84,7 +84,7 @@
 		<defName>DRNTF_Hair_09</defName>
 		<label>Kurin_Hair_09</label>
 		<hairGender>Any</hairGender>
-		<texPath>Kurin/Hairs/9/DRNTF_Hair_09</texPath>
+		<texPath>Kurin/Hairs/9/KurinHair8</texPath>
 		<styleTags>
 			<li>Kurin</li>
 		</styleTags>
@@ -94,7 +94,7 @@
 		<defName>DRNTF_Hair_10</defName>
 		<label>Kurin_Hair_10</label>
 		<hairGender>Any</hairGender>
-		<texPath>Kurin/Hairs/10/DRNTF_Hair_10</texPath>
+		<texPath>Kurin/Hairs/10/KurinHair9</texPath>
 		<styleTags>
 			<li>Kurin</li>
 		</styleTags>
@@ -104,7 +104,7 @@
 		<defName>DRNTF_Hair_11</defName>
 		<label>Kurin_Hair_11</label>
 		<hairGender>Any</hairGender>
-		<texPath>Kurin/Hairs/11/DRNTF_Hair_11</texPath>
+		<texPath>Kurin/Hairs/11/KurinHair10</texPath>
 		<styleTags>
 			<li>Kurin</li>
 		</styleTags>

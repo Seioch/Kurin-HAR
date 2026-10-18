@@ -39,7 +39,7 @@
     <NegotiationAbility>1.2</NegotiationAbility>
   </statFactors>
   <statOffsets>
-    <Beauty>1</Beauty>
+    <PawnBeauty>2</PawnBeauty>
   </statOffsets>
   <biostatMet>-1</biostatMet>
     <exclusionTags>
@@ -79,7 +79,7 @@
   <iconPath>Kurin/Gene/Kurin_Fertile</iconPath>
   <description>Carriers of this gene possess both remarkable fertility and a sublime embrace that heightens the joy brought from lovin'.</description>
   <statFactors>
-    <Fertility>2.0</Fertility>
+    <Fertility>1.5</Fertility>
   </statFactors>
   <customEffectDescriptions>
     <li>Partners gain an additional +4 mood moodlet after lovin'.</li>
@@ -90,7 +90,7 @@
 
 <ThoughtDef>
   <defName>Kurin_FertileMemory</defName>
-    <thoughtClass>Thought_Memory</thoughtClass>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
     <durationDays>5</durationDays>
     <stackLimit>5</stackLimit>
     <developmentalStageFilter>Adult</developmentalStageFilter>

@@ -34,5 +34,10 @@
     <invFoodDef>Pemmican</invFoodDef>
     <initialWillRange>0~0</initialWillRange>
     <initialResistanceRange>10~17</initialResistanceRange>
+    <xenotypeSet>
+      <xenotypeChances>
+        <KurinXenotype MayRequire="Ludeon.RimWorld.Biotech">999</KurinXenotype>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
 </Defs>
