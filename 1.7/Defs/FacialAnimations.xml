@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- Note: This disables Facial Animations for Kurins. Mod authors who wish to give Kurins Facial Animations may do so by overriding this def with a patch. -->
+    <!-- <FacialAnimation.FaceAdjustmentDef>
+        <defName>Kurin_FA_Disable</defName>
+        <RaceName>Kurin_Race</RaceName>
+        <disableFacialAnimations>true</disableFacialAnimations>
+    </FacialAnimation.FaceAdjustmentDef> -->
+</Defs>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Kurin Har Edition</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/AlienRace.ThingDef_AlienRace [defName = "Kurin_Race"] /alienRace/raceRestriction/whiteApparelList</xpath>
+			<value>
+				<li MayRequire="VAMV.MaruRaceMod">MR_RangedCombatSuit</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_MeleeCombatSuit</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_huntingmask</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_huntingmaskR</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_huntingmaskM</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_DeciphersLC</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_durumagi</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_DeciphersHD</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_sanitarycoat</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_wintercoat</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_HuntingCoat</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_Decipherslifecoat</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_Deciphersrobes</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_Decipherslifeclothes</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_cookclothes</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_workclothes</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_engineeringclothes</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_farmclothes</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_sanitaryclothing</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_huntingsuit</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_merchantsclothes</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_thermalhat</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_EBF</li>
+              <li MayRequire="VAMV.MaruRaceMod">MR_NFG</li>
+			  <li MayRequire="VAMV.MaruRaceMod">MR_Apparel_Trap</li>
+			  <li MayRequire="VAMV.MaruRaceMod">MR_Apparel_TrapA</li>
+			  <li MayRequire="VAMV.MaruRaceMod">MR_Musicianclo</li>
+			  <li MayRequire="VAMV.MaruRaceMod">MR_Musicianhat</li>
+			  <li MayRequire="VAMV.MaruRaceMod">MR_Musiciancoat</li>
+					<li MayRequire="Nemonian.MYCartel">Moyo_CartelRobeA</li>
+				<li MayRequire="Nemonian.MYCartel">Moyo_CartelRobeB</li>
+				<li MayRequire="Nemonian.MYCartel">Moyo_Cartelsuit</li>
+				<li MayRequire="Nemonian.MYCartel">Moyo_CartelRoyalsuit</li>
+				<li MayRequire="Nemonian.MYCartel">Moyo_CSgear</li>
+				<li MayRequire="Nemonian.MYCartel">Moyo_CShelmet</li>
+				<li MayRequire="Nemonian.MYCartel">Moyo_CEsuit</li>
+				<li MayRequire="Nemonian.MYCartel">Moyo_CEhelmet</li>
+				<li MayRequire="Nemonian.MYCartel">Moyo_CBsuit</li>
+				<li MayRequire="Nemonian.MYCartel">Moyo_CBhelmet</li>
+				<li MayRequire="Nemonian.MYCartel">Moyo_CartelStrikerHood</li>
+					<li MayRequire="Nemonian.MY">Moyo_Tribal</li>
+				<li MayRequire="Nemonian.MY">Moyo_Parka</li>
+				<li MayRequire="Nemonian.MY">Moyo_Jacket</li>
+				<li MayRequire="Nemonian.MY">Moyo_Duster</li>
+				<li MayRequire="Nemonian.MY">Moyo_SnB</li>
+				<li MayRequire="Nemonian.MY">Moyo_RoyalRobeA</li>
+				<li MayRequire="Nemonian.MY">Moyo_RoyalRobeB</li>
+				<li MayRequire="Nemonian.MY">Moyo_RoyalRobeC</li>
+				<li MayRequire="Nemonian.MY">Moyo_RoyalBlackDress</li>
+				<li MayRequire="Nemonian.MY">Moyo_Tuque</li>
+				<li MayRequire="Nemonian.MY">Moyo_BowlerHat</li>
+				<li MayRequire="Nemonian.MY">Moyo_CowboyHat</li>
+				<li MayRequire="Nemonian.MY">Moyo_RoyalHologramA</li>
+				<li MayRequire="Nemonian.MY">Moyo_RoyalHologramB</li>
+				<li MayRequire="Nemonian.MY">Moyo_RoyalHologramC</li>
+				<li MayRequire="Nemonian.MY">Moyo_EGsuit</li>
+				<li MayRequire="Nemonian.MY">Moyo_EGmask</li>
+				<li MayRequire="Nemonian.MY">Moyo_LDgear</li>
+				<li MayRequire="Nemonian.MY">Moyo_LDhelmet</li>
+				<li MayRequire="Nemonian.MY">Moyo_DDgear</li>
+				<li MayRequire="Nemonian.MY">Moyo_DDhelmet</li>
+				<li MayRequire="Nemonian.MY">Moyo_GSsuit</li>
+				<li MayRequire="Nemonian.MY">Moyo_GShelmet</li>
+				<li MayRequire="Nemonian.MY">Moyo_GDsuit</li>
+				<li MayRequire="Nemonian.MY">Moyo_GDhelmet</li>
+				<li MayRequire="Nemonian.MY">Moyo_Evasuit</li>
+				<li MayRequire="Nemonian.MY">Moyo_Bodysuit</li>
+				<li MayRequire="Nemonian.MY">Moyo_Royalsuit</li>
+				<li MayRequire="Nemonian.MY">Moyo_HoloJacket</li>
+				<li MayRequire="Nemonian.MY">Moyo_Holosuit</li>
+					<li MayRequire="AOBA.RedMoyo">RedMoyo_BodyStrap</li>
+				<li MayRequire="AOBA.RedMoyo">RedMoyo_BobySuit</li>
+				<li MayRequire="AOBA.RedMoyo">RedMoyo_TacticalStrap</li>
+				<li MayRequire="AOBA.RedMoyo">RedMoyo_PoliceUniform</li>
+				<li MayRequire="AOBA.RedMoyo">RedMoyo_HoloCamisole</li>
+				<li MayRequire="AOBA.RedMoyo">RedMoyo_ExoSkeleton</li>
+				<li MayRequire="AOBA.RedMoyo">RedMoyo_WorkSuit</li>
+				<li MayRequire="AOBA.RedMoyo">RedMoyo_OfficerCape</li>
+				<li MayRequire="AOBA.RedMoyo">RedMoyo_TacticalGears</li>
+				<li MayRequire="AOBA.RedMoyo">RedMoyo_Helmet</li>
+				<li MayRequire="AOBA.RedMoyo">RedMoyo_PanHat</li>
+				<li MayRequire="AOBA.RedMoyo">RedMoyo_MeleeMask</li>
+				<li MayRequire="AOBA.RedMoyo">RedMoyo_SniperMask</li>
+				<li MayRequire="AOBA.RedMoyo">RedMoyo_GasMask</li>
+				<li MayRequire="AOBA.RedMoyo">RedMoyo_TacticalHeadSet</li>
+				<li MayRequire="AOBA.RedMoyo">RedMoyo_AbyssArmour</li>
+				<li MayRequire="AOBA.RedMoyo">RedMoyo_AbyssHelmet</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>
