@@ -27,4 +27,11 @@
 		<li IfModActive="Ludeon.Rimworld.Biotech">1.6/Defs/BiotechScenarios</li>
 		<li IfModActive="Ludeon.Rimworld.Odyssey">Odyssey</li>
 	</v1.6>
+	<v1.7>
+		<li>/</li>
+		<li>1.7</li>
+		<li IfModActive="Ludeon.Rimworld.Biotech">Biotech</li>
+		<li IfModActive="Ludeon.Rimworld.Biotech">1.7/Defs/BiotechScenarios</li>
+		<li IfModActive="Ludeon.Rimworld.Odyssey">Odyssey</li>
+	</v1.7>
 </loadFolders>

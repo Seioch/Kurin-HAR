@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+	<HairDef>
+		<defName>DRNTF_Hair_01</defName>
+		<label>Kurin_Hair_01</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/1/KurinHair</texPath>
+		<category>Kurin</category>
+		<styleTags>
+			<li>HairShort</li>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>DRNTF_Hair_02</defName>
+		<label>Kurin_Hair_02</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/2/KurinHair1</texPath>
+		<category>Kurin</category>
+		<styleTags>
+			<li>HairShort</li>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>DRNTF_Hair_03</defName>
+		<label>Kurin_Hair_03</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/3/KurinHair2</texPath>
+		<category>Kurin</category>
+		<styleTags>
+			<li>HairLong</li>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>DRNTF_Hair_04</defName>
+		<label>Kurin_Hair_04</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/4/KurinHair3</texPath>
+		<category>Kurin</category>
+		<styleTags>
+			<li>HairLong</li>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>DRNTF_Hair_05</defName>
+		<label>Kurin_Hair_05</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/5/KurinHair4</texPath>
+		<category>Kurin</category>
+		<styleTags>
+			<li>HairShort</li>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>DRNTF_Hair_06</defName>
+		<label>Kurin_Hair_06</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/6/KurinHair5</texPath>
+		<category>Kurin</category>
+		<styleTags>
+			<li>HairShort</li>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>DRNTF_Hair_07</defName>
+		<label>Kurin_Hair_07</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/7/KurinHair6</texPath>
+		<category>Kurin</category>
+		<styleTags>
+			<li>HairShort</li>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>DRNTF_Hair_08</defName>
+		<label>Kurin_Hair_08</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/8/KurinHair7</texPath>
+		<category>Kurin</category>
+		<styleTags>
+			<li>HairLong</li>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>DRNTF_Hair_09</defName>
+		<label>Kurin_Hair_09</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/9/KurinHair8</texPath>
+		<category>Kurin</category>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>DRNTF_Hair_10</defName>
+		<label>Kurin_Hair_10</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/10/KurinHair9</texPath>
+		<category>Kurin</category>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>DRNTF_Hair_11</defName>
+		<label>Kurin_Hair_11</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/11/KurinHair10</texPath>
+		<category>Kurin</category>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Arxian_Hair_A</defName>
+		<label>Kurin_Hair_12</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/12A/A</texPath>
+		<category>Kurin</category>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Arxian_Hair_B</defName>
+		<label>Kurin_Hair_13</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/13A/B</texPath>
+		<category>Kurin</category>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Arxian_Hair_C</defName>
+		<label>Kurin_Hair_14</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/14A/C</texPath>
+		<category>Kurin</category>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>Arxian_Hair_D</defName>
+		<label>Kurin_Hair_15</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/15A/D</texPath>
+		<category>Kurin</category>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>	
+
+	<HairDef>
+		<defName>Arxian_Hair_E</defName>
+		<label>Kurin_Hair_16</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/16A/E</texPath>
+		<category>Kurin</category>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>	
+
+	<HairDef>
+		<defName>Arxian_Hair_F</defName>
+		<label>Kurin_Hair_17</label>
+		<hairGender>Any</hairGender>
+		<texPath>Kurin/Hairs/17A/F</texPath>
+		<category>Kurin</category>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+	</HairDef>	
+</Defs>
