@@ -4,26 +4,26 @@
   <!-- EN: Kurin simple clothing -->
   <Kurin_ApparelT1.label>魅狐简易的服饰</Kurin_ApparelT1.label>
   <!-- EN: Research how to produce simple clothing. -->
-  <Kurin_ApparelT1.description>研究如何制作简易的日常服饰。</Kurin_ApparelT1.description>
+  <Kurin_ApparelT1.description>研究如何制作简易的魅狐服饰。</Kurin_ApparelT1.description>
   
   <!-- EN: Kurin plain clothing -->
   <Kurin_ApparelT2.label>魅狐日常的服饰</Kurin_ApparelT2.label>
   <!-- EN: Research how to produce plain clothes. -->
-  <Kurin_ApparelT2.description>研究如何制作魅狐的日常服饰。</Kurin_ApparelT2.description>
+  <Kurin_ApparelT2.description>研究如何制作魅狐们的日常服饰。</Kurin_ApparelT2.description>
   
   <!-- EN: Kurin fine clothing -->
   <Kurin_ApparelT3.label>魅狐精美的服饰</Kurin_ApparelT3.label>
   <!-- EN: Research how to produce fine clothes. -->
-  <Kurin_ApparelT3.description>研究如何制作精美的日常服饰。</Kurin_ApparelT3.description>
+  <Kurin_ApparelT3.description>研究如何制作精美的魅狐日常服饰。</Kurin_ApparelT3.description>
 
   <Kurin_ApparelT4.label>魅狐共和国装甲仿制品</Kurin_ApparelT4.label>
   <!-- EN: Research how to produce fine clothes. -->
-  <Kurin_ApparelT4.description>研究如何制作共和国装甲……的仿制品。</Kurin_ApparelT4.description>
+  <Kurin_ApparelT4.description>研究如何制作魅狐共和国装甲……的仿制品。</Kurin_ApparelT4.description>
 
   <!-- EN: Kurin Defenses -->
-  <Kurin_Turret.label>魅狐族防御设施</Kurin_Turret.label>
+  <Kurin_Turret.label>魅狐古代防御设施</Kurin_Turret.label>
   <!-- EN: Research how to assemble an ancient defensive turret. -->
-  <Kurin_Turret.description>研究如何组装古代的防御炮塔。</Kurin_Turret.description>
+  <Kurin_Turret.description>研究如何组装原始的防御炮塔。</Kurin_Turret.description>
 
   <Kurin_CombatT2.label>魅狐基础作战</Kurin_CombatT2.label>
   <Kurin_CombatT2.description>研究如何制作基础的作战装甲和武器。</Kurin_CombatT2.description>
@@ -35,9 +35,14 @@
   <Kurin_CombatT4.description>研究如何制作太空时代的武器。</Kurin_CombatT4.description>
 
   <Kurin_Flower.label>铃兰</Kurin_Flower.label>
-  <Kurin_Flower.description>了解如何种植铃兰。这是一种独特的闪耀世界植物，收割后可产出合成纤维。</Kurin_Flower.description>
+  <Kurin_Flower.description>了解如何种植铃兰。这是一种独特的闪耀世界植物，仅能在水栽培仓中生长，收割后可产出合成纤维。</Kurin_Flower.description>
 
   <Kurin_Mechtech.label>魅狐机械师植入物</Kurin_Mechtech.label>
   <Kurin_Mechtech.description>研究如何制作适合魅狐的机械师植入物技术。</Kurin_Mechtech.description>
+
+    <!-- EN: Kurin basic vacsuits -->
+  <Kurin_IndVacsuit.label>魅狐基础真空服</Kurin_IndVacsuit.label>
+  <!-- EN: Research how to produce basic Kurin vacsuits. -->
+  <Kurin_IndVacsuit.description>研究如何制造基础型魅狐真空服。</Kurin_IndVacsuit.description>
 
 </LanguageData>

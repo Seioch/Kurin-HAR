@@ -418,7 +418,7 @@
   </ThingDef>
 
 
-  <ThingDef ParentName="Kurin_OverheadCombatTier3">
+  <ThingDef ParentName="Kurin_OverheadBaseTear3">
     <defName>Kurin_Overhead_Chinese_Wedding_Headwear</defName>
     <label>Kurin chinese Wedding Headwear</label>
     <description>A Chinese wedding headdress made of metal.</description>
@@ -455,7 +455,7 @@
     </equippedStatOffsets>
   </ThingDef>
 
-  <ThingDef ParentName="Kurin_OverheadCombatTier3">
+  <ThingDef ParentName="Kurin_OverheadBaseTear3">
     <defName>Kurin_Overhead_Black_Wedding_Headwear</defName>
     <label>kurin black wedding headwear</label>
     <description>A black wedding headdress made of cloth.</description>
@@ -502,7 +502,7 @@
     </equippedStatOffsets>
   </ThingDef>
 
-  <ThingDef ParentName="Kurin_OverheadCombatTier3">
+  <ThingDef ParentName="Kurin_OverheadBaseTear3">
     <defName>Kurin_Overhead_White_Wedding_Headwear</defName>
     <label>kurin white wedding headwear</label>
     <description>A white wedding headdress made of cloth.</description>
