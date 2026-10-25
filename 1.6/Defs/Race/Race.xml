@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Defs>
-	<AlienRace.ThingDef_AlienRace ParentName="Human">
+<!-- This is a redefinition of the Human class from Basepawn. In earliest Kurin mods, Kurin derived from Human, which causes a lot of issues with newest HAR and other mods.
+	This is not an elegant solution, but the best one we can have to preserve legacy save-games. Otherwise, changing inheritance to come from BasePawn is likely to kill prior save compatability. 
+ -->
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
 		<defName>Kurin_Race</defName>
 		<label>Kurin</label>
 		<description>An all-female race of humans spliced with fox genes. Originally, they were Glitterworld designermates from the planet Aolara, but an internal war forced them to leave their homeworld. Now they are spread among the rim.</description>
@@ -12,11 +15,87 @@
 			<lifeExpectancy>120</lifeExpectancy>
 			<baseHungerRate>0.8</baseHungerRate>
 			<nameGenerator>NamerPerson_Kurin</nameGenerator>
-		</race>
+		<thinkTreeMain>Humanlike</thinkTreeMain><thinkTreeConstant>HumanlikeConstant</thinkTreeConstant><intelligence>Humanlike</intelligence><makesFootprints>true</makesFootprints><bloodDef>Filth_Blood</bloodDef><bloodSmearDef>Filth_BloodSmear</bloodSmearDef><leatherDef>Leather_Human</leatherDef><renderTree>Humanlike</renderTree><foodType>OmnivoreHuman</foodType><gestationPeriodDays>18</gestationPeriodDays><meatMarketValue>0.8</meatMarketValue><manhunterOnDamageChance>0.50</manhunterOnDamageChance><manhunterOnTameFailChance>0.10</manhunterOnTameFailChance><soundCallIntervalRange>2000~5000</soundCallIntervalRange><canBecomeShambler>true</canBecomeShambler><knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory><anomalyKnowledge>1</anomalyKnowledge><hasUnnaturalCorpse>true</hasUnnaturalCorpse><litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve><lifeStageAges>
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>3</minAge>
+        </li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">
+          <def>HumanlikePreTeenager</def>
+          <minAge>9</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>18</minAge>
+        </li>
+      </lifeStageAges><lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+        <Firefighter>7</Firefighter>
+        <Patient>0</Patient>
+        <Doctor>10</Doctor>
+        <PatientBedRest>0</PatientBedRest>
+        <Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+        <BasicWorker>3</BasicWorker>
+        <Warden>10</Warden>
+        <Handling>7</Handling>
+        <Cooking>7</Cooking>
+        <Hunting>7</Hunting>
+        <Construction>10</Construction>
+        <Growing>7</Growing>
+        <Mining>7</Mining>
+        <PlantCutting>7</PlantCutting>
+        <Smithing>13</Smithing>
+        <Tailoring>7</Tailoring>
+        <Art>10</Art>
+        <Crafting>7</Crafting>
+        <Hauling>3</Hauling>
+        <Cleaning>3</Cleaning>
+        <Research>13</Research>
+        <DarkStudy MayRequire="Ludeon.RimWorld.Anomaly">13</DarkStudy>
+      </lifeStageWorkSettings><soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge><specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData><ageGenerationCurve>
+        <points>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>  <!-- Exclude 12.5-13 years to avoid spawning pawns who are very close to becoming adults -->  
+          <li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>  
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>      
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li><!-- End exclude -->
+          <li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+          <li>(14,0)</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
+          <li>(16,100)</li>
+          <li>(50,100)</li>
+          <li>(60,30)</li>
+          <li>(70,18)</li>
+          <li>(80,10)</li>
+          <li>(90,3)</li>
+          <li>(100,0)</li>
+        </points>
+      </ageGenerationCurve><hediffGiverSets>
+        <li>OrganicStandard</li>
+        </hediffGiverSets></race>
 		<statBases>
 			<Flammability>0.8</Flammability>
 			<MoveSpeed>4.8</MoveSpeed>
-			<MentalBreakThreshold>0.4</MentalBreakThreshold>
+			<MentalBreakThreshold>0.35</MentalBreakThreshold>
 			<ComfyTemperatureMin>10</ComfyTemperatureMin>
 			<ComfyTemperatureMax>26</ComfyTemperatureMax>
 			<ImmunityGainSpeed>1.0</ImmunityGainSpeed>
@@ -42,7 +121,7 @@
 			<RestRateMultiplier>1.0</RestRateMultiplier>
 			<PlantWorkSpeed>0.8</PlantWorkSpeed>
 			<FilthRate>0.5</FilthRate>
-		</statBases>
+		<MarketValue>1750</MarketValue><RoyalFavorValue>3</RoyalFavorValue><Wildness>0.75</Wildness></statBases>
 		<!--=============================================================================================================================-->
 		<alienRace>
 			<generalSettings>
@@ -105,7 +184,12 @@
 						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
 					</bodyTypes>
 					<headTypes Inherit="false">
-						<li>Kurin_Head</li>
+    					<li>Kurin_Head</li>
+    					<li>Kurin_Head_pointy</li>
+    					<!--<li MayRequire="Ludeon.RimWorld.Anomaly">Ghoul_Normal</li>
+    					<li MayRequire="Ludeon.RimWorld.Anomaly">Ghoul_Heavy</li>
+    					<li MayRequire="Ludeon.RimWorld.Anomaly">Ghoul_Narrow</li>
+    					<li MayRequire="Ludeon.RimWorld.Biotech,Ludeon.RimWorld.Anomaly">Ghoul_Wide</li>-->
 					</headTypes>
 					<headOffset>(0 ,-0.07)</headOffset>
 					<headOffsetDirectional>
@@ -159,10 +243,6 @@
 										<Baby MayRequire="ludeon.rimworld.biotech">(-0.3729904,0.19)</Baby>
 										<Child MayRequire="ludeon.rimworld.biotech">(-0.41,0.19)</Child>
 									</bodyTypes>
-									<headTypes>
-										<!-- <Kurin_Head>(0,0)</Kurin_Head> -->
-										<!-- <Kurin_HeadType_Head2>(0,0)</Kurin_HeadType_Head2> -->
-									</headTypes>
 								</south>
 								<north>
 									<layerOffset>-0.19</layerOffset>
@@ -171,10 +251,6 @@
 										<Baby MayRequire="ludeon.rimworld.biotech">(-0.022,0.49)</Baby>
 										<Child MayRequire="ludeon.rimworld.biotech">(-0.022,0.49)</Child>
 									</bodyTypes>
-									<headTypes>
-										<!-- <Kurin_Head>(0,0)</Kurin_Head> -->
-										<!-- <Kurin_HeadType_Head2>(0,0)</Kurin_HeadType_Head2> -->
-									</headTypes>
 								</north>
 								<east>
 									<layerOffset>-0.19</layerOffset>
@@ -183,10 +259,6 @@
 										<Baby MayRequire="ludeon.rimworld.biotech">(-0.45,0.19)</Baby>
 										<Child MayRequire="ludeon.rimworld.biotech">(-0.45,0.19)</Child>
 									</bodyTypes>
-									<headTypes>
-										<!-- <Kurin_Head>(0,0)</Kurin_Head> -->
-										<!-- <Kurin_HeadType_Head2>(0,0)</Kurin_HeadType_Head2> -->
-									</headTypes>
 								</east>
 							</offsets>
 						</li>
@@ -212,7 +284,6 @@
 							<inFrontOfBody>false</inFrontOfBody>
 							<colorChannel>hair</colorChannel>
 							<drawSize>0.9</drawSize>
-							<!-- <layerOffset>-0.25</layerOffset> -->
 							<defaultOffset>Tail</defaultOffset>
 							<!-- Should this bodyAddon scale with pawn draw size? -->
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
@@ -224,10 +295,6 @@
 										<Baby MayRequire="ludeon.rimworld.biotech">(-0.3729904,0.19)</Baby>
 										<Child MayRequire="ludeon.rimworld.biotech">(-0.41,0.19)</Child>
 									</bodyTypes>
-									<headTypes>
-										<!-- <Kurin_Head>(0,0)</Kurin_Head> -->
-										<!-- <Kurin_HeadType_Head2>(0,0)</Kurin_HeadType_Head2> -->
-									</headTypes>
 								</south>
 								<north>
 									<layerOffset>-0.25</layerOffset>
@@ -236,10 +303,6 @@
 										<Baby MayRequire="ludeon.rimworld.biotech">(-0.032,0.49)</Baby>
 										<Child MayRequire="ludeon.rimworld.biotech">(-0.012,0.49)</Child>
 									</bodyTypes>
-									<headTypes>
-										<!-- <Kurin_Head>(0,0)</Kurin_Head> -->
-										<!-- <Kurin_HeadType_Head2>(0,0)</Kurin_HeadType_Head2> -->
-									</headTypes>
 								</north>
 								<east>
 									<layerOffset>-0.25</layerOffset>
@@ -248,10 +311,6 @@
 										<Baby MayRequire="ludeon.rimworld.biotech">(-0.45,0.19)</Baby>
 										<Child MayRequire="ludeon.rimworld.biotech">(-0.45,0.19)</Child>
 									</bodyTypes>
-									<headTypes>
-										<!-- <Kurin_Head>(0,0)</Kurin_Head> -->
-										<!-- <Kurin_HeadType_Head2>(0,0)</Kurin_HeadType_Head2> -->
-									</headTypes>
 								</east>
 							</offsets>
 						</li>
@@ -289,10 +348,6 @@
 										<Baby MayRequire="ludeon.rimworld.biotech">(-0.3729904,0.19)</Baby>
 										<Child MayRequire="ludeon.rimworld.biotech">(-0.41,0.19)</Child>
 									</bodyTypes>
-									<headTypes>
-										<!-- <Kurin_Head>(0,0)</Kurin_Head> -->
-										<!-- <Kurin_HeadType_Head2>(0,0)</Kurin_HeadType_Head2> -->
-									</headTypes>
 								</south>
 								<north>
 									<layerOffset>-0.2</layerOffset>
@@ -301,10 +356,6 @@
 										<Baby MayRequire="ludeon.rimworld.biotech">(-0.032,0.49)</Baby>
 										<Child MayRequire="ludeon.rimworld.biotech">(-0.012,0.49)</Child>
 									</bodyTypes>
-									<headTypes>
-										<!-- <Kurin_Head>(0,0)</Kurin_Head> -->
-										<!-- <Kurin_HeadType_Head2>(0,0)</Kurin_HeadType_Head2> -->
-									</headTypes>
 								</north>
 								<east>
 									<layerOffset>-0.2</layerOffset>
@@ -313,10 +364,6 @@
 										<Baby MayRequire="ludeon.rimworld.biotech">(-0.42,0.19)</Baby>
 										<Child MayRequire="ludeon.rimworld.biotech">(-0.42,0.19)</Child>
 									</bodyTypes>
-									<headTypes>
-										<!-- <Kurin_Head>(0,0)</Kurin_Head> -->
-										<!-- <Kurin_HeadType_Head2>(0,0)</Kurin_HeadType_Head2> -->
-									</headTypes>
 								</east>
 							</offsets>
 						</li>
@@ -343,7 +390,6 @@
 							<colorChannel>hair</colorChannel>
 							<drawSize>0.9</drawSize>
 							<angle>0</angle>
-							<!-- <defaultOffset>Head</defaultOffset> -->
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 							<offsets>
 								<west>
@@ -398,10 +444,10 @@
 							<extendedGraphics>
 								<Age For="HumanlikeAdult">Kurin/Ear/Right2/DRNTFEarRA</Age>
 								<Age For="HumanlikeTeenager">Kurin/EarChild/Right/DRNTFEarRA</Age>
-								<Age MayRequire="ludeon.rimworld.biotech"  For="HumanlikePreTeenager">Kurin/EarChild/Right/DRNTFEarRA</Age>
+								<Age MayRequire="ludeon.rimworld.biotech" For="HumanlikePreTeenager">Kurin/EarChild/Right/DRNTFEarRA</Age>
 								<Age For="HumanlikeChild">Kurin/EarChild/Right/DRNTFEarRA</Age>
 								<Age For="HumanlikeBaby">Kurin/EarChild/Right/DRNTFEarRA</Age>
-								<Hediff MayRequire="ludeon.rimworld.biotech"  For="Kurin_MechanitorEarHediff">Kurin/Ear/Mechanitor/MechanitorEar_Right</Hediff>
+								<Hediff MayRequire="ludeon.rimworld.biotech" For="Kurin_MechanitorEarHediff">Kurin/Ear/Mechanitor/MechanitorEar_Right</Hediff>
 							</extendedGraphics>
 							<offsets>
 								<west>
@@ -1008,45 +1054,85 @@
 			<!--=============================================================================================================================-->
 			<graphicPaths>
 				<head>
-					<path>Textures/Kurin/Head/A/Kurin_Head</path>
-					<extendedGraphics>
-						<Age For="HumanlikeAdult">Kurin/Head/A/Kurin_Head</Age>
-						<Age For="HumanlikeTeenager">Kurin/Head/A/Kurin_Head</Age>
-						<Age For="HumanlikeChild">Kurin/Head/A/Kurin_Head</Age>
-						<Age For="HumanlikeBaby">Kurin/Head/A/Kurin_Head</Age>
-						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">
-							Kurin/Head/Ghoul/GhoulHead
-						</Hediff>
-					</extendedGraphics>
+					<path>Kurin/Head/C/Kurin_Head</path>
+
+					<headtypeGraphics>
+    					<Kurin_Head>Kurin/Head/C/Kurin_Head</Kurin_Head>
+    					<Kurin_Head_pointy>Kurin/Head/C/Kurin_Head_Pointy</Kurin_Head_pointy>
+
+    					<Ghoul_Normal MayRequire="Ludeon.RimWorld.Anomaly">Kurin/Head/Ghoul/GhoulHead</Ghoul_Normal>
+    					<Ghoul_Heavy MayRequire="Ludeon.RimWorld.Anomaly">Kurin/Head/Ghoul/GhoulHead</Ghoul_Heavy>
+    					<Ghoul_Narrow MayRequire="Ludeon.RimWorld.Anomaly">Kurin/Head/Ghoul/GhoulHead</Ghoul_Narrow>
+    					<Ghoul_Wide MayRequire="Ludeon.RimWorld.Biotech,Ludeon.RimWorld.Anomaly">Kurin/Head/Ghoul/GhoulHead</Ghoul_Wide>
+					</headtypeGraphics>
+
 				</head>
 				<body>
-					<path>Kurin/Body/B/Adult</path>
-					<extendedGraphics>
-						<Age For="HumanlikeAdult">Kurin/Body/B/Adult</Age>
-						<Age For="HumanlikeTeenager">Kurin/Body/B/Adult</Age>
-						<Age For="HumanlikeChild">Kurin/Body/B/Child</Age>
-						<Age For="HumanlikeBaby">Kurin/Body/B/Baby</Age>
-						<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">
-							Kurin/Body/Ghoul/GhoulBody
-							<!-- <extendedGraphics>
-								<Age For="HumanlikeChild">Kurin/Body/Ghoul/Child</Age>
-								<Age For="HumanlikeBaby">Kurin/Body/Ghoul/Baby</Age>
-							</extendedGraphics> -->
-            			</Hediff>
-					</extendedGraphics>
-				</body>
+    				<path>Kurin/Body/B/Adult</path>
+    					<extendedGraphics>
+
+        <!-- 成年 -->
+        <Age For="HumanlikeAdult">
+            <path>Kurin/Body/B/Adult</path>
+            <extendedGraphics>
+                <Hediff MayRequire="Ludeon.RimWorld.Anomaly"
+                        For="Ghoul">
+                    Kurin/Body/Ghoul/GhoulBody
+                </Hediff>
+            </extendedGraphics>
+        </Age>
+
+        <!-- 青少年沿用成年身体 -->
+        <Age For="HumanlikeTeenager">
+            <path>Kurin/Body/B/Adult</path>
+            <extendedGraphics>
+                <Hediff MayRequire="Ludeon.RimWorld.Anomaly"
+                        For="Ghoul">
+                    Kurin/Body/Ghoul/GhoulBody
+                </Hediff>
+            </extendedGraphics>
+        </Age>
+
+        <!-- 儿童 -->
+        <Age For="HumanlikeChild">
+            <path>Kurin/Body/B/Child</path>
+            <extendedGraphics>
+                <Hediff MayRequire="Ludeon.RimWorld.Anomaly"
+                        For="Ghoul">
+                    Kurin/Body/Ghoul/Child
+                </Hediff>
+            </extendedGraphics>
+        </Age>
+
+        <!-- 婴儿 -->
+        <Age For="HumanlikeBaby">
+            <path>Kurin/Body/B/Baby</path>
+            <extendedGraphics>
+                <Hediff MayRequire="Ludeon.RimWorld.Anomaly"
+                        For="Ghoul">
+                    Kurin/Body/Ghoul/Baby
+                </Hediff>
+            </extendedGraphics>
+        </Age>
+
+    		</extendedGraphics>
+		</body>
 			</graphicPaths>
 			<styleSettings>
 				<li>
 					<key>HairDef</key>
 					<value>
-						<hasStyle>false</hasStyle>
+						<hasStyle>true</hasStyle>
+						<styleTagsOverride>
+							<li>Kurin</li>
+						</styleTagsOverride>
 					</value>
+					
 				</li>
 				<li>
 					<key>TattooDef</key>
 					<value>
-						<hasStyle>true</hasStyle>
+						<hasStyle>false</hasStyle>
 					</value>
 				</li>
 				<li>
@@ -1252,18 +1338,59 @@
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.1</chanceFactor>
 			</li>
-		</tools>
+		<li>
+        <label>left fist</label>
+        <labelNoLocation>fist</labelNoLocation>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li><li>
+        <label>right fist</label>
+        <labelNoLocation>fist</labelNoLocation>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li></tools>
 		<recipes>
 			<li>Kurin_InstallFakeTail</li>
 			<li>Kurin_InstallBionicEar</li>
 			<li>Kurin_InstallBionicTail</li>
 			<li MayRequire="Ludeon.RimWorld.Biotech">Kurin_InstallMechanitorEar</li>
 			<!-- <li>InstallTailBlade</li> -->
-		</recipes>
+		<li>ExciseCarcinoma</li><li>AdministerMechSerumHealer</li><li>RemoveBodyPart</li><li>Euthanize</li><li>Anesthetize</li><li>CureScaria</li><li MayRequire="Ludeon.RimWorld.Biotech">Vasectomy</li><li MayRequire="Ludeon.RimWorld.Biotech">ReverseVasectomy</li><li MayRequire="Ludeon.RimWorld.Biotech">TubalLigation</li><li MayRequire="Ludeon.RimWorld.Biotech">ExtractOvum</li><li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li><li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li><li MayRequire="Ludeon.RimWorld.Biotech">ExtractHemogenPack</li><li MayRequire="Ludeon.RimWorld.Biotech">BloodTransfusion</li><li MayRequire="Ludeon.RimWorld.Biotech">ImplantXenogerm</li><li MayRequire="Ludeon.RimWorld.Biotech">ImplantIUD</li><li MayRequire="Ludeon.RimWorld.Biotech">RemoveIUD</li><li MayRequire="Ludeon.RimWorld.Biotech">TerminatePregnancy</li><li MayRequire="Ludeon.RimWorld.Anomaly">SurgicalInspection</li><li MayRequire="Ludeon.RimWorld.Anomaly">BlissLobotomy</li><li MayRequire="Ludeon.RimWorld.Anomaly">GhoulInfusion</li><li MayRequire="Ludeon.RimWorld.Odyssey">RemovePorcupineQuill</li></recipes>
 		<comps>
 			<li>
 				<compClass>Kurin.CompKurinPostSpawn</compClass>
 			</li>
-		</comps>
-	</AlienRace.ThingDef_AlienRace>
+		<li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_HoldingPlatformTarget">
+        <baseEscapeIntervalMtbDays>120</baseEscapeIntervalMtbDays>
+        <getsColdContainmentBonus>true</getsColdContainmentBonus>
+      </li><li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_Studiable">
+        <frequencyTicks>120000</frequencyTicks>
+        <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+        <requiresImprisonment>true</requiresImprisonment>
+      </li></comps>
+	<ingredient><mergeCompatibilityTags><li>HumanMeat</li></mergeCompatibilityTags></ingredient></AlienRace.ThingDef_AlienRace>
 </Defs>
